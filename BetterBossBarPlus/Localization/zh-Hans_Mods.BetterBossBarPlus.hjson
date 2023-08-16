@@ -1,0 +1,190 @@
+Configs: {
+	Config: {
+		DisplayName: 更好的Boss血条 设置
+
+		bossName: {
+			Label: Boss名称
+			Tooltip: 开启后，显示Boss名称
+		}
+
+		bossHealthInt: {
+			Label: Boss生命值（整数）
+			Tooltip: 开启后，以整数形式显示Boss生命值
+		}
+
+		bossHealthPercent: {
+			Label: Boss生命值（百分比）
+			Tooltip: 开启后，以百分比形式显示Boss生命值
+		}
+
+		bossInvincibleWarning: {
+			Label: Boss免疫状态显示
+			Tooltip: 开启后，当Boss免疫伤害时出现提示，对于分体节或同时独立存在的Boss可能无法正常显示
+		}
+
+		hideBossBarOnInvinc: {
+			Label: 当Boss免疫伤害时隐藏血条显示
+			Tooltip: 开启后，当Boss进入免疫状态时隐藏血条，要使用此功能需先开启Boss免疫状态显示
+		}
+
+		fontColorRed: {
+			Label: 文本颜色设置 [c/FF0000:(红)]
+			Tooltip: 设置血条上方Boss名称等文本的颜色（RGB模式）
+		}
+
+		fontColorGreen: {
+			Label: 文本颜色设置 [c/00FF00:(绿)]
+			Tooltip: 设置血条上方Boss名称等文本的颜色（RGB模式）
+		}
+
+		fontColorBlue: {
+			Label: 文本颜色设置 [c/0000FF:(蓝)]
+			Tooltip: 设置血条上方Boss名称等文本的颜色（RGB模式）
+		}
+
+		fontOffsetX: {
+			Label: 文本位置横向偏移量 (X)
+			Tooltip: 设置血条上方Boss名称等文本显示位置的横向偏移量（单位为像素）
+		}
+
+		fontOffsetY: {
+			Label: 文本位置纵向偏移量 (Y)
+			Tooltip: 设置血条上方Boss名称等文本显示位置的纵向偏移量（单位为像素）
+		}
+
+		showBossDefense: {
+			Label: Boss防御值显示
+			Tooltip: 开启后，显示Boss防御值
+		}
+
+		defenseStatRed: {
+			Label: 防御值显示颜色设置 [c/FF0000:(红)]
+			Tooltip: 设置血条下方Boss防御值文本的颜色（RGB模式）
+		}
+
+		defenseStatGreen: {
+			Label: 防御值显示颜色设置 [c/00FF00:(绿)]
+			Tooltip: 设置血条下方Boss防御值文本的颜色（RGB模式）
+		}
+
+		defenseStatBlue: {
+			Label: 防御值显示颜色设置 [c/0000FF:(蓝)]
+			Tooltip: 设置血条下方Boss防御值文本的颜色（RGB模式）
+		}
+
+		defenseStatX: {
+			Label: 防御值显示横向偏移量 (X)
+			Tooltip: 设置血条下方Boss防御值显示位置的横向偏移量（单位为像素）
+		}
+
+		defenseStatY: {
+			Label: 防御值显示纵向偏移量 (Y)
+			Tooltip: 设置血条下方Boss防御值显示位置的纵向偏移量（单位为像素）
+		}
+
+		showBossKBResist: {
+			Label: Boss击退抗性显示
+			Tooltip: 开启后，显示Boss击退抗性
+		}
+
+		KBResistRed: {
+			Label: 击退抗性显示颜色设置 [c/FF0000:(红)]
+			Tooltip: 设置血条下方Boss击退抗性文本的颜色（RGB模式）
+		}
+
+		KBResistGreen: {
+			Label: 击退抗性显示颜色设置 [c/00FF00:(绿)]
+			Tooltip: 设置血条下方Boss击退抗性文本的颜色（RGB模式）
+		}
+
+		KBResistBlue: {
+			Label: 击退抗性显示颜色设置 [c/0000FF:(蓝)]
+			Tooltip: 设置血条下方Boss击退抗性文本的颜色（RGB模式）
+		}
+
+		KBResistX: {
+			Label: 击退抗性显示横向偏移量 (X)
+			Tooltip: 设置血条下方Boss击退抗性显示位置的横向偏移量（单位为像素）
+		}
+
+		KBResistY: {
+			Label: 击退抗性显示纵向偏移量 (Y)
+			Tooltip: 设置血条下方Boss击退抗性显示位置的纵向偏移量（单位为像素）
+		}
+
+		showBossAtkDmg: {
+			Label: Boss接触伤害显示
+			Tooltip: 开启后，显示Boss接触伤害
+		}
+
+		atkDmgRed: {
+			Label: 接触伤害显示颜色设置 [c/FF0000:(红)]
+			Tooltip: 设置血条下方Boss接触伤害文本的颜色（RGB模式）
+		}
+
+		atkDmgGreen: {
+			Label: 接触伤害显示颜色设置 [c/00FF00:(绿)]
+			Tooltip: 设置血条下方Boss接触伤害文本的颜色（RGB模式）
+		}
+
+		atkDmgBlue: {
+			Label: 接触伤害显示颜色设置[c/0000FF:(蓝)]
+			Tooltip: 设置血条下方Boss接触伤害文本的颜色（RGB模式）
+		}
+
+		atkDmgX: {
+			Label: 接触伤害显示横向偏移量 (X)
+			Tooltip: 设置血条下方Boss接触伤害显示位置的横向偏移量（单位为像素）
+		}
+
+		atkDmgY: {
+			Label: 接触伤害显示横向偏移量 (Y)
+			Tooltip: 设置血条下方Boss接触伤害显示位置的纵向偏移量（单位为像素）
+		}
+
+		showBossTarget: {
+			Label: Boss攻击目标显示
+			Tooltip: 开启后，显示Boss当前的攻击目标
+		}
+
+		targetRed: {
+			Label: 攻击目标显示颜色设置 [c/FF0000:(红)]
+			Tooltip: 设置血条左上角Boss攻击目标文本的颜色（RGB模式）
+		}
+
+		targetGreen: {
+			Label: 攻击目标显示颜色设置 [c/00FF00:(绿)]
+			Tooltip: 设置血条左上角Boss攻击目标文本的颜色（RGB模式）
+		}
+
+		targetBlue: {
+			Label: 攻击目标显示颜色设置 [c/0000FF:(蓝)]
+			Tooltip: 设置血条左上角Boss攻击目标文本的颜色（RGB模式）
+		}
+
+		targetX: {
+			Label: 攻击目标显示横向偏移量 (X)
+			Tooltip: 设置血条左上角Boss攻击目标显示位置的横向偏移量（单位为像素）
+		}
+
+		targetY: {
+			Label: 攻击目标显示横向偏移量 (Y)
+			Tooltip: 设置血条左上角Boss攻击目标显示位置的纵向偏移量（单位为像素）
+		}
+
+		bossIconFlashing: {
+			Label: Boss图标受击提示
+			Tooltip: 当Boss受到伤害时，血条左侧的图标闪烁红色
+		}
+
+		barX: {
+			Label: Boss血条显示横向偏移量 (X)
+			Tooltip: 调整Boss整体的横向显示位置（单位为像素），影响名称、生命值、防御值、接触伤害等所有信息的显示位置
+		}
+
+		barY: {
+			Label: Boss血条显示纵向偏移量 (Y)
+			Tooltip: 调整Boss整体的纵向显示位置（单位为像素），影响名称、生命值、防御值、接触伤害等所有信息的显示位置
+		}
+	}
+}
