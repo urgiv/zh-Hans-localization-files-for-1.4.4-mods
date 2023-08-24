@@ -2,7 +2,7 @@ Title：
 Better Boss Health Bar for 1.4.4+（更好的Boss血条1.4.4+）
 
 Description：
-本模组是对 Better Boss Health Bar 模组（原作者：n0t_UN_Owen）的重做，适配tML1.4.4及更高的版本。由于在1.4.4更新中已经支持显示Boss血条，原模组可能变得“不太有用”，因此作者已将其从创意工坊下架。
+本模组是对 Better Boss Health Bar 模组（原作者：n0t_UN_Owen）的重做，适配tML1.4.4版本。由于在1.4.4更新中已经支持显示Boss血条，原模组可能变得“不太有用”，因此作者已将其从创意工坊下架。
 
 改进了原版的Boss血条，可通过设置调整显示内容并且兼容大部分模组。
 
