@@ -1,0 +1,63 @@
+Title:
+Better Boss Health Bar for 1.4.4+
+
+Description:
+This is a 1.4.4+ reimplementation of n0t_UN_Owen's mod Better Boss Health Bar, which was removed from the Steam Workshop and ultimately from the mod list after citing that the 1.4.4 update made the health of the boss appear, which makes this mod "obsolete".
+
+Improves the vanilla boss health bar, and is Configurable and (kind of) mod compatible
+
+The 1.4.3 version is found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2914771557
+You can also search "Better Boss Health Bar" or "Boss Health Bar"
+
+Credits:
+* n0t_UN_Owen - Mod Creator, Original Coding, Art
+* Setnour6 - Coding, Mod Maintaining and Publishing, Icon Animation, Original Mod Icon (https://imgur.com/a/9oJ5fyW )
+* hshnbdsb (你思贺大跌) - Coding
+* hhh - Mod Icon
+* uisdfja - zh_Hans translation
+
+Health format: <Boss name>: <Current life>/<Max life> (<Health in percentage>%)
+There are also three icons at the bottom, the chainmail represents defense, the shield represents knockback resistance, and the sword represents attack damage
+(Visit steam workshop page for screenshots)
+
+Also adds a small visual change where the boss icon flashes red when being hit
+
+Eater of Worlds, Brain of Cthulhu, Martian Saucer, Flying Dutchmen and Lunar Pillars have their own custom display info
+
+
+Differences from 1.4.3 version:
+- Bordered Text
+- Brought back Flash Effect
+- Brought back Boss Bar Positioning
+- Uses n0t_UN_Owen's Targetting Logic
+- Integer Health Display is disabled by default in favor of Vanilla Boss HP Integer Display in Settings (Can still be toggled in Config)
+
+
+Settings:
+
+-> Boss name - Displays boss name
+
+-> Boss health in integer - Displays boss health in <current life>/<max life> format
+
+-> Boss health percentage - Displays boss health in percentage
+
+-> Boss invincibility warning - Displays if the boss is currently invincible
+
+-> Boss icon flash effect - Boss icon flashes red on taking damage
+
+-> Boss Bar Offset - (in pixels) Offset of the boss bar, 0x, 0y by default
+
+-> Font Color - (in RGB format) Color of the boss health bar font, white by default
+
+-> Font Offset - (in pixels) Offset of the displayed text, 0x 42y by default
+
+-> Boss stats (defense, KB resistance and damage) - Can be toggled, have their own separate text color and offset settings, displayed under the health bar
+
+-> Boss target - displays the name of the player or npc the boss is currently targetting
+
+Things planned to be implemented (according to n0t_UN_Owen):
+
+-> The ability to change the health bar color (Currently not possible with tModLoader yet, but you can use texture packs to do so).
+
+Currently supports mech bosses rework as I (n0t_UN_Owen) made that mod as well.
+[quote=tModLoader]Developed By n0t_UN_Owen (Maintained by Setnour6)[/quote]
