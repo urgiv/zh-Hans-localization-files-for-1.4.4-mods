@@ -1,0 +1,25 @@
+Titles:Boss Checklist（Boss列表/清单）
+
+Description:
+Boss Checklist（Boss列表/清单）让你游玩时可以查看Boss清单，这样你就可以随时记录击败Boss的进展情况。
+
+要使用本模组，你首先需要绑定对应功能快捷键。在游戏内设置菜单的控件选项中为 BossChecklist 设置要使用的快捷键。
+
+如果你希望Boss列表/清单中可以显示某个模组的Boss，请联系该模组作者，鼓励其在模组代码中为Boss列表/清单添加支持。
+
+引入Boss日志，它通过定制和设置功能增强了传统的Boss列表/清单体验。
+
+改进的Boss列表/清单
+查看有关Boss的更多信息
+为击败的Boss创造新的击杀纪录
+Boss战利品和收藏品清单
+
+在聊天栏中显示Boss脱战信息
+为脱离显示屏幕外的Boss添加位置指针提示
+显示某些物品（如宝藏袋）在地图上的位置
+
+[h1]链接[/h1]
+源代码在 [url=github.com/JavidPack/BossChecklist]GitHub[/url]，欢迎合作
+有关模组的问题和建议，在作者的 Discord 频道反馈： [url=discord.gg/w8Hcwby][img]https://discordapp.com/api/guilds/276235094622994433/widget.png?style=shield[/img][/url]
+创意工坊留言中的信息不会主动查看，如有Bug请在 Discord 或 Github 反馈
+[url=https://steamcommunity.com/profiles/76561198025715866/myworkshopfiles/?appid=1281930]点此查看作者的全部模组[/url]
