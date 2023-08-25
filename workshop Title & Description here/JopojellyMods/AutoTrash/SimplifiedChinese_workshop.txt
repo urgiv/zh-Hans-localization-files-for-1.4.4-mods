@@ -1,0 +1,19 @@
+﻿Titles:Auto Trash（智能垃圾桶）
+
+Description:
+[img]https://i.imgur.com/W2c5CX6.gif[/img]
+
+[h1]Overview[/h1]
+在原版游戏的丢弃栏旁边添加了一个智能垃圾桶栏位：
+将物品放置在“智能垃圾桶”栏位中，以便在以后拾取到该物品时立即将其丢弃。对那些把你的背包弄得乱七八糟的物品都很有用。
+
+Ctrl+Shift+左键点击 将背包中的物品快速添加至自动丢弃列表中。
+
+您也可以模组设置中将其功能从自动丢弃改为自动售卖。在自动售卖模式下，物品被自动丢弃时，你会获得钱币。默认为物品原价值的15%，略低于你在商店售卖获得的20%。
+
+[h1]链接[/h1]
+源代码在 [url=github.com/JavidPack/AutoTrash][/url]，欢迎合作
+有关模组的问题和建议，在作者的 Discord 频道反馈： [url=discord.gg/w8Hcwby][img]https://discordapp.com/api/guilds/276235094622994433/widget.png?style=shield[/img][/url]
+创意工坊留言中的信息不会主动查看，如有Bug请在 Discord 或 Github 反馈
+如果你想支持本模组，作者的 Patreon 链接 [url=www.patreon.com/jopojelly][img]https://i.imgur.com/xII2DwJ.png[/img][/url]
+[url=https://steamcommunity.com/profiles/76561198025715866/myworkshopfiles/?appid=1281930]点此查看作者的全部模组[/url]
