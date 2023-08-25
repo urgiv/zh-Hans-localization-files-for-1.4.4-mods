@@ -57,7 +57,7 @@ Description：
 
 计划添加的功能 (由 n0t_UN_Owen 开发):
 
--> 更改血条颜色（当前tML还不支持，但您可以通过使用材质包进行更改）
+-> 更改血条颜色（当前tML还不支持，但你可以通过使用材质包进行更改）
 
 兼容 Mech Bosses Rework 模组，因为是同一个作者（n0t_UN_Owen）做的
 [quote=tModLoader]Developed By n0t_UN_Owen (Maintained by Setnour6)[/quote]
