@@ -1,0 +1,61 @@
+﻿Titles:Summoners' Association
+
+Description:
+[img]https://i.imgur.com/W2c5CX6.gif[/img]
+
+This mod aims to fix a few grievances with summons and flesh out Summoner to be a fully developed class. This vision is of a summoner who has their hands full buffing and controlling minions and has little time for other weapons.
+
+[h1]Includes 6 items[/h1]
+[b]Summoners' Association Card[/b] - Displays summoner-related information
+[list]
+[*] Shows the amount of minions summoned (out of the total available) under every minion buff
+[*] Simply has to be in your inventory for it to work
+[/list]
+[b]Minion Control Rod[/b] - Dominate and direct your minions
+[list]
+[*] Left click to teleport all your minions to the cursor
+[*] Right click to target an enemy, or spawn a reticle as a target
+[/list]
+[b]Blood Talisman[/b] - Sacrifice your lifeforce to greatly strengthen minions
+[list]
+[*] Buffs minions at your cursor, gets more powerful the longer you channel it
+[*] Sacrifices your own abilities as a trade off
+[/list]
+[b]Minion Selection Book[/b] - Allows summoning any minion from the inventory
+[list]
+[*] Radial UI that shows all summon weapons in your inventory
+[*] Keeps your hotbar clean
+[/list]
+[b]Minion Loadout Book[/b] - Allows summoning a set of minions from the inventory with one click
+[list]
+[*] Upgraded [b]Minion Selection Book[/b]
+[*] Lets you define a "loadout" for a one click summon, instead of having to use every weapon individually
+[/list]
+[b]Automatic Minion Loadout Book[/b] - Summons a minion set automatically after respawn
+[list]
+[*] Upgraded [b]Minion Loadout Book[/b]
+[*] Spawns the minions automatically when you (re)spawn
+[/list]
+
+[h1]Other additions[/h1]
+[b]Minion&Sentry Slots Info[/b] - Displays the amount of minions/sentries currently summoned out of the available slots on the right side of your screen, like similar informational accessories
+[b]Minion&Sentry Slots Icon[/b] - Displays the amount of minions/sentries currently summoned above your defense
+[hr][/hr]
+Contains two configs: 'Server Config' contains settings related to the reticle from Minion Control Rod and Loadout Book speed, while 'Client Config' contains settings related to the UI and info icons
+
+If you experience issues with Minion Control Rods' reticle feature, let us know on the homepage; You can continue using this mod by disabling the feature in the 'Server Config'
+
+[b]Changelog:[/b]
+v0.5.1.5
+* Fixed rounding issue when displaying "Uncountable mod minion slots"
+* Fixed item use not displaying for other players when using the Selection/Loadout Books
+
+v0.5.1.4
+* Chinese localization
+
+[h1]Links[/h1]
+Source code hosted on [url=github.com/JavidPack/SummonersAssociation]GitHub[/url], collaboration welcome
+For questions or suggestions, come to my Discord: [url=discord.gg/w8Hcwby][img]https://discordapp.com/api/guilds/276235094622994433/widget.png?style=shield[/img][/url]
+Bug reports in the comments here will not be seen, come to Discord or Github to report issues.
+If you'd like to support my mods, I have a Patreon [url=www.patreon.com/jopojelly][img]https://i.imgur.com/xII2DwJ.png[/img][/url]
+[url=https://steamcommunity.com/profiles/76561198025715866/myworkshopfiles/?appid=1281930]Check out all my mods[/url]
