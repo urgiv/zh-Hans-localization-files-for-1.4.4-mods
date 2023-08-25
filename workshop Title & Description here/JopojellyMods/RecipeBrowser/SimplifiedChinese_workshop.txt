@@ -1,0 +1,57 @@
+Title:
+Recipe Browser（合成表/向导失业）
+
+Description:
+[img]https://i.imgur.com/W2c5CX6.gif[/img]
+
+[h1]合成表！[/h1]
+合成表是任何玩家不可或缺的模组。它为用户提供了向导梦寐以求的服务。 [img]https://i.imgur.com/420S4WA.gif[/img] 订阅合成表，你可以通过其包含的功能强大的工具模块，更简洁有效的规划如何制作物品。你将能快速查阅当前已有物品的合成树，包含多个中间合成步骤的物品也能查看。
+
+[h1]如何使用[/h1]
+要使用本模组，你首先需要绑定对应功能快捷键。在游戏内设置菜单的控件选项中为 RecipeBrowser 设置要使用的快捷键。“开关合成表”是必须的，其余的两个也很有益，但是否使用取决于你。“查询当前光标悬浮的物品”简化了查看配方的流程，“开关收藏的合成窗口”在使用收藏合成配方功能时很有帮助。
+[img]https://i.imgur.com/Bv1TOPR.png[/img]
+
+[h1]基础功能[/h1]
+[img]https://i.imgur.com/wt2VPR0.png[/img]
+主窗口由几个选项卡组成。你可以单击选项卡访问每个工具模块。你也可以调整窗口的大小。右上角的“Help”选项卡更详细地解释了每个工具如何使用，请务必查看。
+
+[h1]合成配方[/h1]
+这个工具可以让你快速查阅游戏中的所有配方。你可以在查询槽中放置一个物品，以查找使用该物品或产生该物品的配方。你还可以在右上角窗口中使用各种条件进行搜索和筛选，以找到你想要的配方。底部列出了所选配方的制作站和合成条件，通过显示红色/绿色来提示玩家当前是否满足合成条件。右侧将显示任何掉落所选物品的NPC，双击一个NPC图标访问“生物图鉴”。双击配方中的物品可将其快速放置在查询槽中，对于查阅物品的多级合成树很有帮助。Alt+左键点击一个物品配方可以将其收藏，请查看下文的收藏部分。
+[img]https://thumbs.gfycat.com/GloriousFluidFly-size_restricted.gif[/img]
+
+[h1]制作步骤[/h1]
+这个工具可以让你合成符合配方条件的物品，对多级合成的物品也生效！在“合成配方”选项卡中，右键点击合成物将其带入“制作步骤”中，黄色背景的合成物有多级合成步骤。例如：如果你带有金矿和铁矿，然后查看金表的制作步骤，这个工具可以向你展示其一系列合成步骤中的每一步，需要先合成铁矿和金矿，然后是铁链，最后再合成得到金表你还可以打开“掉落”选项，以允许显示多级合成配方中，可通过掉落获得物品来自哪里，然后只需要击杀对应的敌怪就可以获得需要的材料。默认状态下，所有能通过已获得的制作站合成得到的配方都会显示。如果你打开“新制作站”选项，游玩中未见过的制作站也会显示。有关此工具的详细信息，请参阅右上角的“Help”选项卡。
+[img]https://thumbs.gfycat.com/DescriptiveClosedKatydid-size_restricted.gif[/img]
+
+[h1]物品图鉴[/h1]
+在这里你可以浏览游戏中的所有物品，使用过滤器和排序选项来筛选所需的内容。双击某个物品可在“合成配方”选项卡中进行查询。右键双击某个物品，即可在“生物图鉴”中查询其掉落。
+
+[h1]生物图鉴[/h1]
+在这里你可以浏览游戏中的所有NPC，使用过滤器来筛选所需的内容。点击一个NPC显示该NPC的战利品。将一个物品放置在查询槽中会自动筛选，只显示掉落该物品的NPC。双击某个物品可在“合成配方”选项卡中进行查询。右键单击一个物品以快速放置在查询槽，对查看其它相同物品的NPC很有帮助。
+
+[h1]收藏夹[/h1]
+在“合成配方”选项卡中，通过Alt+左键点击一个物品配方可以将其收藏。当你有收藏的配方时，其会在屏幕上的“收藏夹”面板中显示。此面板将帮助您实时查看收集合成所需材料的进度。在多人游戏中，其他玩家收藏的配方也会出现在你的“收藏夹”面板中。你可以实时查看其他玩家的收集进度并进行有效的合作。
+[img]https://i.imgur.com/gvG1FpY.png[/img]
+[img]https://thumbs.gfycat.com/SentimentalCreativeBinturong-size_restricted.gif[/img]
+
+[h1]查询当前光标悬浮的物品[/h1]
+通过控件中绑定的对应快捷键，你可以使用此功能将物品快速放入工具的查询槽中。当游戏中的光标悬浮在任何物品上时，你就可以使用本功能，其不受游戏时间和人物移动的影响。
+[img]https://thumbs.gfycat.com/ScholarlyOffensiveCommongonolek-size_restricted.gif[/img]
+
+[h1]类别、子类别、排序条件和筛选条件[/h1]
+这些是在以上选项卡中可选则性开启的，有强大排序和筛选功能的选项。你可以用它们搜索特定的武器类型，找到你能制作的最强大的稿子等。详细信息请参阅右上角的“Help”选项卡。
+[img]https://i.imgur.com/cGlveJX.png[/img]
+
+[h2]Armor Set（盔甲套装）[/h2]
+通过“Armor Set（盔甲套装）”类别排序，你能以整个套装的形式查看不同的盔甲，方便你规划制作哪种适合自己游戏风格的盔甲套装！
+[img]https://thumbs.gfycat.com/SpotlessSolidAsiaticmouflon-size_restricted.gif[/img]
+
+[h1]Help（帮助）[/h1]
+在Recipe Browser（合成表/向导失业）模组中有很多的功能，请参阅右上角的Help（帮助）选项卡了解它们更详细的信息
+
+[h1]链接[/h1]
+源代码在 [url=github.com/JavidPack/RecipeBrowser]GitHub[/url]，欢迎合作
+有关模组的问题和建议，在作者的 Discord 频道反馈： [url=discord.gg/w8Hcwby][img]https://discordapp.com/api/guilds/276235094622994433/widget.png?style=shield[/img][/url]
+创意工坊留言中的信息不会主动查看，如有Bug请在 Discord 或 Github 反馈
+如果你想支持本模组，作者的 Patreon 链接 [url=www.patreon.com/jopojelly][img]https://i.imgur.com/xII2DwJ.png[/img][/url]
+[url=https://steamcommunity.com/profiles/76561198025715866/myworkshopfiles/?appid=1281930]点此查看作者的全部模组[/url]
