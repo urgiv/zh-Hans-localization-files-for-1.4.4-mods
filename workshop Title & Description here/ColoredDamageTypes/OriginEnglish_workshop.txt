@@ -1,0 +1,30 @@
+Title:
+Colored Damage Types
+
+Description:
+Colored damage types changes the tooltip and damage text of weapons to be colored, so that it's easier to quickly tell what kind of damage the weapon deals at a glance.
+
+Now has cross-mod support! For instructions on how to add your mod's damage type, check out the github:
+https://github.com/PvtFudgepants/Tmodloader-ColoredDamageText#cross-mod-compatibility
+
+v1.8.5
+-Ported to Tmodloader 1.4.4 (Thanks dariof4!).
+
+v1.8.4
+-Added a "preset" in the settings that changes the vanilla damage colors to match the pillar colors (and changes throwing a little to make it less orangey so it doesn't blend with melee pillar's colors)
+--Turn the setting on and click save. It'll reset it to "off", but the colors in game will have changed. Try it out!
+
+v1.8.3
+-Fixed bug where modded damage types that count as multiple other types (like "Neutral Damage" from Whips & more mod) were using the first found matched type's color instead of their intended type.
+--Basically "Neutral damage" will use its proper color now if it wasn't for you.
+
+v1.8.2
+-Added failsafe in case colors won't load correctly. Tooltips will still display.
+-Made the colors priotize modded damage types. So if a mod is marked as both "Magic" and "NewDamageType", it'll show the NewDamageType color instead of Magic.
+
+v1.8.1
+-Fixed crash if other mod tried to add cross mod compat. AFTER this mod was loaded.
+
+v1.8
+-Modded damage types will now be detected automatically. Mod creators can still specify their own colors, but this well let you customize colors that haven't set up the cross mod support yet as well.
+-New EXPERIMENTAL feature: Condensed Damage! With this setting enabled in the mod settings, you can set it so that your damage numbers only pop up every few hits, with a number totaling all the previous hits.
