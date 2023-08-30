@@ -1,8 +1,8 @@
 Title:
-Colored Damage Types（多彩伤害提示）
+Colored Damage Types（彩色伤害提示）
 
 Description:
-Colored Damage Types（多彩伤害提示）将武器的物品提示和伤害数字文本更改为彩色显示，这样可以更容易地快速判断武器造成的伤害。
+Colored Damage Types（彩色伤害提示）将武器的物品提示和伤害数字文本更改为彩色显示，这样可以更容易地快速判断武器造成的伤害。
 
 现在支持跨模组兼容！有关如何为你的模组添加伤害显示的说明，请查看github：
 https://github.com/PvtFudgepants/Tmodloader-ColoredDamageText#cross-mod-compatibility
