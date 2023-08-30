@@ -41,7 +41,7 @@ https://discord.gg/UGE6Mstrgz
 ⚠️ 跨模组兼容性：
 ------------------------------------------
 强烈推荐的游戏体验改善模组：
-✅ AutoTrash（自动垃圾桶）
+✅ Auto Trash（智能垃圾桶）
 ✅ Lights and Shadow（光影优化）
 ✅ Recipe Browser（合成表/向导失业）
 ✅ Magic Storage（魔法储存）
