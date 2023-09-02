@@ -24,7 +24,15 @@ Ever wish there were information displays for more things, such as luck? Block's
     [*][b]Easier Attainment[/b] - Don't want to jump through more hoops for more info? With this toggle you can make it so that the Merchant will sell all the new accessories (Excluding Scrying Mirror and R.S.H. Rater, since they're tinkers) based on moon phase, making your life that much easier.
 [/list]
 
-[h2]Open Source[/h2]
+[h3]Localization:[/h3]
+NOTICE: I am only fluent in English; I won't be able to be of much help to those who are not themselves, with regard to any issues. If you wish to contribute new languages to the mod's localization, you can do so on GitHub
+Supported Languages:
+[list]
+    [*]English (Base)
+    [*]Simplified Chinese (Contributed by: urgiv)
+[/list]
+
+[h3]Open Source[/h3]
 [list]
     [*]This mod is open-source on GitHub under the GNU GPLv3 license. Another way to view the source-code is via. tML's in-game extract function
     [*]You can find the GitHub repository for the mod [url=https://github.com/BlockCrusader/BInfoAcc]right here![/url] 
