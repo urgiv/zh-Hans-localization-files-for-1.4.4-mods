@@ -1,0 +1,92 @@
+Title:
+The Abandoned Star Mod
+
+Description:
+[h1]About[/h1]
+
+The Abandoned Star Mod is a mod that adds lots of new content to all stages of game, mostly focused on expanding and improving vanilla. It is the successor to Additional Terraria. Currently, the mod is under development, so some features may be buggy. This version needs a lot more testing, so please report bugs and mistakes on mod's discord server (https://discord.gg/Z5v6JX6gEH or in homepage) or in comments.
+
+Current version: 1.0.2.2 (Chinese localisation)
+Next minor update: 1.0.5.0 (Secrets of the Storm)
+Next major update: 1.1.0.0 (!Currently classified!)
+
+
+[h1]At now the mod adds:[/h1]
+
+[b]169 Items[/b]
+[list]
+    [*]23 Accessories
+    [*]21 Ammo
+    [*]4 Armors
+    [*]10 Consumables
+    [*]8 Materials
+    [*]6 Placeables
+    [*]1 Tool
+    [*]89 Weapons
+[/list]
+
+[b]12 Mobs[/b]
+[list]
+    [*]1 Cavern Mob
+    [*]5 Corruption Mob
+    [*]2 Crimson Mobs
+    [*]1 Dungeon Mob
+    [*]1 Forest Mob
+    [*]1 Hallow Mob
+    [*]4 Jungle Mobs
+    [*]1 Ocean Mob
+    [*]3 Sky Mobs
+    [*]3 Underworld Mobs
+[/list]
+
+[b]3 Bosses[/b]
+[list]
+    [*]Angry Sunflower
+    [*]Ent
+    [*]Volcanic Eyes
+[/list]
+
+[b]1 Miniboss[/b]
+[list]
+    [*]Grand Sunlight Slime
+[/list]
+
+[b]6 Developer Curses (new mechanic)[/b]
+[list]
+    [*]Umbramantic
+    [*]Atomic Blood
+    [*]Bloodletters Thirst
+    [*]Oculus of Vehemence
+    [*]Shattered Glass
+    [*]Bloody Rose
+[/list]
+
+[b]Vanilla Changes[/b]
+[list]
+    [*]Some vanity is now armor
+    [*]Textures of some items was changed
+[/list]
+
+[url=https://forums.terraria.org/index.php?threads/the-abandoned-star-mod.127496/]Terraria Community Forums Page[/url]
+[url=https://theabandonedstarmod.fandom.com/wiki/The_Abandoned_Star_Mod_Wiki]Mod Wiki (still under construction)[/url]
+
+Creation date - 03.01.2023
+Publication date - 03.08.2023
+Last update date - 03.08.2023
+
+[h1]Developers:[/h1]
+This is Many - Creator, Coder (the only one for now), Spriter, Idea generator, Tester, Wiki editor
+Bloodflare - Second Creator, Spriter, Idea generator, Wiki editor
+IlluminatiJoe - Spriter, Wiki editor
+Johnny Boy - Spriter, Idea generator
+Soro Nexelus - Spriter
+tatou du ciel - Tester, Balancer
+Hollowed in a Hat - Idea generator
+LuckyCat - Spriter, Idea generator
+Tha Possum - Spriter
+Flairon1 - Spriter, Musician
+Bl4ckShad0w - Idea generator
+
+[b]Don't forget to rate this item![/b]
+
+Thanks for playing our mod!

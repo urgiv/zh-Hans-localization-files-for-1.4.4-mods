@@ -1,0 +1,95 @@
+Title:
+The Abandoned Star Mod（遗弃之星）
+
+Description:
+[h1]简介[/h1]
+
+遗弃之星是一个为游戏各阶段都添加了大量新内容的模组，主要专注于在原版内容基础上进行扩展和改进，是泰拉瑞亚众多补充模组之一。当前仍在开发中，因此一些功能可能存在缺陷，请在[url=https://discord.gg/Z5v6JX6gEH]Discord频道[/url]或评论区反馈你游玩时遇到的各种错误。
+
+当前版本：1.0.2.2
+下次内容更新：1.0.5.0（风暴之秘）
+下次重大更新：1.1.0.0
+
+
+[h1]模组目前已更新内容：[/h1]
+
+[b]170件物品[/b]
+[list]
+    [*]23 饰品
+    [*]21 弹药
+    [*]4  盔甲
+    [*]10 可消耗物品
+    [*]8  材料
+    [*]6  可放置物品
+    [*]1  工具
+    [*]89 武器
+[/list]
+
+[b]12种群落敌怪[/b]
+[list]
+    [*]1 洞穴群落敌怪
+    [*]5 腐化群落敌怪
+    [*]2 猩红群落敌怪
+    [*]1 地牢群落敌怪
+    [*]1 森林群落敌怪
+    [*]1 神圣群落敌怪
+    [*]4 丛林群落敌怪
+    [*]1 海洋群落敌怪
+    [*]3 天空群落敌怪
+    [*]3 地狱群落敌怪
+[/list]
+
+[b]3个Boss[/b]
+[list]
+    [*]愠怒向日葵
+    [*]树精
+    [*]熔岩之眼
+[/list]
+
+[b]1个小Boss[/b]
+[list]
+    [*]大型日光史莱姆
+[/list]
+
+[b]6种可选诅咒（新的难度机制）[/b]
+[list]
+    [*]暗影本能
+    [*]原子之血
+    [*]放血者的饥渴
+    [*]鹰眼
+    [*]碎璃
+    [*]嗜血玫瑰
+[/list]
+
+[b]原版内容更改[/b]
+[list]
+    [*]一些时装可以作为盔甲使用
+    [*]一些物品的纹理贴图进行了重绘
+[/list]
+
+[url=https://forums.terraria.org/index.php?threads/the-abandoned-star-mod.127496/]泰拉瑞亚社区论坛主页[/url]
+[url=https://theabandonedstarmod.fandom.com/wiki/The_Abandoned_Star_Mod_Wiki]模组Wiki（未完成）[/url]
+
+创建日期 - 2023.01.03
+发表日期 - 2023.08.03
+
+
+[h1]开发者名单：[/h1]
+
+This is Many - 创建者、程序员（目前团队里唯一的）、美术、灵感贡献者、测试员、Wiki 编写者
+Bloodflare - 第二创建者、美术、灵感贡献者、Wiki 编写者
+IlluminatiJoe - 美术、Wiki 编写者
+Johnny Boy - 美术、灵感贡献者
+Soro Nexelus - 美术
+tatou du ciel - 测试员、游戏平衡
+Hollowed in a Hat - 灵感贡献者
+LuckyCat - 美术、灵感贡献者
+Tha Possum - 美术
+Flairon1 - 美术、作曲
+Bl4ckShad0w - 灵感贡献者
+
+[b]别忘了给这个模组打分！[/b]
+
+感谢您的游玩！
+
+[quote=tModLoader]Developed By This is Many and the team[/quote]
