@@ -1,0 +1,1253 @@
+Buffs: {
+	StoneskinBuff: {
+		DisplayName: Stoneskin Buff
+		Description: Immune to knockback
+	}
+
+	CuteAcornBuff: {
+		DisplayName: Ent Sapling
+		Description: A cute ent sapling is following you!
+	}
+
+	NotAngrySunflowerBuff: {
+		DisplayName: Not Angry Sunflower
+		Description: The Sunflower is definitely not angry!
+	}
+
+	VolcanicEyesBuff: {
+		DisplayName: Volcanic Eyes
+		Description: Volcanic Eyes are following you!
+	}
+}
+
+Items: {
+	AvengerMedal: {
+		DisplayName: Avenger Medal
+		Tooltip: 3% increased damage
+	}
+
+	FleshfangNecklace: {
+		DisplayName: Fleshfang Necklace
+		Tooltip: ""
+	}
+
+	FossiltoothNecklace: {
+		DisplayName: Fossiltooth Necklace
+		Tooltip: ""
+	}
+
+	HugeLens: {
+		DisplayName: Huge Lens
+		Tooltip: +5% crit
+	}
+
+	LuminiteEmblem: {
+		DisplayName: Luminite Emblem
+		Tooltip: 17% increased damage
+	}
+
+	MagmaCharm: {
+		DisplayName: Magma Charm
+		Tooltip: Grants temporary immunity to lava, decreased damage from touching lava and your attacks inflict fire
+	}
+
+	NebulaEmblem: {
+		DisplayName: Nebula Emblem
+		Tooltip: 20% increased magic damage
+	}
+
+	PlaquechimeNecklace: {
+		DisplayName: Plaquechime Necklace
+		Tooltip: Increases damage by 5% and critical strike chance by 3%
+	}
+
+	RangerMedal: {
+		DisplayName: Ranger Medal
+		Tooltip: 5% increased ranged damage
+	}
+
+	SharkronClawNecklace: {
+		DisplayName: Sharkron Claw Necklace
+		Tooltip: Increases critical strike chance by 5%
+	}
+
+	SolarEmblem: {
+		DisplayName: Solar Emblem
+		Tooltip: 20% increased melee damage
+	}
+
+	SorcererMedal: {
+		DisplayName: Sorcerer Medal
+		Tooltip: 5% increased magic damage
+	}
+
+	StardustEmblem: {
+		DisplayName: Stardust Emblem
+		Tooltip: 20% increased summon damage
+	}
+
+	SummonerMedal: {
+		DisplayName: Summoner Medal
+		Tooltip: 5% increased summon damage
+	}
+
+	SunflowerCharm: {
+		DisplayName: Sunflower Charm
+		Tooltip:
+			'''
+			Increases life regen during day
+			Provides light
+			You are happy all time!
+			'''
+	}
+
+	ThreshcrystalNecklace: {
+		DisplayName: Threshcrystal Necklace
+		Tooltip: Increases critical strike chance by 3%
+	}
+
+	VortexEmblem: {
+		DisplayName: Vortex Emblem
+		Tooltip: 20% increased ranged damage
+	}
+
+	WarriorMedal: {
+		DisplayName: Warrior Medal
+		Tooltip: 5% increased melee damage
+	}
+
+	SnowSpike: {
+		DisplayName: Snow Spike
+		Tooltip: Used by Snow Gun
+	}
+
+	AngrySunflowerMask: {
+		DisplayName: Angry Sunflower Mask
+		Tooltip: ""
+	}
+
+	EntMask: {
+		DisplayName: Ent Mask
+		Tooltip: ""
+	}
+
+	CorruptSwordBanner: {
+		DisplayName: Corrupt Sword Banner
+		Tooltip: ""
+	}
+
+	StrangeAcorn: {
+		DisplayName: Strange Acorn
+		Tooltip: Summons Ent
+	}
+
+	SuspiciousLookingSeed: {
+		DisplayName: Suspicious Looking Seed
+		Tooltip: Summons Angry Sunflower
+	}
+
+	CursedSkull: {
+		DisplayName: Cursed Skull
+		Tooltip: Summons Skeletron
+	}
+
+	PlanteraFlower: {
+		DisplayName: Plantera Flower
+		Tooltip: Summons Plantera
+	}
+
+	StoneskinPotion: {
+		DisplayName: Stoneskin Potion
+		Tooltip: Provides immunity to knockback
+	}
+
+	AngrySunflowerBag: {
+		DisplayName: Treasure Bag
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	EntBag: {
+		DisplayName: Treasure Bag
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	AncientSharkTooth: {
+		DisplayName: Ancient Shark Tooth
+		Tooltip: ""
+	}
+
+	BloodShard: {
+		DisplayName: Blood Shard
+		Tooltip: "'Carried by the bloodiest creatures of the world'"
+	}
+
+	BloodSharkTooth: {
+		DisplayName: Blood Shark Tooth
+		Tooltip: ""
+	}
+
+	CrimsonRot: {
+		DisplayName: Crimson Rot
+		Tooltip: ""
+	}
+
+	CrystalSharkTooth: {
+		DisplayName: Crystal Shark Tooth
+		Tooltip: ""
+	}
+
+	FrostCrystal: {
+		DisplayName: Frost Crystal
+		Tooltip: ""
+	}
+
+	LavaSharkTooth: {
+		DisplayName: Lava Shark Tooth
+		Tooltip: ""
+	}
+
+	LivingWood: {
+		DisplayName: Living Wood
+		Tooltip: ""
+	}
+
+	RottedSharkTooth: {
+		DisplayName: Rotted Shark Tooth
+		Tooltip: ""
+	}
+
+	SharkTooth: {
+		DisplayName: Shark Tooth
+		Tooltip: ""
+	}
+
+	Snowflake: {
+		DisplayName: Snowflake
+		Tooltip: Oh, cool!
+	}
+
+	SoulofBlight: {
+		DisplayName: Soul of Blight
+		Tooltip: The essence of infected creatures’
+	}
+
+	WaterPearl: {
+		DisplayName: Water Pearl
+		Tooltip: Treasure of a bottom of the sea
+	}
+
+	AngrySunflowerRelic: {
+		DisplayName: Angry Sunflower Relic
+		Tooltip: ""
+	}
+
+	EntRelic: {
+		DisplayName: Ent Relic
+		Tooltip: ""
+	}
+
+	AngrySunflowerTrophy: {
+		DisplayName: Angry Sunflower Trophy
+		Tooltip: ""
+	}
+
+	EntTrophy: {
+		DisplayName: Ent Trophy
+		Tooltip: ""
+	}
+
+	AntlionDiggingClaw: {
+		DisplayName: Antlion Digging Claw
+		Tooltip:
+			'''
+			I am a dwarf and I'm digging a hole!
+			Diggy diggy hole, diggy diggy hole!
+			'''
+	}
+
+	GrandTorch: {
+		DisplayName: Grand Torch
+		Tooltip: Provides light
+	}
+
+	Nonexistence: {
+		DisplayName: Nonexistence
+		Tooltip: ""
+	}
+
+	AncientLight: {
+		DisplayName: Ancient Light
+		Tooltip: ""
+	}
+
+	ClothiersCurse: {
+		DisplayName: Clothiers Curse
+		Tooltip: Shoots cursed skulls that pierces enemies
+	}
+
+	EliteWand: {
+		DisplayName: Elite Wand
+		Tooltip: Once it belonged to a great magician
+	}
+
+	FairyEmpiressWand: {
+		DisplayName: Fairy Empress Wand
+		Tooltip: " - Dedicated Item - "
+	}
+
+	ForestTome: {
+		DisplayName: Forest Tome
+		Tooltip: Fires a torrent of sharp leaves
+	}
+
+	Sporogenesis: {
+		DisplayName: Sporogenesis
+		Tooltip: Generates spore clouds at cursor position
+	}
+
+	StaffofSparking: {
+		DisplayName: Staff of Sparking
+		Tooltip: Fires small spark
+	}
+
+	TaleAboutSunflower: {
+		DisplayName: Tale About Sunflower
+		Tooltip:
+			'''
+			Shoots a slow moving sunflower
+			The sunflower will rapidly shoot seeds at nearby enemies
+			Not more than one sunflower can be at once
+			'One day a sunflower...'
+			'''
+	}
+
+	TenebraeTrident: {
+		DisplayName: Tenebrae Trident
+		Tooltip: ""
+	}
+
+	TheBirthofSharks: {
+		DisplayName: The Birth of Sharks
+		Tooltip: Fires baby sharkrons
+	}
+
+	Trasher: {
+		DisplayName: Trasher
+		Tooltip: Shoots REALLY random things
+	}
+
+	AdamantiteKatana: {
+		DisplayName: Adamantite Katana
+		Tooltip: ""
+	}
+
+	AshWoodKatana: {
+		DisplayName: Ash Wood Katana
+		Tooltip: ""
+	}
+
+	BloodyPrimlight: {
+		DisplayName: Bloody Primlight
+		Tooltip: Primary blood is always pure
+	}
+
+	BloodyZombieArm: {
+		DisplayName: Bloody Zombie Arm
+		Tooltip: ""
+	}
+
+	Bonerang: {
+		DisplayName: Bonerang
+		Tooltip: "'So, what do you say?'"
+	}
+
+	BorealWoodKatana: {
+		DisplayName: Boreal Wood Katana
+		Tooltip: ""
+	}
+
+	Chakram: {
+		DisplayName: Chakram
+		Tooltip: ""
+	}
+
+	CobaltKatana: {
+		DisplayName: Cobalt Katana
+		Tooltip: ""
+	}
+
+	CombatSunflower: {
+		DisplayName: Combat Sunflower
+		Tooltip: You can fight using a sunflower!
+	}
+
+	CopperKatana: {
+		DisplayName: Copper Katana
+		Tooltip: ""
+	}
+
+	CopperThrowingAxe: {
+		DisplayName: Copper Throwing Axe
+		Tooltip: ""
+	}
+
+	DemonScytheSword: {
+		DisplayName: Demon Scythe Sword
+		Tooltip: Fires demons scythes
+	}
+
+	DynastySword: {
+		DisplayName: Dynasty Sword
+		Tooltip: ""
+	}
+
+	EbonwoodKatana: {
+		DisplayName: Ebonwood Katana
+		Tooltip: ""
+	}
+
+	FeatherKnives: {
+		DisplayName: Feather Knives
+		Tooltip: Fires a barrage of swift feathers
+	}
+
+	FleshAndBoneSword: {
+		DisplayName: Flesh And Bone Sword
+		Tooltip: ""
+	}
+
+	FrostSword: {
+		DisplayName: Frost Sword
+		Tooltip: ""
+	}
+
+	FrozenZombieArm: {
+		DisplayName: Frozen Zombie Arm
+		Tooltip: ""
+	}
+
+	GenesisBlade: {
+		DisplayName: Genesis Blade
+		Tooltip: ""
+	}
+
+	GoldKatana: {
+		DisplayName: Gold Katana
+		Tooltip: ""
+	}
+
+	GoldThrowingAxe: {
+		DisplayName: Gold Throwing Axe
+		Tooltip: ""
+	}
+
+	ImperiumSpear: {
+		DisplayName: Imperium Spear
+		Tooltip: ""
+	}
+
+	Interstellar: {
+		DisplayName: Interstellar
+		Tooltip: ""
+	}
+
+	IronKatana: {
+		DisplayName: Iron Katana
+		Tooltip: ""
+	}
+
+	IronThrowingAxe: {
+		DisplayName: Iron Throwing Axe
+		Tooltip: ""
+	}
+
+	LeadKatana: {
+		DisplayName: Lead Katana
+		Tooltip: ""
+	}
+
+	LeadThrowingAxe: {
+		DisplayName: Lead Throwing Axe
+		Tooltip: ""
+	}
+
+	LeafLongsword: {
+		DisplayName: Leaf Longsword
+		Tooltip: ""
+	}
+
+	Modao: {
+		DisplayName: Modao
+		Tooltip: ""
+	}
+
+	MossStoneSword: {
+		DisplayName: Moss Stone Sword
+		Tooltip: ""
+	}
+
+	MushroomZombieArm: {
+		DisplayName: Mushroom Zombie Arm
+		Tooltip: ""
+	}
+
+	MysticalScythe: {
+		DisplayName: Mystical Scythe
+		Tooltip: Shoots a dark orb
+	}
+
+	MythrilKatana: {
+		DisplayName: Mythril Katana
+		Tooltip: ""
+	}
+
+	OrichalcumKatana: {
+		DisplayName: Orichalcum Katana
+		Tooltip: ""
+	}
+
+	PalladiumKatana: {
+		DisplayName: Palladium Katana
+		Tooltip: ""
+	}
+
+	PalmWoodKatana: {
+		DisplayName: Palm Wood Katana
+		Tooltip: ""
+	}
+
+	PearlwoodKatana: {
+		DisplayName: Pearlwood Katana
+		Tooltip: ""
+	}
+
+	PlatinumKatana: {
+		DisplayName: Platinum Katana
+		Tooltip: ""
+	}
+
+	PlatinumThrowingAxe: {
+		DisplayName: Platinum Throwing Axe
+		Tooltip: ""
+	}
+
+	PossessedLance: {
+		DisplayName: Possessed Lance
+		Tooltip: ""
+	}
+
+	PossessedSword: {
+		DisplayName: Possessed Sword
+		Tooltip: ""
+	}
+
+	RichMahoganyKatana: {
+		DisplayName: Rich Mahogany Katana
+		Tooltip: ""
+	}
+
+	RobberofBlood: {
+		DisplayName: Robber of Blood
+		Tooltip: Steals life from enemies
+	}
+
+	ShadewoodKatana: {
+		DisplayName: Shadewood Katana
+		Tooltip: ""
+	}
+
+	SilverKatana: {
+		DisplayName: Silver Katana
+		Tooltip: ""
+	}
+
+	SilverThrowingAxe: {
+		DisplayName: Silver Throwing Axe
+		Tooltip: ""
+	}
+
+	SporeSword: {
+		DisplayName: Spore Sword
+		Tooltip: Shoots spore clouds
+	}
+
+	StarSword: {
+		DisplayName: Star Sword
+		Tooltip: Periodically shoots stars
+	}
+
+	SteelCleaver: {
+		DisplayName: Steel Cleaver
+		Tooltip: Cuts enemies multiple times
+	}
+
+	Supernova: {
+		DisplayName: Supernova
+		Tooltip: ""
+	}
+
+	TheMonsrang: {
+		DisplayName: The Monsrang
+		Tooltip: ""
+	}
+
+	TinKatana: {
+		DisplayName: Tin Katana
+		Tooltip: ""
+	}
+
+	TinThrowingAxe: {
+		DisplayName: Tin Throwing Axe
+		Tooltip: ""
+	}
+
+	TitaniumKatana: {
+		DisplayName: Titanium Katana
+		Tooltip: ""
+	}
+
+	TrueWoodenSword: {
+		DisplayName: True Wooden Sword
+		Tooltip: Launches a nature's beam
+	}
+
+	TungstenKatana: {
+		DisplayName: Tungsten Katana
+		Tooltip: ""
+	}
+
+	TungstenThrowingAxe: {
+		DisplayName: Tungsten Throwing Axe
+		Tooltip: ""
+	}
+
+	VulcanWrath: {
+		DisplayName: Vulcan Wrath
+		Tooltip: ""
+	}
+
+	WoodenKatana: {
+		DisplayName: Wooden Katana
+		Tooltip: ""
+	}
+
+	AcornThrowingGlove: {
+		DisplayName: Acorn Throwing Glove
+		Tooltip: Throws an acorn
+	}
+
+	BigGun: {
+		DisplayName: Big Gun
+		Tooltip: So heavy and so big, it must be strong!
+	}
+
+	Devilshark: {
+		DisplayName: Devilshark
+		Tooltip:
+			'''
+			Rapidly shoots two bullets at a time
+			Has a chance to shoot a barrage of demon scythes
+			'''
+	}
+
+	Crystalshark: {
+		Tooltip: Additionally fires crystal shards
+		DisplayName: Crystalshark
+	}
+
+	FishPistol: {
+		DisplayName: Fish Pistol
+		Tooltip: "'Gulugulu gulugulu'"
+	}
+
+	GoldenBlunderbuss: {
+		DisplayName: Golden Blunderbuss
+		Tooltip: Works better with Golden Bullets
+	}
+
+	PetalKnives: {
+		DisplayName: Petal Knives
+		Tooltip: Throws sharp sunflower petals
+	}
+
+	SatiricalBow: {
+		DisplayName: Satirical Bow
+		Tooltip: Fires a torrent of arrows
+	}
+
+	SkullBow: {
+		DisplayName: Skull Bow
+		Tooltip: Shoots high speed arrows
+	}
+
+	SnowballShotcannon: {
+		DisplayName: Snowball Shotcannon
+		Tooltip: Fires an insane amount of snowballs
+	}
+
+	SnowPistol: {
+		DisplayName: Snow Pistol
+		Tooltip: Uses Snow Spikes as ammo
+	}
+
+	Toxishark: {
+		DisplayName: Toxishark
+		Tooltip:
+			'''
+			Shoots poison bubbles
+			Will make your hands all slimy and stinky
+			'''
+	}
+
+	ViciousLongbow: {
+		DisplayName: Vicious Longbow
+		Tooltip: ""
+	}
+
+	VulcanRepeater: {
+		DisplayName: Vulcan Repeater
+		Tooltip:
+			'''
+			Shoots two arrows at once
+			Has a chance to convert arrows to Hellfire arrows
+			'''
+	}
+
+	WoodenRifle: {
+		DisplayName: Wooden Rifle
+		Tooltip: ""
+	}
+
+	WoodenShotgun: {
+		DisplayName: Wooden Shotgun
+		Tooltip: ""
+	}
+
+	RopeWhip: {
+		DisplayName: Rope Whip
+		Tooltip: ""
+	}
+
+	TreeRootsStaff: {
+		DisplayName: Tree Roots Staff
+		Tooltip: Spawns roots at the ground that damages enemies in it
+	}
+
+	CuteAcorn: {
+		DisplayName: Cute Acorn
+		Tooltip: ""
+	}
+
+	NotAngrySunflowerSeed: {
+		DisplayName: Not Angry Sunflower Seed
+		Tooltip: ""
+	}
+
+	UltraheatedRapier: {
+		DisplayName: Ultraheated Rapier
+		Tooltip:
+			'''
+			Rapidly thrusts the sword in any direction
+			Has a chance of creating a burst of flames on hit
+			'Explode them all!'
+			'''
+	}
+
+	Spartula: {
+		Tooltip: ""
+		DisplayName: Spartula
+	}
+
+	FireWineglass: {
+		Tooltip: Increases you max life by 100
+		DisplayName: Fire Wineglass
+	}
+
+	KeeperofDark: {
+		Tooltip: Fires clouds of darkness
+		DisplayName: Keeper of Dark
+	}
+
+	Sandshark: {
+		Tooltip: ""
+		DisplayName: Sandshark
+	}
+
+	TearNecklace: {
+		Tooltip: ""
+		DisplayName: Tear Necklace
+	}
+
+	Eruption: {
+		DisplayName: Eruption
+		Tooltip: ""
+	}
+
+	FrostHamaxe: {
+		DisplayName: Frost Hamaxe
+		Tooltip: ""
+	}
+
+	FrostPickaxe: {
+		DisplayName: Frost Pickaxe
+		Tooltip: ""
+	}
+
+	BloodflareBlade: {
+		DisplayName: Bloodflare Blade
+		Tooltip: ""
+	}
+
+	Spark: {
+		DisplayName: Spark
+		Tooltip: Shoots a close range ball of fire
+	}
+
+	Tizona: {
+		Tooltip:
+			'''
+			Ignores 50 points of enemy's defence
+			Deals extra damage to bosses
+			Inflicts Shadowflame to enemies hit
+			'I can't beat you without getting closer'
+			'''
+		DisplayName: Tizona
+	}
+
+	OceanSoul: {
+		DisplayName: Ocean Soul
+		Tooltip: ""
+	}
+
+	BarbedBloom: {
+		DisplayName: Barbed Bloom
+		Tooltip: ""
+	}
+
+	Effusion: {
+		Tooltip: Enemies hit will erupt into flames
+		DisplayName: Effusion
+	}
+
+	EchantedEmblem: {
+		DisplayName: Echanted Emblem
+		Tooltip: ""
+	}
+
+	ProwlerShield: {
+		DisplayName: Prowler Shield
+		Tooltip: Increases damage and critical strike chance by 5%
+	}
+
+	Helldweller: {
+		DisplayName: Helldweller
+		Tooltip: ""
+	}
+
+	VolcanicEyesRelic: {
+		DisplayName: Volcanic Eyes Relic
+		Tooltip: ""
+	}
+
+	VolcanicHeart: {
+		DisplayName: Volcanic Heart
+		Tooltip: ""
+	}
+
+	EndlessChlorophytePouch: {
+		DisplayName: Endless Chlorophyte Pouch
+		Tooltip: ""
+	}
+
+	EndlessCursedPouch: {
+		DisplayName: Endless Cursed Pouch
+		Tooltip: ""
+	}
+
+	EndlessIchorPouch: {
+		DisplayName: Endless Ichor Pouch
+		Tooltip: ""
+	}
+
+	EndlessVenomPouch: {
+		DisplayName: Endless Venom Pouch
+		Tooltip: ""
+	}
+
+	VolcanicEyesTrophy: {
+		DisplayName: Volcanic Eyes Trophy
+		Tooltip: ""
+	}
+
+	WoodenFlamethrower: {
+		DisplayName: Wooden Flamethrower
+		Tooltip: ""
+	}
+
+	Terramelter: {
+		DisplayName: Terramelter
+		Tooltip: ""
+	}
+
+	Irisclopetis: {
+		DisplayName: Irisclopetis
+		Tooltip: ""
+	}
+
+	Prismablade: {
+		DisplayName: Prismablade
+		Tooltip: ""
+	}
+
+	DoublePhase: {
+		Tooltip:
+			'''
+			Spins the blades dealing damage around the player
+			Releasing will throw the blades, colliding and dealing triple damage
+			'''
+		DisplayName: Double Phase
+	}
+
+	BloodyEdge: {
+		DisplayName: Bloody Edge
+		Tooltip: ""
+	}
+
+	HuntingSpear: {
+		DisplayName: Hunting Spear
+		Tooltip:
+			'''
+			Stabs your pray
+			'Wish we could turn back time'
+			'''
+	}
+
+	Chain: {
+		DisplayName: Chain
+		Tooltip: ""
+	}
+
+	MagmaticFlare: {
+		DisplayName: Magmatic Flare
+		Tooltip: ""
+	}
+
+	ConcepcionMask: {
+		DisplayName: Concepcion Mask
+		Tooltip: ""
+	}
+
+	VesuviusMask: {
+		DisplayName: Vesuvius Mask
+		Tooltip: ""
+	}
+
+	VolcanicEyesBossBag: {
+		DisplayName: Volcanic Eyes Boss Bag
+		Tooltip: ""
+	}
+
+	CoreArk: {
+		DisplayName: Core Ark
+		Tooltip: Fires inaccurate flaming bolts
+	}
+
+	EndlessChlorophyteQuiver: {
+		DisplayName: Endless Chlorophyte Quiver
+		Tooltip: ""
+	}
+
+	EndlessLuminiteQuiver: {
+		DisplayName: Endless Luminite Quiver
+		Tooltip: ""
+	}
+
+	EndlessCandycornBag: {
+		DisplayName: Endless Candycorn Bag
+		Tooltip: ""
+	}
+
+	EndlessGelCan: {
+		DisplayName: Endless Gel Can
+		Tooltip: ""
+	}
+
+	EndlessJackoLanternCrate: {
+		DisplayName: Endless Jack'o Lantern Crate
+		Tooltip: ""
+	}
+
+	EndlessNailCan: {
+		DisplayName: Endless Nail Can
+		Tooltip: ""
+	}
+
+	EndlessSnowballBunch: {
+		DisplayName: Endless Snowball Bunch
+		Tooltip: ""
+	}
+
+	EndlessStakeQuiver: {
+		DisplayName: Endless Stake Quiver
+		Tooltip: ""
+	}
+
+	EndlessStyngerQuiver: {
+		DisplayName: Endless Stynger Quiver
+		Tooltip: ""
+	}
+
+	EndlessBlueSolution: {
+		DisplayName: Endless Blue Solution
+		Tooltip: ""
+	}
+
+	EndlessBrownSolution: {
+		DisplayName: Endless Brown Solution
+		Tooltip: ""
+	}
+
+	EndlessDarkBlueSolution: {
+		DisplayName: Endless Dark Blue Solution
+		Tooltip: ""
+	}
+
+	EndlessGreenSolution: {
+		DisplayName: Endless Green Solution
+		Tooltip: ""
+	}
+
+	EndlessPurpleSolution: {
+		DisplayName: Endless Purple Solution
+		Tooltip: ""
+	}
+
+	EndlessRedSolution: {
+		DisplayName: Endless Red Solution
+		Tooltip: ""
+	}
+
+	EndlessWhiteSolution: {
+		DisplayName: Endless White Solution
+		Tooltip: ""
+	}
+
+	EndlessYellowSolution: {
+		DisplayName: Endless Yellow Solution
+		Tooltip: ""
+	}
+
+	OverheatedHeart: {
+		DisplayName: Overheated Heart
+		Tooltip: Summons Volcanic Eyes
+	}
+
+	AnchorBlade: {
+		DisplayName: Anchor Blade
+		Tooltip: ""
+	}
+
+	InfernoTrident: {
+		DisplayName: Inferno Trident
+		Tooltip: Launches balls of fire that explodes into raging inferno
+	}
+}
+
+NPCs: {
+	AngrySunflower.DisplayName: Angry Sunflower
+	LesserSunflower.DisplayName: Lesser Sunflower
+	Crystallization.DisplayName: Crystallization
+	Detestation.DisplayName: Detestation
+	Ent.DisplayName: Ent
+	RollingAcorn.DisplayName: Rolling Acorn
+	FrostKnight.DisplayName: Frost Knight
+	CorruptSword.DisplayName: Corrupt Sword
+	Rottey1.DisplayName: Rottey
+	CrimsonSword.DisplayName: Crimson Sword
+	GrandCreeper.DisplayName: Grand Creeper
+	DungeonKatana.DisplayName: Dungeon Katana
+	HugeBunny.DisplayName: Huge Bunny
+	HallowedSlime.DisplayName: Hallowed Slime
+	GiantDragonfly.DisplayName: Giant Dragonfly
+	GiantJungleBat.DisplayName: Giant Jungle Bat
+	JungleBlade.DisplayName: Jungle Blade
+	JungleScarabCharger.DisplayName: Jungle Scarab Charger
+	Drowned.DisplayName: Drowned
+	Drowned1.DisplayName: Drowned
+	Drowned2.DisplayName: Drowned
+	Drowned3.DisplayName: Drowned
+	Drowned4.DisplayName: Drowned
+	Drowned5.DisplayName: Drowned
+	Drowned6.DisplayName: Drowned
+	StarSnail.DisplayName: Star Snail
+	LavaShark.DisplayName: Lava Shark
+	UnderworldGreatsword.DisplayName: Underworld Greatsword
+	Concepcion.DisplayName: Concepcion
+	Ghast.DisplayName: Ghast
+	SunlightSlime.DisplayName: Sunlight Slime
+	Sun.DisplayName: Sun
+	GrandSunlightSlime.DisplayName: Grand Sunlight Slime
+	VolcanicEye.DisplayName: Volcanic Eye
+	Vesuvius.DisplayName: Vesuvius
+	MossStoneBug.DisplayName: Moss Stone Bug
+	AncientInsect.DisplayName: Ancient Insect
+	Leapling.DisplayName: Leapling
+	VolcanicEyes.DisplayName: Volcanic Eyes
+}
+
+Projectiles: {
+	BigSunflowerSeed.DisplayName: Big Sunflower Seed
+	LesserSunflowerPetal.DisplayName: Lesser Sunflower Petal
+	LesserSunflowerSeed.DisplayName: Lesser Sunflower Seed
+	SunflowerPetal.DisplayName: Sunflower Petal
+	SunflowerSeed.DisplayName: Sunflower Seed
+	CrystallizationSpit.DisplayName: Crystallization Spit
+	CrystalShardBig.DisplayName: Crystal Shard Big
+	BigViciousCloud.DisplayName: Big Vicious Cloud
+	BloodThorn.DisplayName: Blood Thorn
+	DetestationSpit.DisplayName: Detestation Spit
+	SmallDetestationSpit.DisplayName: Small Detestation Spit
+	EntAcorn.DisplayName: Ent Acorn
+	EntSapling.DisplayName: Ent Sapling
+	NotAngrySunflower.DisplayName: Not Angry Sunflower
+	FireExplosion.DisplayName: Fire Explosion
+	AncientLight_Pro.DisplayName: Ancient Light
+	EliteWand_Pro.DisplayName: Magic Spark
+	FairyEmpiressWand_Pro.DisplayName: Sparkly Ball
+	LittleSunflower.DisplayName: Little Sunflower
+	LittleSunflowerSeed.DisplayName: Little Sunflower Seed
+	MossStoneBoulder.DisplayName: Moss Stone Boulder
+	Spore.DisplayName: Spore
+	TenebraeBolt.DisplayName: Tenebrae Bolt
+	TenebraeBolt1.DisplayName: Tenebrae Bolt
+	TenebraeSlash.DisplayName: Tenebrae Slash
+	TenebraeSlash1.DisplayName: Tenebrae Slash
+	Acorn.DisplayName: Acorn
+	BloodyPrimlight_Pro.DisplayName: Bloody Primlight
+	BloodyPrimlight_Pro1.DisplayName: Bloody Primlight
+	Bonerang.DisplayName: Bonerang
+	Chakram.DisplayName: Chakram
+	CopperThrowingAxe.DisplayName: Copper Throwing Axe
+	DarkCloud.DisplayName: Dark Cloud
+	FeatherKnife.DisplayName: Feather Knife
+	GoldThrowingAxe.DisplayName: Gold Throwing Axe
+	ImperiumSpearProjectile.DisplayName: Imperium Spear
+	InterstellarSlash.DisplayName: Interstellar Slash
+	InterstellarStar.DisplayName: Interstellar Star
+	IronThrowingAxe.DisplayName: Iron Throwing Axe
+	LeadThrowingAxe.DisplayName: Lead Throwing Axe
+	ModaoSpear.DisplayName: Modao Spear
+	PetalKnife.DisplayName: Petal Knife
+	PlatinumThrowingAxe.DisplayName: Platinum Throwing Axe
+	PossessedLanceProjectile.DisplayName: Possessed Lance
+	SilverThrowingAxe.DisplayName: Silver Throwing Axe
+	SteelCleaver.DisplayName: Steel Cleaver
+	SteelCut.DisplayName: Steel Cut
+	Supernova.DisplayName: Supernova
+	TheMonsrang.DisplayName: The Monsrang
+	TinThrowingAxe.DisplayName: Tin Throwing Axe
+	TrueWoodenBeam.DisplayName: True Wooden Beam
+	TungstenThrowingAxe.DisplayName: Tungsten Throwing Axe
+	VulcanWrath.DisplayName: Vulcan Wrath
+	MossRock.DisplayName: Moss Rock
+	NonExist.DisplayName: Non Exist
+	BigBolt.DisplayName: Big Bolt
+	SnowSpike.DisplayName: Snow Spike
+	ViciousCloud.DisplayName: Vicious Cloud
+	RopeWhip.DisplayName: Rope Whip
+	TreeRoots.DisplayName: Tree Roots
+	UltraheatedExplosion.DisplayName: Ultraheated Explosion
+	UltraheatedRapier_Pro.DisplayName: Ultraheated Rapier
+	UltraheatedRapierHold.DisplayName: Ultraheated Rapier
+	VolcanicFireball.DisplayName: Volcanic Fireball
+	VolcanicFire.DisplayName: Volcanic Fire
+	MiniVolcanicFireball.DisplayName: Mini Volcanic Fireball
+	SandsharkSand.DisplayName: Sandshark Sand
+	SandsharkSand1.DisplayName: Sandshark Sand
+	EruptionFlame.DisplayName: Eruption Flames
+	BloodflareBladeHold.DisplayName: Bloodflare Blade
+	BloodflareBladeShoot.DisplayName: Bloodflare Blade
+	BloodflareBladeStar.DisplayName: Bloodflare Star
+	VolcanicBreath.DisplayName: Volcanic Breath
+	CombatSunflowerSlash.DisplayName: Combat Sunflower
+	TizonaSlash.DisplayName: Tizona
+	TizonaStar.DisplayName: Tizona Star
+	TizonaCut.DisplayName: Tizona Cut
+	BarbedBloomProj.DisplayName: Barbed Bloom
+	EffusionProj.DisplayName: Effusion
+	StormLightningArc.DisplayName: Storm Lightning
+	StormLightningArc1.DisplayName: Storm Lightning
+	StormLightningArc2.DisplayName: Storm Lightning
+	VolcanicEye.DisplayName: Volcanic Eye
+	TerramelterLight.DisplayName: Terra Light
+	PrismabladeHold.DisplayName: Prismablade
+	DoublePhaseHold.DisplayName: Double Phase
+	DoublePhaseThrow.DisplayName: Double Phase
+	BloodyEdgeParticle.DisplayName: Bloody Spark
+	BloodyEdgeSlash.DisplayName: Bloody Edge
+	HuntingSpear_Spear.DisplayName: Hunting Spear
+	BarbedBloom_Whip.DisplayName: Barbed Bloom
+	Chain_Whip.DisplayName: Chain
+	Effusion_Whip.DisplayName: Effusion
+	Spoon_Pro.DisplayName: Spoon
+	MagmaticFlareball.DisplayName: Magmatic Flareball
+	CoreArk_Pro.DisplayName: Core Ark
+	CoreArkShoot.DisplayName: Core Shot
+	AnchorBlade_Pro.DisplayName: Anchor Blade
+	NonExist1.DisplayName: Non Exist1
+}
+
+Configs: {
+	Curses: {
+		BloodyRose: {
+			Tooltip: The cost of power can take many things, but rarely do you find something so beautiful as a rose, to be so cruel.
+			Label: "[i:1323] Bloody Rose"
+		}
+
+		ShatteredGlass: {
+			Tooltip: Permanent increased i-frames and 10% damage reduction but your screen has a cracked effect, making it difficult to see.
+			Label: "[i:50] Shattered Glass"
+		}
+
+		OculusofVehemence: {
+			Tooltip: The passionate gaze of one's dedication grasps your mind, demanding proof of focus and willpower in turn.
+			Label: "[i:1248] Oculus of Vehemence"
+		}
+
+		BloodlettersThirst: {
+			Tooltip:
+				'''
+				A thirst for bloodletting cannot be satiated without losing a part of the soul.
+				The cursed cannot regain themselves, so they desperately try and find oneselves in the pain of others.
+				'''
+			Label: "[i:4271] Bloodletter's Thirst"
+		}
+
+		AtomicBlood: {
+			Tooltip: Your heart beats faster but you die little by little.
+			Label: "[i:4828] Atomic Blood"
+		}
+
+		Umbramantic: {
+			Tooltip: All who succumb to the influence of the shadows will be forced to experience the consequences. No one can return the soul sold to the darkness in exchange for power.
+			Label: "[i:3874] Umbramantic"
+		}
+
+		Headers.Curses: Curses Header
+		DisplayName: Curses
+	}
+
+	AbandonedStarConfig: {
+		DrawTelegraphs: {
+			Tooltip:
+				'''
+				Draw telegraphs of some projectiles.
+				Can make some boss fights easier.
+				'''
+			Label: "[i:2799] Telegraphs"
+		}
+
+		Headers.Graphics: Graphics Header
+		DisplayName: Abandoned Star Config
+	}
+}

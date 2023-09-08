@@ -1,0 +1,1253 @@
+Buffs: {
+	StoneskinBuff: {
+		DisplayName: 石化皮肤
+		Description: 免疫击退
+	}
+
+	CuteAcornBuff: {
+		DisplayName: 树精树苗
+		Description: 可爱的小树苗现在跟着你！
+	}
+
+	NotAngrySunflowerBuff: {
+		DisplayName: 太阳当空照，花儿对我笑
+		Description: 祥和向日葵现在跟着你！
+	}
+
+	VolcanicEyesBuff: {
+		DisplayName: 熔岩之眼
+		Description: 熔岩之眼现在跟着你！
+	}
+}
+
+Items: {
+	AvengerMedal: {
+		DisplayName: 复仇者勋章
+		Tooltip: 增加 3% 伤害
+	}
+
+	FleshfangNecklace: {
+		DisplayName: 血鲨项链
+		Tooltip: ""
+	}
+
+	FossiltoothNecklace: {
+		DisplayName: 沙鲨项链
+		Tooltip: ""
+	}
+
+	HugeLens: {
+		DisplayName: 大透镜
+		Tooltip: 增加 5% 暴击率
+	}
+
+	LuminiteEmblem: {
+		DisplayName: 天界徽章
+		Tooltip: 增加 17% 伤害
+	}
+
+	MagmaCharm: {
+		DisplayName: 熔岩符咒
+		Tooltip: 免疫熔岩，减少岩浆伤害，攻击造成着火效果
+	}
+
+	NebulaEmblem: {
+		DisplayName: 星云徽章
+		Tooltip: 增加 20% 魔法伤害
+	}
+
+	PlaquechimeNecklace: {
+		DisplayName: 骨鲨项链
+		Tooltip: 增加 5% 伤害，增加 3% 暴击率
+	}
+
+	RangerMedal: {
+		DisplayName: 远程勋章
+		Tooltip: 增加 5% 远程伤害
+	}
+
+	SharkronClawNecklace: {
+		DisplayName: 鲨爪项链
+		Tooltip: 增加 5% 暴击率
+	}
+
+	SolarEmblem: {
+		DisplayName: 日耀徽章
+		Tooltip: 增加 20% 近战伤害
+	}
+
+	SorcererMedal: {
+		DisplayName: 术士勋章
+		Tooltip: 增加 5% 魔法伤害
+	}
+
+	StardustEmblem: {
+		DisplayName: 星尘徽章
+		Tooltip: 增加 20% 召唤伤害
+	}
+
+	SummonerMedal: {
+		DisplayName: 召唤勋章
+		Tooltip: 增加 5% 召唤伤害
+	}
+
+	SunflowerCharm: {
+		DisplayName: 向日葵符咒
+		Tooltip:
+			'''
+			白天增加生命回复
+			提供光照
+			你感到很快乐！
+			'''
+	}
+
+	ThreshcrystalNecklace: {
+		DisplayName: 晶鲨项链
+		Tooltip: 增加 3% 暴击率
+	}
+
+	VortexEmblem: {
+		DisplayName: 星璇徽章
+		Tooltip: 增加 20% 远程伤害
+	}
+
+	WarriorMedal: {
+		DisplayName: 战士勋章
+		Tooltip: 增加 5% 近战伤害
+	}
+
+	SnowSpike: {
+		DisplayName: 雪锥
+		Tooltip: 冰雪手枪的弹药
+	}
+
+	AngrySunflowerMask: {
+		DisplayName: 愠怒向日葵面具
+		Tooltip: ""
+	}
+
+	EntMask: {
+		DisplayName: 树精面具
+		Tooltip: ""
+	}
+
+	CorruptSwordBanner: {
+		DisplayName: 腐化剑旗帜
+		Tooltip: ""
+	}
+
+	StrangeAcorn: {
+		DisplayName: 奇异的橡实
+		Tooltip: 召唤树精
+	}
+
+	SuspiciousLookingSeed: {
+		DisplayName: 可疑的种子
+		Tooltip: 召唤愠怒向日葵
+	}
+
+	CursedSkull: {
+		DisplayName: 诅咒骨
+		Tooltip: 召唤骷髅王
+	}
+
+	PlanteraFlower: {
+		DisplayName: 世纪花
+		Tooltip: 召唤世纪之花
+	}
+
+	StoneskinPotion: {
+		DisplayName: 石化皮肤药水
+		Tooltip: 免疫击退
+	}
+
+	AngrySunflowerBag: {
+		DisplayName: 愠怒向日葵宝藏袋
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	EntBag: {
+		DisplayName: 树精宝藏袋
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	AncientSharkTooth: {
+		DisplayName: 古老鲨牙
+		Tooltip: ""
+	}
+
+	BloodShard: {
+		DisplayName: 血滴碎片
+		Tooltip: "'由世界上最血腥的生物携带'"
+	}
+
+	BloodSharkTooth: {
+		DisplayName: 戮血鲨牙
+		Tooltip: ""
+	}
+
+	CrimsonRot: {
+		DisplayName: 猩红腐滴
+		Tooltip: ""
+	}
+
+	CrystalSharkTooth: {
+		DisplayName: 水晶鲨牙
+		Tooltip: ""
+	}
+
+	FrostCrystal: {
+		DisplayName: 冰霜水晶
+		Tooltip: ""
+	}
+
+	LavaSharkTooth: {
+		DisplayName: 熔岩鲨牙
+		Tooltip: ""
+	}
+
+	LivingWood: {
+		DisplayName: 生机之木
+		Tooltip: ""
+	}
+
+	RottedSharkTooth: {
+		DisplayName: 噬骨鲨牙
+		Tooltip: ""
+	}
+
+	SharkTooth: {
+		DisplayName: 鲨牙
+		Tooltip: ""
+	}
+
+	Snowflake: {
+		DisplayName: 雪花
+		Tooltip: 哦，酷！
+	}
+
+	SoulofBlight: {
+		DisplayName: 枯萎之魂
+		Tooltip: 受感染生物的本质
+	}
+
+	WaterPearl: {
+		DisplayName: 水蓝珍珠
+		Tooltip: 来自海底的宝藏
+	}
+
+	AngrySunflowerRelic: {
+		DisplayName: 愠怒向日葵圣物
+		Tooltip: ""
+	}
+
+	EntRelic: {
+		DisplayName: 树精圣物
+		Tooltip: ""
+	}
+
+	AngrySunflowerTrophy: {
+		DisplayName: 愠怒向日葵纪念章
+		Tooltip: ""
+	}
+
+	EntTrophy: {
+		DisplayName: 树精纪念章
+		Tooltip: ""
+	}
+
+	AntlionDiggingClaw: {
+		DisplayName: 蚁狮挖掘爪
+		Tooltip: 
+			'''
+			小小的蚁狮挖呀挖,
+			挖出一个侏儒的洞。
+			'''
+	}
+
+	GrandTorch: {
+		DisplayName: 仪式火炬
+		Tooltip: 提供光照
+	}
+
+	Nonexistence: {
+		DisplayName: 虚无之物
+		Tooltip: ""
+	}
+
+	AncientLight: {
+		DisplayName: 古老之光
+		Tooltip: ""
+	}
+
+	ClothiersCurse: {
+		DisplayName: 服装商诅咒书
+		Tooltip: 射出穿透敌人的诅咒骨
+	}
+
+	EliteWand: {
+		DisplayName: 菁华法杖
+		Tooltip: 曾属于一位伟大的法师
+	}
+
+	FairyEmpiressWand: {
+		DisplayName: 女皇之杖
+		Tooltip: " - 贡献者物品 - "
+	}
+
+	ForestTome: {
+		DisplayName: 森林法书
+		Tooltip: 射出锋利的树叶
+	}
+
+	Sporogenesis: {
+		DisplayName: 孢子法杖
+		Tooltip: 在光标处生成孢子云
+	}
+
+	StaffofSparking: {
+		DisplayName: 烛花魔棒
+		Tooltip: 射出微弱的火花
+	}
+
+	TaleAboutSunflower: {
+		DisplayName: 向日葵法书
+		Tooltip: 
+			'''
+			射出一朵缓慢移动的向日葵
+			向日葵会迅速向附近的敌人发射种子
+			同时只能存在一朵向日葵
+			'从前，有朵向日葵...'
+			'''
+	}
+
+	TenebraeTrident: {
+		DisplayName: 崇暗三叉戟
+		Tooltip: ""
+	}
+
+	TheBirthofSharks: {
+		DisplayName: 源始鲨鱼
+		Tooltip: 发射小鲨鱼
+	}
+
+	Trasher: {
+		DisplayName: 大杂烩
+		Tooltip: 随机射出东西
+	}
+
+	AdamantiteKatana: {
+		DisplayName: 精金武士刀
+		Tooltip: ""
+	}
+
+	AshWoodKatana: {
+		DisplayName: 白蜡木武士刀
+		Tooltip: ""
+	}
+
+	BloodyPrimlight: {
+		DisplayName: 血光大剑
+		Tooltip: 原初之血总是纯净的
+	}
+
+	BloodyZombieArm: {
+		DisplayName: 血腥僵尸臂
+		Tooltip: ""
+	}
+
+	Bonerang: {
+		DisplayName: 骨头回旋镖
+		Tooltip: "'你瞅啥？'"
+	}
+
+	BorealWoodKatana: {
+		DisplayName: 针叶木武士刀
+		Tooltip: ""
+	}
+
+	Chakram: {
+		DisplayName: 查克拉姆
+		Tooltip: ""
+	}
+
+	CobaltKatana: {
+		DisplayName: 钴武士刀
+		Tooltip: ""
+	}
+
+	CombatSunflower: {
+		DisplayName: 好战向日葵
+		Tooltip: 你可以挥舞着向日葵战斗！
+	}
+
+	CopperKatana: {
+		DisplayName: 铜武士刀
+		Tooltip: ""
+	}
+
+	CopperThrowingAxe: {
+		DisplayName: 铜投斧
+		Tooltip: ""
+	}
+
+	DemonScytheSword: {
+		DisplayName: 恶魔镰刀剑
+		Tooltip: 射出恶魔镰刀
+	}
+
+	DynastySword: {
+		DisplayName: 王朝木剑
+		Tooltip: ""
+	}
+
+	EbonwoodKatana: {
+		DisplayName: 乌木武士刀
+		Tooltip: ""
+	}
+
+	FeatherKnives: {
+		DisplayName: 羽毛投刀
+		Tooltip: 射出快速且锋利的羽毛
+	}
+
+	FleshAndBoneSword: {
+		DisplayName: 血骨剑
+		Tooltip: ""
+	}
+
+	FrostSword: {
+		DisplayName: 冰霜剑
+		Tooltip: ""
+	}
+
+	FrozenZombieArm: {
+		DisplayName: 冰冻僵尸臂
+		Tooltip: ""
+	}
+
+	GenesisBlade: {
+		DisplayName: 起源之剑
+		Tooltip: ""
+	}
+
+	GoldKatana: {
+		DisplayName: 金武士刀
+		Tooltip: ""
+	}
+
+	GoldThrowingAxe: {
+		DisplayName: 金投斧
+		Tooltip: ""
+	}
+
+	ImperiumSpear: {
+		DisplayName: 统治之矛
+		Tooltip: ""
+	}
+
+	Interstellar: {
+		DisplayName: 星际
+		Tooltip: ""
+	}
+
+	IronKatana: {
+		DisplayName: 铁武士刀
+		Tooltip: ""
+	}
+
+	IronThrowingAxe: {
+		DisplayName: 铁投斧
+		Tooltip: ""
+	}
+
+	LeadKatana: {
+		DisplayName: 铅武士刀
+		Tooltip: ""
+	}
+
+	LeadThrowingAxe: {
+		DisplayName: 铅投斧
+		Tooltip: ""
+	}
+
+	LeafLongsword: {
+		DisplayName: 叶长剑
+		Tooltip: ""
+	}
+
+	Modao: {
+		DisplayName: Modao
+		Tooltip: ""
+	}
+
+	MossStoneSword: {
+		DisplayName: 苔石剑
+		Tooltip: ""
+	}
+
+	MushroomZombieArm: {
+		DisplayName: 孢子僵尸臂
+		Tooltip: ""
+	}
+
+	MysticalScythe: {
+		DisplayName: 奥妙镰刀
+		Tooltip: 射出暗黑之珠
+	}
+
+	MythrilKatana: {
+		DisplayName: 秘银武士刀
+		Tooltip: ""
+	}
+
+	OrichalcumKatana: {
+		DisplayName: 山铜武士刀
+		Tooltip: ""
+	}
+
+	PalladiumKatana: {
+		DisplayName: 钯金武士刀
+		Tooltip: ""
+	}
+
+	PalmWoodKatana: {
+		DisplayName: 棕榈木武士刀
+		Tooltip: ""
+	}
+
+	PearlwoodKatana: {
+		DisplayName: 珍珠木武士刀
+		Tooltip: ""
+	}
+
+	PlatinumKatana: {
+		DisplayName: 铂金武士刀
+		Tooltip: ""
+	}
+
+	PlatinumThrowingAxe: {
+		DisplayName: 铂金投斧
+		Tooltip: ""
+	}
+
+	PossessedLance: {
+		DisplayName: 幻魔长矛
+		Tooltip: ""
+	}
+
+	PossessedSword: {
+		DisplayName: 幻魔剑
+		Tooltip: ""
+	}
+
+	RichMahoganyKatana: {
+		DisplayName: 红木武士刀
+		Tooltip: ""
+	}
+
+	RobberofBlood: {
+		DisplayName: 盗血刀
+		Tooltip: 从敌人身上窃取生命
+	}
+
+	ShadewoodKatana: {
+		DisplayName: 暗影木武士刀
+		Tooltip: ""
+	}
+
+	SilverKatana: {
+		DisplayName: 银武士刀
+		Tooltip: ""
+	}
+
+	SilverThrowingAxe: {
+		DisplayName: 银投斧
+		Tooltip: ""
+	}
+
+	SporeSword: {
+		DisplayName: 孢子剑
+		Tooltip: 射出孢子云
+	}
+
+	StarSword: {
+		DisplayName: 坠星剑
+		Tooltip: 偶尔发射坠星
+	}
+
+	SteelCleaver: {
+		DisplayName: 钢制切肉刀
+		Tooltip: 快速切割敌人
+	}
+
+	Supernova: {
+		DisplayName: 超新星
+		Tooltip: ""
+	}
+
+	TheMonsrang: {
+		DisplayName: 季风
+		Tooltip: ""
+	}
+
+	TinKatana: {
+		DisplayName: 锡武士刀
+		Tooltip: ""
+	}
+
+	TinThrowingAxe: {
+		DisplayName: 锡投斧
+		Tooltip: ""
+	}
+
+	TitaniumKatana: {
+		DisplayName: 钛金武士刀
+		Tooltip: ""
+	}
+
+	TrueWoodenSword: {
+		DisplayName: 生机木剑
+		Tooltip: 引动自然之力
+	}
+
+	TungstenKatana: {
+		DisplayName: 钨武士刀
+		Tooltip: ""
+	}
+
+	TungstenThrowingAxe: {
+		DisplayName: 钨投斧
+		Tooltip: ""
+	}
+
+	VulcanWrath: {
+		DisplayName: 火神之怒
+		Tooltip: ""
+	}
+
+	WoodenKatana: {
+		DisplayName: 木制武士刀
+		Tooltip: ""
+	}
+
+	AcornThrowingGlove: {
+		DisplayName: 橡实投手
+		Tooltip: 扔出橡实
+	}
+
+	BigGun: {
+		DisplayName: 极巨枪
+		Tooltip: 好重好大，一定很强！
+	}
+
+	Devilshark: {
+		DisplayName: 恶魔鲨
+		Tooltip: 
+			'''
+			一次射出两发子弹
+			有几率射出恶魔镰刀
+			'''
+	}
+
+	Crystalshark: {
+		DisplayName: 水晶鲨
+		Tooltip: 有几率额外发射水晶鲨		
+	}
+
+	FishPistol: {
+		DisplayName: 鱼枪
+		Tooltip: "'咕噜咕噜咕噜，嗝'"
+	}
+
+	GoldenBlunderbuss: {
+		DisplayName: 镀金手炮
+		Tooltip: 使用金子弹有额外加成
+	}
+
+	PetalKnives: {
+		DisplayName: 花瓣投刀
+		Tooltip: 扔出向日葵花瓣
+	}
+
+	SatiricalBow: {
+		DisplayName: 碎嘴弓
+		Tooltip: 似是万箭齐发
+	}
+
+	SkullBow: {
+		DisplayName: 以骨作弓
+		Tooltip: 射出高速箭
+	}
+
+	SnowballShotcannon: {
+		DisplayName: 雪球霰弹炮
+		Tooltip: 发射数量惊人的雪球
+	}
+
+	SnowPistol: {
+		DisplayName: 冰雪手枪
+		Tooltip: 使用雪锥作为弹药
+	}
+
+	Toxishark: {
+		DisplayName: 剧毒鲨
+		Tooltip: 
+			'''
+			射出毒泡
+			会让你的手又黏又臭
+			'''
+	}
+
+	ViciousLongbow: {
+		DisplayName: 堕落长弓
+		Tooltip: ""
+	}
+
+	VulcanRepeater: {
+		DisplayName: 火神弩
+		Tooltip: 
+			'''
+			一次射出两枝箭
+			有几率转化为狱火之箭
+			'''
+	}
+
+	WoodenRifle: {
+		DisplayName: 木制步枪
+		Tooltip: ""
+	}
+
+	WoodenShotgun: {
+		DisplayName: 木制霰弹枪
+		Tooltip: ""
+	}
+
+	RopeWhip: {
+		DisplayName: 绳鞭
+		Tooltip: ""
+	}
+
+	TreeRootsStaff: {
+		DisplayName: 树根杖
+		Tooltip: 在地面上产生树根，伤害敌人
+	}
+
+	CuteAcorn: {
+		DisplayName: 可爱橡实
+		Tooltip: ""
+	}
+
+	NotAngrySunflowerSeed: {
+		DisplayName: 祥和向日葵种子
+		Tooltip: ""
+	}
+
+	UltraheatedRapier: {
+		DisplayName: 烈焰双刃剑
+		Tooltip:
+			'''
+			迅速将剑刺向任何方向
+			有几率在命中时产生火焰
+			'把他们都炸了！'
+			'''
+	}
+
+	Spartula: {
+		Tooltip: ""
+		DisplayName: Spartula
+	}
+
+	FireWineglass: {
+		Tooltip: 增加 100 最大生命值
+		DisplayName: 烈火佳酿
+	}
+
+	KeeperofDark: {
+		Tooltip: 射出暗影云团
+		DisplayName: 守夜者
+	}
+
+	Sandshark: {
+		Tooltip: ""
+		DisplayName: 沙鲨
+	}
+
+	TearNecklace: {
+		Tooltip: ""
+		DisplayName: 泪滴项链
+	}
+
+	Eruption: {
+		DisplayName: 凝火喷发
+		Tooltip: ""
+	}
+
+	FrostHamaxe: {
+		DisplayName: 冰霜锤斧
+		Tooltip: ""
+	}
+
+	FrostPickaxe: {
+		DisplayName: 冰霜稿
+		Tooltip: ""
+	}
+
+	BloodflareBlade: {
+		DisplayName: 血焰之刃
+		Tooltip: ""
+	}
+
+	Spark: {
+		DisplayName: 焱熛短枪
+		Tooltip: 近距离射出火球
+	}
+
+	Tizona: {
+		Tooltip:
+			'''
+			忽略50点敌人防御
+			对 Boss 造成额外伤害
+			命中敌人造成暗影焰减益
+			'五步之内，剑快'
+			'''
+		DisplayName: 提泽纳剑
+	}
+
+	OceanSoul: {
+		DisplayName: 海洋之魂
+		Tooltip: ""
+	}
+
+	BarbedBloom: {
+		DisplayName: 刺花之挞
+		Tooltip: ""
+	}
+
+	Effusion: {
+		Tooltip: 被击中的敌人会燃烧
+		DisplayName: 泄流之鞭
+	}
+
+	EchantedEmblem: {
+		DisplayName: 极乐徽章
+		Tooltip: ""
+	}
+
+	ProwlerShield: {
+		DisplayName: 潜行者护盾
+		Tooltip: 增加 5% 伤害和暴击率
+	}
+
+	Helldweller: {
+		DisplayName: 地狱栖身
+		Tooltip: ""
+	}
+
+	VolcanicEyesRelic: {
+		DisplayName: 熔岩之眼圣物
+		Tooltip: ""
+	}
+
+	VolcanicHeart: {
+		DisplayName: 火山之心
+		Tooltip: ""
+	}
+
+	EndlessChlorophytePouch: {
+		DisplayName: 无尽流星弹袋
+		Tooltip: ""
+	}
+
+	EndlessCursedPouch: {
+		DisplayName: 无尽诅咒弹袋
+		Tooltip: ""
+	}
+
+	EndlessIchorPouch: {
+		DisplayName: 无尽灵液弹袋
+		Tooltip: ""
+	}
+
+	EndlessVenomPouch: {
+		DisplayName: 无尽毒液弹袋
+		Tooltip: ""
+	}
+
+	VolcanicEyesTrophy: {
+		DisplayName: 熔岩之眼纪念章
+		Tooltip: ""
+	}
+
+	WoodenFlamethrower: {
+		DisplayName: 木制喷火器
+		Tooltip: ""
+	}
+
+	Terramelter: {
+		DisplayName: 泰拉熔枪
+		Tooltip: ""
+	}
+
+	Irisclopetis: {
+		DisplayName: Irisclopetis
+		Tooltip: ""
+	}
+
+	Prismablade: {
+		DisplayName: 棱晶刀
+		Tooltip: ""
+	}
+
+	DoublePhase: {
+		Tooltip:
+			'''
+			按住左键旋转刀刃在玩家周围造成伤害
+			松开左键会掷出刀片，造成三倍伤害
+			'''
+		DisplayName: 双晶回旋镖
+	}
+
+	BloodyEdge: {
+		DisplayName: 血腥边界
+		Tooltip: ""
+	}
+
+	HuntingSpear: {
+		DisplayName: 猎手矛
+		Tooltip:
+			'''
+			刺穿你的护佑之力
+			'希望我们能让时光倒流'
+			'''
+	}
+
+	Chain: {
+		DisplayName: 锁链之鞭
+		Tooltip: ""
+	}
+
+	MagmaticFlare: {
+		DisplayName: 熔岩耀斑
+		Tooltip: ""
+	}
+
+	ConcepcionMask: {
+		DisplayName: 火山面具
+		Tooltip: ""
+	}
+
+	VesuviusMask: {
+		DisplayName: 火山面具
+		Tooltip: ""
+	}
+
+	VolcanicEyesBossBag: {
+		DisplayName: 熔岩之眼宝藏袋
+		Tooltip: ""
+	}
+
+	CoreArk: {
+		DisplayName: 地核方舟
+		Tooltip: 随机释放火球
+	}
+
+	EndlessChlorophyteQuiver: {
+		DisplayName: 无尽叶绿箭袋
+		Tooltip: ""
+	}
+
+	EndlessLuminiteQuiver: {
+		DisplayName: 无尽夜明箭袋
+		Tooltip: ""
+	}
+
+	EndlessCandycornBag: {
+		DisplayName: 无尽玉米糖袋
+		Tooltip: ""
+	}
+
+	EndlessGelCan: {
+		DisplayName: 无尽凝胶罐
+		Tooltip: ""
+	}
+
+	EndlessJackoLanternCrate: {
+		DisplayName: 无尽杰克南瓜灯箱
+		Tooltip: ""
+	}
+
+	EndlessNailCan: {
+		DisplayName: 无尽钉子罐
+		Tooltip: ""
+	}
+
+	EndlessSnowballBunch: {
+		DisplayName: 无尽雪球袋
+		Tooltip: ""
+	}
+
+	EndlessStakeQuiver: {
+		DisplayName: 无尽尖桩袋
+		Tooltip: ""
+	}
+
+	EndlessStyngerQuiver: {
+		DisplayName: 无尽毒刺矢袋
+		Tooltip: ""
+	}
+
+	EndlessBlueSolution: {
+		DisplayName: 无尽蓝溶液
+		Tooltip: ""
+	}
+
+	EndlessBrownSolution: {
+		DisplayName: 无尽棕溶液
+		Tooltip: ""
+	}
+
+	EndlessDarkBlueSolution: {
+		DisplayName: 无尽深蓝溶液
+		Tooltip: ""
+	}
+
+	EndlessGreenSolution: {
+		DisplayName: 无尽绿溶液
+		Tooltip: ""
+	}
+
+	EndlessPurpleSolution: {
+		DisplayName: 无尽紫溶液
+		Tooltip: ""
+	}
+
+	EndlessRedSolution: {
+		DisplayName: 无尽红溶液
+		Tooltip: ""
+	}
+
+	EndlessWhiteSolution: {
+		DisplayName: 无尽白溶液
+		Tooltip: ""
+	}
+
+	EndlessYellowSolution: {
+		DisplayName: 无尽黄溶液
+		Tooltip: ""
+	}
+
+	OverheatedHeart: {
+		DisplayName: 灼热之心
+		Tooltip: 召唤熔岩之眼
+	}
+
+	AnchorBlade: {
+		DisplayName: 锚刀
+		Tooltip: ""
+	}
+
+	InfernoTrident: {
+		DisplayName: 狱火三叉戟
+		Tooltip: 发射狱火球，爆炸产生持续燃烧的火焰
+	}
+}
+
+NPCs: {
+	AngrySunflower.DisplayName: 愠怒向日葵
+	LesserSunflower.DisplayName: 小向日葵
+	Crystallization.DisplayName: 结晶
+	Detestation.DisplayName: 憎恶
+	Ent.DisplayName: 树精
+	RollingAcorn.DisplayName: 旋转橡实
+	FrostKnight.DisplayName: 冰霜骑士
+	CorruptSword.DisplayName: 腐化剑
+	Rottey1.DisplayName: 迷你吞噬者
+	CrimsonSword.DisplayName: 猩红剑
+	GrandCreeper.DisplayName: 大型收割者
+	DungeonKatana.DisplayName: 地牢武士刀
+	HugeBunny.DisplayName: 大白兔
+	HallowedSlime.DisplayName: 神圣史莱姆
+	GiantDragonfly.DisplayName: 巨型蜻蜓
+	GiantJungleBat.DisplayName: 丛林巨蝠
+	JungleBlade.DisplayName: 丛林剑
+	JungleScarabCharger.DisplayName: 丛林莽撞甲虫
+	Drowned.DisplayName: 溺水僵尸
+	Drowned1.DisplayName: 溺水僵尸
+	Drowned2.DisplayName: 溺水僵尸
+	Drowned3.DisplayName: 溺水僵尸
+	Drowned4.DisplayName: 溺水僵尸
+	Drowned5.DisplayName: 溺水僵尸
+	Drowned6.DisplayName: 溺水僵尸
+	StarSnail.DisplayName: 幻星蜗牛
+	LavaShark.DisplayName: 熔岩鲨鱼
+	UnderworldGreatsword.DisplayName: 地狱大剑
+	Concepcion.DisplayName: 康塞普西翁火山之眼
+	Ghast.DisplayName: 戾鬼
+	SunlightSlime.DisplayName: 日光史莱姆
+	Sun.DisplayName: 日光
+	GrandSunlightSlime.DisplayName: 大型日光史莱姆
+	VolcanicEye.DisplayName: 熔岩之眼
+	Vesuvius.DisplayName: 维苏威火山之眼
+	MossStoneBug.DisplayName: 苔石飞虫
+	AncientInsect.DisplayName: 远古昆虫
+	Leapling.DisplayName: 腐化蹦蹦兽
+	VolcanicEyes.DisplayName: 熔岩之眼
+}
+
+Projectiles: {
+	BigSunflowerSeed.DisplayName: 愠怒向日葵种子
+	LesserSunflowerPetal.DisplayName: 小向日葵花瓣
+	LesserSunflowerSeed.DisplayName: 小向日葵种子
+	SunflowerPetal.DisplayName: 愠怒向日葵花瓣
+	SunflowerSeed.DisplayName: 愠怒向日葵种子
+	CrystallizationSpit.DisplayName: 结晶唾液
+	CrystalShardBig.DisplayName: 大水晶碎片
+	BigViciousCloud.DisplayName: 邪恶乌云
+	BloodThorn.DisplayName: 血荆棘
+	DetestationSpit.DisplayName: 憎恶唾液
+	SmallDetestationSpit.DisplayName: 小憎恶唾液
+	EntAcorn.DisplayName: 树精橡实
+	EntSapling.DisplayName: 树精树苗
+	NotAngrySunflower.DisplayName: 祥和向日葵
+	FireExplosion.DisplayName: 火焰爆炸
+	AncientLight_Pro.DisplayName: 古老之光
+	EliteWand_Pro.DisplayName: 菁华法杖的魔力火花
+	FairyEmpiressWand_Pro.DisplayName: 女皇之杖的闪耀弹球
+	LittleSunflower.DisplayName: 小向日葵
+	LittleSunflowerSeed.DisplayName: 小向日葵种子
+	MossStoneBoulder.DisplayName: 苔石
+	Spore.DisplayName: 孢子
+	TenebraeBolt.DisplayName: 崇暗三叉戟
+	TenebraeBolt1.DisplayName: 崇暗三叉戟
+	TenebraeSlash.DisplayName: 崇暗三叉戟剑气
+	TenebraeSlash1.DisplayName: 崇暗三叉戟剑气
+	Acorn.DisplayName: 橡实
+	BloodyPrimlight_Pro.DisplayName: 血光大剑
+	BloodyPrimlight_Pro1.DisplayName: 血光大剑
+	Bonerang.DisplayName: 骨头回旋镖
+	Chakram.DisplayName: 查克拉姆
+	CopperThrowingAxe.DisplayName: 铜投斧
+	DarkCloud.DisplayName: 乌云
+	FeatherKnife.DisplayName: 羽毛投刀
+	GoldThrowingAxe.DisplayName: 金投斧
+	ImperiumSpearProjectile.DisplayName: 统治之矛
+	InterstellarSlash.DisplayName: 星际剑气
+	InterstellarStar.DisplayName: 星际坠星
+	IronThrowingAxe.DisplayName: 铁投斧
+	LeadThrowingAxe.DisplayName: 铅投斧
+	ModaoSpear.DisplayName: Modao矛
+	PetalKnife.DisplayName: 花瓣投刀
+	PlatinumThrowingAxe.DisplayName: 铂金投斧
+	PossessedLanceProjectile.DisplayName: 幻魔长矛
+	SilverThrowingAxe.DisplayName: 银投斧
+	SteelCleaver.DisplayName: 钢制切肉刀
+	SteelCut.DisplayName: 钢制切肉刀
+	Supernova.DisplayName: 超新星
+	TheMonsrang.DisplayName: 季风
+	TinThrowingAxe.DisplayName: 锡投斧
+	TrueWoodenBeam.DisplayName: 生机木剑
+	TungstenThrowingAxe.DisplayName: 钨投斧
+	VulcanWrath.DisplayName: 火神之怒
+	MossRock.DisplayName: 苔石
+	NonExist.DisplayName: 虚无之物
+	BigBolt.DisplayName: 大射弹
+	SnowSpike.DisplayName: 雪锥
+	ViciousCloud.DisplayName: 邪云
+	RopeWhip.DisplayName: 绳鞭
+	TreeRoots.DisplayName: 树根
+	UltraheatedExplosion.DisplayName: 烈焰双刃剑
+	UltraheatedRapier_Pro.DisplayName: 烈焰双刃剑
+	UltraheatedRapierHold.DisplayName: 烈焰双刃剑
+	VolcanicFireball.DisplayName: 熔岩火球
+	VolcanicFire.DisplayName: 熔岩之焰
+	MiniVolcanicFireball.DisplayName: 迷你熔岩火球
+	SandsharkSand.DisplayName: 沙鲨
+	SandsharkSand1.DisplayName: 沙鲨
+	EruptionFlame.DisplayName: 凝火喷发
+	BloodflareBladeHold.DisplayName: 血焰之刃
+	BloodflareBladeShoot.DisplayName: 血焰之刃
+	BloodflareBladeStar.DisplayName: 血焰之刃
+	VolcanicBreath.DisplayName: 熔岩之息
+	CombatSunflowerSlash.DisplayName: 好战向日葵
+	TizonaSlash.DisplayName: 提泽纳
+	TizonaStar.DisplayName: 提泽纳
+	TizonaCut.DisplayName: 提泽纳
+	BarbedBloomProj.DisplayName: 刺花之挞
+	EffusionProj.DisplayName: 泄流之鞭
+	StormLightningArc.DisplayName: 风暴闪电
+	StormLightningArc1.DisplayName: 风暴闪电
+	StormLightningArc2.DisplayName: 风暴闪电
+	VolcanicEye.DisplayName: 熔岩之眼
+	TerramelterLight.DisplayName: 泰拉熔枪
+	PrismabladeHold.DisplayName: 棱晶刀
+	DoublePhaseHold.DisplayName: 双晶回旋镖
+	DoublePhaseThrow.DisplayName: 双晶回旋镖
+	BloodyEdgeParticle.DisplayName: 血腥边界
+	BloodyEdgeSlash.DisplayName: 血腥边界
+	HuntingSpear_Spear.DisplayName: 猎手矛
+	BarbedBloom_Whip.DisplayName: 刺花之挞
+	Chain_Whip.DisplayName: 锁链之鞭
+	Effusion_Whip.DisplayName: 泄流之鞭
+	Spoon_Pro.DisplayName: Spoon_ Pro
+	MagmaticFlareball.DisplayName: 熔岩耀斑
+	CoreArk_Pro.DisplayName: 地核方舟
+	CoreArkShoot.DisplayName: 地核方舟
+	AnchorBlade_Pro.DisplayName: 锚刀
+	NonExist1.DisplayName: 虚无之物
+}
+
+Configs: {
+	Curses: {
+		BloodyRose: {
+			Tooltip: 权力的代价可能需要很多，但你很少会发现像玫瑰这样既美丽又残忍的造物
+			Label: "[i:1323] 嗜血玫瑰"
+		}
+
+		ShatteredGlass: {
+			Tooltip: 永久增加无敌帧时长和10%伤害减免，但你的屏幕会有裂缝效果
+			Label: "[i:50] 碎璃"
+		}
+
+		OculusofVehemence: {
+			Tooltip: 狂热的凝视会启迪你的头脑，代价是考验你的专注力和意志力
+			Label: "[i:1248] 鹰眼"
+		}
+
+		BloodlettersThirst: {
+			Tooltip:
+				'''
+				以灵魂为代价交换，满足对血的渴望
+				诅咒之人业已迷失，所以他们拼命地试图在别人的痛苦中找到自我
+				'''
+			Label: "[i:4271] 放血者的饥渴"
+		}
+
+		AtomicBlood: {
+			Tooltip: 你的心跳加快，但你会一点一点地死去
+			Label: "[i:4828] 原子之血"
+		}
+
+		Umbramantic: {
+			Tooltip: 所有沉沦之人都将付出代价，没有人能出卖灵魂给黑暗的来换取力量
+			Label: "[i:3874] 暗影本能"
+		}
+
+		Headers.Curses: 诅咒效果
+		DisplayName: 诅咒效果
+	}
+
+	AbandonedStarConfig: {
+		DrawTelegraphs: {
+			Tooltip:
+				'''
+				开启后，显示一些射弹的瞄准线
+				可以让一些 Boss 战斗更容易
+				'''
+			Label: "[i:2799] 瞄准线"
+		}
+
+		Headers.Graphics: 图像设置
+		DisplayName: 遗弃之星设置
+	}
+}
