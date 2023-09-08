@@ -1,3 +1,5 @@
+//based on mod version: 1.0.2.1
+//localization progress: ready
 Buffs: {
 	StoneskinBuff: {
 		DisplayName: 石化皮肤
