@@ -1,6 +1,6 @@
 Buffs: {
 	StoneskinBuff: {
-		DisplayName: Stoneskin Buff
+		DisplayName: Stoneskin
 		Description: Immune to knockback
 	}
 
@@ -1050,6 +1050,16 @@ Items: {
 	InfernoTrident: {
 		DisplayName: Inferno Trident
 		Tooltip: Launches balls of fire that explodes into raging inferno
+	}
+
+	HandicraftedBlunderbuss: {
+		Tooltip: ""
+		DisplayName: Handicrafted Blunderbuss
+	}
+
+	MiceliumBulb: {
+		Tooltip: ""
+		DisplayName: Micelium Bulb
 	}
 }
 

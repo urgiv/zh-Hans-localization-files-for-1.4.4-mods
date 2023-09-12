@@ -1,4 +1,4 @@
-//based on mod version: 1.0.2.1
+//based on mod version: 1.0.2.3
 //localization progress: ready
 Buffs: {
 	StoneskinBuff: {
@@ -1052,6 +1052,16 @@ Items: {
 	InfernoTrident: {
 		DisplayName: 狱火三叉戟
 		Tooltip: 发射狱火球，爆炸产生持续燃烧的火焰
+	}
+
+	HandicraftedBlunderbuss: {
+		Tooltip: ""
+		DisplayName: 手锯喇叭枪
+	}
+
+	MiceliumBulb: {
+		Tooltip: ""
+		DisplayName: 真菌球茎
 	}
 }
 
