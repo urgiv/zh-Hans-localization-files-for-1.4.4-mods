@@ -1,0 +1,318 @@
+Mods: {
+	WombatQOL: {
+		Items: {
+			concrete: {
+				DisplayName: Concrete Slab
+				Tooltip: ""
+			}
+
+			concretewall: {
+				DisplayName: Concrete Wall
+				Tooltip: ""
+			}
+
+			copperpipe: {
+				DisplayName: Copper Pipe
+				Tooltip: ""
+			}
+
+			electriclight: {
+				DisplayName: Electric Light
+				Tooltip: ""
+			}
+
+			electriclightfaulty: {
+				DisplayName: Electric Light (Faulty)
+				Tooltip: ""
+			}
+
+			honeybrick: {
+				DisplayName: Honeycomb Brick
+				Tooltip: ""
+			}
+
+			honeybrickwall: {
+				DisplayName: Honeycomb Brick Wall
+				Tooltip: ""
+			}
+
+			machinepanel: {
+				DisplayName: Machine Panel
+				Tooltip: ""
+			}
+
+			machineplatform: {
+				DisplayName: Machine Platform
+				Tooltip: ""
+			}
+
+			machinewall: {
+				DisplayName: Machine Wall
+				Tooltip: ""
+			}
+
+			ritualcandle: {
+				DisplayName: Ceremonial Candle
+				Tooltip: Formless candles melted together through use
+			}
+
+			machinebeam: {
+				DisplayName: Machine Scaffold
+				Tooltip: ""
+			}
+
+			lootrelicDF: {
+				DisplayName: Duke Fishron Artifact
+				Tooltip: This small relic has some transmutative properties.
+			}
+
+			lootrelicGolem: {
+				DisplayName: Golem Artifact
+				Tooltip: This small relic has some transmutative properties.
+			}
+
+			lootrelicKS: {
+				DisplayName: King Slime Artifact
+				Tooltip: This small relic has some transmutative properties.
+			}
+
+			lootrelicML: {
+				DisplayName: Moon Lord Artifact
+				Tooltip: This small relic has some transmutative properties.
+			}
+
+			lootrelicPlantera: {
+				DisplayName: Plantera Artifact
+				Tooltip: This small relic has some transmutative properties.
+			}
+
+			lootrelicQB: {
+				DisplayName: Queen Bee Artifact
+				Tooltip: This small relic has some transmutative properties.
+			}
+
+			lootrelicSkeletron: {
+				DisplayName: Skeletron Artifact
+				Tooltip: This small relic has some transmutative properties.
+			}
+
+			lootrelicWOF: {
+				DisplayName: Wall of Flesh Artifact
+				Tooltip: This small relic has some transmutative properties.
+			}
+		}
+
+		Projectiles: {
+			deathlaser.DisplayName: deathlaser
+			eyelaser.DisplayName: eyelaser
+			greenlaser.DisplayName: greenlaser
+			martianlaser.DisplayName: martianlaser
+			muzzleflash.DisplayName: muzzleflash
+			nebulalaser.DisplayName: nebulalaser
+			pinklaser.DisplayName: pinklaser
+		}
+
+		Tiles: {
+			electriclight.MapEntry: Light
+			electriclightfaulty.MapEntry: Light
+			ritualcandle.MapEntry: Candle
+		}
+
+		Configs: {
+			Client: {
+				DisplayName: Client
+
+				Headers: {
+					Worldgen: Worldgen
+					Visuals: Visuals
+				}
+
+				LeafBushes: {
+					Label: Leafy Bushes
+					Tooltip: Leaf walls will generate in clumps on any grass type, adding more life and depth to the environment.
+				}
+
+				WaterClay: {
+					Label: Water Clay
+					Tooltip:
+						'''
+						Clay will generate under bodies of water instead of in random veins, adding more strategy to mining as well as some aesthetic.
+						PREVENTS CATTAILS AND DRAGONFLIES FROM SPAWNING.
+						'''
+				}
+
+				DungeonChains: {
+					Label: Dungeon Chains
+					Tooltip:
+						'''
+						Hanging chains will generate in high places in The Dungeon, making it more interesting to traverse.
+						This config will have no effect with Remnants Mod enabled, as it already includes this feature.
+						'''
+				}
+
+				DungeonStairs: {
+					Label: Dungeon Stairs
+					Tooltip:
+						'''
+						Sloped platforms will generate where appropriate in The Dungeon, giving it a more coherent design.
+						This config will have no effect with Remnants Mod enabled, as it already includes this feature.
+						'''
+				}
+
+				TempleStairs: {
+					Label: Temple Stairs
+					Tooltip:
+						'''
+						Sloped platforms will generate where appropriate in The Lihzahrd Temple, giving it a more coherent design.
+						This config will have no effect with Remnants Mod enabled, as it already includes this feature.
+						'''
+				}
+
+				BulletFlashes: {
+					Label: Bullet Muzzle Flashes
+					Tooltip:
+						'''
+						Bullet-type projectiles gain a firing effect to make them more visually appealing.
+						This config will have no effect with Terraria Overhaul enabled, as it already includes this feature.
+						'''
+				}
+
+				LaserFlashes: {
+					Label: Laser Muzzle Flashes
+					Tooltip: Laser-type projectiles gain a firing effect to make them more visually appealing.
+				}
+
+				BulletCasings: {
+					Label: Bullet Casings
+					Tooltip:
+						'''
+						Guns will eject bullet casings when fired, adding some immersion to ranged combat.
+						This config will have no effect with Terraria Overhaul enabled, as it already includes this feature.
+						'''
+				}
+
+				Fireflies: {
+					Label: Fireflies
+					Tooltip: Small fireflies will roam the underground jungle, livening the atmosphere.
+				}
+
+				Screenshake: {
+					Label: Screenshake
+					Tooltip:
+						'''
+						Explosions will cause screenshake, with the intensity generally depending on explosive power. 
+						DOESN'T APPLY TO ANY MODDED CONTENT.
+						'''
+				}
+
+				SnowDirtMerge: {
+					Label: Snow and Dirt Merge
+					Tooltip: Enables the unused dirt merge textures for snow blocks.
+				}
+
+				GlowingHellstone: {
+					Label: Warm Hellstone
+					Tooltip: Hellstone, its bricks and natural lava walls will have a soft red glow.
+				}
+
+				GlowingLavaBG: {
+					Label: Warm Lava Background
+					Tooltip:
+						'''
+						The lava background near the underworld (assuming backgrounds are on) will have a soft red glow. 
+						AFFECTS SUBWORLDS, WHICH MAY BE UNWANTED.
+						'''
+				}
+
+				HellCages: {
+					Label: Hell Cages
+					Tooltip: Spiky hanging cages will generate in the underworld, making it much more interesting to traverse.
+				}
+			}
+
+			Server: {
+				DisplayName: Server
+
+				Headers: {
+					Gameplay: Gameplay
+					Crafting: Crafting
+					Drops: Drops
+				}
+
+				SafeCritters: {
+					Label: Safe Critters
+					Tooltip: Critters will not take damage from monsters.
+				}
+
+				SafeBoundNPCs: {
+					Label: Safe Bound NPCs
+					Tooltip: Bound NPCs and unconscious men will not take damage from monsters, reducing the pressure in trying to rescue them.
+				}
+
+				TilePickup: {
+					Label: Tile Pickup
+					Tooltip:
+						'''
+						More small objects (mushrooms, strange plants, etc) can be collected with right click, making gathering a bit more convenient.
+						Right clicking herbs will reset their growth, instead of destroying them.
+						MULTIPLAYER INCOMPATIBLE.
+						'''
+				}
+
+				BetterArmourRecipes: {
+					Label: Armour Convenience
+					Tooltip:
+						'''
+						All armour pieces that need additional metal bars to craft can instead be upgraded directly from their lesser armour pieces.
+						This config will have no effect with Remnants Mod enabled, as it already includes this feature.  
+						HIGHLY RECOMMENDED.
+						'''
+				}
+
+				DyeMixing: {
+					Label: Colour Mixing
+					Tooltip: Paint and dye of different colours can be mixed at a dye vat to create new ones.
+				}
+
+				EasyWings: {
+					Label: Harpy Wings
+					Tooltip: The giant harpy feather is removed, and the harpy wings recipe uses 25 normal feathers instead.
+				}
+
+				SpectrePaintUpgrade: {
+					Label: Spectre Paint Tools
+					Tooltip: Spectre paint tools are upgraded directly from their normal counterparts, with a reduced spectre bar cost to compensate. This helps to save inventory space while also freeing up the crafting menu.
+				}
+
+				BossArtifacts: {
+					Label: Loot Artifacts
+					Tooltip:
+						'''
+						In expert mode, bosses will drop artifacts that can be crafted into their drops, which helps to eliminiate repetitive grinding for any particular boss.
+						The amount of artifacts needed for a given item is the denominator of that item's drop chance.
+						HIGHLY RECOMMENDED.
+						'''
+				}
+
+				GlowingMushrooms: {
+					Label: Spare Mushrooms
+					Tooltip:
+						'''
+						Glowing mushroom enemies will drop some of their mushrooms when killed, making the grind for shroomite armour a little less boring. 
+						HIGHLY RECOMMENDED.
+						'''
+				}
+
+				SoulsOfFlight: {
+					Label: Spiritual Harpies
+					Tooltip: Harpies may drop a soul of flight when killed in hardmode, making the grind for wings a little more interesting.
+				}
+
+				KingSlimeKatana: {
+					Label: Ninja's Katana
+					Tooltip: King Slime will drop a useful katana when defeated, giving more incentive to fight him early-game.
+				}
+			}
+		}
+	}
+}

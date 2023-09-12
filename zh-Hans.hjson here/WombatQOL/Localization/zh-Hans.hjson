@@ -1,0 +1,318 @@
+Mods: {
+	WombatQOL: {
+		Items: {
+			concrete: {
+				DisplayName: 混凝土砖
+				Tooltip: ""
+			}
+
+			concretewall: {
+				DisplayName: 混凝土墙
+				Tooltip: ""
+			}
+
+			copperpipe: {
+				DisplayName: 铜管
+				Tooltip: ""
+			}
+
+			electriclight: {
+				DisplayName: 电灯
+				Tooltip: ""
+			}
+
+			electriclightfaulty: {
+				DisplayName: 电灯（损坏的）
+				Tooltip: ""
+			}
+
+			honeybrick: {
+				DisplayName: 蜂巢砖
+				Tooltip: ""
+			}
+
+			honeybrickwall: {
+				DisplayName: 蜂巢砖墙
+				Tooltip: ""
+			}
+
+			machinepanel: {
+				DisplayName: 合金砖
+				Tooltip: ""
+			}
+
+			machineplatform: {
+				DisplayName: 合金平台
+				Tooltip: ""
+			}
+
+			machinewall: {
+				DisplayName: 合金墙
+				Tooltip: ""
+			}
+
+			ritualcandle: {
+				DisplayName: 仪式烛台
+				Tooltip: 蜡烛在燃烧中无形的融合
+			}
+
+			machinebeam: {
+				DisplayName: 合金镂空砖
+				Tooltip: ""
+			}
+
+			lootrelicDF: {
+				DisplayName: 猪龙鱼公爵兑换珠
+				Tooltip: 这平凡的遗物有着转化成其它物品的潜力
+			}
+
+			lootrelicGolem: {
+				DisplayName: 石巨人兑换珠
+				Tooltip: 这平凡的遗物有着转化成其它物品的潜力
+			}
+
+			lootrelicKS: {
+				DisplayName: 史莱姆王兑换珠
+				Tooltip: 这平凡的遗物有着转化成其它物品的潜力
+			}
+
+			lootrelicML: {
+				DisplayName: 月亮领主兑换珠
+				Tooltip: 这平凡的遗物有着转化成其它物品的潜力
+			}
+
+			lootrelicPlantera: {
+				DisplayName: 世纪之花兑换珠
+				Tooltip: 这平凡的遗物有着转化成其它物品的潜力
+			}
+
+			lootrelicQB: {
+				DisplayName: 蜂王兑换珠
+				Tooltip: 这平凡的遗物有着转化成其它物品的潜力
+			}
+
+			lootrelicSkeletron: {
+				DisplayName: 骷髅王兑换珠
+				Tooltip: 这平凡的遗物有着转化成其它物品的潜力
+			}
+
+			lootrelicWOF: {
+				DisplayName: 血肉之墙兑换珠
+				Tooltip: 这平凡的遗物有着转化成其它物品的潜力
+			}
+		}
+
+		Projectiles: {
+			deathlaser.DisplayName: deathlaser
+			eyelaser.DisplayName: eyelaser
+			greenlaser.DisplayName: greenlaser
+			martianlaser.DisplayName: martianlaser
+			muzzleflash.DisplayName: muzzleflash
+			nebulalaser.DisplayName: nebulalaser
+			pinklaser.DisplayName: pinklaser
+		}
+
+		Tiles: {
+			electriclight.MapEntry: 电灯
+			electriclightfaulty.MapEntry: 电灯
+			ritualcandle.MapEntry: 仪式烛台
+		}
+
+		Configs: {
+			Client: {
+				DisplayName: Wombat的优质游戏体验本地端设置
+
+				Headers: {
+					Worldgen: 世界生成
+					Visuals: 视觉效果
+				}
+
+				LeafBushes: {
+					Label: 生机勃勃
+					Tooltip: 树叶墙和灌木从现在可以在任何类型的草地上生成，使环境群落更显生机和协调
+				}
+
+				WaterClay: {
+					Label: 水下粘土
+					Tooltip:
+						'''
+						粘土将在水体下生成，而不是在随机的矿脉中，使采矿更加容易
+						此选项将禁用香蒲和的蜻蜓生成
+						'''
+				}
+
+				DungeonChains: {
+					Label: 地牢锁链
+					Tooltip:
+						'''
+						悬挂的链条会在地牢内的高处生成，在地牢中探索移动将变得更加有趣
+						启用 REMNANTS（古迹残存）模组后，此选项将无效，因为它已经包含了此功能
+						'''
+				}
+
+				DungeonStairs: {
+					Label: 地牢楼梯
+					Tooltip:
+						'''
+						楼梯平台将在地牢中适当的地方生成，使其空间设计更加连贯
+						启用 REMNANTS（古迹残存）模组后，此选项将无效，因为它已经包含了此功能
+						'''
+				}
+
+				TempleStairs: {
+					Label: 神庙楼梯
+					Tooltip:
+						'''
+						楼梯平台将在丛林神庙中适当的地方生成，使其空间设计更加连贯
+						启用 REMNANTS（古迹残存）模组后，此选项将无效，因为它已经包含了此功能
+						'''
+				}
+
+				BulletFlashes: {
+					Label: 子弹枪口闪光
+					Tooltip:
+						'''
+						使用子弹射击时，在枪口产生火光效果，使其在视觉上更具表现力
+						启用 Terraria Overhaul（泰拉大修）模组后，此选项将无效，因为它已经包含了此功能
+						'''
+				}
+
+				LaserFlashes: {
+					Label: 激光枪口闪光
+					Tooltip: 使发射激光时，在枪口产生火光效果，使其在视觉上更具表现力
+				}
+
+				BulletCasings: {
+					Label: 子弹硝烟
+					Tooltip:
+						'''
+						枪支在发射时会产生烟尘效果，为远程武器增加一些使用沉浸感
+						启用 Terraria Overhaul（泰拉大修）模组后，此选项将无效，因为它已经包含了此功能
+						'''
+				}
+
+				Fireflies: {
+					Label: 欢乐的萤火虫
+					Tooltip: 地下丛林中会有萤火虫飞舞，使探索更有沉浸感
+				}
+
+				Screenshake: {
+					Label: 爆炸震颤
+					Tooltip:
+						'''
+						爆炸会引起屏幕晃动，幅度取决于爆炸强弱
+						不对其它内容类模组生效
+						'''
+				}
+
+				SnowDirtMerge: {
+					Label: 不一样的雪泥块
+					Tooltip: 为雪泥块启用新的纹理贴图
+				}
+
+				GlowingHellstone: {
+					Label: 暖光狱石
+					Tooltip: 狱石以及用它制作的砖墙会发出微弱的红光
+				}
+
+				GlowingLavaBG: {
+					Label: 暖光熔岩背景墙
+					Tooltip:
+						'''
+						地狱附近的熔岩背景墙（如果开启背景显示）会发出微弱的红光
+						此选项同时也影响子世界
+						'''
+				}
+
+				HellCages: {
+					Label: 地狱之笼
+					Tooltip: 在地狱中会生成带刺的吊笼，使探索变得更加有趣
+				}
+			}
+
+			Server: {
+				DisplayName: Wombat的优质游戏体验服务器设置
+
+				Headers: {
+					Gameplay: 游戏性
+					Crafting: 物品制作
+					Drops: 战利品掉落
+				}
+
+				SafeCritters: {
+					Label: 小动物护身符
+					Tooltip: 开启后，小动物不会受到敌怪伤害
+				}
+
+				SafeBoundNPCs: {
+					Label: 受缚NPC护身符
+					Tooltip: 开启后，受缚NPC和昏迷男子不会受到敌怪伤害，降低及时救援他们的难度
+				}
+
+				TilePickup: {
+					Label: 物块收集
+					Tooltip:
+						'''
+						右键点击可以收集更多的小型物块（蘑菇、奇异植物等），使收集更加方便
+						右键单击草药将重置它们的生长，而不是摧毁它们
+						不兼容多人游戏
+						'''
+				}
+
+				BetterArmourRecipes: {
+					Label: 更方便的盔甲制作
+					Tooltip:
+						'''
+						需要材料和金属锭制作的盔甲，可用所需金属锭制作的盔甲直接升级得到
+						启用 REMNANTS（古迹残存）模组后，此选项将无效，因为它已经包含了此功能  
+						推荐开启
+						'''
+				}
+
+				DyeMixing: {
+					Label: 调色盘
+					Tooltip: 不同的染料和油漆可以通过组合产生新的颜色
+				}
+
+				EasyWings: {
+					Label: 更简单的鸟妖之翼
+					Tooltip: 鸟妖之翼的合成配方现在需要25个普通羽毛，而不是原本的巨型鸟妖之羽
+				}
+
+				SpectrePaintUpgrade: {
+					Label: 幽灵涂漆工具
+					Tooltip: 幽灵涂漆工具可从普通工具升级而来，并降低了幽灵锭的消耗数量，有助于节省背包空间
+				}
+
+				BossArtifacts: {
+					Label: 战利品兑换珠
+					Tooltip:
+						'''
+						在专家模式下，击败特定Boss后获得的战利品兑换珠可以用于制作它们的掉落物，有助于减少重复枯燥无聊的反复战斗
+						合成需要的战利品兑换珠数量多少取决于物品原本的掉落率
+						推荐开启
+						'''
+				}
+
+				GlowingMushrooms: {
+					Label: 充足的蘑菇
+					Tooltip:
+						'''
+						蘑菇地群落的敌人会掉落发光蘑菇，这会让蘑菇矿盔甲制作材料的收集更简单一点
+						推荐开启
+						'''
+				}
+
+				SoulsOfFlight: {
+					Label: 鸟妖榨魂
+					Tooltip: 困难模式下的鸟妖死亡时有概率掉落飞翔之魂，这会让翅膀制作材料的收集更有趣一点
+				}
+
+				KingSlimeKatana: {
+					Label: 黏黏的武士刀
+					Tooltip: 史莱姆王在被击败时会掉落武士刀，以鼓励玩家在游戏初期积极与它战斗
+				}
+			}
+		}
+	}
+}
