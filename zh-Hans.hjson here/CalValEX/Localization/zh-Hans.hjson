@@ -1,0 +1,6059 @@
+Mods: {
+	CalValEX: {
+		NPCs: {
+			# April fools!
+			Meldosaurus.DisplayName: 梅尔多龙
+
+			Jharim: {
+				DisplayName: 丛林“暴君”
+
+				TownNPCMood: {
+					Content: 桀桀桀，此地入我法眼，可暂作行在。
+					NoHome: 请给我安排一个房子，露宿野外会让我控制不住自己强烈的暴力冲动。
+					LoveSpace: “暴君”现在很满足，如果你能再给我鞠个躬就更好了...
+					FarFromHome: 我命令你把伟大的“暴君”带回他的房子！
+					DislikeCrowded: 周围这些乡巴佬太多了，他们的吵闹让我静不下心来...
+					LikeBiome: 啊，美好的{BiomeName}，很高兴能重返这里！
+					LoveBiome: 我爱死真菌的味道了！
+					DislikeBiome: 哼哼哼哼哼哼哼哼哼，快带我离开这鬼地方！
+					HateBiome: 我讨厌海洋的存在！它一直在朝我尖叫，就好像“暴君”大人会把它吃掉一样！
+					LikeNPC: 我一直相成为一个海盗，{NPCName} 会是个很好的导师！
+					LoveNPC: "{NPCName} 让我想起了深爱我的母亲！妈妈..."
+					DislikeNPC: 我绝不向 {NPCName} 缴税。怎会有如此厚颜无耻之人！
+					HateNPC: 哦天哪，快把那个婊，我是说巫师扔出去！
+					LikeNPC_Princess: “暴君”认为 {NPCName} 有资格和王国联姻。
+					Princess_LovesNPC: "{NPCName} 真是个癞蛤蟆想吃天鹅肉的蠢蛋。"
+					HateCrowded: 我讨厌这么拥挤。
+				}
+
+				Census.SpawnCondition: 这是个秘密
+			}
+
+			Fogbound.DisplayName: 超级无敌欧米茄弥漫雾气之神EX：至暗时刻降临版本
+			# Critters
+			AstJR.DisplayName: 星胶史莱姆
+			Blightolemur.DisplayName: 枯萎狐猴
+			Blinker.DisplayName: 闪耀萤火虫
+			CrystalFly.DisplayName: 亵渎晶蝶
+			Eyedol.DisplayName: 大眼娃
+			GAstJR.DisplayName: 黄金星胶史莱姆
+			GodSlayerSlug.DisplayName: 弑神者蛞蝓
+			GoldenIsopod.DisplayName: 黄金大王具足虫
+			GoldEyedol.DisplayName: 黄金大眼娃
+			GoldViolemur.DisplayName: 黄金狐猴
+			Isopod.DisplayName: 大王具足虫
+			NeuroFly.DisplayName: 神经苍蝇
+			NukeFly.DisplayName: 硫海飞蝇
+			Orthobab.DisplayName: 直角石幼体
+			OrthoceraApparition.DisplayName: 直角石
+			PerfoGrub.DisplayName: 小蚯蚓
+			PlagueFrog.DisplayName: 瘟疫箭毒蛙
+			ProvFly.DisplayName: 亵渎晶蝶
+			SandTurtle.DisplayName: 沙漠龟
+			Swearshroom.DisplayName: 寄生菌
+			Vaporofly.DisplayName: 硫海飞蝇
+			Violemur.DisplayName: 星幻狐猴
+			Xerocodile.DisplayName: 苏醒的克洛希克鳄
+			XerocodileSwim.DisplayName: 苏醒的克洛希克鳄
+			# Town NPCs
+			JellyPriestBound.DisplayName: 受缚水母祭司
+
+			JellyPriestNPC: {
+				DisplayName: 水母祭司
+
+				TownNPCMood: {
+					Content: 这个地方恰到好处，可作为神庙选址。
+					NoHome: 我需要一个固定的地方来建造神庙和进行崇拜仪式！
+					LoveSpace: 我可以在这里大有作为！
+					FarFromHome: 请把我带回神庙，我留在那里的雕像可能会被破坏害。
+					DislikeCrowded: 这里的人数多的令人不安，有人可能会碰坏我的雕像。
+					HateCrowded: 我没办法和每个人都处的融洽，事情总是会到处碰壁！
+					LoveBiome: "{BiomeName} 让我很舒服，似有暖风佛面...或许神灵就该住在这里..."
+					LikeBiome: 这个地方很安静，在{BiomeName}中建造神庙不会出岔子。
+					DislikeBiome: 这里酷热难耐，我想神灵不会来到这样的地方。
+					HateBiome: 这里有可怕的生物，它们四处游荡，我不能在此建造任何东西！
+					LikeNPC: "{NPCName}和我对艺术的品味很相近，我们互相欣赏"
+					DislikeNPC: "{NPCName}的纵火狂倾向太可怕了，我总是担心他有一天会炸掉我的家。"
+					LikeNPC_Princess: "{NPCName}有一些漂亮的装饰物，我喜欢她的风格。"
+					Princess_LovesNPC: "{NPCName} 似乎扮演着和我相似的角色，卖漂亮的装饰品。我希望她不会觉得我冒犯了她！"
+					LoveNPC: 我喜爱{NPCName}。
+					HateNPC: 我讨厌{NPCName}。
+				}
+
+				Census.SpawnCondition: 击败一阶段酸雨后在硫磺海找到
+			}
+
+			OracleNPC: {
+				DisplayName: 预言家
+
+				TownNPCMood: {
+					Content: 这里很酷。
+					NoHome: 伙计，如果没有一个合适的家，我不能照顾我所有的小伙伴！
+					LoveSpace: 这里有这么多的空间让TUB到处跑，太棒了！
+					FarFromHome: 我认为TUB在离家这么远的地方感觉不太舒服。
+					DislikeCrowded: 这有这么多人，我觉得有点不舒服——我的小伙伴没有太多空间。
+					HateCrowded: 所有这些人都吓坏了TUB！
+					LikeBiome: 对于我和我的小伙伴来说，{BiomeName}是一个落脚的好地方。
+					DislikeBiome: 对于我的大多数小伙伴来说，{BiomeName}并不是一个合适的地方。
+					HateBiome: 所有这些怪物都令人担忧，我觉得TUB不安全。
+					LikeNPC: "{NPCName}相当不错。她和TUB是好朋友。"
+					DislikeNPC: "{NPCName} 是一个恶心的混蛋，为了取乐而猎杀小动物，多么卑鄙！"
+					LikeNPC_Princess: "{NPCName} 似乎很受动物们的欢迎，她有一种美好的气质。"
+					Princess_LovesNPC: 我喜欢{NPCName}的冷酷。她的小TUB也很可爱！
+					LoveBiome: 我喜爱{BiomeName}.
+					LoveNPC: 我喜爱{NPCName}.
+					HateNPC: 我讨厌{NPCName}.
+				}
+
+				Census.SpawnCondition: 装备宠物或照明宠物
+			}
+
+			OracleNPCPet_Pet.DisplayName: TUB
+
+			NuggetNugget: {
+				# Town NPCs
+				DisplayName: 小鸡块
+				Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+			}
+
+			DracoNugget: {
+				DisplayName: 冷酷小鸡块
+				Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+			}
+
+			FollyNugget: {
+				DisplayName: 蓬松小鸡块
+				Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+			}
+
+			GODNugget: {
+				DisplayName: 浴火小鸡块
+				Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+			}
+
+			MammothNugget: {
+				DisplayName: 海洋小鸡块
+				Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+			}
+
+			ShadowNugget: {
+				DisplayName: 暗影小鸡块
+				Census.SpawnCondition: Mods.CalValEX.Census [i:8279]
+			}
+
+			MeldwyrmBody.DisplayName: Meldwyrm
+			MeldwyrmHead.DisplayName: Meldwyrm
+			MeldwyrmTail.DisplayName: Meldwyrm
+			MeldWyrmBody.DisplayName: Meld Wyrm 身子
+			MeldWyrmHead.DisplayName: Meld Wyrm 头
+			MeldWyrmTail.DisplayName: Meld Wyrm 尾
+
+			NinjaSlime: {
+				DisplayName: 忍者史莱姆
+				Census.SpawnCondition: 条件未知
+			}
+
+			AstroSlime: {
+				DisplayName: 天文史莱姆
+				Census.SpawnCondition: 条件未知
+			}
+		}
+
+		Items: {
+			AmogusItem: {
+				# April fools!
+				DisplayName: 飞船通讯器
+				# April fools!
+				Tooltip:
+					'''
+					召唤一个幻云宇航员
+					不 可 能 得 到！
+					作弊可能会为你带来一些灾难性的后果
+					讨厌外星恐龙
+					'''
+			}
+
+			ShadesBane: {
+				DisplayName: 影之祸
+				Tooltip:
+					'''
+					真近战命中敌人时爆发诅咒火球
+					右键可沿任意方向释放火球和玛瑙镖
+					'Edgy sword #2940358304' 
+					'''
+			}
+
+			Nyanthrop: {
+				DisplayName: 奈亚斯洛普
+				Tooltip: 沿任意方向发射台风
+			}
+
+			KnowledgeMeldosaurus: {
+				DisplayName: 梅尔多龙
+				Tooltip:
+					'''
+					梅尔多龙...
+					一种从腐朽的意志中诞生的可怕生物，没人知道它为什么存在，它想要做什么...
+					呃啊！它在我体内让我难受，庆幸它现在走了！！！
+					'''
+			}
+
+			MeldosaurusMask: {
+				DisplayName: 梅尔多龙面具
+				Tooltip: ""
+			}
+
+			MeldosaurusTrophy: {
+				DisplayName: 梅尔多龙纪念章
+				Tooltip: ""
+			}
+
+			MeldosaurusMusicBox: {
+				DisplayName: 音乐盒（梅尔多龙）
+				Tooltip: ""
+			}
+
+			MeldosaurusBag: {
+				DisplayName: 宝藏袋（梅尔多龙）
+				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+			}
+
+			JharimHead: {
+				DisplayName: 丛林“暴君”杰粒木的脑袋
+				Tooltip:
+					'''
+					召唤丛林“暴君”
+					不会在愚人节以外的时间生效
+					'''
+			}
+
+			FogG: {
+				DisplayName: 纯净之雾
+				Tooltip:
+					'''
+					召唤弥漫雾气
+					':何来何去:'
+					'''
+			}
+
+			AstJRItem: {
+				# Critters
+				DisplayName: 星胶史莱姆
+				Tooltip: ""
+			}
+
+			BlightolemurItem: {
+				DisplayName: 枯萎狐猴
+				Tooltip: ""
+			}
+
+			BlinkerItem: {
+				DisplayName: 闪耀萤火虫
+				Tooltip: ""
+			}
+
+			CrystalFlyItem: {
+				DisplayName: 亵渎晶蝶
+				Tooltip: ""
+			}
+
+			EyedolItem: {
+				DisplayName: 大眼娃
+				Tooltip: ""
+			}
+
+			GAstJRItem: {
+				DisplayName: 黄金星胶史莱姆
+				Tooltip: ""
+			}
+
+			GodSlayerSlugItem: {
+				DisplayName: 弑神者蛞蝓
+				Tooltip: ""
+			}
+
+			GoldenIsopodItem: {
+				DisplayName: 黄金大王具足虫
+				Tooltip: ""
+			}
+
+			GoldEyedolItem: {
+				DisplayName: 黄金大眼娃
+				Tooltip: ""
+			}
+
+			GoldViolemurItem: {
+				DisplayName: 黄金狐猴
+				Tooltip: ""
+			}
+
+			IsopodItem: {
+				DisplayName: 大王具足虫
+				Tooltip: ""
+			}
+
+			VaporoflyItem: {
+				DisplayName: 硫海飞蝇
+				Tooltip: ""
+			}
+
+			NeuroFlyItem: {
+				DisplayName: 神经苍蝇
+				Tooltip: ""
+			}
+
+			OrthobabItem: {
+				DisplayName: 直角石幼体
+				Tooltip: ""
+			}
+
+			PerfoGrubItem: {
+				DisplayName: 小蚯蚓
+				Tooltip: ""
+			}
+
+			PlagueFrogItem: {
+				DisplayName: 瘟疫箭毒蛙
+				Tooltip: ""
+			}
+
+			ProvFlyItem: {
+				DisplayName: 亵渎晶蝶
+				Tooltip: ""
+			}
+
+			SandTurtleItem: {
+				DisplayName: 沙漠龟
+				Tooltip: ""
+			}
+
+			SwearshroomItem: {
+				DisplayName: 寄生菌
+				Tooltip: ""
+			}
+
+			ViolemurItem: {
+				DisplayName: 星幻狐猴
+				Tooltip: ""
+			}
+
+			XerocodileItem: {
+				DisplayName: 苏醒的克洛希克鳄
+				Tooltip: ""
+			}
+
+			BlightedAstralDye: {
+				# Dyes
+				DisplayName: 飘渺染料
+				# Dyes
+				Tooltip: 无法获得
+			}
+
+			BlighedAstralPinkDye: {
+				DisplayName: 枯萎星粉染料
+				Tooltip: 无法获得
+			}
+
+			BlighedAstralYellowDye: {
+				DisplayName: 枯萎星黄染料
+				Tooltip: 无法获得
+			}
+
+			DraedonHologramDye: {
+				DisplayName: 嘉登全息染料
+				Tooltip: ""
+			}
+
+			BackpackServer: {
+				# Backs
+				DisplayName: 服务器主机背包
+				# Backs
+				Tooltip: "'嘉登正盯着你' "
+			}
+
+			PrismShell: {
+				DisplayName: 棱晶壳
+				Tooltip: "'看起来很锋利' "
+			}
+
+			# Balloons
+			ApolloBallonSmall.DisplayName: 小小阿波罗气球
+
+			ArtemisBalloonSmall: {
+				DisplayName: 小小阿尔忒弥斯气球
+				Tooltip: ""
+			}
+
+			ApolloBalloon: {
+				DisplayName: XS 钢链-03
+				Tooltip: ""
+			}
+
+			ArtemisBalloon: {
+				DisplayName: XS 钢链-01
+				Tooltip: ""
+			}
+
+			AuricBalloon: {
+				DisplayName: 古圣金源气球
+				Tooltip: ""
+			}
+
+			BoB2: {
+				DisplayName: 深渊动物气球束
+				Tooltip: ""
+			}
+
+			BoxBalloon: {
+				DisplayName: 灯水母气球
+				Tooltip: ""
+			}
+
+			ChaosBalloon: {
+				DisplayName: 混乱河豚气球
+				Tooltip: ""
+			}
+
+			ExoTwinsBalloon: {
+				DisplayName: XS 钢链套组
+				Tooltip: ""
+			}
+
+			FoilAtlantis: {
+				DisplayName: 玩具‘亚特兰蒂斯’
+				Tooltip: ""
+			}
+
+			FoilSpoon: {
+				DisplayName: 金属汤勺
+				Tooltip: ""
+			}
+
+			Mirballoon: {
+				DisplayName: 幻海水母气球
+				Tooltip: ""
+			}
+
+			OldMirage: {
+				DisplayName: 远古幻海水母气球
+				Tooltip: ""
+			}
+
+			ProfanedBalloon: {
+				DisplayName: 亵渎气球
+				Tooltip: ""
+			}
+
+			ShuttleBalloon: {
+				DisplayName: 飞碟气球
+				Tooltip: ""
+			}
+
+			SignusBalloon: {
+				DisplayName: 无限之灯气球
+				Tooltip: ""
+			}
+
+			SkullBalloon: {
+				DisplayName: 头骨气球
+				Tooltip: ""
+			}
+
+			WulfrumBalloon: {
+				DisplayName: 钨钢回转气球
+				Tooltip: ""
+			}
+
+			EidCape: {
+				# Capes
+				DisplayName: 幻妖斗篷
+				# Capes
+				Tooltip: 你甚至能在缝制这件诡异斗篷的时候听见深渊的低语...
+			}
+
+			SigCape: {
+				DisplayName: 西格纳斯的斗篷
+				Tooltip: 让你隐藏在阴影之中
+			}
+
+			YharimCape: {
+				DisplayName: 魔君的披肩
+				Tooltip: 虽然只是件仿制品,但依旧华丽而不失君王的风范
+			}
+
+			YharimCapeBaby: {
+				DisplayName: 魔君的披风
+				Tooltip: "'仍是件仿制品，看起来像小孩的玩具'"
+			}
+
+			DraedonHelmet: {
+				# Hats
+				DisplayName: 战斗武装头盔
+				# Hats
+				Tooltip:
+					'''
+					根据手中持有的武器类型自动切换外观
+					当 前 很 不 稳 定
+					'''
+			}
+
+			Aestheticrown: {
+				DisplayName: 美学帽
+				Tooltip: 《Biteki秀美》
+			}
+
+			AncientAuricTeslaHelm: {
+				DisplayName: 远古古圣金源头盔
+				Tooltip: 某套远古铠甲中最精美的部件
+			}
+
+			AncientPerennialFlower: {
+				DisplayName: 远古永恒郁金香
+				Tooltip: "'今天我最美！'"
+			}
+
+			AstrachnidCranium: {
+				DisplayName: 星幻蛛人面甲
+				Tooltip: ""
+			}
+
+			AstrumDeusMask: {
+				DisplayName: 枯萎星神面具
+				Tooltip: "'消逝的星火重新燃起' "
+			}
+
+			AureicFedora: {
+				DisplayName: 星舰软呢帽
+				Tooltip: "'只是不要把它直接扣在别人的头上'"
+			}
+
+			BanditHat: {
+				DisplayName: 强盗的帽子
+				Tooltip: ""
+			}
+
+			BelladonnaHat: {
+				DisplayName: 贝拉多娜头套
+				Tooltip: 有害，但流行
+			}
+
+			BigWorm: {
+				DisplayName: 大寄生者面具
+				Tooltip: "'以安妮为首'"
+			}
+
+			BirbHat: {
+				DisplayName: 痴愚金帽
+				Tooltip: 一统余众
+			}
+
+			BloodyMaryHat: {
+				DisplayName: 血腥玛丽帽子
+				Tooltip: 你觉得很优雅
+			}
+
+			CalaCirclet: {
+				DisplayName: 灾厄头环
+				Tooltip: "'哼，诅咒？'"
+			}
+
+			ClamMask: {
+				DisplayName: 灾谔蛤帽
+				Tooltip: "'等一下,我是不是打错字了？'"
+			}
+
+			CoralMask: {
+				DisplayName: 喷嗝珊瑚面具
+				Tooltip: "'哦耶,最强大脑时间'"
+			}
+
+			CosmicCone: {
+				DisplayName: 宇宙锥帽
+				Tooltip: 一顶尖到突破天际的帽子
+			}
+
+			Cryocap: {
+				DisplayName: 冰人帽
+				Tooltip: 脑子都冻僵了！
+			}
+
+			CultistHood: {
+				DisplayName: 邪教刺客兜帽
+				Tooltip: ""
+			}
+
+			DemonshadeHood: {
+				DisplayName: 远古魔影头盔
+				Tooltip: ""
+			}
+
+			DevilfishMask1: {
+				DisplayName: 卷角魔鬼鱼面具
+				Tooltip: 造型前卫
+			}
+
+			DevilfishMask2: {
+				DisplayName: 尖角魔鬼鱼面具
+				Tooltip: 造型更前卫
+			}
+
+			DevilfishMask3: {
+				DisplayName: 魔鬼鱼面具
+				Tooltip: 在伤口上擦盐
+			}
+
+			DummyMask: {
+				DisplayName: 大草人面具
+				Tooltip: 这儿唯一的呆瓜就是你
+			}
+
+			EarthenHelmet: {
+				DisplayName: 地元头盔
+				Tooltip: ""
+			}
+
+			EidoMask: {
+				DisplayName: 幻妖面具
+				Tooltip: ""
+			}
+
+			FallenPaladinsHelmet: {
+				DisplayName: "堕落圣骑士头盔"
+				Tooltip: ""
+			}
+
+			FlakHeadCrab: {
+				DisplayName: 高口蟹帽
+				Tooltip: 看起来像你头上长了个寄生虫
+			}
+
+			GammaHelmet: {
+				DisplayName: 伽马泥罐
+				Tooltip: 我散发着能量！
+			}
+
+			GruelingMask: {
+				DisplayName: 疲劳面具
+				Tooltip: 呵欠！
+			}
+
+			MaulerMask: {
+				DisplayName: 渊海狂鲨面具
+				Tooltip: 该行为自上世纪80年代以来就一直受到人们的抨击
+			}
+
+			MidWorm: {
+				DisplayName: 中寄生者面具
+				Tooltip: "'虫上山顶！'"
+			}
+
+			OlTrashtooth: {
+				DisplayName: 捣鱼齿帽
+				Tooltip: ""
+			}
+
+			OmegaBlue: {
+				DisplayName: 远古蓝色欧米茄头盔
+				Tooltip: 区区幻海妖龙，不足挂齿！
+			}
+
+			OracleBeanie: {
+				DisplayName: 预言家的便帽
+				Tooltip: ""
+			}
+
+			PerennialFlower: {
+				DisplayName: 永恒郁金香
+				Tooltip: "'我美吗？'"
+			}
+
+			PolterMask: {
+				DisplayName: 奇特幽花面具
+				Tooltip: ""
+			}
+
+			ProfanedCultistMask: {
+				DisplayName: 亵渎教徒面具
+				Tooltip: ""
+			}
+
+			ScornEaterMask: {
+				DisplayName: 吞食魔面具
+				Tooltip: 炽热之火熊熊燃烧
+			}
+
+			SeaCrown: {
+				DisplayName: 海王之冠
+				Tooltip: 戴上它会让你感觉自己很高贵
+			}
+
+			SlimeGodMask: {
+				DisplayName: 史莱姆之神核心面具
+				Tooltip: ""
+			}
+
+			SmallWorm: {
+				DisplayName: 小寄生者面具
+				Tooltip: "'这一串的其虫一个'"
+			}
+
+			SpectralstormHat: {
+				DisplayName: 光谱风暴帽
+				Tooltip: "'史上最愚蠢的建议'"
+			}
+
+			SquidHat: {
+				DisplayName: 乌贼帽
+				Tooltip: 墨汁将单独出售
+			}
+
+			StonePile: {
+				DisplayName: 石碓
+				Tooltip: "'需要一个“坚强”的脑袋'"
+			}
+
+			TerminalMask: {
+				DisplayName: 终末面罩
+				Tooltip:
+					'''
+					透过被遗忘之神的双眼，
+					我们看见了杀戮与动乱后的新世界。
+					'''
+			}
+
+			TrueCosmicCone: {
+				DisplayName: 真·宇宙锥帽
+				Tooltip: "'一顶尖的可以刺破维度裂缝的帽子' "
+			}
+
+			UnloadedHelm: {
+				DisplayName: 空载的头盔
+				Tooltip: 还冒着烟
+			}
+
+			DraedonLeggings: {
+				# Legs
+				DisplayName: 战斗武装护胫
+				# Legs
+				Tooltip:
+					'''
+					当 前 很 不 稳 定
+					嗯...这么说也不对，只是其它部分不稳定
+					但你为什么要单独使用这件呢？
+					'''
+			}
+
+			AstrachnidTentacles: {
+				DisplayName: 星幻蛛人腿甲
+				Tooltip: ""
+			}
+
+			BrimmySpirit: {
+				DisplayName: 硫磺之火
+				Tooltip: ""
+			}
+
+			CultistLegs: {
+				DisplayName: 邪教刺客裤
+				Tooltip: ""
+			}
+
+			DemonshadePants: {
+				DisplayName: 远古魔影护胫
+				Tooltip: ""
+			}
+
+			DraedonLegs: {
+				DisplayName: 嘉登机械义肢
+				Tooltip: ""
+			}
+
+			EarthenLeggings: {
+				DisplayName: 地元护腿
+				Tooltip: ""
+			}
+
+			FallenPaladinsGreaves: {
+				DisplayName: "堕落圣骑士护腿"
+				Tooltip: ""
+			}
+
+			PolterStockings: {
+				DisplayName: 奇特幽花丝袜
+				Tooltip: ""
+			}
+
+			SignusNether: {
+				DisplayName: 幽冥之魂
+				Tooltip: 真的把你带去了冥界
+			}
+
+			TerrorLegs: {
+				DisplayName: 辐核骇腿
+				Tooltip: "'它们在抽搐'"
+			}
+
+			AstBandana: {
+				# Scarves
+				DisplayName: 星之围脖
+				# Scarves
+				Tooltip: "'太空时代的潮流！'"
+			}
+
+			BloodwormScarf: {
+				DisplayName: 血虫围巾
+				Tooltip: 这条血淋淋的生物正尝试钻到你的脖子里去！
+			}
+
+			CosmicWormScarf: {
+				DisplayName: 太空巨虫围巾
+				Tooltip: "'穿越了时空的潮流！'"
+			}
+
+			DesertMedallion: {
+				DisplayName: 廉价版荒漠吊坠
+				Tooltip: 因为另一块戴着太瘆人了
+			}
+
+			PermaScarf: {
+				DisplayName: 永冻围巾
+				Tooltip: 保持冷静
+			}
+
+			ProviCrystal: {
+				DisplayName: 不洁坠饰
+				Tooltip: 这是亵渎天神赐予你的珍宝
+			}
+
+			RapturedWormScarf: {
+				DisplayName: 癫狂幻虫围巾
+				Tooltip: 它已经时髦到可以扭曲现实的结构了！
+			}
+
+			SignusEmblem: {
+				DisplayName: 西格纳斯的纹章
+				Tooltip: 含有一些深渊能量
+			}
+
+			StormBandana: {
+				DisplayName: 风暴围脖
+				Tooltip: "'如同触电般的潮流！'"
+			}
+
+			UniversalWormScarf: {
+				DisplayName: 寰宇之虫围巾
+				Tooltip: "'吞灭世间万物，不会导致现实的扭曲' "
+			}
+
+			YharonShackle: {
+				DisplayName: 犽戎的颈环
+				Tooltip: 并不是很适合你...
+			}
+
+			AureusShield: {
+				# Shields
+				DisplayName: 白金星舰盾牌
+				# Shields
+				Tooltip: 制作完成后的大小严重缩水了
+			}
+
+			EarthShield: {
+				DisplayName: 地元塔盾
+				Tooltip: "'虽然看起来很结实，但实际上是用又软又不值钱的砂石做成的！'"
+			}
+
+			Invishield: {
+				DisplayName: 已移除的物品
+				Tooltip: 作为补偿，可出售
+			}
+
+			TrilobiteShield: {
+				DisplayName: 三叶虫小圆盾
+				Tooltip: "'一块古代甲壳,但因为太老旧了而无法阻挡攻击'"
+			}
+
+			AresChestplate: {
+				# Shirts
+				DisplayName: XF模型胸甲
+				# Shirts
+				Tooltip:
+					'''
+					在你周围展开4架玩具重武
+					'你说我不能把这些当作我的武器是什么意思？！？' 
+					'''
+			}
+
+			DraedonChestplate: {
+				DisplayName: 战斗武装胸甲
+				Tooltip:
+					'''
+					根据手中持有的武器类型自动切换外观
+					当 前 很 不 稳 定
+					'''
+			}
+
+			AstrachnidThorax: {
+				DisplayName: 星幻蛛人胸甲
+				Tooltip: ""
+			}
+
+			BelladonnaCloak: {
+				DisplayName: 贝拉多娜精灵披风
+				Tooltip: 最新时尚，有机无公害
+			}
+
+			BloodyMaryDress: {
+				DisplayName: 血腥玛丽裙子
+				Tooltip: ""
+			}
+
+			BrimmyBody: {
+				DisplayName: 硫磺火元素衬衣
+				Tooltip: ""
+			}
+
+			Cryocoat: {
+				DisplayName: 冰人上衣
+				Tooltip: ""
+			}
+
+			CultistRobe: {
+				DisplayName: 邪教刺客长袍
+				Tooltip: ""
+			}
+
+			DemonshadeRobe: {
+				DisplayName: 远古魔影装甲
+				Tooltip: ""
+			}
+
+			DraedonBody: {
+				DisplayName: 嘉登动力铠甲
+				Tooltip: ""
+			}
+
+			EarthenBreastplate: {
+				DisplayName: 地元胸甲
+				Tooltip: ""
+			}
+
+			FallenPaladinsPlateMail: {
+				DisplayName: 堕落圣骑士重甲
+				Tooltip: ""
+			}
+
+			PerennialDress: {
+				DisplayName: 永恒连衣裙
+				Tooltip: 百花齐放
+			}
+
+			Polterskirt: {
+				DisplayName: 奇特幽花裙子
+				Tooltip: ""
+			}
+
+			ProfanedCultistRobes: {
+				DisplayName: 亵渎教徒长袍
+				Tooltip: ""
+			}
+
+			ReaperSharkArms: {
+				DisplayName: 猎魂鲨的护臂
+				Tooltip: 去健身房锻炼一点也不轻松！
+			}
+
+			BurningEye: {
+				# Transformations
+				DisplayName: 燃烧之眼
+				# Transformations
+				Tooltip: 让佩戴者被无尽硫火吞噬
+			}
+
+			CloudWaistBelt: {
+				DisplayName: 瓦尔基里套装
+				Tooltip: 让佩戴者体验云中漫步
+			}
+
+			ProtoRing: {
+				DisplayName: 月陨天指环
+				Tooltip: 将佩戴者变型成小型战甲
+			}
+
+			SandyBangles: {
+				DisplayName: 砂质手镯
+				Tooltip: 让佩戴者与砂同化
+			}
+
+			Signus: {
+				DisplayName: 暮光魅力
+				Tooltip:
+					'''
+					将佩戴者转换为虚空之灵
+					'虚空行者'
+					'''
+			}
+
+			AeroWings: {
+				# Wings
+				DisplayName: 天蓝羽翼
+				# Wings
+				Tooltip:
+					'''
+					'今日风起'
+					水平飞行速度: 1
+					加速倍率: 1
+					飞行时间: 32 
+					'''
+			}
+
+			FollyWings: {
+				DisplayName: 痴愚金翼
+				Tooltip:
+					'''
+					'像雄鹰一样展翅高飞'
+					水平飞行速度: 9
+					加速倍率: 2.5
+					飞行时间: 210 
+					'''
+			}
+
+			GodspeedBoosters: {
+				DisplayName: 神佑助推器
+				Tooltip:
+					'''
+					'以你的虔诚换取推动力！'
+					水平飞行速度: 9
+					加速倍率: 2.7
+					飞行时间: 200 
+					'''
+			}
+
+			JunglePhoenixWings: {
+				DisplayName: 鸡翅
+				Tooltip:
+					'''
+					'新鲜出炉'
+					水平飞行速度: 11.5
+					加速倍率: 2.9
+					飞行时间: 140 
+					'''
+			}
+
+			LeviWings: {
+				DisplayName: 利维坦的鳍翼
+				Tooltip:
+					'''
+					'啪嗒啪嗒'
+					水平飞行速度: 6.75
+					加速倍率: 1.4
+					飞行时间: 120 
+					'''
+			}
+
+			OldVoidWings: {
+				DisplayName: 远古虚空之翼
+				Tooltip:
+					'''
+					'自黑暗而来'
+					水平飞行速度: 9
+					加速倍率: 2.5
+					飞行时间: 250 
+					'''
+			}
+
+			OldWings: {
+				DisplayName: 硫海遗爵之翼
+				Tooltip:
+					'''
+					'毒液推进！'
+					水平飞行速度: 9.5
+					加速倍率: 2.7
+					飞行时间: 190 
+					'''
+			}
+
+			PlaguePack: {
+				DisplayName: 嗡嗡火箭推进器
+				Tooltip:
+					'''
+					'它们想知道蜜蜂是如何离开地面的...'
+					水平飞行速度: 7.8
+					加速倍率: 1.9
+					飞行时间: 170 
+					'''
+			}
+
+			PlaugeWings: {
+				DisplayName: 瘟疫使者机翼
+				Tooltip:
+					'''
+					'已不包含纳米机械病毒'
+					水平飞行速度: 7.75
+					加速倍率: 1.5
+					飞行时间: 150 
+					'''
+			}
+
+			ScryllianWings: {
+				DisplayName: 恶魔仆从之翼
+				Tooltip:
+					'''
+					在血肉之墙被打败前装备会受到硫磺火的惩罚
+					'起飞！'
+					水平飞行速度: 6.5
+					加速倍率: 1
+					飞行时间: 60 
+					'''
+			}
+
+			TerminalWings: {
+				DisplayName: 终末之翼
+				Tooltip:
+					'''
+					通过死亡和毁灭的仪式
+					来自地狱之都的蝴蝶掀起了新的风暴
+					水平飞行速度: 1
+					加速倍率: 1
+					飞行时间: 60 
+					'''
+			}
+
+			VoidWings: {
+				DisplayName: 虚空之翼
+				Tooltip:
+					'''
+					'向黑暗而去'
+					水平飞行速度: 9
+					加速倍率: 2.5
+					飞行时间: 230 
+					'''
+			}
+
+			WulfrumHelipack: {
+				DisplayName: 钨钢直升机背包
+				Tooltip:
+					'''
+					非常差劲
+					水平飞行速度: 0.8
+					加速倍率: 0.8
+					飞行时间: 0.6 
+					'''
+			}
+
+			MawHook: {
+				# Hooks
+				DisplayName: 峭咽潭的脊柱钩
+				# Hooks
+				Tooltip:
+					'''
+					'洪荒之拉力！'
+					长度: 31
+					发射速度: 18
+					牵引速度: 17 
+					'''
+			}
+
+			MawTeeth.DisplayName: Maw Jaw
+
+			PolterHook: {
+				DisplayName: 恐怖链钩
+				Tooltip:
+					'''
+					'让那些备受无尽折磨之灵魂牵引你向前！'
+					长度: 46
+					发射速度: 16
+					牵引速度: 20 
+					'''
+			}
+
+			PhantomHook.DisplayName: Phantom Hook
+
+			ProfanedEnergyHook: {
+				DisplayName: 亵渎能量钩
+				Tooltip:
+					'''
+					'神圣的锁链摇晃着'
+					长度: 37
+					发射速度: 16
+					牵引速度: 30 
+					'''
+			}
+
+			ProfanedHook.DisplayName: Profaned Hook
+
+			RavaHook: {
+				DisplayName: 魔像钩
+				Tooltip:
+					'''
+					'把你的眼睛给挖出来'
+					长度: 43
+					发射速度: 18
+					牵引速度: 20 
+					'''
+			}
+
+			RavaClaw.DisplayName: Ravager Claw
+
+			ScavaHook: {
+				DisplayName: 远古魔像钩
+				Tooltip:
+					'''
+					'用古代北欧人的方式把你的眼睛给挖出来！'
+					长度: 50
+					发射速度: 19
+					牵引速度: 25 
+					'''
+			}
+
+			ScavaClaw.DisplayName: Scavenger Claw
+
+			XMLightningHook: {
+				DisplayName: XM-光电钩
+				Tooltip:
+					'''
+					'像闪电一般的速度！'
+					处于混乱状态时无法使用
+					长度: 60
+					发射速度: 62
+					牵引速度: 35 
+					'''
+			}
+
+			THanosHook.DisplayName: T Hanos Hook
+
+			ExodiumMoon: {
+				# Misc
+				DisplayName: 起源轨道飞行器
+				# Misc
+				Tooltip: 天旋地转
+			}
+
+			AntarcticEssence: {
+				# Light Pets
+				DisplayName: 极地精华
+				# Light Pets
+				Tooltip:
+					'''
+					无法获得
+					暂时没用
+					'''
+			}
+
+			AstralBinoculars: {
+				DisplayName: 幻星望远镜
+				# Provides a moderate amount of light in the abyss
+				Tooltip:
+					'''
+					召唤监星集群
+					'你可以看见远处有什么东西'
+					在深渊提供少许光照
+					'''
+			}
+
+			ConstructionRemote: {
+				DisplayName: 建造者遥控器
+				Tooltip:
+					'''
+					召唤一个小挖掘爬虫跟随你，照亮你的路
+					注意: 与修复机器人同时使用会导致过载！
+					'''
+			}
+
+			CoreofVanity: {
+				DisplayName: 虚荣核心
+				Tooltip:
+					'''
+					召唤一个小寻阳鱼和热能之魂跟着你
+					'冻结之人正在休息'
+					在深渊中提供大量光照
+					'''
+			}
+
+			CosmicBubble: {
+				DisplayName: 宇宙泡泡
+				Tooltip:
+					'''
+					召唤宇宙助手来帮你一起努力
+					'Enreden的开发者宠物，如果没有他，这个模组不可能存在于此' 
+					在深渊中提供巨量光照
+					'''
+			}
+
+			DarksunSigil: {
+				DisplayName: 暗日魔符
+				Tooltip:
+					'''
+					召唤暗日精灵跟随着你
+					在深渊中提供巨量光照
+					'''
+			}
+
+			DivineFly: {
+				DisplayName: 超凡萤火虫
+				Tooltip:
+					'''
+					召唤一个伟大的实体
+					'飞升'
+					在深渊中提供大量光照
+					'''
+			}
+
+			EssenceofDisorder: {
+				DisplayName: 紊乱精华
+				Tooltip:
+					'''
+					召唤一对热能之魂照亮你的到路
+					'与我一同燃烧' 
+					在深渊提供少许光照
+					'''
+			}
+
+			EssenceofYeet: {
+				DisplayName: 太阳的精华
+				Tooltip:
+					'''
+					召唤一条小寻阳鱼
+					'阳鱼帮，阳鱼帮'
+					在深渊中提供微量光照
+					'''
+			}
+
+			HolyTorch: {
+				DisplayName: 圣光火炬
+				Tooltip:
+					'''
+					吸引一些恼人的妖精
+					在深渊中提供大量光照
+					'''
+			}
+
+			PhantominaJar: {
+				DisplayName: 瓶中幻魂
+				Tooltip:
+					'''
+					召唤幻魂妖灵照亮你的道路
+					'想都别想'
+					在深渊中提供大量光照
+					'''
+			}
+
+			ProfanedHeart: {
+				DisplayName: 亵渎之心
+				Tooltip:
+					'''
+					召唤一个微型的普罗维登斯和祂的守卫
+					'装备这个来获得光芒的祝福'
+					在深渊中提供大量光照
+					'''
+			}
+
+			SunBun: {
+				DisplayName: 太阳小面包
+				Tooltip:
+					'''
+					召唤太阳小面包
+					提高兔子生成率..
+					'重要的面包'
+					在深渊中提供大量光照
+					'''
+			}
+
+			SuperstitiousJewel: {
+				DisplayName: 惘信之玉
+				Tooltip:
+					'''
+					召唤一个元素，两个吸能符文和两个鬼影鲨鱼跟着你，并散发出恐怖的光芒
+					'它看起来像个玻璃珠，但里面蕴含的魔力可是真实的' 
+					在深渊中提供超量的光照
+					'''
+			}
+
+			WulfrumTransmitter: {
+				DisplayName: 钨钢发信机
+				Tooltip:
+					'''
+					召唤钨钢原型充能塔
+					'它发出了很多仪表的杂音'
+					在深渊中提供微量光照
+					'''
+			}
+
+			AuricCarKey: {
+				# Mounts
+				DisplayName: 圣金源车钥匙
+				# Mounts
+				Tooltip:
+					'''
+					召唤可骑乘的魔君御用特斯拉坐骑
+					Boss存在时极大降低你的生命值和伤害
+					'魔君牌汽车'
+					'''
+			}
+
+			BloodstoneCarriageItem: {
+				DisplayName: 血石邀请函
+				Tooltip:
+					'''
+					召唤可骑乘的血石马车坐骑
+					Boss存在时降低你的生命值和伤害
+					'这是一封邀请函，邀请您在亡者的马车上愉悦的散步！'
+					'''
+			}
+
+			CrackedFossil: {
+				DisplayName: 螃蟹化石
+				Tooltip:
+					'''
+					召唤可骑乘的珊瑚蟹坐骑
+					Boss存在时降低你的生命值和伤害
+					'它正在奋力移动...'
+					'''
+			}
+
+			FloatyCarpetItem: {
+				DisplayName: 薄薄的浮毯
+				Tooltip:
+					'''
+					召唤可骑乘的缓降和抵消坠落伤害的浮毯坐骑
+					'一个用薄薄的毯子做成的浮毯！'
+					'''
+			}
+
+			GodRiderItem: {
+				DisplayName: 神明骑乘套装
+				Tooltip:
+					'''
+					召唤可骑乘的神明地效飞行器坐骑
+					Boss存在时降低你的生命值和伤害
+					'一眨眼就跨越了几英里'
+					'''
+			}
+
+			HadarianTail: {
+				DisplayName: 哈德安翼龙的蛋
+				Tooltip:
+					'''
+					召唤可骑乘的哈德安翼龙坐骑
+					Boss存在时降低你的生命值和伤害
+					'''
+			}
+
+			InfectedController: {
+				DisplayName: 瘟疫操纵杆
+				Tooltip:
+					'''
+					召唤可骑乘的瘟疫骑手坐骑
+					Boss存在时降低你的生命值和伤害
+					'它发出了8比特的嗡嗡声'
+					'''
+			}
+
+			LeviathanEgg: {
+				DisplayName: 利维坦蛋
+				Tooltip:
+					'''
+					召唤可骑乘的幼年利维坦坐骑
+					Boss存在时降低你的生命值和伤害
+					'''
+			}
+
+			PopUpShop: {
+				DisplayName: 快闪店
+				Tooltip:
+					'''
+					召唤可骑乘的摩沙人坐骑
+					每5秒从钱币栏消耗一枚铜币以获得超音速
+					如果没有铜币摩沙人就会瘫痪
+					'''
+			}
+
+			ProfanedBattery: {
+				DisplayName: 神圣晶核
+				Tooltip: 控制亵渎守卫行动的核心：可以用来制作一些强大的物品...但具体是啥呢？
+			}
+
+			ProfanedCycleItem: {
+				DisplayName: 亵渎守卫牌摩托车
+				Tooltip:
+					'''
+					召唤可骑乘的亵渎守卫牌摩托车坐骑
+					Boss存在时极大降低你的生命值和伤害
+					'当你需要时髦地前往某地'
+					'''
+			}
+
+			ProfanedFrame: {
+				DisplayName: 亵渎车架
+				Tooltip: 这是不是某种古代机械装置？好像还缺了点东西...
+			}
+
+			ProfanedWheels: {
+				DisplayName: 炽热轮胎
+				Tooltip: "'由纯粹亵渎能量所制成的轮胎，应该很适合用来做成甜甜圈...'"
+			}
+
+			RadJuice: {
+				DisplayName: 放射性利乐装
+				Tooltip:
+					'''
+					召唤可骑乘的辐核骇兽坐骑
+					Boss存在时降低你的生命值和伤害
+					'你可能不该喝这个玩意儿'
+					'''
+			}
+
+			ShadowShedding: {
+				DisplayName: 脱落的暗影甲壳
+				Tooltip:
+					'''
+					召唤可骑乘的思维聚合体坐骑玩意
+					Boss存在时降低你的生命值和伤害
+					'侵染！'
+					'''
+			}
+
+			SilvaJeepItem: {
+				DisplayName: 始源林海吉普车钥匙
+				Tooltip:
+					'''
+					召唤可骑乘的始源林海吉普车坐骑
+					Boss存在时大量降低你的生命值和伤害
+					'狩猎时间'
+					'''
+			}
+
+			WulfrumKeys: {
+				DisplayName: 钨钢车钥匙
+				Tooltip:
+					'''
+					召唤可骑乘的钨钢坦克坐骑
+					Boss存在时降低你的生命值和伤害
+					'不知为什么你已经明白该如何操纵它了...'
+					'''
+			}
+
+			YharonsAnklet: {
+				DisplayName: 狱火留言本
+				Tooltip:
+					'''
+					召唤可骑乘的犽戎克隆坐骑
+					'这是我的留言...' 
+					'''
+			}
+
+			AlarmClock: {
+				# Pandemonium Box
+				DisplayName: 闹钟
+				# Pandemonium Box
+				Tooltip: 旅行备件
+			}
+
+			NurseryBell: {
+				DisplayName: Nursery Bell
+				Tooltip: Our best friends...
+			}
+
+			DustChime: {
+				DisplayName: Dust Chime
+				Tooltip: The winds of progress!
+			}
+
+			BestInstrument: {
+				DisplayName: Best Instrument
+				Tooltip: Pieces of your journey
+			}
+
+			HarbingerOfWork: {
+				DisplayName: Harbinger of Work
+				Tooltip: Feels like robot love!
+			}
+
+			MaladyBells: {
+				DisplayName: Malady Bells
+				Tooltip: Starting anew!
+			}
+
+			SpiritDinerBell: {
+				DisplayName: Dead Ringer
+				Tooltip: Halfway there
+			}
+
+			AltarBell: {
+				DisplayName: Altar Bell
+				Tooltip: The gods from the heavens on the palm of your hand
+			}
+
+			TubRune: {
+				DisplayName: T.U.B. Rune
+				Tooltip: Change the world...
+			}
+
+			VaselineBell: {
+				DisplayName: Vaseline Bell
+				Tooltip: "'All at once I come alive, it's a rebirth!'"
+			}
+
+			WormBell: {
+				DisplayName: Slither Charm
+				Tooltip:
+					'''
+					'But does it ring any bells?
+					That I don't mention the hell?' 
+					'''
+			}
+
+			ScratchedGong: {
+				DisplayName: Scratched Gong
+				Tooltip:
+					'''
+					'Your patience is admirable
+					You will soon be rewarded...'
+					'''
+			}
+
+			PandemoniumBox: {
+				DisplayName: Pandemonium Box
+				Tooltip:
+					'''
+					The end of our journey, your zenith
+					Summons every pet you've met in your path
+					'And I wish I was the only one to leave'
+					'''
+			}
+
+			NuggetLicense: {
+				# Town pets
+				DisplayName: 小鸡块许可证
+				# Town pets
+				Tooltip: 用于为城镇收养小鸡块
+			}
+
+			AnahitaPlushThrowable: {
+				# Plushies
+				DisplayName: 阿娜希塔毛绒公仔（可投掷版）
+				# Plushies
+				Tooltip: 可以拿来随便扔
+			}
+
+			ApolloPlushThrowable: {
+				DisplayName: 阿波罗毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			AquaticScourgePlushThrowable: {
+				DisplayName: 渊海灾虫毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			AresPlushThrowable: {
+				DisplayName: 阿瑞斯毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			ArtemisPlushThrowable: {
+				DisplayName: 阿尔忒弥斯毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			AstrageldonPlushThrowable: {
+				DisplayName: 末世星史莱姆毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			AstrumAureusPlushThrowable: {
+				DisplayName: 白金星舰毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			AstrumDeusPlushThrowable: {
+				DisplayName: 星神游龙毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			BrimstoneElementalPlushThrowable: {
+				DisplayName: 硫磺火元素毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			BumblefuckPlushThrowable: {
+				DisplayName: 痴愚金龙毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			CalaFumoYeetable: {
+				DisplayName: 灾厄毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			CeaselessVoidPlushThrowable: {
+				DisplayName: 无尽虚空毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			ClonePlushThrowable: {
+				DisplayName: 灾厄之眼毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			CrabulonPlushThrowable: {
+				DisplayName: 菌生蟹毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			CryogenPlushThrowable: {
+				DisplayName: 极地之灵毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			DesertScourgePlushThrowable: {
+				DisplayName: 荒漠灾虫毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			DevourerofGodsPlushThrowable: {
+				DisplayName: 神明吞噬者毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			DraedonPlushThrowable: {
+				DisplayName: 嘉登毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			GiantClamPlushThrowable: {
+				DisplayName: 巨象蛤毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			HiveMindPlushThrowable: {
+				DisplayName: 腐巢意志毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			JaredPlushThrowable: {
+				DisplayName: 幻海妖龙毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			LeviathanPlushThrowable: {
+				DisplayName: 利维坦毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			MaulerPlushThrowable: {
+				DisplayName: 渊海狂鲨毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			MirePlushThrowable: {
+				DisplayName: 闭合的峭咽潭毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			NuclearTerrorPlushThrowable: {
+				DisplayName: 辐射骇兽毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			OldDukePlushThrowable: {
+				DisplayName: 硫海遗爵毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			PerforatorPlushThrowable: {
+				DisplayName: 血肉宿主毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			PlaguebringerGoliathPlushThrowable: {
+				DisplayName: 瘟疫使者歌莉娅毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			PolterghastPlushThrowable: {
+				DisplayName: 噬魂幽花毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			ProfanedGuardianPlushThrowable: {
+				DisplayName: 亵渎守卫毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			ProvidencePlushThrowable: {
+				DisplayName: 普罗维登斯毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			RavagerPlushThrowable: {
+				DisplayName: 毁灭魔像毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			SandSharkPlushThrowable: {
+				DisplayName: 旱海狂鲨毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			SignusPlushThrowable: {
+				DisplayName: 西格纳斯毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			SlimeGodPlushThrowable: {
+				DisplayName: 史莱姆之神毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			StormWeaverPlushThrowable: {
+				DisplayName: 风暴编织者毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			ThanatosPlushThrowable: {
+				DisplayName: 塔纳托斯毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			YharonPlushThrowable: {
+				DisplayName: 犽戎毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			BubbleMachine: {
+				# Tiles
+				DisplayName: 赛博起泡器
+				# Tiles
+				Tooltip: "'这就是时髦，伙计'"
+			}
+
+			MeldBlockItem.DisplayName: Meld Block
+
+			WulfrumPlating: {
+				DisplayName: 钨钢镀砖
+				Tooltip: ""
+			}
+
+			ThanatosPlating: {
+				DisplayName: XM-05 装甲镀层
+				Tooltip: ""
+			}
+
+			ThanatosPlatingVent: {
+				DisplayName: XM-05 装甲镀层（变体）
+				Tooltip: ""
+			}
+
+			MeldosaurusRelic: {
+				DisplayName: 梅尔多龙雕像
+				Tooltip: ""
+			}
+
+			BleachBallItem: {
+				DisplayName: 炫彩沙滩球
+				Tooltip: 小心，可能会炸开
+			}
+
+			ChaoticPuffball: {
+				DisplayName: 混沌河豚球
+				Tooltip: "'它可能大概不会爆炸...'"
+			}
+
+			BlightedAstralPinkDye: {
+				DisplayName: 枯萎星粉染料
+				Tooltip: ""
+			}
+
+			BlightedAstralYellowDye: {
+				DisplayName: 枯萎星黄染料
+				Tooltip: ""
+			}
+
+			ApolloBalloonSmall: {
+				DisplayName: 小型阿波罗气球
+				Tooltip: ""
+			}
+
+			Eidcape: {
+				DisplayName: 幻妖斗篷
+				Tooltip: ""
+			}
+
+			Birbhat: {
+				DisplayName: 痴愚金帽
+				Tooltip: ""
+			}
+
+			Calacirclet: {
+				DisplayName: 灾厄头环
+				Tooltip: ""
+			}
+
+			ShroomiteVisage: {
+				DisplayName: 蘑菇面甲
+				Tooltip: ""
+			}
+
+			Permascarf: {
+				DisplayName: 永冻围巾
+				Tooltip: ""
+			}
+
+			CloudWaistbelt: {
+				DisplayName: 云朵斗篷
+				Tooltip: ""
+			}
+
+			Polterhook: {
+				DisplayName: 恐怖链钩
+				Tooltip: ""
+			}
+
+			MysteryPainting: {
+				DisplayName: 神秘的画作
+				Tooltip: <right>得到一幅随机的绘画作品
+			}
+
+			NuclearFumes: {
+				DisplayName: 辐核废气
+				Tooltip: "'请勿吸入'"
+			}
+
+			OldCassette: {
+				DisplayName: 老式磁带
+				Tooltip:
+					'''
+					将该物品标记为收藏后，玩家激活残影特效
+					'里面包含了一些90年代的潮流动画影像'
+					'''
+			}
+
+			AcidLamp: {
+				DisplayName: 硫酸提灯
+				Tooltip:
+					'''
+					召唤一个硫酸爬虫幼崽
+					'里边好像有颗蛋'
+					'''
+			}
+
+			AerialiteBubble: {
+				DisplayName: 天蓝圆罩盘
+				Tooltip:
+					'''
+					召唤天蓝史莱姆兄弟
+					'一个表面覆盖着轻质凝胶的奇怪球体'
+					'''
+			}
+
+			ArmoredScrap: {
+				DisplayName: 装甲碎片
+				Tooltip:
+					'''
+					召唤一个小无人机
+					'无法修复，但是可以吸引一位探测器朋友！'
+					'''
+			}
+
+			AstraEGGeldon: {
+				DisplayName: 末世幻星蛋
+				Tooltip:
+					'''
+					召唤一只烦躁不安的融合生物陪着你
+					'在你可以不要再问我是怎么出生的了'
+					'''
+			}
+
+			AstralInfectedIcosahedron: {
+				DisplayName: 被星辉瘟疫污染的二十面体
+				Tooltip:
+					'''
+					召唤一个噬菌体
+					'为你的行动Roll点！'
+					'''
+			}
+
+			AuricBottle: {
+				DisplayName: 古圣金源瓶
+				Tooltip: 召唤一只超神的鱿鱼跟随你
+			}
+
+			BambooStick: {
+				DisplayName: 奇怪的竹杆
+				Tooltip:
+					'''
+					召唤一个小熊猫宠物
+					'它的气味吸引了一只罕见的动物'
+					'''
+			}
+
+			BleuBlob: {
+				DisplayName: 蓝色液滴
+				Tooltip: 召唤一些酷酷的蓝色的家伙们
+			}
+
+			BrimberryItem: {
+				DisplayName: 硫火浆果
+				Tooltip:
+					'''
+					召唤一种古老的水果
+					'用来招待硫火的女神'
+					'''
+			}
+
+			BubbledFin: {
+				DisplayName: 泡泡鱼鳍
+				Tooltip:
+					'''
+					召唤一个迷你渊海鲨
+					'它是怎么钻进去的？'
+					'''
+			}
+
+			BubbleGum: {
+				DisplayName: 泡泡糖
+				Tooltip: 召唤一位非凡的存在
+			}
+
+			CalamitousSoulArtifact: {
+				DisplayName: 灾坟魂物
+				Tooltip:
+					'''
+					熵
+					召唤一个友好的灾坟魔物
+					[c/C61B40:在无尽的苦痛之中爬行了数十年之后]
+					[c/C61B40:灾坟魔物终于找到了一个真正的朋友]
+					'''
+			}
+
+			CanofWyrms: {
+				DisplayName: 罐中妖龙
+				Tooltip:
+					'''
+					召唤一个小小妖龙
+					'深渊生物如何适应上边的环境，这可真让人好奇'
+					'''
+			}
+
+			CharredChopper: {
+				DisplayName: 烧焦的刀
+				Tooltip:
+					'''
+					召唤一个熔渣公爵之首
+					'一把灼烧至1000度的刀！'
+					'''
+			}
+
+			ClamHermitMedallion: {
+				DisplayName: 小蛤隐士的饰章
+				Tooltip:
+					'''
+					召唤一个小蛤隐士
+					'拿着这个让你感到手里湿湿的'
+					'''
+			}
+
+			ClawShroom: {
+				DisplayName: 蟹爪菌
+				Tooltip:
+					'''
+					召唤一个菌生蟹幼体
+					'咵啦 咔啦！'
+					'''
+			}
+
+			CoolShades: {
+				DisplayName: 酷酷的墨镜
+				Tooltip:
+					'''
+					召唤一个酷酷的冰灵
+					'精彩'
+					'''
+			}
+
+			CooperShortsword: {
+				DisplayName: Cooper的短剑
+				Tooltip:
+					'''
+					召唤一个奇怪的小极寒之灵
+					'释放凉爽的力量'
+					'''
+			}
+
+			CorrodedCleaver: {
+				DisplayName: 锈蚀的切肉刀
+				Tooltip:
+					'''
+					召唤一个硫海遗爵之首
+					'切片，切条，切丁'
+					'''
+			}
+
+			CosmicRapture: {
+				DisplayName: 寰宇狂欢
+				Tooltip: 召唤一个宇宙中的吞噬者跟着你
+			}
+
+			Cube: {
+				DisplayName: 立方体领主
+				Tooltip:
+					'''
+					召唤一个立方体领主
+					使虚弱的星神枯萎
+					'立方体领主万岁'
+					'''
+			}
+
+			CursedLockpick: {
+				DisplayName: 被诅咒的钥匙
+				Tooltip:
+					'''
+					召唤宠物锈蚀宝箱怪
+					'又绣又躁'
+					'''
+			}
+
+			DecayingFishtail: {
+				DisplayName: 腐烂鱼尾
+				Tooltip:
+					'''
+					召唤一个宠物毛...猫鱼？
+					'只有如不洁梦魇一般的怪物才会想要这种东西'
+					'''
+			}
+
+			DeepseaLantern: {
+				DisplayName: 深渊灯笼
+				Tooltip:
+					'''
+					召唤一条寻常的鳗鱼
+					"'也许会吸引来一条饥肠辘辘的生物'"
+					'''
+			}
+
+			DespairMask: {
+				DisplayName: 绝望面具
+				Tooltip:
+					'''
+					召唤一个悲伤之石
+					'它散发出抑郁的气息'
+					'''
+			}
+
+			DocilePheromones: {
+				DisplayName: 温和信息素
+				Tooltip:
+					'''
+					召唤一个小痴愚金龙
+					'闻起来像柠檬又像是胡椒'
+					'''
+			}
+
+			DoggoCollar: {
+				DisplayName: 多吉牌项圈
+				Tooltip: 召唤一只宠物吉娃娃
+			}
+
+			DriedLocket: {
+				DisplayName: 干燥吊坠
+				Tooltip:
+					'''
+					召唤一条小荒漠灾虫
+					'有条虫子在里边儿蠕动'
+					'''
+			}
+
+			DustyBadge: {
+				DisplayName: 沙尘徽章
+				Tooltip:
+					'''
+					召唤一个旱海狂鲨的小孙子
+					'没了主心骨的小家伙'
+					'''
+			}
+
+			Eggstone: {
+				DisplayName: 滚石蛋
+				Tooltip:
+					'''
+					孵化一个幼年神庙滚石
+					'等等，它是活的？！'
+					'''
+			}
+
+			CloudCandy: {
+				DisplayName: 云朵糖
+				Tooltip:
+					'''
+					召唤一个小雨云元素
+					'一个元素最喜欢的甜食！'
+					'''
+			}
+
+			MiniatureElementalHeart: {
+				DisplayName: 微型元灵之心
+				Tooltip:
+					'''
+					召唤所有的微型元素
+					'你看起来像办着一个托儿所啥的...'
+					'''
+			}
+
+			RareBrimtulip: {
+				DisplayName: 罕见的硫火郁金香
+				Tooltip:
+					'''
+					召唤一个稀有的小硫磺火灵
+					'一朵元素最喜欢的花！'
+					'''
+			}
+
+			SmallSandPail: {
+				DisplayName: 小小沙灯
+				Tooltip:
+					'''
+					召唤一个小沙元素
+					'一个元素最喜欢的玩具！'
+					'''
+			}
+
+			SmallSandPlushie: {
+				DisplayName: 小小沙制毛绒玩具
+				Tooltip:
+					'''
+					召唤一个稀有的小沙元素
+					'一个元素最喜欢的玩具！'
+					'''
+			}
+
+			StrangeMusicNote: {
+				DisplayName: 奇异音符
+				Tooltip:
+					'''
+					召唤一个元气满满的塞壬之子
+					'一首元素最喜欢的歌！'
+					'''
+			}
+
+			ExoGemstone: {
+				DisplayName: 星流晶石
+				Tooltip: 召唤所有的星流巨械
+			}
+
+			GeminiMarkImplants: {
+				DisplayName: 双子信标植入体
+				Tooltip:
+					'''
+					召唤先进监视器械的小型复制品
+					'22寸显示屏'
+					'''
+			}
+
+			GunmetalRemote: {
+				DisplayName: 黑色炮火遥控器
+				Tooltip:
+					'''
+					召唤一款更小更友好的高科技版本挖掘机
+					'塔纳托斯'
+					'''
+			}
+
+			OminousCore: {
+				DisplayName: 不祥的核心
+				Tooltip:
+					'''
+					召唤邪恶器械的玩具变种
+					'腐烂的机械散发出令人惊讶的友好气息'
+					'''
+			}
+
+			ExtraFluffyFeather: {
+				DisplayName: 非常松软的羽毛
+				Tooltip:
+					'''
+					召唤一个迷你癫痫鸟
+					'吸引该物种里的最后一只'
+					'''
+			}
+
+			ExtraFluffyFeatherClump: {
+				DisplayName: 一大簇非常松软的羽毛
+				Tooltip:
+					'''
+					召唤一群野兽,非常可怕, 你会死的
+					'ISEJFDOIJNJSNFDGUISDBJNGSDJG'
+					'''
+			}
+
+			Finality: {
+				DisplayName: 终末遗物
+				Tooltip:
+					'''
+					召唤一块宠物石头
+					以前的石头不过是真实造物的外壳
+					创始者的第一个也是最喜欢的一个娱乐来源
+					'''
+			}
+
+			FlareRune: {
+				DisplayName: 闪耀符文
+				Tooltip:
+					'''
+					召唤阿瓦隆，一位蕴含着亵渎和寰宇能量的至高守卫
+					'芜湖'
+					'''
+			}
+
+			FROM: {
+				DisplayName: 只蛙储存器
+				Tooltip:
+					'''
+					召唤一只虚拟专用实体
+					'好像还有一串序列号...？'
+					'''
+			}
+
+			Geminga: {
+				DisplayName: 中子星
+				Tooltip:
+					'''
+					召唤11条小星神游龙
+					'一颗高度坍缩的恒星'
+					'''
+			}
+
+			GodSlayerDoll: {
+				DisplayName: 弑神者的玩偶
+				Tooltip:
+					'''
+					召唤一个宇宙刺客，静态探测器和暗能量
+					'仆从们会跟随一位新的领袖'
+					'''
+			}
+
+			HauntedPebble: {
+				DisplayName: 鬼魂石
+				Tooltip:
+					'''
+					召唤一个幻影骸虫
+					'吓~'
+					'''
+			}
+
+			HeartoftheSharks: {
+				DisplayName: 元鲨之心
+				Tooltip:
+					'''
+					召唤鲨鲨三重奏！
+					'今天是周鲨！'
+					'''
+			}
+
+			InkyArtifact: {
+				DisplayName: 墨汁工艺品
+				Tooltip:
+					'''
+					召唤一个欧米茄鱿鱼仔
+					'欧米茄版本半价！！'
+					'''
+			}
+
+			InkyPollution: {
+				DisplayName: 沾满墨汁的污物
+				Tooltip:
+					'''
+					召唤一个鱿鱼仔
+					'我们对环境做的一切都令人感到羞耻'
+					'''
+			}
+
+			IonizedJellyCrystal: {
+				DisplayName: 电离凝胶水晶
+				Tooltip:
+					'''
+					召唤凝胶生物进化的顶峰
+
+
+					'你有听说过不定形之神——古泽玛的悲剧吗?我想你没有，这不是暴君会告诉你的故事
+					这是一个关于监督者的传说。古泽玛是所有凝胶生物的终极进化形态，它是如此强大，以至于能够影响其他凝胶生物的组成细胞
+					它甚至可以创造出与生物群落密切相关的新的史莱姆神明
+					古泽玛借助这个世界的能量获取了许多超自然的能力
+					古泽玛变得如此强大，它唯一害怕的就是失去它的力量。当然，最终，它还是失去了
+					不幸的是，古泽玛的力量强大到使它自己成为了一个时间异常
+					这样的时间异常是一种超越我们宇宙的力量并且不得不被抹去，所以古泽玛从一开始就根本就不存在
+					讽刺的是，使古泽玛成为神的力量，同时也是令它灭亡的原因'
+					'''
+			}
+
+			MeatyWormTumor: {
+				DisplayName: 蠕虫肉瘤
+				Tooltip:
+					'''
+					召唤一个带孔的肉瘤
+					'可能含有附赠的蠕虫'
+					'''
+			}
+
+			MirrorMatter: {
+				DisplayName: 镜像物质
+				Tooltip:
+					'''
+					召唤一小团暗能量
+					'他们总是说打碎镜子会带来厄运'
+					'''
+			}
+
+			MoistLocket: {
+				DisplayName: 潮湿的吊坠
+				Tooltip:
+					'''
+					召唤一条小渊海灾虫
+					'有条虫子在里边儿蠕动'
+					'''
+			}
+
+			NuggetinaBiscuit: {
+				DisplayName: 鸡块夹心饼
+				Tooltip:
+					'''
+					召唤丛林肥龙
+					'没有一个丛林小龙可以抵挡它的诱惑！'
+					'''
+			}
+
+			PlaguebringerPowerCell: {
+				DisplayName: 已移除的物品
+				Tooltip: 可以合适的价格出售
+			}
+
+			PristineExcalibur: {
+				DisplayName: 已移除的物品
+				Tooltip: 可以合适的价格出售
+			}
+
+			ProfanedChewToy: {
+				DisplayName: 亵渎磨牙棒
+				Tooltip:
+					'''
+					召唤一个亵渎神明的家伙
+					'看起来尘土飞扬'
+					'''
+			}
+
+			PurifiedFog: {
+				DisplayName: 纯净之雾
+				Tooltip:
+					'''
+					召唤一个来自混沌维度的生物
+					'看好它'
+					'''
+			}
+
+			ReaperoidPills: {
+				DisplayName: 猎魂药片
+				Tooltip:
+					'''
+					召唤一只行走的猎魂鲨
+					'这就是为什么他们如此强壮...'
+					'''
+			}
+
+			RepurposedMonitor: {
+				DisplayName: 重启的显示屏
+				Tooltip: 召唤一个故障维修机器人来跟随你
+			}
+
+			RottenHotdog: {
+				DisplayName: 腐烂热狗
+				Tooltip:
+					'''
+					召唤一只斗牛犬
+					当附近有稀有生物时发出叫声
+					'Delicious...'
+					'''
+			}
+
+			RottenKey: {
+				DisplayName: 腐烂之钥
+				Tooltip:
+					'''
+					召唤腐巢意志的一部分
+					'安抚微生物群的钥匙'
+					'''
+			}
+
+			RottingCalamitousArtifact: {
+				DisplayName: 腐烂灾厄工艺品
+				Tooltip:
+					'''
+					召唤宠物灾坟
+					'坟墓已漫步者转轴苏醒'
+					'''
+			}
+
+			RoverSpindle: {
+				DisplayName: 漫步者转轴
+				Tooltip:
+					'''
+					召唤一个看起来可疑又熟悉的钨钢机器人
+					'生硬'
+					'''
+			}
+
+			RuinedBandage: {
+				DisplayName: 破损的绷带
+				Tooltip:
+					'''
+					召唤欧罗斯
+					'来打，来撞，来断一只手'
+					'''
+			}
+
+			AmberGeode: {
+				DisplayName: 琥珀原石
+				Tooltip:
+					'''
+					召唤一只琥珀潜遁者
+					'里面也许会有一只潜遁者'
+					'''
+			}
+
+			AmethystGeode: {
+				DisplayName: 紫水晶晶洞
+				Tooltip:
+					'''
+					召唤一只紫水晶潜遁者
+					'里面可能会有一只潜遁者'
+					'''
+			}
+
+			BejeweledSpike: {
+				DisplayName: 五彩宝石晶簇
+				Tooltip:
+					'''
+					召唤一个五彩潜遁者
+					'将所有口味混在打包出售'
+					'''
+			}
+
+			CrystalGeode: {
+				DisplayName: 水晶晶洞
+				Tooltip:
+					'''
+					召唤一只水晶潜遁者
+					'里面或许会有一只潜遁者'
+					'''
+			}
+
+			DiamondGeode: {
+				DisplayName: 钻石晶洞
+				Tooltip:
+					'''
+					召唤一只钻石潜遁者
+					'里面大概会有一只潜遁者'
+					'''
+			}
+
+			EmeraldGeode: {
+				DisplayName: 翡翠晶洞
+				Tooltip:
+					'''
+					召唤一只翡翠潜遁者
+					'里面应该会有一只潜遁者'
+					'''
+			}
+
+			RubyGeode: {
+				DisplayName: 红宝石晶洞
+				Tooltip:
+					'''
+					召唤一只红宝石潜遁者
+					'里面多半会有一只潜遁者'
+					'''
+			}
+
+			SapphireGeode: {
+				DisplayName: 蓝宝石晶洞
+				Tooltip:
+					'''
+					召唤一只蓝宝石潜遁者
+					'里面八成会有一只潜遁者'
+					'''
+			}
+
+			TopazGeode: {
+				DisplayName: 黄玉晶洞
+				Tooltip:
+					'''
+					召唤一只黄玉潜遁者
+					'里面兴许会有一只潜遁者'
+					'''
+			}
+
+			ShadowCloth: {
+				DisplayName: 暗影之布
+				Tooltip: 召唤一位刺客,他会潜伏在你的背后
+			}
+
+			Sirember: {
+				DisplayName: "塞壬爱好者"
+				Tooltip:
+					'''
+					召唤潮汐女神之怒
+					'永远铭记...'
+					'''
+			}
+
+			SkullCluster: {
+				DisplayName: 头骨堆
+				Tooltip:
+					'''
+					召唤一个迷你毁灭魔像
+					'两颗头骨从骨堆里边冒了出来，两眼散发着诡异的光'
+					'''
+			}
+
+			SlightlyMoistbutalsoSlightlyDryLocket: {
+				DisplayName: 如干的吊坠
+				Tooltip:
+					'''
+					召唤“渊漠”灾虫
+					'有条虫子在里边儿蠕动'
+					'''
+			}
+
+			SlimeDeitysSoul: {
+				DisplayName: 史莱姆之神的灵魂
+				Tooltip:
+					'''
+					召唤一个微型的史莱姆之神的核心，并且由祂的护卫守护着
+					'渴望腐朽的力量'
+					'''
+			}
+
+			SmolEldritchHoodie: {
+				DisplayName: 小巧的怪异连帽衫
+				Tooltip:
+					'''
+					召唤一个小灵巫
+					'幼崽的第一件连帽衫'
+					'''
+			}
+
+			SoulShard: {
+				DisplayName: 灵魂碎片
+				Tooltip:
+					'''
+					召唤一条幻海妖龙
+					'深渊的癫狂在你的血肉中回荡'
+					'''
+			}
+
+			SpaceJunk: {
+				DisplayName: 太空垃圾
+				Tooltip: 召唤一颗被遗忘的彗星
+			}
+
+			StormMedal: {
+				DisplayName: 风暴徽章
+				Tooltip:
+					'''
+					召唤一条幼年的风暴编织者
+					'是头还是虫子？'
+					'''
+			}
+
+			SunDriedShrimp: {
+				DisplayName: 晒干的虾
+				Tooltip:
+					'''
+					召唤一个有点恶心的喷水龙
+					'卧龙海马最喜欢的小零食'
+					'''
+			}
+
+			SuspiciousLookingChineseCrown: {
+				DisplayName: 可疑的中式头冠
+				Tooltip:
+					'''
+					召唤一个纯粹的宇宙之子
+					'她 来 了'
+					'''
+			}
+
+			SuspiciousLookingGBC: {
+				DisplayName: 可疑的GBC游戏机
+				Tooltip:
+					'''
+					召唤一个被丢在垃圾堆里的扫地机器人
+					'这意味着什么？'
+					'''
+			}
+
+			TheDragonball: {
+				DisplayName: 龙珠
+				Tooltip:
+					'''
+					召唤一个球形痴愚金龙
+					因为失败的克隆龙会有身份危机
+					'啊哦'
+					'''
+			}
+
+			TheSeaKingsCoin: {
+				DisplayName: 海王的硬币
+				Tooltip:
+					'''
+					召唤两条灾虫
+					'含有害虫的能力'
+					'''
+			}
+
+			ToyScythe: {
+				DisplayName: 玩具镰刀
+				Tooltip:
+					'''
+					召唤一个幽花酱
+					'属于一个淘气的家伙'
+					'''
+			}
+
+			TundraBall: {
+				DisplayName: 冻原球
+				Tooltip:
+					'''
+					召唤一只非常生气的狗狗
+					'一个据说能驯服最生气的狗狗的咬咬球'
+					'''
+			}
+
+			UglyTentacle: {
+				DisplayName: 丑陋的触手
+				Tooltip:
+					'''
+					召唤T.U.B
+					'好肥'
+					'''
+			}
+
+			WulfrumController: {
+				DisplayName: 钨钢控制面板
+				Tooltip: 允许使用者指挥一支机械部队
+			}
+
+			ZygoteinaBucket: {
+				DisplayName: 恶灵桶
+				Tooltip: 召唤一个古老的小恶灵
+			}
+
+			HypnosPlushThrowable: {
+				DisplayName: Hypnos Plush（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			MirePlushThrowableP1: {
+				DisplayName: 峭咽潭毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			MirePlushThrowableP2: {
+				DisplayName: 黏糊的峭咽潭毛绒公仔（可投掷版）
+				Tooltip: 可以拿来随便扔
+			}
+
+			PutridShroom: {
+				DisplayName: 芳香蘑菇
+				Tooltip:
+					'''
+					大真菌螃蟹死亡后的愤怒，使得其上的蘑菇发生松动
+					把小真菌螃蟹放在你的头上，即使在你移动的时候
+					'闻起来像...奶酪？'
+					'''
+			}
+
+			SparrowMeat: {
+				DisplayName: 雀肉
+				Tooltip: 里面有些粉红色的布条
+			}
+
+			Termipebbles: {
+				DisplayName: 终末石碎砾
+				Tooltip:
+					'''
+					用来制作终末主题系列物品
+					'请勿吞食'
+					'''
+			}
+
+			AstralMusicBox: {
+				DisplayName: 八音盒（枯萎彗星）
+				Tooltip: ""
+			}
+
+			AuricTrashCan: {
+				DisplayName: 圣金源垃圾桶
+				Tooltip: "'我的生活要失控了'"
+			}
+
+			TiedBoB2: {
+				DisplayName: 装饰用深渊动物气球束
+				Tooltip: ""
+			}
+
+			TiedBoxBalloon: {
+				DisplayName: 装饰用灯水母气球
+				Tooltip: ""
+			}
+
+			TiedChaosBalloon: {
+				DisplayName: 装饰用混乱河豚气球
+				Tooltip: ""
+			}
+
+			TiedMirageBalloon: {
+				DisplayName: 装饰用幻海水母气球
+				Tooltip: ""
+			}
+
+			AstragellySlimeBanner: {
+				DisplayName: 星胶史莱姆旗帜
+				Tooltip: ""
+			}
+
+			BleamurBanner: {
+				DisplayName: 枯萎狐猴旗帜
+				Tooltip: ""
+			}
+
+			CalamitasBanner: {
+				DisplayName: 尖三角旗
+				Tooltip: ""
+			}
+
+			EyedolBanner: {
+				DisplayName: 大眼娃旗帜
+				Tooltip: ""
+			}
+
+			GodSlayerSlugBanner: {
+				DisplayName: 弑神者蛞蝓旗帜
+				Tooltip: ""
+			}
+
+			IsopodBanner: {
+				DisplayName: 大王具足虫旗帜
+				Tooltip: ""
+			}
+
+			SandTurtleBanner: {
+				DisplayName: 沙漠龟旗帜
+				Tooltip: ""
+			}
+
+			VeilBanner: {
+				DisplayName: 日影面纱旗帜
+				Tooltip: 非常适合用来遮挡阳光！
+			}
+
+			ViolemurBanner: {
+				DisplayName: 星幻狐猴旗帜
+				Tooltip: ""
+			}
+
+			XerocodileBanner: {
+				DisplayName: 克洛希克鳄旗旗帜
+				Tooltip: ""
+			}
+
+			AstralClay: {
+				DisplayName: 枯萎彗星粘土
+				Tooltip: ""
+			}
+
+			AstralDirt: {
+				DisplayName: 枯萎彗星土块
+				Tooltip: ""
+			}
+
+			AstralHardenedSand: {
+				DisplayName: 硬化枯萎彗星沙块
+				Tooltip: ""
+			}
+
+			AstralIce: {
+				DisplayName: 枯萎彗星冰雪块
+				Tooltip: ""
+			}
+
+			AstralSand: {
+				DisplayName: 硬化枯萎彗星沙块
+				Tooltip: ""
+			}
+
+			AstralSandstone: {
+				DisplayName: 枯萎彗星沙岩块
+				Tooltip: ""
+			}
+
+			AstralSnow: {
+				DisplayName: 枯萎彗星雪块
+				Tooltip: ""
+			}
+
+			AstralTreeWood: {
+				DisplayName: 异星木材
+				Tooltip: ""
+			}
+
+			Xenostone: {
+				DisplayName: 异星石块
+				Tooltip: ""
+			}
+
+			AstralBrick: {
+				DisplayName: 枯萎彗星砖
+				Tooltip: ""
+			}
+
+			AstralGrass: {
+				DisplayName: 枯萎彗星草种
+				Tooltip: 在枯萎彗星土上种植枯萎彗星草
+			}
+
+			AstralPearlBlock: {
+				DisplayName: 星幻珍珠块
+				Tooltip: ""
+			}
+
+			AstralPlating: {
+				DisplayName: 星体镀块
+				Tooltip: ""
+			}
+
+			AuricBrick: {
+				DisplayName: 圣金源砖
+				Tooltip: ""
+			}
+
+			AzufreSludge: {
+				DisplayName: 峭咽污泥
+				Tooltip: ""
+			}
+
+			BlightedEggBlock: {
+				DisplayName: 枯萎卵块
+				Tooltip: ""
+			}
+
+			Bloodstone: {
+				DisplayName: 已移除的物品
+				Tooltip: 作为补偿，可出售
+			}
+
+			BloodstoneBrick: {
+				DisplayName: 血石砖
+				Tooltip: ""
+			}
+
+			ChiseledBloodstone: {
+				DisplayName: 雕砌血石
+				Tooltip: 用来制作血石家具
+			}
+
+			EidolicSlab: {
+				DisplayName: 幻妖石板
+				Tooltip: ""
+			}
+
+			FrostflakeBrick: {
+				DisplayName: 碎雪砖
+				Tooltip: ""
+			}
+
+			HallowedBrick: {
+				DisplayName: 神圣砖
+				Tooltip: ""
+			}
+
+			MeldBlock: {
+				DisplayName: 冥思砖
+				Tooltip: ""
+			}
+
+			Necrostone: {
+				DisplayName: 死灵石砖
+				Tooltip: ""
+			}
+
+			PhantowaxBlock: {
+				DisplayName: 鬼影块
+				Tooltip: ""
+			}
+
+			PlagueHiveWand: {
+				DisplayName: 瘟疫蜂巢魔棒
+				Tooltip: 用于放置瘟疫蜂巢
+			}
+
+			PolishedAstralMonolith: {
+				DisplayName: 光滑星幻块
+				Tooltip: ""
+			}
+
+			PolishedXenomonolith: {
+				DisplayName: 光滑异星块
+				Tooltip: ""
+			}
+
+			ShadowBrick: {
+				DisplayName: 魔影砖
+				Tooltip: ""
+			}
+
+			AgedBlueprint: {
+				DisplayName: 古老蓝图
+				Tooltip: 请勿外传？
+			}
+
+			AstrumAureusLog: {
+				DisplayName: 白金星舰制造蓝图
+				Tooltip: 请勿外传
+			}
+
+			BumblebirbLog: {
+				DisplayName: "[销毁]犽戎克隆计划蓝图"
+				Tooltip: 请勿外传
+			}
+
+			CalamitasLog: {
+				DisplayName: 灾厄之眼克隆计划蓝图
+				Tooltip: 请勿外传
+			}
+
+			DestroyerLog: {
+				DisplayName: 机械毁灭者制造蓝图
+				Tooltip: 请勿外传
+			}
+
+			DogLog: {
+				DisplayName: 神明吞噬者装甲制造蓝图
+				Tooltip: 请勿外传
+			}
+
+			MurasamaLog: {
+				DisplayName: 鬼妖村正制造蓝图Ⅰ
+				Tooltip: 请勿外传
+			}
+
+			OrthoceraLog: {
+				DisplayName: 直角石投放计划
+				Tooltip: 请勿外传
+			}
+
+			PlagueLog: {
+				DisplayName: 歌莉娅制造蓝图
+				Tooltip: 请勿外传
+			}
+
+			PrimeLog: {
+				DisplayName: 机械骷髅王制造蓝图
+				Tooltip: 请勿外传
+			}
+
+			SamLog: {
+				DisplayName: 鬼妖村正制造蓝图Ⅱ
+				Tooltip: 请勿外传
+			}
+
+			TwinsLog: {
+				DisplayName: 双子魔眼制造蓝图
+				Tooltip: 请勿外传
+			}
+
+			YharmorLog: {
+				DisplayName: 古圣金源套装制造蓝图
+				Tooltip: 请勿外传
+			}
+
+			BoiMachine: {
+				DisplayName: 阿娜希塔机械汇编
+				Tooltip:
+					'''
+					未 完 成，极 度 不 稳 定
+					肉鸽游戏
+					'''
+			}
+
+			BrimstoneHeart: {
+				DisplayName: 悬挂式硫磺火心
+				Tooltip: 吊起来
+			}
+
+			AstJar: {
+				DisplayName: 星胶瓶
+				Tooltip: ""
+			}
+
+			BleamurPerch: {
+				DisplayName: 狐猴彗星栖木
+				Tooltip: ""
+			}
+
+			BlinkerInABottle: {
+				DisplayName: 闪耀萤火虫瓶
+				Tooltip: ""
+			}
+
+			CrystalFlyJar: {
+				DisplayName: 亵渎晶蝶罐
+				Tooltip: ""
+			}
+
+			EyedolTerrarium: {
+				DisplayName: 大眼娃笼
+				Tooltip: ""
+			}
+
+			GAstJar: {
+				DisplayName: 黄金星胶瓶
+				Tooltip: ""
+			}
+
+			GoldenIsopodTerrarium: {
+				DisplayName: 黄金大王具足虫笼
+				Tooltip: ""
+			}
+
+			GoldEyedolTerrarium: {
+				DisplayName: 黄金大眼娃笼
+				Tooltip: ""
+			}
+
+			GoldViolemurMonolith: {
+				DisplayName: 黄金狐猴栖木
+				Tooltip: ""
+			}
+
+			IsopodTerrarium: {
+				DisplayName: 大王具足虫笼
+				Tooltip: ""
+			}
+
+			NukeJar: {
+				DisplayName: 硫海飞蝇瓶
+				Tooltip: ""
+			}
+
+			OrthoJar: {
+				DisplayName: 直角石瓶
+				Tooltip: ""
+			}
+
+			PlagueFrogTerrarium: {
+				DisplayName: 瘟疫箭毒蛙笼
+				Tooltip: ""
+			}
+
+			ProvFlyJar: {
+				DisplayName: 亵渎火蝶罐
+				Tooltip: ""
+			}
+
+			SandTurtleCage: {
+				DisplayName: 沙漠龟笼
+				Tooltip: ""
+			}
+
+			SlugTerrarium: {
+				DisplayName: 弑神者蛞蝓笼
+				Tooltip: ""
+			}
+
+			SwearshroomCage: {
+				DisplayName: 寄生菌笼
+				Tooltip: ""
+			}
+
+			ViolemurMonolith: {
+				DisplayName: 星幻狐猴栖木
+				Tooltip: ""
+			}
+
+			XerocodileCage: {
+				DisplayName: 克洛希克鳄笼
+				Tooltip: ""
+			}
+
+			CalamityLamp: {
+				DisplayName: 硫磺火炬
+				Tooltip: S一些恶意的东西正在酝酿
+			}
+
+			CosmiliteChairEX: {
+				DisplayName: 太空塑料休闲椅
+				Tooltip: ""
+			}
+
+			DecommissionedDaedalusGolem: {
+				DisplayName: 退役的代达罗斯守卫
+				Tooltip: "'4.3%...'"
+			}
+
+			DemonShield: {
+				DisplayName: 羊角恶魔盾
+				Tooltip: "'太大了，穿不上，不好意思'"
+			}
+
+			DisrepairUnit: {
+				DisplayName: 失修单元
+				Tooltip: "'你的脑子有点毛病'"
+			}
+
+			Evolution: {
+				DisplayName: 进升玩具
+				Tooltip: "'冥思宝珠...'"
+			}
+
+			AgedRustGamingTable: {
+				DisplayName: 老旧的实验室游戏桌
+				Tooltip: 斿 戲 開 台 1
+			}
+
+			RustGamingTable: {
+				DisplayName: 实验室游戏桌
+				Tooltip: 游戏开始！
+			}
+
+			RustGamingTable2: {
+				DisplayName: 实验室游戏桌2号
+				Tooltip: "'严格来说，这是个衍生产品'"
+			}
+
+			OldAstralBathtubItem: {
+				DisplayName: 异星浴缸
+				Tooltip: ""
+			}
+
+			OldAstralBedItem: {
+				DisplayName: 异星床
+				Tooltip: ""
+			}
+
+			OldAstralBookshelfItem: {
+				DisplayName: 异星书架
+				Tooltip: ""
+			}
+
+			OldAstralCandelabraItem: {
+				DisplayName: 异星烛台
+				Tooltip: ""
+			}
+
+			OldAstralCandleItem: {
+				DisplayName: 异星蜡烛
+				Tooltip: ""
+			}
+
+			OldAstralChairItem: {
+				DisplayName: 异星椅
+				Tooltip: ""
+			}
+
+			OldAstralChandelierItem: {
+				DisplayName: 异星吊灯
+				Tooltip: ""
+			}
+
+			OldAstralChestItem: {
+				DisplayName: 异星箱
+				Tooltip: ""
+			}
+
+			OldAstralClockItem: {
+				DisplayName: 异星钟
+				Tooltip: ""
+			}
+
+			OldAstralDoorItem: {
+				DisplayName: 异星门
+				Tooltip: ""
+			}
+
+			OldAstralDresserItem: {
+				DisplayName: 异星梳妆台
+				Tooltip: ""
+			}
+
+			OldAstralLampItem: {
+				DisplayName: 异星灯
+				Tooltip: ""
+			}
+
+			OldAstralLanternItem: {
+				DisplayName: 异星灯笼
+				Tooltip: ""
+			}
+
+			OldAstralPianoItem: {
+				DisplayName: 异星管风琴
+				Tooltip: ""
+			}
+
+			OldAstralSinkItem: {
+				DisplayName: 异星水槽
+				Tooltip: ""
+			}
+
+			OldAstralSofaItem: {
+				DisplayName: 异星工作台
+				Tooltip: ""
+			}
+
+			OldAstralTableItem: {
+				DisplayName: 异星桌
+				Tooltip: ""
+			}
+
+			OldAstralWorkbenchItem: {
+				DisplayName: 异星工作台
+				Tooltip: ""
+			}
+
+			AuricBathtubItem: {
+				DisplayName: 圣金源浴缸
+				Tooltip: ""
+			}
+
+			AuricBedItem: {
+				DisplayName: 圣金源床
+				Tooltip: ""
+			}
+
+			AuricBookshelfItem: {
+				DisplayName: 圣金源书架
+				Tooltip: ""
+			}
+
+			AuricCandelabraItem: {
+				DisplayName: 圣金源烛台
+				Tooltip: ""
+			}
+
+			AuricCandleItem: {
+				DisplayName: 圣金源蜡烛
+				Tooltip: ""
+			}
+
+			AuricChairItem: {
+				DisplayName: 圣金源椅
+				Tooltip: ""
+			}
+
+			AuricChandelierItem: {
+				DisplayName: 圣金源吊灯
+				Tooltip: ""
+			}
+
+			AuricChestItem: {
+				DisplayName: 圣金源箱
+				Tooltip: ""
+			}
+
+			AuricClockItem: {
+				DisplayName: 圣金源钟
+				Tooltip: ""
+			}
+
+			AuricDoorItem: {
+				DisplayName: 圣金源门
+				Tooltip: ""
+			}
+
+			AuricDresserItem: {
+				DisplayName: 圣金源梳妆台
+				Tooltip: ""
+			}
+
+			AuricLampItem: {
+				DisplayName: 圣金源提灯
+				Tooltip: ""
+			}
+
+			AuricLanternItem: {
+				DisplayName: 圣金源灯笼
+				Tooltip: ""
+			}
+
+			AuricManufacturer: {
+				DisplayName: 圣金源冲压机
+				Tooltip: 用于打造特定家具
+			}
+
+			AuricPianoItem: {
+				DisplayName: 圣金源钢琴
+				Tooltip: ""
+			}
+
+			AuricPlatformItem: {
+				DisplayName: 雕砌圣金源平台
+				Tooltip: ""
+			}
+
+			AuricSinkItem: {
+				DisplayName: 圣金源水槽
+				Tooltip: ""
+			}
+
+			AuricSofaItem: {
+				DisplayName: 圣金源沙发
+				Tooltip: ""
+			}
+
+			AuricTableItem: {
+				DisplayName: 圣金源桌
+				Tooltip: ""
+			}
+
+			AuricWorkbenchItem: {
+				DisplayName: 圣金源工作台
+				Tooltip: ""
+			}
+
+			BloodstoneBathtubItem: {
+				DisplayName: 血石浴缸
+				Tooltip: ""
+			}
+
+			BloodstoneBedItem: {
+				DisplayName: 血石床
+				Tooltip: ""
+			}
+
+			BloodstoneBookshelfItem: {
+				DisplayName: 血石书架
+				Tooltip: ""
+			}
+
+			BloodstoneCandelabraItem: {
+				DisplayName: 血石烛台
+				Tooltip: ""
+			}
+
+			BloodstoneCandleItem: {
+				DisplayName: 血石蜡烛
+				Tooltip: ""
+			}
+
+			BloodstoneChairItem: {
+				DisplayName: 血石椅
+				Tooltip: ""
+			}
+
+			BloodstoneChandelierItem: {
+				DisplayName: 血石吊灯
+				Tooltip: ""
+			}
+
+			BloodstoneChestItem: {
+				DisplayName: 血石箱
+				Tooltip: ""
+			}
+
+			BloodstoneClockItem: {
+				DisplayName: 血石钟
+				Tooltip: ""
+			}
+
+			BloodstoneDoorItem: {
+				DisplayName: 血石门
+				Tooltip: ""
+			}
+
+			BloodstoneDresserItem: {
+				DisplayName: 血石梳妆台
+				Tooltip: ""
+			}
+
+			BloodstoneLampItem: {
+				DisplayName: 血石灯
+				Tooltip: ""
+			}
+
+			BloodstoneLanternItem: {
+				DisplayName: 血石灯笼
+				Tooltip: ""
+			}
+
+			BloodstonePianoItem: {
+				DisplayName: 血石钢琴
+				Tooltip: ""
+			}
+
+			BloodstonePlatformItem: {
+				DisplayName: 雕砌血石平台
+				Tooltip: ""
+			}
+
+			BloodstoneSinkItem: {
+				DisplayName: 血石水槽
+				Tooltip: ""
+			}
+
+			BloodstoneSofaItem: {
+				DisplayName: 血石沙发
+				Tooltip: ""
+			}
+
+			BloodstoneTableItem: {
+				DisplayName: 血石桌
+				Tooltip: ""
+			}
+
+			BloodstoneWorkbenchItem: {
+				DisplayName: 血石工作台
+				Tooltip: ""
+			}
+
+			NecroticTorch: {
+				DisplayName: 死灵火把
+				Tooltip: ""
+			}
+
+			Ravamper: {
+				DisplayName: 不死人篝火
+				Tooltip: 赞美太阳
+			}
+
+			PhantowaxBathtubItem: {
+				DisplayName: 鬼影浴缸
+				Tooltip: ""
+			}
+
+			PhantowaxBedItem: {
+				DisplayName: 鬼影床
+				Tooltip: ""
+			}
+
+			PhantowaxBookshelfItem: {
+				DisplayName: 鬼影书架
+				Tooltip: ""
+			}
+
+			PhantowaxCandelabraItem: {
+				DisplayName: 鬼影烛台
+				Tooltip: ""
+			}
+
+			PhantowaxCandleItem: {
+				DisplayName: 鬼影蜡烛
+				Tooltip: ""
+			}
+
+			PhantowaxChairItem: {
+				DisplayName: 鬼影椅
+				Tooltip: ""
+			}
+
+			PhantowaxChandelierItem: {
+				DisplayName: 鬼影吊灯
+				Tooltip: ""
+			}
+
+			PhantowaxChestItem: {
+				DisplayName: 鬼影箱
+				Tooltip: ""
+			}
+
+			PhantowaxClockItem: {
+				DisplayName: 鬼影钟
+				Tooltip: ""
+			}
+
+			PhantowaxDoorItem: {
+				DisplayName: 鬼影门
+				Tooltip: ""
+			}
+
+			PhantowaxDresserItem: {
+				DisplayName: 鬼影梳妆台
+				Tooltip: ""
+			}
+
+			PhantowaxLampItem: {
+				DisplayName: 鬼影灯
+				Tooltip: ""
+			}
+
+			PhantowaxLanternItem: {
+				DisplayName: 鬼影灯笼
+				Tooltip: ""
+			}
+
+			PhantowaxPianoItem: {
+				DisplayName: 鬼影钢琴
+				Tooltip: ""
+			}
+
+			PhantowaxPlatformItem: {
+				DisplayName: 鬼影平台
+				Tooltip: ""
+			}
+
+			PhantowaxSinkItem: {
+				DisplayName: 鬼影水槽
+				Tooltip: ""
+			}
+
+			PhantowaxSofaItem: {
+				DisplayName: 鬼影沙发
+				Tooltip: ""
+			}
+
+			PhantowaxTableItem: {
+				DisplayName: 鬼影桌
+				Tooltip: ""
+			}
+
+			PhantowaxWorkbenchItem: {
+				DisplayName: 鬼影工作台
+				Tooltip: ""
+			}
+
+			WulfrumGlobe: {
+				DisplayName: 钨钢地球仪
+				Tooltip: 转啊转啊转
+			}
+
+			HeartoftheCommunity: {
+				DisplayName: 归一之心
+				Tooltip: 我最伟大的造物，请小心对待
+			}
+
+			Help: {
+				DisplayName: 被卡住的直角石
+				Tooltip:
+					'''
+					可以给我喂绿色蘑菇
+					'帮帮我'
+					'''
+			}
+
+			Hesfine: {
+				DisplayName: 直角石按摩浴缸
+				Tooltip: "'给你比心'"
+			}
+
+			InactivePowerFactory: {
+				DisplayName: 已移除的物品
+				Tooltip: 作为补偿，可出售
+			}
+
+			JunkArt: {
+				DisplayName: 重建的粒子加速器
+				Tooltip: "'根据旧蓝图来重新组装而成。五年后，里边儿的花长得很不错'"
+			}
+
+			MireAquarium: {
+				DisplayName: 峭咽潭生态箱
+				Tooltip: "'希望它不会试着逃跑...'"
+			}
+
+			AquaticMonolith: {
+				DisplayName: 小号塞壬利维坦的脑袋
+				Tooltip: 你怎么会想要这个
+			}
+
+			AuroraMonolith: {
+				DisplayName: 严寒构造体
+				Tooltip: "'][[]][][][][[]'"
+			}
+
+			CalamitousMonolith: {
+				DisplayName: 灾厄仪式火盆
+				Tooltip: 火光在它上方欢快地舞动娱乐
+			}
+
+			DimensionalMonolith: {
+				DisplayName: 维度方尖塔
+				Tooltip: 它似乎在试图发出某种信号，但没有成功
+			}
+
+			ExoMonolith: {
+				DisplayName: 炮铜构件
+				Tooltip: ""
+			}
+
+			InfernalMonolith: {
+				DisplayName: 地狱祭坛
+				Tooltip: 火焰在咆哮，却毫无用处
+			}
+
+			PlagueMonolith: {
+				DisplayName: 瘟疫透析装置
+				Tooltip: ""
+			}
+
+			UnholyMonolith: {
+				DisplayName: 亵渎喷泉
+				Tooltip: "'不，它不改变任何液体的颜色'"
+			}
+
+			MoulderingAltarItem: {
+				DisplayName: 腐朽祭坛
+				Tooltip: 把它当作恶魔祭坛
+			}
+
+			AccidentalAbominationn: {
+				DisplayName: 意外的失败
+				Tooltip: "'Mathew Maple'"
+			}
+
+			BlazingConflict: {
+				DisplayName: 爆炎争霸战
+				Tooltip:
+					'''
+					'圣火VS硫磺火'
+					'Yharex'
+					'''
+			}
+
+			CalamiteaTime: {
+				DisplayName: 下午茶时光
+				Tooltip: 原画'caligulas'，重绘'Mathew Maple'
+			}
+
+			CalamityFriends: {
+				DisplayName: 小朋友们
+				Tooltip:
+					'''
+					'友谊万岁！'
+					'Mochi'
+					'''
+			}
+
+			CalamityPaint: {
+				DisplayName: 远古灾厄
+				Tooltip: "'Blockaroz'"
+			}
+
+			CalamityPaintRetold: {
+				DisplayName: 灾厄
+				Tooltip: "'IbanPlay'"
+			}
+
+			CirrusBooze: {
+				DisplayName: 漂亮的醉仙女
+				Tooltip:
+					'''
+					'她手里的酒杯的确很漂亮'
+					'TimerFun'
+					'''
+			}
+
+			Clam: {
+				DisplayName: 早上好！
+				Tooltip: "'Yharex'"
+			}
+
+			CosmicTerror: {
+				DisplayName: 深空之怖
+				Tooltip: "'Giacomo'"
+			}
+
+			DarkMagic: {
+				DisplayName: 黑魔法
+				Tooltip: "'Mathew Maple'"
+			}
+
+			DraedonPopcorn: {
+				DisplayName: 机器玩家
+				Tooltip: "'Mathew Maple'"
+			}
+
+			Duality: {
+				DisplayName: 二元性
+				Tooltip: "'Mathew Maple'"
+			}
+
+			Espelho: {
+				DisplayName: 镜子
+				Tooltip: "'Triangle'"
+			}
+
+			EyeofXeroc: {
+				DisplayName: 创世之眼
+				Tooltip: "'PokerFace'"
+			}
+
+			Frozen: {
+				DisplayName: 冻结
+				Tooltip: "'Mathew Maple'"
+			}
+
+			GallusYharus: {
+				DisplayName: 鸡先生
+				Tooltip:
+					'''
+					'诚挚感谢一位出色的女性监护人'
+					'Willow'
+					'''
+			}
+
+			LostSouls: {
+				DisplayName: 失落的灵魂
+				Tooltip:
+					'''
+					'迷失并且害怕'
+					'Mathew Maple'
+					'''
+			}
+
+			ModIconPainting: {
+				DisplayName: 灾厄虚荣
+				Tooltip: "'IbanPlay and Starr'"
+			}
+
+			NotLikeHome: {
+				DisplayName: 乐不思蜀
+				Tooltip:
+					'''
+					'好朋友！'
+					'Mathew Maple'
+					'''
+			}
+
+			OldModIconPainting: {
+				DisplayName: 灾厄虚荣（旧版）
+				Tooltip:
+					'''
+					'旧版'
+					'Yharex'
+					'''
+			}
+
+			OldUCMMPainting: {
+				DisplayName: 非官方灾厄音乐（旧版）
+				Tooltip:
+					'''
+					'复古曲调'
+					'心跳加速！'
+					'''
+			}
+
+			Plague22: {
+				DisplayName: "22"
+				Tooltip:
+					'''
+					'被诅咒的数字'
+					'Willow'
+					'''
+			}
+
+			RogueExtractor: {
+				DisplayName: 游荡的机器
+				Tooltip:
+					'''
+					'Mathew Maple'
+
+					'''
+			}
+
+			Scourgy: {
+				DisplayName: 硫磺海水怪
+				Tooltip: "'Mathew Maple'"
+			}
+
+			Signut: {
+				DisplayName: 娘化西格纳斯
+				Tooltip:
+					'''
+					'别来说我！换做是你被冻在冰块里那么久，你的脑袋也会不正常的'
+					'Yharex'
+					'''
+			}
+
+			SleepingGiant: {
+				DisplayName: 沉睡的巨兽
+				Tooltip: "'Mathew Maple'"
+			}
+
+			Snouts: {
+				DisplayName: 老猪鲨
+				Tooltip: "'Mathew Maple'"
+			}
+
+			SundayAfternoon: {
+				DisplayName: 灾厄世界里的星期天下午
+				Tooltip: "'Mathew Maple'"
+			}
+
+			SwearingShroom: {
+				DisplayName: 愤怒的蘑菇
+				Tooltip: "'Mathew Maple'"
+			}
+
+			TheGreatSandworm: {
+				DisplayName: 巨型沙虫
+				Tooltip: "'Mathew Maple'"
+			}
+
+			TheYhar: {
+				DisplayName: 亚利姆大帝
+				Tooltip: "'你得承认,虽然他罪孽深重,但他依旧是个帅气的家伙'"
+			}
+
+			UCMMPainting: {
+				DisplayName: 非官方灾厄音乐
+				Tooltip:
+					'''
+					'音乐世界'
+					'IbanPlay'
+					'''
+			}
+
+			UnholyTrip: {
+				DisplayName: 守卫们的假期
+				Tooltip: "'Triangle'"
+			}
+
+			VVanities: {
+				DisplayName: 虚荣的胜利！
+				Tooltip:
+					'''
+					'V!'
+					'Willow'
+					'''
+			}
+
+			WilliamPainting: {
+				DisplayName: 灾厄虚荣 (alt)
+				Tooltip: "'Giacomo'"
+			}
+
+			WormHeaven: {
+				DisplayName: 一步登天
+				Tooltip:
+					'''
+					'某天...'
+					'Mathew Maple'
+					'''
+			}
+
+			Yharlamitas: {
+				DisplayName: 大难临头
+				Tooltip: 等一下...
+			}
+
+			PlagueDialysis: {
+				DisplayName: 培养仓
+				Tooltip: "'永远封存'"
+			}
+
+			AcidGun: {
+				DisplayName: 硫海藤蔓分割器
+				Tooltip: 允许你在物块或背景墙上制造硫海藤蔓
+			}
+
+			Anemone: {
+				DisplayName: 海葵盆栽
+				Tooltip: ""
+			}
+
+			AstralOldPurple: {
+				DisplayName: 紫色彗星树盆栽
+				Tooltip: ""
+			}
+
+			AstralOldYellow: {
+				DisplayName: 黄色彗星树盆栽
+				Tooltip: ""
+			}
+
+			BelchingCoral: {
+				DisplayName: 硫海珊瑚树
+				Tooltip: "'请不要把你的手伸进去'"
+			}
+
+			BloodstoneRoses: {
+				DisplayName: 血石玫瑰
+				Tooltip: ""
+			}
+
+			BotanicPot: {
+				DisplayName: 植物盆栽
+				Tooltip: ""
+			}
+
+			BrainCoral: {
+				DisplayName: 脑珊瑚盆栽
+				Tooltip: ""
+			}
+
+			EidolonTree: {
+				DisplayName: 幻海之树
+				Tooltip: ""
+			}
+
+			FanCoral: {
+				DisplayName: 扇柳珊瑚盆栽
+				Tooltip: ""
+			}
+
+			FleshThing: {
+				DisplayName: 活着的草
+				Tooltip: 一种奇怪的肉质植物，由猩红孕育，由Draedon照料
+			}
+
+			HolyStudedBonsai: {
+				DisplayName: 圣物盆栽
+				Tooltip: ""
+			}
+
+			MonolithPot: {
+				DisplayName: 星幻木盆栽
+				Tooltip: ""
+			}
+
+			NetherTree: {
+				DisplayName: 盘曲的虚空树苗
+				Tooltip: 邪恶
+			}
+
+			NetherTreeBig: {
+				DisplayName: 扭曲幽冥之树
+				Tooltip: 激情
+			}
+
+			OddMushroomPot: {
+				DisplayName: 怪异蘑菇盆
+				Tooltip: 现在你可以自己种这种蘑菇了！...好吧，并不能
+			}
+
+			PottedDecapoditaSprout: {
+				DisplayName: 邪恶菌生嫩芽盆栽
+				Tooltip: 来点真菌
+			}
+
+			SSCoral: {
+				DisplayName: 沉沦珊瑚盆栽
+				Tooltip: ""
+			}
+
+			SulphurousCactus: {
+				DisplayName: 硫海仙人掌盆栽
+				Tooltip: ""
+			}
+
+			SulphurousPlanter: {
+				DisplayName: 酸蔓种植盆
+				Tooltip: 你对关于它们是如何立起来的这件事感到困惑
+			}
+
+			TableCoral: {
+				DisplayName: 鹿角珊瑚盆栽
+				Tooltip: ""
+			}
+
+			AnahitaPlush: {
+				DisplayName: 阿娜希塔毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			ApolloPlush: {
+				DisplayName: 阿波罗毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			AquaticScourgePlush: {
+				DisplayName: 渊海灾虫毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			AresPlush: {
+				DisplayName: 阿瑞斯毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			ArtemisPlush: {
+				DisplayName: 阿尔忒弥斯毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			AstrageldonPlush: {
+				DisplayName: 末世星史莱姆毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			AstrumAureusPlush: {
+				DisplayName: 白金星舰毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			AstrumDeusPlush: {
+				DisplayName: 星神游龙毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			BrimstoneElementalPlush: {
+				DisplayName: 硫磺火元素毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			BumblefuckPlush: {
+				DisplayName: 痴愚金龙毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			CalamitasFumo: {
+				DisplayName: 灾厄毛绒公仔（可放置版）
+				Tooltip:
+					'''
+					'一件必须轻拿轻放的黑暗手工制品'
+					大师模式掉落
+					'''
+			}
+
+			CeaselessVoidPlush: {
+				DisplayName: 无尽虚空毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			ClonePlush: {
+				DisplayName: 灾厄之眼毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			CrabulonPlush: {
+				DisplayName: 菌生蟹毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			CryogenPlush: {
+				DisplayName: 极地之灵毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			DesertScourgePlush: {
+				DisplayName: 荒漠灾虫毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			DevourerofGodsPlush: {
+				DisplayName: 神明吞噬者毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			DraedonPlush: {
+				DisplayName: 嘉登毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			GiantClamPlush: {
+				DisplayName: 巨象蛤毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			HiveMindPlush: {
+				DisplayName: 腐巢意志毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			HypnosPlush: {
+				DisplayName: Hypnos Plush（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			JaredPlush: {
+				DisplayName: 幻海妖龙毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			LeviathanPlush: {
+				DisplayName: 利维坦毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			MaulerPlush: {
+				DisplayName: 渊海狂鲨毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			MirePlushP1: {
+				DisplayName: 闭合的峭咽潭毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			MirePlushP2: {
+				DisplayName: 黏糊的峭咽潭毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			NuclearTerrorPlush: {
+				DisplayName: 辐射骇兽毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			OldDukePlush: {
+				DisplayName: 硫海遗爵毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			PerforatorPlush: {
+				DisplayName: 血肉宿主毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			PlaguebringerGoliathPlush: {
+				DisplayName: 瘟疫使者歌莉娅毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			PolterghastPlush: {
+				DisplayName: 噬魂幽花毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			ProfanedGuardianPlush: {
+				DisplayName: 亵渎守卫毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			ProvidencePlush: {
+				DisplayName: 普罗维登斯毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			RavagerPlush: {
+				DisplayName: 毁灭魔像毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			SandSharkPlush: {
+				DisplayName: 旱海狂鲨毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			SignusPlush: {
+				DisplayName: 西格纳斯毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			SlimeGodPlush: {
+				DisplayName: 史莱姆之神毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			StormWeaverPlush: {
+				DisplayName: 风暴编织者毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			ThanatosPlush: {
+				DisplayName: 塔纳托斯毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			YharonPlush: {
+				DisplayName: 犽戎毛绒公仔（可放置版）
+				Tooltip: 大师模式掉落
+			}
+
+			PongMachine: {
+				DisplayName: 乒乓球机器
+				Tooltip:
+					'''
+					未 完 成，极 度 不 稳 定
+					乒乓球游戏
+					'''
+			}
+
+			RespirationShrine: {
+				DisplayName: 呼吸神龛
+				Tooltip:
+					'''
+					提供一定范围内的无限呼吸，满足您下深渊的基本呼吸需求
+					若取消激活你会立刻开始溺水
+					'这严格来说是作弊道具'
+					'''
+			}
+
+			Ribrod: {
+				DisplayName: 已移除的物品
+				Tooltip: 作为补偿，可出售
+			}
+
+			RoxFake: {
+				DisplayName: 已移除的物品
+				Tooltip: 作为补偿，可出售
+			}
+
+			SailfishTrophy: {
+				DisplayName: 沉沦帆鱼纪念章
+				Tooltip:
+					'''
+					'如果挂在墙上的是你
+					该咋办？'
+					'''
+			}
+
+			SchematicDisplay: {
+				DisplayName: 展示用加密原型图
+				Tooltip:
+					'''
+					可以显示一个字母
+					<right>更换成另一个字母
+					'''
+			}
+
+			Se: {
+				DisplayName: 跳舞气球灾坟魔物
+				Tooltip:
+					'''
+					吹起一个摇摆的灾坟魔物气球
+					'拥抱混沌'
+					'''
+			}
+
+			StarstruckSynthesizer: {
+				DisplayName: 追星合成仪
+				Tooltip: 用于打造特定家具
+			}
+
+			C: {
+				DisplayName: 灾厄雕像
+				Tooltip: 故事的开始...
+			}
+
+			EyedolStatue: {
+				DisplayName: 大眼娃雕像
+				Tooltip: ""
+			}
+
+			IsopodStatue: {
+				DisplayName: 大王具足虫雕像
+				Tooltip: ""
+			}
+
+			Knight: {
+				DisplayName: 大地骑士雕像
+				Tooltip: "'不符合骑士竞技的规则'"
+			}
+
+			NukeFlyStatue: {
+				DisplayName: 硫海飞蝇雕像
+				Tooltip: ""
+			}
+
+			PlagueFrogStatue: {
+				DisplayName: 瘟疫箭毒蛙雕像
+				Tooltip: ""
+			}
+
+			Provibust: {
+				DisplayName: 亵渎女神像
+				Tooltip: "'我的主啊！我愿意为您献出生命！"
+			}
+
+			ShrineoftheTides: {
+				DisplayName: 潮汐圣殿
+				Tooltip: 我送给潮汐女神的礼物
+			}
+
+			ViolemurStatue: {
+				DisplayName: 星幻狐猴雕像
+				Tooltip: ""
+			}
+
+			SulphurColumn: {
+				DisplayName: 已移除的物品
+				Tooltip: 作为补偿，可出售
+			}
+
+			SulphurGeyser: {
+				DisplayName: 喷硫泉装饰
+				Tooltip:
+					'''
+					<right>在不同模式下切换
+					'危险！当心！'
+					'''
+			}
+
+			SulphuricTank: {
+				DisplayName: 硫酸贮存罐
+				Tooltip: ZZZX93
+			}
+
+			SunkenLamp: {
+				DisplayName: 沉沦熔岩灯
+				Tooltip: 令人着迷
+			}
+
+			TerminusShrine: {
+				DisplayName: 终末圣殿
+				Tooltip: 用来安置终末石的祭坛
+			}
+
+			TerminusShrine2: {
+				DisplayName: 高阶终末圣殿
+				Tooltip: 存放着终末石的祭坛
+			}
+
+			TerminusShrine3: {
+				DisplayName: 终结圣殿
+				Tooltip: 剧终
+			}
+
+			Tesla: {
+				DisplayName: 风暴线圈
+				Tooltip: 滋滋滋
+			}
+
+			VisceralAltarItem: {
+				DisplayName: 肉块祭坛
+				Tooltip: 把它当作猩红祭坛
+			}
+
+			VoidPortal: {
+				DisplayName: 虚空传送门
+				Tooltip: 虚空正呼唤着你
+			}
+
+			YellowSeaFountain: {
+				DisplayName: 黄河喷泉
+				Tooltip: ""
+			}
+
+			AstralDirtWall: {
+				DisplayName: 硬化枯萎彗星土墙
+				Tooltip: ""
+			}
+
+			AstralGrassWall: {
+				DisplayName: 枯萎彗星草墙
+				Tooltip: ""
+			}
+
+			AstralHardenedSandWall: {
+				DisplayName: 硬化枯萎彗星沙墙
+				Tooltip: ""
+			}
+
+			AstralIceWall: {
+				DisplayName: 枯萎彗星冰晶墙
+				Tooltip: ""
+			}
+
+			AstralSandstoneWall: {
+				DisplayName: 枯萎彗星沙岩墙
+				Tooltip: ""
+			}
+
+			XenomonolithWall: {
+				DisplayName: 异星墙
+				Tooltip: ""
+			}
+
+			XenostoneWall: {
+				DisplayName: 异星石墙
+				Tooltip: ""
+			}
+
+			AstralBrickWall: {
+				DisplayName: 枯萎彗星砖墙
+				Tooltip: ""
+			}
+
+			AstralPearlWall: {
+				DisplayName: 星幻珍珠墙
+				Tooltip: ""
+			}
+
+			AstralPlatingWall: {
+				DisplayName: 星体镀墙
+				Tooltip: ""
+			}
+
+			AuricBrickWall: {
+				DisplayName: 圣金源砖墙
+				Tooltip: ""
+			}
+
+			BlightedEggWall: {
+				DisplayName: 枯萎卵墙
+				Tooltip: ""
+			}
+
+			BloodstoneBrickWall: {
+				DisplayName: 血石砖墙
+				Tooltip: ""
+			}
+
+			BloodstoneWall: {
+				DisplayName: 血石墙
+				Tooltip: ""
+			}
+
+			ChiseledBloodstoneBrickWall: {
+				DisplayName: 雕砌血石砖墙
+				Tooltip: ""
+			}
+
+			EidolicSlabWall: {
+				DisplayName: 幻妖石墙
+				Tooltip: ""
+			}
+
+			FrostflakeWall: {
+				DisplayName: 碎雪砖墙
+				Tooltip: ""
+			}
+
+			HallowedBrickWall: {
+				DisplayName: 神圣砖墙
+				Tooltip: ""
+			}
+
+			MossyGravelWall: {
+				DisplayName: 已移除的物品
+				Tooltip: 作为补偿，可出售
+			}
+
+			NecrostoneWall: {
+				DisplayName: 死灵石墙
+				Tooltip: ""
+			}
+
+			PhantowaxWall: {
+				DisplayName: 鬼影墙
+				Tooltip: ""
+			}
+
+			PlagueHiveWall: {
+				DisplayName: 瘟疫蜂巢墙
+				Tooltip: ""
+			}
+
+			PolishedAstralMonolithWall: {
+				DisplayName: 光滑星幻块墙
+				Tooltip: ""
+			}
+
+			PolishedXenomonolithWall: {
+				DisplayName: 光滑异星块墙
+				Tooltip: ""
+			}
+
+			ShadowBrickWall: {
+				DisplayName: 魔影砖墙
+				Tooltip: ""
+			}
+
+			WulfrumPanelWall: {
+				DisplayName: 钨钢镀板
+				Tooltip: ""
+			}
+
+			XenoSolution: {
+				DisplayName: 枯萎彗星溶液
+				Tooltip:
+					'''
+					由环境改造枪使用
+					蔓延枯萎彗星瘟疫
+					'''
+			}
+
+			YellowSolution: {
+				DisplayName: 已移除的物品
+				Tooltip: 作为补偿，可出售
+			}
+
+			KnowledgeFogbound: {
+				DisplayName: 学识渊博的雾
+				Tooltip: ""
+			}
+
+			SulphuricDye: {
+				DisplayName: 硫磺染料
+				Tooltip: ""
+			}
+
+			TyrantFeed: {
+				DisplayName: 可爱暴君
+				Tooltip: 钾
+			}
+
+			GoozmaPlush: {
+				Tooltip: ""
+				DisplayName: 古泽玛毛绒公仔（可放置版）
+			}
+
+			GoozmaPlushThrowable: {
+				Tooltip: ""
+				DisplayName: 古泽玛毛绒公仔（可投掷版）
+			}
+		}
+
+		Projectiles: {
+			# Meldosaurus stuff
+			EntropicVomet.DisplayName: Entropic Vomet
+			TomeoFates.DisplayName: Tome of Fates
+			GodsFire.DisplayName: God's Fire
+			ShardofAntumbra.DisplayName: Shard of Antumbra
+			MeldosaurusClone.DisplayName: Meldosaurus Shade
+			Amogus.DisplayName: Amogus
+			FogboundFist.DisplayName: Fogbound Fist
+			EntropicVomit.DisplayName: Entropic Vomit
+			NyanthropProjectile.DisplayName: Nyanthrop Projectile
+			GaussArm.DisplayName: Nuke arm
+			LaserArm.DisplayName: Laser arm
+			PlasmaArm.DisplayName: Plasma arm
+			TeslaArm.DisplayName: Tesla arm
+			MawTeeth.DisplayName: Maw Teeth
+			Phantomhook.DisplayName: Phantomhook
+			ProfanedHook.DisplayName: Profaned Hook
+			RavaClaw.DisplayName: Rava Claw
+			ScavaClaw.DisplayName: Scava Claw
+			THanosHook.DisplayName: T Hanos Hook
+			OracleNPCPet_Pet.DisplayName: Oracle N P C Pet_ Pet
+			AstralSandBall.DisplayName: Blighted Atral Sand Ball
+			AstralSolutionProj.DisplayName: Xeno Spray
+			BleachBallThrown.DisplayName: Bleach Ball Thrown
+			AcidRound.DisplayName: Terror Bullet
+			Anahita.DisplayName: Anahita
+			AnahitaTear.DisplayName: Anahita
+			Atlantis.DisplayName: Atlantis
+			BoiRock.DisplayName: Rock
+			BoiUI.DisplayName: Boi UI
+			Brimhita.DisplayName: Brimnahita
+			ElderBerry.DisplayName: Elderberry
+			Mire.DisplayName: Mire
+			RoomTransition.DisplayName: Room Transition
+			Spider.DisplayName: Spider
+			Terror.DisplayName: Terror
+			ChaoticPuffballThrown.DisplayName: Chaotic Puffball Thrown
+			InkShot.DisplayName: Ink Shot
+			OracleNPC_8Ball.DisplayName: Oracle's Magic 8 Ball
+			OracleNPC_Cards.DisplayName: Oracle Card
+			AeroBaby.DisplayName: Aero Baby
+			AeroSlimePet.DisplayName: Aero Slime
+			Androomba.DisplayName: Androomba
+			Angrypup.DisplayName: Angry Pupper
+			AquaPet.DisplayName: Aquatic Pest
+			AstPhage.DisplayName: Aureophage
+			Avalon.DisplayName: Avalon
+			BabyCnidrion.DisplayName: Sneeze Dragon
+			BabyHage.DisplayName: Hage
+			BabyMonster.DisplayName: Baby Monster
+			BabySquid.DisplayName: Lil' Squid
+			Blockaroz.DisplayName: Bl0ckar0z
+			BoldLizard.DisplayName: Rocc Lizard
+			BrimberryPet.DisplayName: Brimberry
+			BuffReaper.DisplayName: Buff lil man
+			BugDoge.DisplayName: Bugdoge
+			Buppy.DisplayName: Buppy
+			CalamityBABY.DisplayName: Calamity BABY
+			Catfish.DisplayName: Catfish
+			ClamHermit.DisplayName: Clam Hermit
+			CoolBlueSignut.DisplayName: Cool Blue Signut
+			CoolBlueSlime.DisplayName: Cool Blue Slime God
+			Crimulan.DisplayName: Crimulan Slime Demigod
+			Cryokid.DisplayName: Cryokid
+			DesertPet.DisplayName: Desert Pest
+			DeusPet.DisplayName: Astrum Demus
+			DeusPetSmall.DisplayName: Astrum Demus
+			DogBody.DisplayName: Devourer of Gods (real)
+			DogHead.DisplayName: Devourer of Gods (real)
+			DogTail.DisplayName: Devourer of Gods (real)
+			Dragonball.DisplayName: BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALL EXPLOSION
+			Dstone.DisplayName: Unhappy Stone
+			Ebonian.DisplayName: Ebonian Slime Demigod
+			BabyWaterClone.DisplayName: Water Gal
+			CloudMini.DisplayName: Cloudy
+			RareBrimling.DisplayName: Rare Brimling
+			RaresandMini.DisplayName: Dustgirl
+			Sandmini.DisplayName: dustgirl
+			Euros.DisplayName: Chibii Euros
+			EWyrm.DisplayName: EWyrm
+			AresBody.DisplayName: Toy Ares
+			ThanatosPet.DisplayName: Toy Thanatos
+			TwinsPet.DisplayName: Toy Twins
+			FathomEelBody.DisplayName: Fathom Eel
+			FathomEelHead.DisplayName: Fathom Eel
+			FathomEelTail.DisplayName: Fathom Eel
+			Fistuloid.DisplayName: Perfistuloid
+			FogPet.DisplayName: Fogbound
+			FollyPet.DisplayName: Bumblefolly
+			George.DisplayName: George
+			GhastlyZygote.DisplayName: Ghastly Zygote
+			GoozmaPet.DisplayName: Goozma
+			GrandPet.DisplayName: Great Grandson Shark
+			Headoge.DisplayName: Headoge
+			Hiveling.DisplayName: Hiveling
+			Hoodieidolist.DisplayName: Shydolist
+			JaredBody.DisplayName: Jared Body
+			JaredHead.DisplayName: Jared Head
+			JaredTail.DisplayName: Jared
+			Junko.DisplayName: Lil Junko
+			DarksunSpirit_Fish.DisplayName: Darksun Fish
+			DarksunSpiritSkull_1.DisplayName: Darksun Skull
+			DarksunSpiritSkull_2.DisplayName: Darksun Small Skull
+			DiggerPet.DisplayName: Miniature Digger
+			Enredpet.DisplayName: Cosmic Assistant
+			Godrge.DisplayName: Nuclear George
+			HeatBaby.DisplayName: Baby Cinder Spirit
+			HeatPet.DisplayName: Cinder Spirit
+			Lightshield.DisplayName: Arctic Shield
+			Minimpious.DisplayName: Minimpious
+			PhantomSpirit.DisplayName: Phantom Spirit
+			ProGuard1.DisplayName: Small Potato
+			ProGuard2.DisplayName: Nice Small Potato
+			ProGuard3.DisplayName: Angry Small Potato
+			ProviPet.DisplayName: large Potato
+			SeerL.DisplayName: Small Sightseer
+			SeerM.DisplayName: Mini Sightseer
+			SeerS.DisplayName: Micro Sightseer
+			Skeetyeet.DisplayName: Sunfish
+			SolarBunny.DisplayName: Solar Bunny
+			Bishop.DisplayName: Dark Sun Elemental
+			EndoRune.DisplayName: Endo Runes
+			SpookShark.DisplayName: Phantoshark
+			SpookSmall.DisplayName: Phantofish
+			LumpyBase.DisplayName: Lumpy
+			MechaGeorge.DisplayName: Mecha George
+			MiniBumble.DisplayName: Mini Bumble
+			MiniCryo.DisplayName: Chill Dude
+			MiniCryoCalless.DisplayName: Chill Dude
+			MiniDoge.DisplayName: Mini Bumbledoge
+			MoistScourgeBody.DisplayName: Desert Pest
+			MoistScourgeHead.DisplayName: Desert Pest
+			MoistScourgePet.DisplayName: Dune Pest
+			MoistScourgeTail.DisplayName: Desert Pest
+			NuclearfuryshronPet.DisplayName: Dukapitated Pet
+			Nugget.DisplayName: THE NUGGET
+			OmegaSquid.DisplayName: Omega Squid
+			PBGmini.DisplayName: Poor Sick Bee
+			PhantomPet.DisplayName: Phantom Larva
+			Pillager.DisplayName: Province Pilferer
+			PolterChan.DisplayName: Polter-Chan
+			Puppo.DisplayName: Chihuahua Puppo
+			RedPanda.DisplayName: Red Panda
+			RepairBot.DisplayName: Repair Bot
+			RoverSpindlePet.DisplayName: RoverdriveZ
+			RustyMimic.DisplayName: Rusty Mimic
+			ScoriaDuke.DisplayName: Scoria Duke
+			AmberPet.DisplayName: Amber Scuttler
+			AmethystPet.DisplayName: Amethyst Scuttler
+			BejeweledScuttler.DisplayName: Bejeweled Scuttler
+			CrystalPet.DisplayName: Crystal Scuttler
+			DiamondPet.DisplayName: Diamond Scuttler
+			EmeraldPet.DisplayName: Emerald Scuttler
+			RubyPet.DisplayName: Ruby Scuttler
+			SapphirePet.DisplayName: Sapphire Scuttler
+			TopazPet.DisplayName: Topaz Scuttler
+			SepulcherBody1Neo.DisplayName: Sepulcher Body
+			SepulcherHeadNeo.DisplayName: Sepulcher
+			SepulcherTailNeo.DisplayName: Sepulcher
+			Sepulchling.DisplayName: Rotting Sepulchling
+			SignusMini.DisplayName: Mini Signus
+			Sirember.DisplayName: Giant Decapitated Floating Siren Head
+			SiremberSpook.DisplayName: Giant Decapitated Floating Siren Head
+			SkaterPet.DisplayName: Skater Nymph
+			SlimeDemi.DisplayName: Slime Demi
+			Smauler.DisplayName: Smauler
+			SmolCrab.DisplayName: Smol Crab
+			SSignus.DisplayName: Mini Signus
+			StarJelly.DisplayName: Star Jelly
+			StasisArmored.DisplayName: Stasis Drone
+			StasisNaked.DisplayName: Stasis Drone
+			SVoid.DisplayName: Void Orb
+			SWeeb.DisplayName: Stasis Drone
+			SWPet.DisplayName: Lil Weaver
+			TerminalRock.DisplayName: Xeroc's Xerock
+			TUB.DisplayName: TUB
+			UngodlySerpent.DisplayName: Sneaker Dude
+			VoidOrb.DisplayName: Void Orb
+			WraithsExcalibur.DisplayName: Wraith's Excalibur
+			WulfrumDrone.DisplayName: Wulfrum Drone
+			WulfrumHover.DisplayName: Wulfrum Hovercraft
+			WulfrumOrb.DisplayName: Wulfrom Gyrothing
+			WulfrumPylon.DisplayName: Wulfrum Pylon
+			WulfrumRover.DisplayName: Wulfrom Rover
+			YharimSquid.DisplayName: Yharim Squid
+			AnahitaPlush.DisplayName: 阿娜希塔毛绒公仔
+			ApolloPlush.DisplayName: 阿波罗毛绒公仔
+			AquaticScourgePlush.DisplayName: 渊海灾虫毛绒公仔
+			AresPlush.DisplayName: 阿瑞斯毛绒公仔
+			ArtemisPlush.DisplayName: 阿尔忒弥斯毛绒公仔
+			AstrageldonPlush.DisplayName: 末世星史莱姆毛绒公仔
+			AstrumAureusPlush.DisplayName: 白金星舰毛绒公仔
+			AstrumDeusPlush.DisplayName: 星神游龙毛绒公仔
+			BrimstoneElementalPlush.DisplayName: 硫磺火元素毛绒公仔
+			BumblefuckPlush.DisplayName: Bumblefuck Plush
+			CalaFumo.DisplayName: Cala Fumo
+			CalaFumoSpeen.DisplayName: Cala Fumo Speen
+			CeaselessVoidPlush.DisplayName: 无尽虚空毛绒公仔
+			ClonePlush.DisplayName: Clone Plush
+			CrabulonPlush.DisplayName: 菌生蟹毛绒公仔
+			CryogenPlush.DisplayName: 极地之灵毛绒公仔
+			DesertScourgePlush.DisplayName: 荒漠灾虫毛绒公仔
+			DevourerofGodsPlush.DisplayName: Devourerof Gods Plush
+			DraedonPlush.DisplayName: 嘉登毛绒公仔
+			GiantClamPlush.DisplayName: 巨象蛤毛绒公仔
+			HiveMindPlush.DisplayName: 腐巢意志毛绒公仔
+			HypnosPlush.DisplayName: Hypnos Plush
+			ItsReal.DisplayName: Its Real
+			ItsRealAlt.DisplayName: Its Real Alt
+			JaredPlush.DisplayName: Jared Plush
+			LeviathanPlush.DisplayName: 利维坦毛绒公仔
+			MaulerPlush.DisplayName: 渊海狂鲨毛绒公仔
+			MirePlushP1.DisplayName: Mire Plush P1
+			MirePlushP2.DisplayName: Mire Plush P2
+			NuclearTerrorPlush.DisplayName: 辐射骇兽毛绒公仔
+			OldDukePlush.DisplayName: 硫海遗爵毛绒公仔
+			PerforatorPlush.DisplayName: 血肉宿主毛绒公仔
+			PlaguebringerGoliathPlush.DisplayName: 瘟疫使者歌莉娅毛绒公仔
+			PolterghastPlush.DisplayName: 噬魂幽花毛绒公仔
+			ProfanedGuardianPlush.DisplayName: 亵渎守卫毛绒公仔
+			ProvidencePlush.DisplayName: 普罗维登斯毛绒公仔
+			RavagerPlush.DisplayName: 毁灭魔像毛绒公仔
+			SandSharkPlush.DisplayName: 沙鲨毛绒公仔
+			SignusPlush.DisplayName: 西格纳斯毛绒公仔
+			SlimeGodPlush.DisplayName: 史莱姆之神毛绒公仔
+			StormWeaverPlush.DisplayName: 风暴编织者毛绒公仔
+			ThanatosPlush.DisplayName: 塔纳托斯毛绒公仔
+			YharonPlush.DisplayName: 犽戎毛绒公仔
+			CrabSlider.DisplayName: Crabulon Slider
+			DSSlider.DisplayName: Desert Scourge Slider
+			HiveSlider.DisplayName: Hive Mind Slider
+			PerfSlider.DisplayName: Perforator Slider
+			PlayerSlider.DisplayName: Pong Slider
+			PongBall.DisplayName: Pong Ball
+			PongUI.DisplayName: Pong UI
+			SGSlider.DisplayName: Slime God Slider
+			FogLaser.DisplayName: Fog Laser
+			JharimLaser.DisplayName: Jharim Laser
+			JharimKiller.DisplayName: Jharim Killer
+			Ranged.GodsFire.DisplayName: Gods Fire
+			Magic.JharimKiller.DisplayName: Jharim Killer
+			GoozmaPlush.DisplayName: 古泽玛毛绒公仔（可投掷版）
+		}
+
+		Tiles: {
+			# Meldosaurus stuff
+			MeldosaurusMusicBoxPlaced.MapEntry: 八音盒
+			MeldosaurusTrophyPlaced.MapEntry: 梅尔多龙纪念章
+			AstralPalmSapling.MapEntry: 枯萎彗星棕榈树
+			AstralSapling.MapEntry: 枯萎彗星树
+			SnowAstralSapling.MapEntry: 枯萎彗星针叶树
+			TiedBoB2Placed.MapEntry: 装饰用深渊动物气球束
+			TiedBoxBalloonPlaced.MapEntry: 装饰用灯水母气球
+			TiedChaosBalloonPlaced.MapEntry: 装饰用混乱河豚气球
+			TiedMirageBalloonPlaced.MapEntry: 装饰用幻海水母气球
+			AstragellySlimeBannerPlaced.MapEntry: 星胶史莱姆旗帜
+			BleamurBannerPlaced.MapEntry: 枯萎狐猴旗帜
+			CalamitasBannerPlaced.MapEntry: 尖三角旗
+			EyedolBannerPlaced.MapEntry: 大眼娃旗帜
+			GodSlayerSlugBannerPlaced.MapEntry: 弑神者蛞蝓旗帜
+			IsopodBannerPlaced.MapEntry: 大王具足虫旗帜
+			SandTurtleBannerPlaced.MapEntry: 沙漠龟旗帜
+			VeilBannerPlaced.MapEntry: 日影面纱旗帜
+			ViolemurBannerPlaced.MapEntry: 星幻狐猴旗帜
+			XerocodileBannerPlaced.MapEntry: 克洛希克鳄旗帜
+			AgedLogPlaced.MapEntry: 古老蓝图
+			AstrumAureusBlueprintPlaced.MapEntry: 白金星舰制造蓝图
+			BumblebirbBlueprintPlaced.MapEntry: 犽戎克隆计划蓝图
+			CalamitasBlueprintPlaced.MapEntry: 灾厄之眼克隆计划蓝图
+			DestroyerBlueprintPlaced.MapEntry: 机械毁灭者制造蓝图
+			DogBlueprintPlaced.MapEntry: 神明吞噬者装甲制造蓝图
+			MurasamaBlueprintPlaced.MapEntry: 鬼妖村正制造蓝图Ⅰ
+			OrthoceraBlueprintPlaced.MapEntry: 直角石投放计划
+			PlagueBlueprintPlaced.MapEntry: 歌莉娅制造蓝图
+			PrimeBlueprintPlaced.MapEntry: 机械骷髅王制造蓝图
+			SamBlueprintPlaced.MapEntry: 鬼妖村正的制造蓝图Ⅱ
+			TwinsBlueprintPlaced.MapEntry: 双子魔眼制造蓝图
+			YharmorBlueprintPlaced.MapEntry: 古圣金源套装制造蓝图
+			AstJarPlaced.MapEntry: 罐装末世星
+			BleamurPerchPlaced.MapEntry: 狐猴彗星栖木
+			BlinkerInABottlePlaced.MapEntry: 闪耀萤火虫瓶
+			GAstJarPlaced.MapEntry: 酷酷罐装末世星
+			GoldViolemurMonolithPlaced.MapEntry: 黄金狐猴栖木
+			NukeJarPlaced.MapEntry: Nuclear Fly瓶
+			OrthoJarPlaced.MapEntry: 直角石瓶
+			ViolemurMonolithPlaced.MapEntry: 星幻狐猴栖木
+			CalamitasCofferPlaced.MapEntry: 藏宝保险箱
+			CeremonialUrnPlaced.MapEntry: 仪式瓮
+			DraedonQuoteonQuoteBagPlaced.MapEntry: 嘉登盒
+			AgedRustGamingTablePlaced.MapEntry: 老旧的实验室游戏桌
+			RustGamingTablePlaced.MapEntry: 实验室游戏桌
+			RustGamingTablePlaced2.MapEntry: 实验室游戏桌2号
+			OldAstralBathtub.MapEntry: 异星浴缸
+			OldAstralBed.MapEntry: 异星床
+			OldAstralBookshelf.MapEntry: 异星书架
+			OldAstralCandelabra.MapEntry: 异星烛台
+			OldAstralCandle.MapEntry: 异星蜡烛
+			OldAstralChair.MapEntry: 异星椅
+			OldAstralChandelier.MapEntry: 异星吊灯
+
+			OldAstralChest: {
+				MapEntry: 异星箱
+				ContainerName: 异星箱
+			}
+
+			OldAstralClock.MapEntry: Mods.CalValEX.MapObject.OldAstralClock
+			OldAstralDoorClosed.MapEntry: 异星门
+			OldAstralDoorOpen.MapEntry: 异星门
+
+			OldAstralDresser: {
+				MapEntry: 异星梳妆台
+				ContainerName: 异星梳妆台
+			}
+
+			OldAstralLamp.MapEntry: 异星灯
+			OldAstralLantern.MapEntry: 异星灯笼
+			OldAstralPiano.MapEntry: 异星管风琴
+			OldAstralSink.MapEntry: 异星水槽
+			OldAstralSofa.MapEntry: 异星工作台
+			OldAstralTable.MapEntry: 异星桌
+			OldAstralWorkbench.MapEntry: 异星工作台
+			AuricBathtub.MapEntry: 圣金源浴缸
+			AuricBed.MapEntry: 圣金源床
+			AuricBookshelf.MapEntry: 圣金源书架
+			AuricCandelabra.MapEntry: 圣金源烛台
+			AuricCandle.MapEntry: 圣金源蜡烛
+			AuricChair.MapEntry: 圣金源椅
+			AuricChandelier.MapEntry: 圣金源吊灯
+
+			AuricChest: {
+				MapEntry: 圣金源箱
+				ContainerName: 圣金源箱
+			}
+
+			AuricClock.MapEntry: Mods.CalValEX.MapObject.AuricClock
+			AuricDoorClosed.MapEntry: 圣金源门
+			AuricDoorOpen.MapEntry: 圣金源门
+
+			AuricDresser: {
+				MapEntry: 圣金源梳妆台
+				ContainerName: 圣金源梳妆台
+			}
+
+			AuricLamp.MapEntry: 圣金源提灯
+			AuricLantern.MapEntry: 圣金源灯笼
+			AuricManufacturerPlaced.MapEntry: 圣金源冲压机
+			AuricPiano.MapEntry: 圣金源钢琴
+			AuricSink.MapEntry: 圣金源水槽
+			AuricSofa.MapEntry: 圣金源沙发
+			AuricTable.MapEntry: 圣金源桌
+			AuricWorkbench.MapEntry: 圣金源工作台
+			BloodstoneBathtub.MapEntry: 血石浴缸
+			BloodstoneBed.MapEntry: 血石床
+			BloodstoneBookshelf.MapEntry: 血石书架
+			BloodstoneCandelabra.MapEntry: 血石烛台
+			BloodstoneCandle.MapEntry: 血石蜡烛
+			BloodstoneChair.MapEntry: 血石椅
+			BloodstoneChandelier.MapEntry: 血石吊灯
+
+			BloodstoneChest: {
+				MapEntry: 血石箱
+				ContainerName: 血石箱
+			}
+
+			BloodstoneClock.MapEntry: Mods.CalValEX.MapObject.BloodstoneClock
+			BloodstoneDoorClosed.MapEntry: 血石门
+			BloodstoneDoorOpen.MapEntry: 血石门
+
+			BloodstoneDresser: {
+				MapEntry: 血石梳妆台
+				ContainerName: 血石梳妆台
+			}
+
+			BloodstoneLamp.MapEntry: 血石灯
+			BloodstoneLantern.MapEntry: 血石灯笼
+			BloodstonePiano.MapEntry: 血石钢琴
+			BloodstoneSink.MapEntry: 血石水槽
+			BloodstoneSofa.MapEntry: 血石沙发
+			BloodstoneTable.MapEntry: 血石桌
+			BloodstoneWorkbench.MapEntry: 血石工作台
+			NecroticTorchPlaced.MapEntry: 死灵火把
+			RavamperPlaced.MapEntry: 不死人篝火
+			PhantowaxBathtub.MapEntry: 鬼影浴缸
+			PhantowaxBed.MapEntry: 鬼影床
+			PhantowaxBookshelf.MapEntry: 鬼影书架
+			PhantowaxCandelabra.MapEntry: 鬼影烛台
+			PhantowaxCandle.MapEntry: 鬼影蜡烛
+			PhantowaxChair.MapEntry: 鬼影椅
+			PhantowaxChandelier.MapEntry: 鬼影吊灯
+
+			PhantowaxChest: {
+				MapEntry: 鬼影箱
+				ContainerName: 鬼影箱
+			}
+
+			PhantowaxClock.MapEntry: Mods.CalValEX.MapObject.PhantowaxClock
+			PhantowaxDoorClosed.MapEntry: 鬼影门
+			PhantowaxDoorOpen.MapEntry: 鬼影门
+
+			PhantowaxDresser: {
+				MapEntry: 鬼影梳妆台
+				ContainerName: 鬼影梳妆台
+			}
+
+			PhantowaxLamp.MapEntry: 鬼影灯
+			PhantowaxLantern.MapEntry: 鬼影灯笼
+			PhantowaxPiano.MapEntry: 鬼影钢琴
+			PhantowaxSink.MapEntry: 鬼影水槽
+			PhantowaxSofa.MapEntry: 鬼影沙发
+			PhantowaxTable.MapEntry: 鬼影桌
+			PhantowaxWorkbench.MapEntry: 鬼影工作台
+			WulfrumBathtub.MapEntry: 钨钢浴缸
+			WulfrumBed.MapEntry: 钨钢床
+			WulfrumBookshelf.MapEntry: 钨钢书架
+			WulfrumCandelabra.MapEntry: 钨钢烛台
+			WulfrumCandle.MapEntry: 钨钢蜡烛
+			WulfrumChair.MapEntry: 钨钢椅
+			WulfrumChandelier.MapEntry: 钨钢吊灯
+
+			WulfrumChest: {
+				MapEntry: 钨钢箱
+				ContainerName: 钨钢箱
+			}
+
+			WulfrumClock.MapEntry: Mods.CalValEX.MapObject.WulfrumClock
+
+			WulfrumDresser: {
+				MapEntry: 钨钢梳妆台
+				ContainerName: 钨钢梳妆台
+			}
+
+			WulfrumLabstation.MapEntry: 钨钢工作台
+			WulfrumLamp.MapEntry: 钨钢灯
+			WulfrumLantern.MapEntry: 钨钢灯笼
+			WulfrumPiano.MapEntry: 钨钢钢琴
+			WulfrumSink.MapEntry: 钨钢水槽
+			WulfrumSofa.MapEntry: 钨钢沙发
+			WulfrumTable.MapEntry: 钨钢桌
+			WulfrumToilet.MapEntry: 钨钢马桶
+			WulfrumWorkbench.MapEntry: 钨钢工作台
+			AstralMusicBoxPlaced.MapEntry: 八音盒
+
+			AuricTrashCanPlaced: {
+				MapEntry: 圣金源垃圾桶
+				ContainerName: 圣金源垃圾桶
+			}
+
+			BoiMachinePlaced.MapEntry: 阿娜希塔机械
+			BrimstoneHeartPlaced.MapEntry: 悬挂式硫磺火心
+			BubbleMachinePlaced.MapEntry: 赛博起泡器
+			CalamityLampPlaced.MapEntry: 灾厄火把
+			CosmiliteChairEXPlaced.MapEntry: 太空塑料休闲椅
+			DecommissionedDaedalusGolemPlaced.MapEntry: 退役的代达罗斯守卫
+			DemonShieldPlaced.MapEntry: 羊角恶魔盾
+			DisrepairUnitPlaced.MapEntry: 失修单元
+			EvolutionPlaced.MapEntry: 进升玩具
+			HeartoftheCommunityPlaced.MapEntry: 归一之心
+			Helplaced.MapEntry: 被卡住的直角石
+			HesfinePlaced.MapEntry: 直角石按摩浴缸
+			JunkArtPlaced.MapEntry: 重建的粒子加速器
+			MireAquariumPlaced.MapEntry: 峭咽潭生态箱
+			MoulderingAltarPlaced.MapEntry: 腐朽祭坛
+			PlagueDialysisPlaced.MapEntry: 培养仓
+			PongMachinePlaced.MapEntry: 乒乓球机器
+			RespirationShrinePlaced.MapEntry: 呼吸神龛
+			RoxFakePlaced.MapEntry: 已移除的物品
+			SailfishTrophyPlaced.MapEntry: 沉沦帆鱼纪念章
+			SchematicDisplayPlaced.MapEntry: 展示用加密原型图
+			StarstruckSynthesizerPlaced.MapEntry: 追星合成仪
+			SulphuricTankPlaced.MapEntry: 硫酸贮存罐
+			SunkenLampPlaced.MapEntry: 沉沦熔岩灯
+			TerminusShrineLevel2Placed.MapEntry: 高阶终末圣殿
+			TerminusShrineLevel3Placed.MapEntry: 终结圣殿
+			TerminusShrinePlaced.MapEntry: 终末圣殿
+			TeslaPlaced.MapEntry: 风暴线圈
+			VisceralAltarPlaced.MapEntry: 肉块祭坛
+			VoidPortalPlaced.MapEntry: 虚空传送门
+			YellowSeaFountainPlaced.MapEntry: 黄河喷泉
+			AccidentalAbominationnPlaced.MapEntry: 意外的失败
+			BlazingConflictPlaced.MapEntry: 爆炎争霸战
+			CalamiteaTimePlaced.MapEntry: 下午茶时光
+			CalamityFriendsPlaced.MapEntry: 小朋友们
+			CalamityPaintPlaced.MapEntry: 远古灾厄
+			CalamityPaintRetoldPlaced.MapEntry: 灾厄
+			CirrusBoozePlaced.MapEntry: 漂亮的醉仙女
+			ClamPlaced.MapEntry: 早上好！
+			CosmicTerrorPlaced.MapEntry:  深空之怖
+			DarkMagicPlaced.MapEntry: 黑魔法
+			DraedonPopcornPlaced.MapEntry: 玩家不死...他们会复活！！！
+			DualityPlaced.MapEntry: 二元性
+			EspelhoPlaced.MapEntry: 镜子
+			EyeofXerocPlaced.MapEntry: 创世之眼
+			FrozenPlaced.MapEntry: 冻结
+			GallusYharusPlaced.MapEntry: 鸡先生
+			LostSoulsPlaced.MapEntry: 失落的灵魂
+			ModIconPaintingPlaced.MapEntry: 灾厄虚荣
+			NotLikeHomePlaced.MapEntry: 乐不思蜀...
+			OldModIconPaintingPlaced.MapEntry: 灾厄虚荣...旧版
+			OldUCMMPlaced.MapEntry: 非官方灾厄音乐...旧版
+			Plague22Placed.MapEntry: "22"
+			RogueExtractorPlaced.MapEntry: 游荡的机器
+			ScourgyPlaced.MapEntry: 硫磺海水怪
+			SignutPlaced.MapEntry: 娘化西格纳斯
+			SleepingGiantPlaced.MapEntry: 沉睡的巨兽
+			SnoutsPlaced.MapEntry: 老猪鲨
+			SundayAfternoonCalPlaced.MapEntry: 灾厄世界里的星期天下午
+			SwearingShroomPlaced.MapEntry: 寄生菌
+			TheGreatSandwormPlaced.MapEntry: 巨型沙虫
+			TheYharPlaced.MapEntry: 亚利姆大帝
+			UCMMPlaced.MapEntry: 非官方灾厄音乐
+			UnholyTripPlaced.MapEntry: 守卫们的假期
+			VVanitiesPlaced.MapEntry: 虚荣的胜利！
+			WilliamPaintingPlaced.MapEntry: 灾厄虚荣
+			WormHeavenPlaced.MapEntry:  一步登天
+			YharlamitasPlaced.MapEntry: 大难临头
+			AnemonePlaced.MapEntry: 海葵盆栽
+			AstralOldPurplePlaced.MapEntry: 紫色彗星树盆栽
+			AstralOldYellowPlaced.MapEntry: 黄色彗星树盆栽
+			BelchingCoralPlaced.MapEntry: 硫海珊瑚树
+			BloodstoneRosesPlaced.MapEntry: 血石玫瑰
+			BotanicPotPlaced.MapEntry: 植物盆栽
+			BrainCoralPlaced.MapEntry: 脑珊瑚盆栽
+			BrimPlantPlaced.MapEntry: 硫火浆果
+			DecapoditaSproutPlaced.MapEntry: 邪恶菌生嫩芽盆栽
+			FanCoralPlaced.MapEntry: 扇柳珊瑚盆栽
+			FleshThingPlaced.MapEntry: 活着的草
+			HolyStudedBonsaiPlaced.MapEntry: 圣物盆栽
+			MonolithPotPlaced.MapEntry: 星幻木盆栽
+			NetherTreeBigPlaced.MapEntry: 扭曲幽冥之树
+			NetherTreePlaced.MapEntry: 盘曲的虚空树苗
+			OddMushromPotPlaced.MapEntry: 怪异蘑菇盆
+			SSCoralPlaced.MapEntry: 沉沦珊瑚盆栽
+			SulphurousCactusPlaced.MapEntry: 硫海仙人掌盆栽
+			SulphurousPlanterPlaced.MapEntry: 酸蔓种植盆
+			TableCoralPlaced.MapEntry: 鹿角珊瑚盆栽
+			AnahitaPlushPlaced.MapEntry: 阿娜希塔毛绒公仔
+			ApolloPlushPlaced.MapEntry: 阿波罗毛绒公仔
+			AquaticScourgePlushPlaced.MapEntry: 渊海灾虫毛绒公仔
+			AresPlushPlaced.MapEntry: 阿瑞斯毛绒公仔
+			ArtemisPlushPlaced.MapEntry: 阿尔忒弥斯毛绒公仔
+			AstrageldonPlushPlaced.MapEntry: 末世星史莱姆毛绒公仔
+			AstrumAureusPlushPlaced.MapEntry: 白金星舰毛绒公仔
+			AstrumDeusPlushPlaced.MapEntry: 星神游龙毛绒公仔
+			BrimstoneElementalPlushPlaced.MapEntry: 硫磺火元素毛绒公仔
+			BumblefuckPlushPlaced.MapEntry: 痴愚金龙毛绒公仔
+			CalaFumoPlaced.MapEntry: Calamitas Fumo
+			CeaselessVoidPlushPlaced.MapEntry: 无尽虚空毛绒公仔
+			ClamPlushPlaced.MapEntry: 巨象蛤毛绒公仔
+			ClonePlushPlaced.MapEntry: 灾厄之眼毛绒公仔
+			CrabulonPlushPlaced.MapEntry: 菌生蟹毛绒公仔
+			CryogenPlushPlaced.MapEntry: 极地之灵毛绒公仔
+			DesertScourgePlushPlaced.MapEntry: 荒漠灾虫毛绒公仔
+			DevourerofGodsPlushPlaced.MapEntry: 神明吞噬者毛绒公仔
+			DraedonPlushPlaced.MapEntry: 嘉登毛绒公仔
+			HiveMindPlushPlaced.MapEntry: 腐巢意志毛绒公仔
+			HypnosPlushPlaced.MapEntry: Hypnos Plush
+			JaredPlushPlaced.MapEntry: 幻海妖龙毛绒公仔
+			LeviathanPlushPlaced.MapEntry: 利维坦毛绒公仔
+			MaulerPlushPlaced.MapEntry: 渊海狂鲨毛绒公仔
+			MirePlushPlacedP1.MapEntry: 峭咽潭毛绒公仔
+			MirePlushPlacedP2.MapEntry: 峭咽潭毛绒公仔
+			NuclearTerrorPlushPlaced.MapEntry: 辐射骇兽毛绒公仔
+			OldDukePlushPlaced.MapEntry: 硫海遗爵毛绒公仔
+			PerforatorPlushPlaced.MapEntry: 血肉宿主毛绒公仔
+			PlaguebringerGoliathPlushPlaced.MapEntry: 瘟疫使者歌莉娅毛绒公仔
+			PolterghastPlushPlaced.MapEntry: 噬魂幽花毛绒公仔
+			ProfanedGuardianPlushPlaced.MapEntry: 亵渎守卫毛绒公仔
+			ProvidencePlushPlaced.MapEntry: 普罗维登斯毛绒公仔
+			RavagerPlushPlaced.MapEntry: 毁灭魔像毛绒公仔
+			SandSharkPlushPlaced.MapEntry: 旱海狂鲨毛绒公仔
+			SignusPlushPlaced.MapEntry: 西格纳斯毛绒公仔
+			SlimeGodPlushPlaced.MapEntry: 史莱姆之神毛绒公仔
+			StormWeaverPlushPlaced.MapEntry: 风暴编织者毛绒公仔
+			ThanatosPlushPlaced.MapEntry: 塔纳托斯毛绒公仔
+			YharonPlushPlaced.MapEntry: 犽戎毛绒公仔
+			CPlaced.MapEntry: Calamity
+			EyedolStatuePlaced.MapEntry: 大眼娃雕像
+			IsopodStatuePlaced.MapEntry: 大王具足虫雕像
+			KnightPlaced.MapEntry: 大地骑士雕像
+			NukeFlyStatuePlaced.MapEntry: 硫海飞蝇雕像
+			PlagueFrogStatuePlaced.MapEntry: 瘟疫箭毒蛙雕像
+			ProfanedIdolPlaced.MapEntry: 亵渎女神像
+			ShrineoftheTidesPlaced.MapEntry: 潮汐圣殿
+			ViolemurStatuePlaced.MapEntry: 星幻狐猴雕像
+			TyrantFeedPlaced.MapEntry: 可爱暴君
+			GoozmaPlushPlaced.MapEntry: 古泽玛毛绒公仔（可放置版）
+		}
+
+		Buffs: {
+			AmogusBuff: {
+				# When the april is fooled
+				DisplayName: Stratus Astronaut
+				# April fools
+				Description: amogus
+			}
+
+			DarksunSpiritBuff: {
+				# Light pets
+				DisplayName: Darksun Spirits
+				# Light pets
+				Description: The Darksun Spirits have decided to follow you!
+			}
+
+			EnredBuff: {
+				DisplayName: Cosmic Assistant
+				Description: He's here to help!
+			}
+
+			DiggerBuff: {
+				DisplayName: Rebuilt Digger
+				Description: Summons a piece of digging machinery to light your way
+			}
+
+			GodrgeBuff: {
+				DisplayName: Godrge
+				Description: Pathetic.
+			}
+
+			HeatBuff: {
+				DisplayName: Chaos Skulls
+				Description: Here to judge you for your sins... not really
+			}
+
+			ImpBuff: {
+				DisplayName: Minimpious
+				Description: Hey!
+			}
+
+			PhantomBuff: {
+				DisplayName: Freed Phantom Spirit
+				Description: Finally free, but still follows you!
+			}
+
+			ProBuff: {
+				DisplayName: The Profaned Armada
+				Description: Providence and her army shines holy light through the dark
+			}
+
+			PylonBuff: {
+				DisplayName: Proto-Amplifier
+				Description: Supercharges other proto-bots
+			}
+
+			SeerBuff: {
+				DisplayName: Sightseeing Tour
+				Description: Seeing the world together
+			}
+
+			SolarBunBuff: {
+				DisplayName: Sun Bun
+				Description: Bask under thy divine light
+			}
+
+			SupJewelBuff: {
+				DisplayName: Superstitious Jewel
+				Description: Pure is impure
+			}
+
+			VanityCoreBuff: {
+				DisplayName: Core of Vanity
+				Description: Everyone gets along!
+			}
+
+			YeetBuff: {
+				DisplayName: Litfish
+				Description: A baby sunskater will follow you now.
+			}
+
+			AnthozoanBuff: {
+				# Mounts
+				DisplayName: Cambrian Crustacean
+				# Mounts
+				Description: This one won't throw rocks at you
+			}
+
+			AuricTeslaBuff: {
+				DisplayName: Auric Tesla
+				Description:
+					'''
+					Yharim Car
+					Yharim Car
+					'''
+			}
+
+			BikeBuff: {
+				DisplayName: Profaned Cycle
+				Description: For when you really need to get somewhere, in style.
+			}
+
+			BloodstoneCarriageBuff: {
+				DisplayName: Bloodstone Carriage
+				Description: You could even call it a mi-
+			}
+
+			FloatyBuff: {
+				DisplayName: Floaty Rug
+				Description: Warning: flight not included.
+			}
+
+			GodRiderBuff: {
+				DisplayName: God Rider
+				Description: Ridin' the dimensional tides
+			}
+
+			HadarianBuff: {
+				DisplayName: Hadarian Fledgling
+				Description: SCREEEE
+			}
+
+			HiveVuff: {
+				DisplayName: Conglomeration Mind
+				Description: I swear it's not what you think
+			}
+
+			LeviathanMountBuff: {
+				DisplayName: Leviathan Guppy
+				Description: Better catch a fish
+			}
+
+			NuclearHorrorBuff: {
+				DisplayName: Nuclear Horror
+				Description: Why its helping you is beyond you
+			}
+
+			PBGMountBuff: {
+				DisplayName: Plague Rider
+				Description: Ya gotta beelieve in yourself
+			}
+
+			SilvaJeepBuff: {
+				DisplayName: Silvian Jeep
+				Description: Beep beep I'm a jeep
+			}
+
+			TractorMount: {
+				DisplayName: Wulfrum Tank
+				Description: Move forward soldier!
+			}
+
+			YharonMountBuff: {
+				DisplayName: Yharite
+				Description: He's finally here!
+			}
+
+			cloudbuff: {
+				# Elementals
+				DisplayName: Smol Cloud
+				# Elementals
+				Description: She can't protect you, but she's doing her best
+			}
+
+			minihotebuff: {
+				DisplayName: Childish Heart
+				Description: Its like you're running a day-care or something
+			}
+
+			MoistBuff: {
+				DisplayName: Vibrant Siren Child
+				Description: She can't defend you, but she's doing her best
+			}
+
+			rarebrimlingbuff: {
+				DisplayName: Rare Brimling
+				Description: She can't protect you, but she's doing her best
+			}
+
+			RareSsandBuff: {
+				DisplayName: Small Sand Elemental
+				Description: She can't heal you, but she's doing her best
+			}
+
+			SsandBuff: {
+				DisplayName: Tiny Sand Elemental
+				Description: She can't protect you, but she's doing her best
+			}
+
+			AresBuff: {
+				# Exos
+				DisplayName: Toy XF-Ares
+				# Exos
+				Description: He appears
+			}
+
+			ExoMayhemBuff: {
+				DisplayName: Toy Exo Mechs
+				Description: Perfected entertainment providers
+			}
+
+			ThanatosBuff: {
+				DisplayName: Toy XM-Thanatos
+				Description: T(oy t) han(at)os
+			}
+
+			TwinsBuff: {
+				DisplayName: Toy XS-Apollo and Artemis
+				Description: Here they are
+			}
+
+			AmberBuff: {
+				# Scuttlers
+				DisplayName: Amber Scuttler
+				# Scuttlers
+				Description: Still won't let go of its gem
+			}
+
+			AmethystBuff: {
+				DisplayName: Amethyst Scuttler
+				Description: Still won't let go of its gem
+			}
+
+			BejeweledBuff: {
+				DisplayName: Bejeweled Scuttler
+				Description: Still won't let go of its gems
+			}
+
+			CrystalBuff: {
+				DisplayName: Crystal Scuttler
+				Description: Still won't let go of its crystal
+			}
+
+			DiamondBuff: {
+				DisplayName: Diamond Scuttler
+				Description: Still won't let go of its gem
+			}
+
+			EmeraldBuff: {
+				DisplayName: Emerald Scuttler
+				Description: Still won't let go of its gem
+			}
+
+			RubyBuff: {
+				DisplayName: Ruby Scuttler
+				Description: Still won't let go of its gem
+			}
+
+			SapphireBuff: {
+				DisplayName: Sapphire Scuttler
+				Description: Still won't let go of its gem
+			}
+
+			TopazBuff: {
+				DisplayName: Topaz Scuttler
+				Description: Still won't let go of its gem
+			}
+
+			AeroBuff: {
+				# Pets
+				DisplayName: Aero Slimes
+				# Pets
+				Description: We glide together
+			}
+
+			AndroombaBuff: {
+				DisplayName: Androomba
+				Description: Nyoooom!
+			}
+
+			AquaBuff: {
+				DisplayName: Aquatic Pest
+				Description: Blaaaargh!
+			}
+
+			AvalonBuff: {
+				DisplayName: Ascended Profaned Guardian
+				Description: Because blue fire is cooler looking
+			}
+
+			BabySquidBuff: {
+				DisplayName: Lil' Squiddo
+				Description: ^-^
+			}
+
+			BeeBuff: {
+				DisplayName: Reprogrammed Plaguebringer
+				Description: BEEp. Boop. Buzz.
+			}
+
+			BlockarozBuff: {
+				DisplayName: A Cube
+				Description: I take this as a declaration
+			}
+
+			BuppyBuff: {
+				DisplayName: Buppy
+				Description: Will you throw that ball?
+			}
+
+			BrimberryBuff: {
+				DisplayName: Brimstone Berry
+				Description: It’s a long way up from hell…
+			}
+
+			CalamityBABYBuff: {
+				DisplayName: God's Presence
+				Description: The BABY of a omnipotent GOD accompany you... Just don't get hit
+			}
+
+			CatfishBuff: {
+				DisplayName: Fishcat
+				Description: What? Its a Catfish, what are you talking about?
+			}
+
+			ChilledOut: {
+				DisplayName: Cool Dude
+				Description: A really cool dude will follow you around
+			}
+
+			ckidbuff: {
+				DisplayName: Chilled Out 2
+				Description: Cryokid boogaloo
+			}
+
+			ClamHermitBuff: {
+				DisplayName: Clam Hermit
+				Description: An odd lil' fellow
+			}
+
+			CnidBuff: {
+				DisplayName: Little Cnidrion
+				Description: The poor thing could really use a tissue...
+			}
+
+			CoolBlueBuff: {
+				DisplayName: Cool Blue Dudes
+				Description: Some very coul bleu doods
+			}
+
+			CrabBuff: {
+				DisplayName: Fungal Crab
+				Description: They're a pretty Fun-Gi
+			}
+
+			DebrisPet: {
+				DisplayName: Phantom Buggo
+				Description: Listen here you lil
+			}
+
+			DEBuff: {
+				DisplayName: Dark Aura
+				Description: An aura of pure nothingness floats near you
+			}
+
+			DesertBuff: {
+				DisplayName: Desert Pest
+				Description: Blaaaargh
+			}
+
+			DeusBuff: {
+				DisplayName: Astrum Demus
+				Description: Wormheck
+			}
+
+			DogBuff: {
+				DisplayName: The Devourer of Gods
+				Description: All of this is canon
+			}
+
+			Doggobuff: {
+				DisplayName: Upset Pupper
+				Description: Like, the fifth best dog in calamity
+			}
+
+			EggBuff: {
+				DisplayName: Orphaned Egg
+				Description: It... thinks you're it's mother...
+			}
+
+			EurosBuff: {
+				DisplayName: Chibii Euros
+				Description: Chibii Euros is following you, cautiously
+			}
+
+			Excalibuff: {
+				DisplayName: Claidheamh Soluis
+				Description: You can't expect to wield supreme power just because some tart threw a sword at you
+			}
+
+			FathomEelBuff: {
+				DisplayName: Fathom Eel
+				Description: A crawling shape intrude!
+			}
+
+			FistuloidBuff: {
+				DisplayName: Fleshtuloid
+				Description: Gross
+			}
+
+			FogBuff: {
+				DisplayName: Fogbound
+				Description: Augh
+			}
+
+			FollyBuff: {
+				DisplayName: Dracoswarmer
+				Description: A derivative of a derivative of a derivative of a derivative
+			}
+
+			GeorgeBuff: {
+				DisplayName: George
+				Description: George
+			}
+
+			GoozmaBuff: {
+				DisplayName: Goozma
+				Description: The last trace of that which has been erased from time itself...
+			}
+
+			GrandBuff: {
+				DisplayName: Great Grandson Shark
+				Description: Heir to the apex throne
+			}
+
+			HivelingBuff: {
+				DisplayName: Cluster Mind
+				Description: A small pack of microorganisms are following you
+			}
+
+			HoodiedolistBuff: {
+				DisplayName: Hoodiedolist
+				Description: The cloak is his home
+			}
+
+			JaredBuff: {
+				DisplayName: Eidolon Wyrm
+				Description: Up from the depths
+			}
+
+			JellyBuff: {
+				DisplayName: Astral Gelatin
+				Description: A relic of a long forgotten past
+			}
+
+			JunkoBuff: {
+				DisplayName: Junsi
+				Description: Pure Fury
+			}
+
+			LumpyBuff: {
+				DisplayName: Lumpy
+				Description: Lumpy
+			}
+
+			MechaGeorgeBuff: {
+				DisplayName: G30RG3
+				Description: ...KDlt7S1U9x8
+			}
+
+			MiniBumbleBuff: {
+				DisplayName: Mini Birb
+				Description: Tweet
+			}
+
+			MiniDogeBuff: {
+				DisplayName: Murderswarm
+				Description: The Bombles follow your every move
+			}
+
+			MoistScourgeBuff: {
+				DisplayName: Dune Pest
+				Description: Blerch
+			}
+
+			NuclearFuryshronBuff: {
+				DisplayName: Dukapitated
+				Description: One of many...
+			}
+
+			NuggetBuff: {
+				DisplayName: The Jungle Nugget
+				Description: Rawr!
+			}
+
+			OmegaSquidBuff: {
+				DisplayName: Omega Squiddo
+				Description: The real Cthulhu
+			}
+
+			OrbBuff: {
+				DisplayName: The Dragonball
+				Description: Vibrating at intense speeds
+			}
+
+			PhageBuff: {
+				DisplayName: Space Sick
+				Description: You have been infected by the fledgling Aureophage!
+			}
+
+			PillagerBuff: {
+				DisplayName: Province Pilferer
+				Description: It's time to shred and thrash!
+			}
+
+			PolterBuff: {
+				DisplayName: Polter-Chan
+				Description: Poooolteeer chaaaaaaaaaaannnn
+			}
+
+			PuppoBuff: {
+				DisplayName: Chihuahua Puppo
+				Description: He's a good boy
+			}
+
+			ReaperBuff: {
+				DisplayName: Buff Man
+				Description: You could say this is a... buff buff
+			}
+
+			RedPandaBuff: {
+				DisplayName: Tara
+				Description: Tara, the Tarafying panda is following you
+			}
+
+			Rembuff: {
+				DisplayName: Giant Decapitated Floating Siren Head
+				Description: Awaiting arrival since 2018!
+			}
+
+			RepurposedMonitorBuff: {
+				DisplayName: Charletron
+				Description: Incompatible yet irreplacible
+			}
+
+			RoverSpindleBuff: {
+				DisplayName: Wulfrum Rover
+				Description: Brilliance irreplaceable...
+			}
+
+			RustyBuff: {
+				DisplayName: Rusty Mimic
+				Description: Good thing there aren't bigger ones
+			}
+
+			SadStoneBuff: {
+				DisplayName: Sad Rock
+				Description: ":("
+			}
+
+			ScorchingFuryshronBuff: {
+				DisplayName: Scorching Dukapitated
+				Description: Don't do Scoria kids
+			}
+
+			ScourgeBuff: {
+				DisplayName: Twin Pests
+				Description: Blaaaargh^2
+			}
+
+			SentiPet: {
+				DisplayName: The Sentinels
+				Description: The Cosmic Terrors watch over you
+			}
+
+			SepulcherBuff: {
+				DisplayName: Fallen Sepulchling
+				Description:
+					'''
+					A dark construct composed of the long deceased souls of the innocent...
+					Cute
+					'''
+			}
+
+			SepulcherBuffNeo: {
+				DisplayName: Sepulchling
+				Description: THIS ONE is benevolent
+			}
+
+			ShartBuff: {
+				DisplayName: The Sharks
+				Description: No they can't play hockey
+			}
+
+			SigBuff: {
+				DisplayName: Cloak and Dagger
+				Description: The Ethereal Assassin will watch your back... probably
+			}
+
+			SkaterBuff: {
+				DisplayName: Sulphurous Skater Nymph
+				Description: Feed it acidic bubbles for it to grow stronger!
+			}
+
+			SlimeBuff: {
+				DisplayName: Slime Demigods
+				Description: Heirs to the throne
+			}
+
+			SmaulerBuff: {
+				DisplayName: Smauler
+				Description: Chow~
+			}
+
+			StasisArmoredBuff: {
+				DisplayName: Armored Stasis Drone
+				Description: Why do I exist
+			}
+
+			StasisNakedBuff: {
+				DisplayName: Naked Stasis Drone
+				Description: Put some clothes on
+			}
+
+			SWPetBuff: {
+				DisplayName: Lil' Weaver
+				Description: '''"Guess they aren't extinct after all" '''
+			}
+
+			TerminalRockBuff: {
+				DisplayName: Xeroc's Pet Rock
+				Description: '''"This does put a smile on my face..." '''
+			}
+
+			TUBBUFF: {
+				DisplayName: T.U.B
+				Description: A tentacle monster is following you
+			}
+
+			UngodlyBuff: {
+				DisplayName: Ungodly Dude
+				Description: On his way to eat your socks
+			}
+
+			WulfrumArmy: {
+				DisplayName: Wulfrum Army
+				Description: Cling clang and bang
+			}
+
+			WyrmBuff: {
+				DisplayName: Eidolon Inchwyrm
+				Description: Ew, its all slimey...
+			}
+
+			YharimSquidBuff: {
+				DisplayName: 圣金源Squiddo
+				Description: He's gone so far in life
+			}
+
+			ZygoteBuff: {
+				DisplayName: Ghastly Zygote
+				Description: He might be a bit problematic...
+			}
+
+			ClassicBrimmyBuff: {
+				# Transformations
+				DisplayName: Brimstone Elemental Transformation
+				# Transformations
+				Description: Yes, you can touch Water
+			}
+
+			CloudTransformationBuff: {
+				DisplayName: Cloud Elemental Transformation
+				Description: Feelin' Cloudy
+			}
+
+			ProtoRingBuff: {
+				DisplayName: Proto-Andromeda
+				Description: Still working out the kinks
+			}
+
+			SandTransformationBuff: {
+				DisplayName: Sand Elemental Transformation
+				Description: heh.
+			}
+
+			SignutTransformationBuff: {
+				DisplayName: Ethereal Assassin
+				Description: Never been more edgy
+			}
+
+			AlarmClockBuff: {
+				# Pandemonium Box
+				DisplayName: Alarm Clock
+				# Pandemonium Box
+				Description: Careful, they might short circuit
+			}
+
+			AlterBellBuff.DisplayName: Altar Bell
+
+			BestInstrumentBuff: {
+				DisplayName: Best Instrument
+				Description: Fragments of your journey, keep them safe
+			}
+
+			DustChimeBuff: {
+				DisplayName: Dust Chime
+				Description: The adventure begins!
+			}
+
+			HarbingerOfWorkBuff: {
+				DisplayName: Harbinger Of Work
+				Description:
+					'''
+					Their passion overheats
+					Their system's on repeat
+					'''
+			}
+
+			MaladyBellsBuff: {
+				DisplayName: Malady Bells
+				Description: Your journey is not over, they will look after you
+			}
+
+			NurseryBellsBuff: {
+				DisplayName: Nursery Bells
+				Description: A terrarian's best friends!
+			}
+
+			ScratchedGongBuff: {
+				DisplayName: Scratched Gong
+				Description: Your magnum opera nears completion
+			}
+
+			SpiritDinerBuff: {
+				DisplayName: Spirit Diner Bell
+				Description: They'll help in your quest
+			}
+
+			TubRuneBuff: {
+				DisplayName: T.U.B. Rune
+				Description: ...Our final message
+			}
+
+			VaselineBuff: {
+				DisplayName: Vaseline Bell
+				Description: The sunrays shine and follow
+			}
+
+			WormBellBuff: {
+				DisplayName: Slither Charm
+				Description: Snaking around
+			}
+
+			PandoraBuff: {
+				DisplayName: Pandemonium Box
+				Description:
+					'''
+					Running too late
+					Running out of time 
+					'''
+			}
+
+			AltarBellBuff: {
+				DisplayName: Altar Bell
+				Description: The stars will guide your path
+			}
+
+			NurseryBellBuff: {
+				DisplayName: Nursery Bell
+				Description: Ring-a-ling
+			}
+
+			MorshuBuff: {
+				DisplayName: Morshu
+				Description: Rope coil? Gel? Bombs? You want it? It's yours my friend, as long as you have a giant ruby...
+			}
+		}
+
+		Biomes: {
+			AstralBlight: {
+				DisplayName: 枯萎彗星
+				TownNPCDialogueName: 枯萎彗星
+			}
+		}
+
+		Conditions.Acid: 哔哔-哔！
+
+		Configs: {
+			CalValEXConfig: {
+				DisplayName: 虚荣设置
+
+				DisableVanityDrops: {
+					Label: 禁用掉落物
+					Tooltip: 禁用模组的所有直接掉落
+				}
+
+				ConfigBossBlocks: {
+					Label: 禁用Boss物块掉落
+					Tooltip: 开启后，Boss及它们的宝藏袋不再掉落物块
+				}
+
+				FatDog: {
+					Label: 真实尺寸
+					Tooltip: 开启后，一些宠物会变得更大
+				}
+
+				SupCombo: {
+					Label: 惘信之玉元素游行
+					Tooltip: 开启后，允许合成惘信之玉所用到的11个元素宠物同时显示
+				}
+
+				DragonballName: {
+					Label: 禁用龙珠复活节彩蛋
+					Tooltip: 禁用龙珠宠物造成的复活节彩蛋
+				}
+
+				Polterskin: {
+					Label: 禁用幽花酱皮肤
+					Tooltip: 使玩具镰刀宠物始终使用其默认皮肤
+				}
+
+				Pitbul: {
+					Label: 禁用斗牛犬吼叫
+					Tooltip: 使腐烂热狗宠物不对稀有生物时发出叫声
+				}
+
+				Headers.NPCs: NPC
+
+				TownNPC: {
+					Label: 禁用模组城镇NPC
+					Tooltip: 禁用预言家和水母祭司的自然生成
+				}
+
+				IsopodBait: {
+					Label: 禁用大王具足虫鱼饵力修改
+					Tooltip: 使大王具足虫总是有最大鱼饵力
+				}
+
+				CritterSpawns: {
+					Label: 禁用模组小动物
+					Tooltip: 禁用灾厄虚荣模组小动物的自然生成
+				}
+
+				GroundMountLol: {
+					Label: 禁用模组坐骑负面效果
+					Tooltip: 禁用模组坐骑对玩家的减益效果
+				}
+
+				DiscordRichPresence: {
+					Label: Discord Rich Presence ([c/ffa11:需要 DRP 模组！])
+					Tooltip:
+						'''
+						是否为 Purplefin Neptuna 制作的 Discord Rich Presence addons 模组初始化 Discord Rich Presence
+						需要该模组启用才能执行任何操作
+						'''
+				}
+
+				OwnerOnly: {
+					Label: 启用房主独占设置修改权限
+					Tooltip:
+						'''
+						推荐多人模式连击时开启
+						推荐用于主机和播放或在您播放的同一台机器上的主机服务器
+						'''
+				}
+
+				HerosPerm: {
+					Label: 通过权限系统管理 Heros 模组的功能
+					Tooltip:
+						'''
+						用于在多人模式下开启 Heros 模组的玩家
+						推荐用于主机和播放或在您播放的同一台机器上的主机服务器
+						'''
+				}
+			}
+		}
+
+		Config: {
+			Drops: 掉落
+			Pets: 宠物
+			OtherHeader: 其它
+			HeroHeader: 设置修改权限
+		}
+	}
+}
