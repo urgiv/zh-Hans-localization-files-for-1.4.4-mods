@@ -1,0 +1,665 @@
+CommonItemtooltip: {
+	Toggles: {
+		PetOn: 宠物增益已启用！
+		PetOff: 宠物增益已禁用！
+		LightOn: 照明宠物增益已启用！
+		LightOff: 照明宠物增益已禁用！
+		CartOn: 矿车增益已启用！
+		CartOff: 矿车增益已禁用！
+		WingOn: 翅膀增益已启用！
+		WingOff: 翅膀增益已禁用！
+		AllOn: 所有增益已启用！
+		AllOff: 所有增益已禁用！
+	}
+
+	PerkTitle: 增益效果：
+
+	#{$CommonItemtooltip.PerkTitle}
+	
+	Perks: {
+		# Used by: Bee cart and Dev wings
+		LuckBoost: 稍微增加运气
+		# Used by: EoS and Face Monster pets
+		PetAggroDown:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			敌人更不容易攻击你
+			'''
+		# Pets
+		PetBunny:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			获得折扣卡效果
+			'''
+		PetPenguin:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫冰水
+			稍微增加渔力
+			'''
+		PetTurtle:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			稍微增加防御
+			增加水下移动速度			
+			'''
+		PetGuardian:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加防御
+			提高 5% 伤害
+			'''
+		PetHornet:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫中毒
+			'''
+		PetTiki:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			稍微增加魔力再生
+			稍微增加魔法和召唤武器击退
+			'''
+		PetLizard:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加生命再生，并在生命值低于一半时稍微增加移动速度
+			'''
+		PetParrot:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加 4% 远程暴击率
+			'''
+		PetTruffle:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫困惑
+			'''
+		PetSeedling:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			在白天增加生命再生
+			'''
+		PetDino:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫破损盔甲
+			稍微增加近战武器护甲穿透
+			'''
+		PetEyezor:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加跳跃速度
+			增加 2% 暴击率
+			'''
+		PetSnowman:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			Grants an Ice Skates effect
+			免疫冷冻
+			'''
+		PetSpider:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫织网和酸性毒液
+			'''
+		PetSquashling:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			减少你的防御
+			作为回报，增加生命再生
+			'''
+		PetBlackCat:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			稍微减少你的运气
+			作为回报，增加 4% 魔法伤害
+			如果运气为负值，再增加 4% 魔法暴击率
+			'''
+		PetCursedSapling:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			获得战斗药水效果
+			'''
+		PetPuppy:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫软弱和缓慢
+			轻微增加附近玩家和所有者的运气
+			'''
+		PetGrinch:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			霜月事件中或受到冷冻、冰冻、霜冻效果时，增加 10% 伤害
+			'''
+		PetZephyr:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加渔力
+			在下雨天效果翻倍
+			'''
+		PetMinotaur:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			敌人更容易攻击你
+			增加 5% 近战攻速
+			'''
+		PetCube:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加下落速度
+			'''
+		PetGato:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加 2% 召唤伤害
+			旧日军团事件中，增加移动和跳跃速度
+			'''
+		PetDragon:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加 2% 召唤伤害
+			旧日军团事件中，获得宝藏磁铁效果
+			'''
+		PetTwink:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加 20 最大魔力值
+			增加跳跃速度
+			'''
+		PetSugarGlider:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加坠落阻力
+			'''
+		PetShark:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			获得游泳能力
+			稍微增加渔力
+			'''
+		PetPanda:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			获得镇静药水效果
+			'''
+		PetImp:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			不能被火点燃，免疫火块
+			'''
+		PetHarpy:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			稍微增加飞行时间
+			'''
+		PetFennec:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			获得声纳药水效果
+			'''
+		PetButterfly:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加 3% 魔法暴击率
+			在白天效果翻倍
+			'''
+		PetPlantero:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加 5% 鞭子范围
+			生命值低于一半时，增加 5% 近战和鞭子攻速 
+			'''
+		PetDynamiteKitten:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加远程武器护甲穿透
+			增加 5% 挖矿速度
+			'''
+		PetWerewolf:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			在夜晚，增加 4% 近战伤害
+			'''
+		PetMimic:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫火块
+			敌人更不容易攻击你
+			'''
+		PetPikachu:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫带电
+			提高加速度
+			在暴风雨天气，额外提高移动速度和加速度
+			'''
+		PetKS:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加跳跃速度
+			增加坠落阻力
+			'''
+		PetEoC:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			提高夜视能力
+			在夜晚，增加 4% 暴击率
+			'''
+		PetEoW:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			稍微增加防御
+			增加 20% 挖矿速度
+			'''
+		PetBoC:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫困惑
+			增加生命再生
+			'''
+		PetSkeletron:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫被诅咒和流血
+			在夜晚，稍微增加击退力
+			'''
+		PetQB:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫中毒
+			将使用者浸入蜂蜜
+			'''
+		PetDestroyer:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫破损盔甲
+			增加防御
+			增加 30% 挖矿速度
+			'''
+		PetTwins:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫大部分限制视野的减益
+			提高夜视能力
+			增加 5% 暴击率
+			'''
+		PetPrime:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫被诅咒和流血
+			增加击退力
+			稍微增加护甲穿透
+			'''
+		PetPlantera:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫中毒和酸性毒液
+			攻击者也会受到伤害
+			'''
+		PetDuke:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫野性咬噬
+			获得游泳能力
+			潮湿或生命值低于一半时，稍微增加移动速度和伤害
+			'''
+		PetCultist:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫月亮事件敌人施加的大部分减益
+			减少 10% 最大生命值
+			作为回报，增加 10% 魔法暴击率和召唤伤害
+			'''
+		PetML:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫月噬
+			增加生命再生
+			获得轻微的生命窃取效果
+			'''
+		PetEverscream:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			获得保暖药水效果
+			霜月事件中，增加防御和生命再生
+			'''
+		PetIQ:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫冷冻、冰冻、霜冻
+			霜月事件中，增加 10% 伤害
+			'''
+		PetMartian:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			提高移动速度和加速度
+			获得羽落药水效果
+			'''
+		PetOgre:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫 Oozed
+			增加 4% 召唤伤害
+			旧日军团事件中，免疫击退并增加击退力
+			'''
+		PetBetsy:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			不能被火点燃
+			增加 6% 召唤伤害
+			旧日军团事件中，增加 10% 伤害
+			'''
+		PetQS:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加飞行时间
+			稍微增加跳跃速度
+			未装备翅膀时，免疫坠落伤害并额外增加跳跃速度
+			'''
+		PetDeerclops:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫冰冻和缓慢
+			免疫击退
+			被冷冻时，稍微增加防御
+			'''
+		PetSlimes:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加飞行时间
+			增加跳跃速度
+			未装备翅膀时，免疫坠落伤害并额外增加跳跃速度
+			'''
+		PetBernie:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加生命再生
+			'''
+		PetGlommer:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加跳跃速度启用自动跳跃
+			'''
+		PetPig:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			降低 10% 伤害
+			作为回报，增加 10% 最大生命值（最多增加50）
+			'''
+		PetJunimo:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加 20 最大魔力值
+			降低 4% 魔力消耗
+			'''
+		PetChicken:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			稍微增加运气
+			稍微增加坠落阻力
+			'''
+		PetSpiffo:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			在夜晚，增加防御
+			'''
+		PetCaveling:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加 挖矿速度 10%
+			'''
+		PetDirt:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			增加运气
+			增加 挖矿速度 10%
+			'''
+		# Light Pets
+		LightShadowOrb:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			在夜晚，稍微增加防御
+			'''
+		LightFairy:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			生命值低于四分之一时，增加生命再生
+			'''
+		LightWisp:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			生命值低于一半时，增加魔力再生
+			生命值越低，效果越强
+			'''
+		LightHeart:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			生命值低于一半时，稍微增加生命再生
+			'''
+		LightFlickerwick:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			旧日军团事件中，免疫大部分火焰减益并稍微增加魔法和召唤伤害
+			'''
+		LightML:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫大部分限制视野的减益
+			'''
+		LightGolem:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			稍微增加防御
+			站立不动时，效果更强
+			'''
+		LightEoL:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			在白天，稍微增加伤害
+			稍微增加防御在夜晚，
+			稍微增加飞行时间
+			'''
+		LightPumpking:
+			'''
+			{$CommonItemtooltip.PerkTitle}
+			免疫诅咒焰和灵液
+			南瓜月事件中，稍微增加防御和击退力
+			'''
+		# Minecarts
+		CartMech: 稍微增加防御和护甲穿透
+		CartDesert:
+			'''
+			增加物块放置和工具使用范围
+			增加挖矿速度
+			'''
+		CartBee: 将使用者浸入蜂蜜
+		CartPigron:
+			'''
+			免疫冰水
+			敌人更不容易攻击你
+			'''
+		CartSunflower: 减少敌人生成
+		CartShroom:
+			'''
+			提供一些光照
+			提高夜视能力
+			'''
+		CartGem: 稍微增加防御
+		CartBeetle: 稍微增加防御和近战击退
+		CartMeowmere:
+			'''
+			增加生命再生
+			增加 5% 近战攻速
+			'''
+		CartParty:
+			'''
+			获得派对瓶灌注效果
+			开派对时，稍微增加生命再生和运气
+			'''
+		CartDutchman: 获得金瓶灌注效果
+		CartSteampunk: 增加 5% 远程攻击速度
+		CartCoffin: 生命值低于一半时，增加防御
+		CartFart: 敌人更不容易攻击你
+		CartTerraFart:
+			'''
+			增加 5% 伤害
+			敌人更不容易攻击你
+			'''
+		# Wings
+		WingsAngel: 稍微增加生命再生
+		WingsDemon: 增加 2% 伤害
+		WingsFairy: 生命值低于四分之一时，增加生命再生
+		WingsFin: 获得游泳能力
+		WingsFrozen: 免疫冷冻和冰冻
+		WingsHarpy: 增加跳跃速度
+		WingsJetpack: 增加 3% 远程攻击速度
+		WingsLeaf:
+			'''
+			增加 5% 鞭子范围
+			增加 2% 鞭子攻击速度
+			'''
+		WingsBat: 获得轻微的生命窃取效果在夜晚，
+		WingsBee:
+			'''
+			稍微增加生命再生
+			免疫中毒
+			'''
+		WingsButterfly:
+			'''
+			增加生命再生在白天
+			增加魔力再生在夜晚，
+			'''
+		WingsFlame: 免疫大部分火焰减益
+		WingsSpectre:
+			'''
+			增加 4% 魔法伤害
+			生命值低于一半时，获得轻微的生命窃取效果
+			'''
+		WingsHoverboard: 增加 4% 远程伤害
+		WingsBone: 生命值低于一半时，稍微增加防御。低于四分之一时效果翻倍
+		WingsMothron:
+			'''
+			在白天或日食期间，增加生命再生
+			日食期间额外增加 3% 暴击率
+			'''
+		WingsBeetle:
+			'''
+			增加近战武器护甲穿透
+			生命值低于一半时，稍微增加防御
+			'''
+		WingsFestive: 获得保暖药水效果
+		WingsSpooky:
+			'''
+			增加 3% 召唤伤害
+			稍微增加召唤武器击退
+			'''
+		WingsTatteredFairy:
+			'''
+			稍微减少生命再生的加成效果
+			作为回报，生命值低于一半时，增加魔力再生。低于四分之一时效果翻倍
+			'''
+		WingsSteampunk: 稍微提高加速度
+		WingsBetsy:
+			'''
+			不能被火点燃
+			旧日军团事件中，稍微增加伤害和击退力
+			'''
+		WingsEmpress:
+			'''
+			在白天，稍微增加伤害
+			在夜晚，稍微增加防御
+			'''
+		WingsFishron: 生命值低于一半或潮湿时，提高加速度并稍微增加伤害
+		WingsNebula: 降低 12% 魔力消耗
+		WingsVortex: 增加 6% 远程暴击率
+		WingsSolar: 增加 6% 近战攻速
+		WingsStardust: 增加 6% 召唤伤害
+		WingsWarpStar: 增加生命再生和魔力再生
+	}
+}
+
+Items: {
+	WingStone: {
+		Tooltip: 切换翅膀是否为装备的玩家提供额外增益效果
+		DisplayName: 翅膀增益切换石
+	}
+
+	ResonateStone: {
+		Tooltip: 切换宠物是否为装备的玩家提供额外增益效果
+		DisplayName: 宠物增益切换石
+	}
+
+	MinersStone: {
+		Tooltip: 切换矿车是否为乘坐的玩家提供额外增益效果
+		DisplayName: 矿车增益切换石
+	}
+
+	LightStone: {
+		Tooltip: 切换照明宠物是否为装备的玩家提供额外增益效果
+		DisplayName: 照明宠物增益切换石
+	}
+
+	PotentialStone: {
+		DisplayName: 潜力增益切换石
+		Tooltip: 切换宠物、照明宠物、翅膀和矿车是否为装备的玩家提供额外增益效果
+	}
+}
+
+Configs: {
+	PerksConfig: {
+		DisplayName: 更有用的可装备物品
+
+		petTooltips: {
+			Label: 增益效果提示：宠物
+			Tooltip:
+				'''
+				切换是否在工具提示行显示宠物的额外增益效果
+				默认开启
+				更改此选项不需要重新加载
+				'''
+		}
+
+		lightTooltips: {
+			Label: 增益效果提示：照明宠物
+			Tooltip:
+				'''
+				切换是否在工具提示行显示照明宠物的额外增益效果
+				默认开启
+				更改此选项不需要重新加载
+				'''
+		}
+
+		cartTooltips: {
+			Label: 增益效果提示：矿车
+			Tooltip:
+				'''
+				切换是否在工具提示行显示矿车的额外增益效果
+				默认开启
+				更改此选项不需要重新加载
+				'''
+		}
+
+		wingTooltips: {
+			Label: 增益效果提示：翅膀
+			Tooltip:
+				'''
+				切换是否在工具提示行显示翅膀的额外增益效果
+				默认开启
+				更改此选项不需要重新加载
+				'''
+		}
+
+		perkDefault: {
+			Label: 增益效果初始默认值
+			Tooltip:
+				'''
+				切换宠物、照明宠物、翅膀和矿车的额外增益效果是否默认启用
+				关闭后，每次重新加载模组，增益效果都将禁用
+				使用宠物增益切换石及其合成物来手动开启增益
+				默认开启
+				更改此选项不需要重新加载
+				'''
+		}
+	}
+}
