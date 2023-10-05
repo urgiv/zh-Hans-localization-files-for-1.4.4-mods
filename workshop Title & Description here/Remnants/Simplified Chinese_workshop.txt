@@ -1,0 +1,19 @@
+Title:
+Remnants（古迹残存）
+
+Description:
+Remnants（古迹残存）是一个独特的、有大量新内容的模组，主要从世界生成方面重构你的世界，提供不同于原版的新环境和各种秘密来供玩家探索和发现。
+
+由于本模组是针对未来更新的其它内容设计的，其改写了世界生成时的大部分内容，所以一般情况下和其它大型模组并不兼容，目前兼容灾厄。
+
+此外它还添加了：
+[list]
+    [*]具有不同挑战的定制生物群落和结构
+    [*]游戏玩法的改进，包括对一些敌方AI的重新制作
+    [*]新的物块和合成配方
+[/list]
+
+如果有问题或想了解更多，可加入 [url=https://discord.gg/cbK6rVC]Discord[/url]
+如果你喜欢这个模组，可以赞助作者 [url=https://ko-fi.com/wombatgamery]Ko-fi[/url]
+
+[quote=tModLoader]Developed By Wombat[/quote]
