@@ -1,0 +1,47 @@
+[h1]Item Restriction Challenge[/h1]
+
+Item Restriction Challenge is a small and, frankly rather evil mod. Contained within it are a series of config toggles which, if turned on, have the potential to easily make your Terraria life far harder. Be warned - and I CANNOT stress this enough - that this mod and its challenges are not meant to be taken seriously (I made this in < 30 minutes) and could be hazardous to your playthrough (and mental health)!
+As the title implies, the challenges offered by this mod are all item-oriented. Most will prevent you from obtaining items from certain methods. Below is a list of all the toggles in the game;
+
+[h3]Delete Dropped Items:[/h3]
+[list]
+    [*]Causes ALL items to be instantly deleted when dropped in the world!
+    [*]This means no loot (or coins!) from enemies, blocks from tiles, etc.
+    [*]With this toggle active, you are effectivley forced to rely soley on chest loot and NPC shops
+[/list]
+
+[h3]Delete Dropped Items - Difficulty+:[/h3]
+[list]
+    [*]Dropped items that are grabbed by the player immediatley (Ex: Opening a grab-bag) won't be deleted by the normal Delete Dropped Items
+    [*]However, turning this toggle on in addition to Delete Dropped Items will delete even grabbed items
+    [*]Just to be sure, this will even prevent the game from adding picked-up items to your inventory!
+    [*]If you want to ensure a no-drops challenge has no loopholes, this will prevent those loopholes
+[/list]
+
+[h3]Disable Crafting Recipes:[/h3]
+[list]
+    [*]Removes ALL crafting recipes, preventing you from crafting!
+[/list]
+
+[h3]Disable Loot Drops:[/h3]
+[list]
+    [*]Prevents enemies and NPCs from dropping most loot, excluding coins
+    [*]Doesn't appear to affect global drops; meaning drops shared by all enemies/NPCs (Ex: Goodie Bags during Halloween)
+[/list]
+
+[h3]Disable Stores:[/h3]
+[list]
+    [*]Removes ALL items from ALL NPC vendors' shops!
+	[*]Doesn't affect the Travelling Merchant...
+    [*]Won't prevent you from selling items or utilizing non-store NPC services (Ex: healing, refroge, etc.)
+[/list]
+
+[h3]No Currency:[/h3]
+[list]
+    [*]Behaves like Delete Dropped Items (With Difficulty+), but only affects Coins and Defender Medals
+    [*]This won't bypass selling items for money, however...
+    [*]May be a useful addition to Disable Stores, since it makes it harder to use non-store NPC services (Ex: healing, reforge, etc.)
+    [*]Doesn't target/delete any modded currencies
+[/list]
+
+Again, I'd like to reiterate that this mod isn't very serious and should be used with caution! While most of the challenges you can try with this mod are possible in theory, they are by no means fun or fair. Also keep in mind that disabling recipes, loot drops, etc. could easily cause conflicts with other mods!
