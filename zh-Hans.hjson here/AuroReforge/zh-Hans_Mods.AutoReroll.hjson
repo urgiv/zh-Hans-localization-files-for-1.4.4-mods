@@ -1,0 +1,15 @@
+Configs: {
+	Config: {
+		DisplayName: 自动重铸设置
+
+		ReforgePerSec: {
+			Label: 重铸速度
+			Tooltip: 每秒重铸次数
+		}
+
+		UseDefaultReforgeMenu: {
+			Label: 使用原版重铸菜单
+			Tooltip: ""
+		}
+	}
+}
