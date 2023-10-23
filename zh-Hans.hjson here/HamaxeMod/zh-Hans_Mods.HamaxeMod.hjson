@@ -1,0 +1,93 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	Copper_Hamaxe: {
+		DisplayName: 铜锤斧
+		Tooltip: ""
+	}
+
+	Tin_Hamaxe: {
+		DisplayName: 锡锤斧
+		Tooltip: ""
+	}
+
+	Gold_Hamaxe: {
+		DisplayName: 金锤斧
+		Tooltip: ""
+	}
+
+	Iron_Hamaxe: {
+		DisplayName: 铁锤斧
+		Tooltip: ""
+	}
+
+	Lead_Hamaxe: {
+		DisplayName: 铅锤斧
+		Tooltip: ""
+	}
+
+	Platinum_Hamaxe: {
+		DisplayName: 铂金锤斧
+		Tooltip: ""
+	}
+
+	Silver_Hamaxe: {
+		DisplayName: 银锤斧
+		Tooltip: ""
+	}
+
+	Tungsten_Hamaxe: {
+		DisplayName: 钨锤斧
+		Tooltip: ""
+	}
+
+	Blood_Lust_Hamaxe: {
+		DisplayName: 嗜血锤斧
+		Tooltip: ""
+	}
+
+	Hamaxe_of_the_Night: {
+		DisplayName: 暗夜锤斧
+		Tooltip: ""
+	}
+
+	Adamantite_Hamaxe: {
+		DisplayName: 精金锤斧
+		Tooltip: ""
+	}
+
+	Chlorophyte_Hamaxe: {
+		DisplayName: 叶绿锤斧
+		Tooltip: ""
+	}
+
+	Cobalt_Hamaxe: {
+		DisplayName: 钴锤斧
+		Tooltip: ""
+	}
+
+	Mythril_Hamaxe: {
+		DisplayName: 秘银锤斧
+		Tooltip: ""
+	}
+
+	Orichalcum_Hamaxe: {
+		DisplayName: 山铜锤斧
+		Tooltip: ""
+	}
+
+	Palladium_Hamaxe: {
+		DisplayName: 钯金锤斧
+		Tooltip: ""
+	}
+
+	Titanium_Hamaxe: {
+		DisplayName: 钛金锤斧
+		Tooltip: ""
+	}
+
+	Zenith_Hamaxe: {
+		DisplayName: 天顶锤斧
+		Tooltip: 终极锤斧！
+	}
+}

@@ -1,0 +1,17 @@
+Titile:
+Drill  Expansion
+
+Description:
+Drill Expansion:
+Drill expansion introduces new drill counterparts to most vanilla Terraria pickaxes, amplifying your mining experience at every game stage.
+
+Buffs:
+- Increases all vanilla drills from the default 60% speed bonus to an extra 33% to make them viable throughout the game.
+- All modded drills have the same 60% speed bonus and the 33%, making pre-hardmode drills just as good.
+- The zenith drill has 250% pickaxe power and is able to mine up to auric ore in calamity mod.
+
+For mod suggestions or issues, please comment.
+
+Credits:
+Icon & sprites: FurrMZ
+Code: max196864

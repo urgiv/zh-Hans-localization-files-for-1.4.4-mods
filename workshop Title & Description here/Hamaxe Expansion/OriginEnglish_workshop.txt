@@ -1,0 +1,18 @@
+Titile:
+Hamaxe Expansion
+
+Description:
+Hamaxe Expansion:
+Hamaxe expansion brings in new hamaxes for every stage of the game. I made this mod because I usually play with a ton of QOL mods and use loads of different weapons. It's just super handy to have an axe and hammer combined, you know? Saves that precious hotbar space.
+
+For mod suggestions or issues, please comment.
+
+Credits:
+Icon: FurrMZ
+Sprites and code: max196864
+
+Changelog [1.0 -> 2.0]
+- changed mod description
+- changed zenith hamaxe sprite
+- changed zenith hamaxe ranged from +5 -> +11
+- resprited mod icon border

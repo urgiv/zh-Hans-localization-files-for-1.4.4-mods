@@ -1,0 +1,109 @@
+# This file will automatically update with entries for new content after a build and reload
+# Language.GetTextValue("LegacyMisc.37") + " " + Language.GetTextValue("Mods.DrillMod.Items.CactusDrill.DisplayName"),
+# Language.GetTextValue("LegacyMisc.37") + " " + Language.GetTextValue("ItemName.CobaltDrill"),
+Items: {
+	ZenithDrill: {
+		Tooltip: ""
+		DisplayName: 天顶钻头
+	}
+
+	CactusDrill: {
+		Tooltip: ""
+		DisplayName: 仙人掌钻头
+	}
+
+	CopperDrill: {
+		DisplayName: 铜钻头
+		Tooltip: ""
+	}
+
+	TinDrill: {
+		DisplayName: 锡钻头
+		Tooltip: ""
+	}
+
+	LeadDrill: {
+		DisplayName: 铅钻头
+		Tooltip: ""
+	}
+
+	BloodLustDrill: {
+		DisplayName: 嗜血钻头
+		Tooltip: ""
+	}
+
+	IronDrill: {
+		DisplayName: 铁钻头
+		Tooltip: ""
+	}
+
+	SilverDrill: {
+		DisplayName: 银钻头
+		Tooltip: ""
+	}
+
+	DeathBringerDrill: {
+		DisplayName: 死亡使者钻头
+		Tooltip: ""
+	}
+
+	DeathbringerDrill: {
+		DisplayName: 死亡使者钻头
+		Tooltip: 能够开采狱石
+	}
+
+	FossilDrill: {
+		DisplayName: 化石钻头
+		Tooltip: ""
+	}
+
+	GoldDrill: {
+		DisplayName: 金钻头
+		Tooltip: 能够开采陨石
+	}
+
+	MoltenDrill: {
+		DisplayName: 熔岩钻头
+		Tooltip: ""
+	}
+
+	NightmareDrill: {
+		DisplayName: 梦魇钻头
+		Tooltip: 能够开采狱石
+	}
+
+	PlatinumDrill: {
+		DisplayName: 铂金钻头
+		Tooltip: 能够开采陨石
+	}
+
+	SpectreDrill: {
+		DisplayName: 幽灵钻头
+		Tooltip: ""
+	}
+
+	TungstenDrill: {
+		DisplayName: 钨钻头
+		Tooltip: 能够开采陨石
+	}
+}
+
+Projectiles: {
+	ZenithDrillProjectile.DisplayName: "{$Items.ZenithDrill.DisplayName}"
+	CactusDrillProjectile.DisplayName: "{$Items.CactusDrill.DisplayName}"
+	CopperDrillProjectile.DisplayName: "{$Items.CopperDrill.DisplayName}"
+	TinDrillProjectile.DisplayName: "{$Items.TinDrill.DisplayName}"
+	LeadDrillProjectile.DisplayName: "{$Items.LeadDrill.DisplayName}"
+	BloodLustDrillProjectile.DisplayName: "{$Items.Blood LustDrill.DisplayName}"
+	IronDrillProjectile.DisplayName: "{$Items.IronDrill.DisplayName}"
+	SilverDrillProjectile.DisplayName: "{$Items.SilverDrill.DisplayName}"
+	DeathBringerDrillProjectile.DisplayName: "{$Items.Death BringerDrill.DisplayName}"
+	DeathbringerDrillProjectile.DisplayName: "{$Items.DeathbringerDrill.DisplayName}"
+	FossilDrillProjectile.DisplayName: "{$Items.FossilDrill.DisplayName}"
+	GoldDrillProjectile.DisplayName: "{$Items.GoldDrill.DisplayName}"
+	MoltenDrillProjectile.DisplayName: "{$Items.MoltenDrill.DisplayName}"
+	NightmareDrillProjectile.DisplayName: "{$Items.NightmareDrill.DisplayName}"
+	PlatinumDrillProjectile.DisplayName: "{$Items.PlatinumDrill.DisplayName}"
+	SpectreDrillProjectile.DisplayName: "{$Items.SpectreDrill.DisplayName}"
+	TungstenDrillProjectile.DisplayName: "{$Items.TungstenDrill.DisplayName}"
+}
