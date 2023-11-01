@@ -1,5 +1,5 @@
-//based on mod version: 1.0.2.3
-//localization progress: ready
+# based on mod version: 1.0.2.4
+# localization progress: ready
 Buffs: {
 	StoneskinBuff: {
 		DisplayName: 石化皮肤
@@ -20,11 +20,16 @@ Buffs: {
 		DisplayName: 熔岩之眼
 		Description: 熔岩之眼现在跟着你！
 	}
+
+	BloodRegeneration: {
+		Description: ""
+		DisplayName: 血液再生
+	}
 }
 
 Items: {
 	AvengerMedal: {
-		DisplayName: 复仇者勋章
+		DisplayName: 复仇者奖章
 		Tooltip: 增加 3% 伤害
 	}
 
@@ -64,7 +69,7 @@ Items: {
 	}
 
 	RangerMedal: {
-		DisplayName: 远程勋章
+		DisplayName: 远程奖章
 		Tooltip: 增加 5% 远程伤害
 	}
 
@@ -79,7 +84,7 @@ Items: {
 	}
 
 	SorcererMedal: {
-		DisplayName: 术士勋章
+		DisplayName: 术士奖章
 		Tooltip: 增加 5% 魔法伤害
 	}
 
@@ -89,7 +94,7 @@ Items: {
 	}
 
 	SummonerMedal: {
-		DisplayName: 召唤勋章
+		DisplayName: 召唤奖章
 		Tooltip: 增加 5% 召唤伤害
 	}
 
@@ -114,7 +119,7 @@ Items: {
 	}
 
 	WarriorMedal: {
-		DisplayName: 战士勋章
+		DisplayName: 战士奖章
 		Tooltip: 增加 5% 近战伤害
 	}
 
@@ -260,7 +265,7 @@ Items: {
 
 	AntlionDiggingClaw: {
 		DisplayName: 蚁狮挖掘爪
-		Tooltip: 
+		Tooltip:
 			'''
 			小小的蚁狮挖呀挖,
 			挖出一个侏儒的洞。
@@ -314,7 +319,7 @@ Items: {
 
 	TaleAboutSunflower: {
 		DisplayName: 向日葵法书
-		Tooltip: 
+		Tooltip:
 			'''
 			射出一朵缓慢移动的向日葵
 			向日葵会迅速向附近的敌人发射种子
@@ -645,7 +650,7 @@ Items: {
 
 	Devilshark: {
 		DisplayName: 恶魔鲨
-		Tooltip: 
+		Tooltip:
 			'''
 			一次射出两发子弹
 			有几率射出恶魔镰刀
@@ -653,8 +658,8 @@ Items: {
 	}
 
 	Crystalshark: {
+		Tooltip: 有几率额外发射水晶鲨
 		DisplayName: 水晶鲨
-		Tooltip: 有几率额外发射水晶鲨		
 	}
 
 	FishPistol: {
@@ -694,7 +699,7 @@ Items: {
 
 	Toxishark: {
 		DisplayName: 剧毒鲨
-		Tooltip: 
+		Tooltip:
 			'''
 			射出毒泡
 			会让你的手又黏又臭
@@ -708,7 +713,7 @@ Items: {
 
 	VulcanRepeater: {
 		DisplayName: 火神弩
-		Tooltip: 
+		Tooltip:
 			'''
 			一次射出两枝箭
 			有几率转化为狱火之箭
@@ -1063,6 +1068,146 @@ Items: {
 		Tooltip: ""
 		DisplayName: 真菌球茎
 	}
+
+	LeatherPants: {
+		DisplayName: 皮裤
+		Tooltip: ""
+	}
+
+	LeatherHood: {
+		Tooltip: ""
+		DisplayName: 皮帽
+	}
+
+	LeatherShirt: {
+		DisplayName: 皮衣
+		Tooltip: ""
+	}
+
+	Conductor: {
+		DisplayName: 导电材料
+		Tooltip: ""
+	}
+
+	PumpkinSeeder: {
+		DisplayName: 南瓜播种机
+		Tooltip: ""
+	}
+
+	LaserDischarge: {
+		DisplayName: 激光放电器
+		Tooltip: ""
+	}
+
+	LaserDisintegration: {
+		DisplayName: 激光崩解器
+		Tooltip: ""
+	}
+
+	AscentofFlame: {
+		DisplayName: 火焰喷吐者
+		Tooltip: ""
+	}
+
+	KingBeeBlade: {
+		DisplayName: 蜂王之剑
+		Tooltip: ""
+	}
+
+	ExampleHamaxe: {
+		DisplayName: 示例锤斧
+		Tooltip: ""
+	}
+
+	GlowingLens: {
+		Tooltip: ""
+		DisplayName: 辉光透镜
+	}
+
+	ScorchingKama: {
+		Tooltip: ""
+		DisplayName: 炽热之爱
+	}
+
+	SpaceShotgun: {
+		DisplayName: 空间霰弹枪
+		Tooltip: ""
+	}
+
+	FireAxe: {
+		Tooltip: ""
+		DisplayName: 火斧
+	}
+
+	IronSpear: {
+		DisplayName: 铁长矛
+		Tooltip: ""
+	}
+
+	CopperLance: {
+		Tooltip: ""
+		DisplayName: 铜长矛
+	}
+
+	LeadSpear: {
+		DisplayName: 铅长矛
+		Tooltip: ""
+	}
+
+	SilverGlaive: {
+		DisplayName: 银长矛
+		Tooltip: ""
+	}
+
+	TinLance: {
+		DisplayName: 锡长矛
+		Tooltip: ""
+	}
+
+	TungstenGlaive: {
+		DisplayName: 钨长矛
+		Tooltip: ""
+	}
+
+	DiscoinaBottle: {
+		DisplayName: 神秘之瓶
+		Tooltip: ""
+	}
+
+	Ascension: {
+		Tooltip: ""
+		DisplayName: 飞升
+	}
+
+	ClockworkShark: {
+		DisplayName: 发条鲨
+		Tooltip: ""
+	}
+
+	Beastbuss: {
+		Tooltip: ""
+		DisplayName: 野兽之吻
+	}
+
+	SeaBeast: {
+		Tooltip: ""
+		DisplayName: 海兽之息
+	}
+
+	VoidDestroyer: {
+		Tooltip: ""
+		DisplayName: 虚空毁灭者
+	}
+
+	Firelauncher: {
+		Tooltip: ""
+		DisplayName: 火焰掌控者
+	}
+
+	PlasmaGun: {
+		Tooltip: ""
+		DisplayName: 等离子枪
+	}
 }
 
 NPCs: {
@@ -1105,6 +1250,8 @@ NPCs: {
 	AncientInsect.DisplayName: 远古昆虫
 	Leapling.DisplayName: 腐化蹦蹦兽
 	VolcanicEyes.DisplayName: 熔岩之眼
+	Starseer.DisplayName: 星空先知
+	EnchantedCrystal.DisplayName: 附魔水晶
 }
 
 Projectiles: {
@@ -1205,22 +1352,30 @@ Projectiles: {
 	MagmaticFlareball.DisplayName: 熔岩耀斑
 	CoreArk_Pro.DisplayName: 地核方舟
 	CoreArkShoot.DisplayName: 地核方舟
-	AnchorBlade_Pro.DisplayName: 锚刀
+	AscendedFlame.DisplayName: 火焰喷吐者
+	BigPumpkinSeed.DisplayName: 南瓜种子
+	PumpkinSeed.DisplayName: 南瓜种子
+	CrescentScythe.DisplayName: 新月镰刀
 	NonExist1.DisplayName: 虚无之物
+	ScorchingKama_Throw.DisplayName: 炽热之爱
+	Icicle.DisplayName: Icicle
+	CopperLance_Spear.DisplayName: 铜长矛
+	IronSpear_Spear.DisplayName: 铁长矛
+	LeadSpear_Spear.DisplayName: 铅长矛
+	SilverGlaive_Spear.DisplayName: 银长矛
+	TinLance_Spear.DisplayName: 锡长矛
+	TungstenGlaive_Spear.DisplayName: 钨长矛
+	ClockworkShark_Hold.DisplayName: 发条鲨
+	VoidDestroyer_Hold.DisplayName: 虚空毁灭者
+	VoidStorm.DisplayName: 虚空风暴
+	Firelauncher_Hold.DisplayName: 火焰掌控者
+	Moltenball.DisplayName: Moltenball
+	Moltenminiball.DisplayName: Moltenminiball
+	Plasmaball.DisplayName: 等离子球
 }
 
 Configs: {
 	Curses: {
-		BloodyRose: {
-			Tooltip: 权力的代价可能需要很多，但你很少会发现像玫瑰这样既美丽又残忍的造物
-			Label: "[i:1323] 嗜血玫瑰"
-		}
-
-		ShatteredGlass: {
-			Tooltip: 永久增加无敌帧时长和10%伤害减免，但你的屏幕会有裂缝效果
-			Label: "[i:50] 碎璃"
-		}
-
 		OculusofVehemence: {
 			Tooltip: 狂热的凝视会启迪你的头脑，代价是考验你的专注力和意志力
 			Label: "[i:1248] 鹰眼"
@@ -1247,9 +1402,28 @@ Configs: {
 
 		Headers.Curses: 诅咒效果
 		DisplayName: 诅咒效果
+
+		ShatteredGlass: {
+			Label: "[i:50] 碎璃"
+			Tooltip: 永久增加无敌帧时长和10%伤害减免，但你的屏幕会有裂缝效果
+		}
+
+		BloodyRose: {
+			Label: "[i:1323] 嗜血玫瑰"
+			Tooltip: 权力的代价可能需要很多，但你很少会发现像玫瑰这样既美丽又残忍的造物
+		}
 	}
 
 	AbandonedStarConfig: {
+		SpriteReplacementsToggle: {
+			Tooltip:
+				'''
+				将一些原版贴图替换为模组的样式
+				禁用此选项可能会导致某些物品看起来很奇怪
+				'''
+			Label: "[i:368] 贴图替换"
+		}
+
 		DrawTelegraphs: {
 			Tooltip:
 				'''
@@ -1261,5 +1435,80 @@ Configs: {
 
 		Headers.Graphics: 图像设置
 		DisplayName: 遗弃之星设置
+	}
+
+	AbandonedStarConfigClient: {
+		DisplayName: 遗弃之星客户端设置
+		Headers.Graphics: 图像设置
+
+		DrawTelegraphs: {
+			Label: "[i:2799] 瞄准线"
+			Tooltip:
+				'''
+				开启后，显示一些射弹的瞄准线
+				可以让一些 Boss 战斗更容易
+				'''
+		}
+
+		SpriteReplacementsToggle: {
+			Label: "[i:368] 贴图替换"
+			Tooltip:
+				'''
+				将一些原版贴图替换为模组的样式
+				禁用此选项可能会导致某些物品看起来很奇怪
+				'''
+		}
+	}
+
+	AbandonedStarConfigServer: {
+		DisplayName: 遗弃之星服务器设置
+
+		Headers: {
+			Curses: 诅咒效果
+			Other: 其它效果
+		}
+
+		Umbramantic: {
+			Label: "[i:3874] 暗影本能"
+			Tooltip: 所有沉沦之人都将付出代价，没有人能在将灵魂出卖给黑暗换取力量后反悔
+		}
+
+		AtomicBlood: {
+			Label: "[i:4828] 原子之血"
+			Tooltip: 你的心跳加快，但你会一点一点地死去
+		}
+
+		BloodlettersThirst: {
+			Label: "[i:4271] 放血者的饥渴"
+			Tooltip:
+				'''
+				以灵魂为交换代价，满足对血的渴望
+				诅咒之人业已迷失，所以他们拼命地试图在别人的痛苦中找到自我
+				'''
+		}
+
+		OculusofVehemence: {
+			Label: "[i:1248] 鹰眼"
+			Tooltip: 狂热的凝视会启迪你的头脑，代价是考验你的专注力和意志力
+		}
+
+		ShatteredGlass: {
+			Label: "[i:50] 碎璃"
+			Tooltip: 永久增加无敌帧时长和 10% 伤害减免，但你的屏幕会有裂缝效果
+		}
+
+		BloodyRose: {
+			Label: "[i:4270] 嗜血玫瑰"
+			Tooltip: 权力的代价可能需要很多，但你很少会发现像玫瑰这样既美丽又残忍的造物
+		}
+
+		NohitMode: {
+			Label: "[i:4801] 无伤模式"
+			Tooltip:
+				'''
+					任何伤害都会导致死亡
+					一些独特内容仅在无伤模式中提供给玩家
+				'''
+		}
 	}
 }
