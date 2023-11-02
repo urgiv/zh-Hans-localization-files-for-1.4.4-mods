@@ -1,0 +1,2825 @@
+CommonItemTooltip: {
+	AugListTitle: Augments:
+	AugListShiftTip: Augments: (Hold shift for more info)
+	AugListError: ERROR: Augment(s) not synced to tier(s)!?
+	AugListDisabledTitle: " (Disabled)"
+	AugListDisabledDesc: ": Disabled; exceeds current augment limit!"
+	AugJewelMain:
+		'''
+		Applies an Augment - {0} - to a weapon
+		To use, select the desired weapon in your hotbar, and <right> on the Jewel
+		On success, the Jewel will be consumed
+		'''
+	Selected: "Selected gear: "
+	RestrictionKB: Can't be applied to weapons with no knockback
+	RestrictionAtkSpd: Can only be applied to weapons which can have their attack speed modified
+	RestrictionScale: Can only be applied to whips, and melee weapons which can have their size modified
+	RestrictionMagic: Can only be applied to magic weapons
+	RestrictionRanged: Can only be applied to ranged weapons
+	RestrictionTrueMelee: Can only be applied to melee weapons with true melee
+	RestrictionAmmo: Can only be applied to weapons that use ammo
+	RestrictionNoSummon: Can't be applied to summon weapons
+	RestrictionNoMinion: Can't be applied to minion or sentry summoning weapons
+	PowerCrystalTip:
+		'''
+		<right> to extract an Augment Jewel
+		Augment Jewels are used to grant special effects and boosts to a weapon
+		'''
+	PowerShardTip:
+		'''
+		Gather multiple and craft them into Crystals of Power
+		These Crystals contain Augment Jewels
+		'''
+	StampPasteTip:
+		'''
+		Replaces the Augment(s) on a weapon with those saved on the Stamp
+		To use, select the desired weapon in your hotbar, and <right> on the Stamp
+		On success, the Stamp will be consumed
+		Be warned; any copied Augments that are incompatible or exceed the weapon's limits will be lost
+		'''
+	AugDescMight: "{0}: Increases damage by {1}%"
+	AugDescForce: "{0}: Increases knockback by {1}%"
+	AugDescPrecision: "{0}: Increases critical strike chance by {1}%"
+	AugDescRush: "{0}: Increases attack speed by {1}%"
+	AugDescArmorbane: "{0}: Attacks ignore {1}% of enemy defense"
+	AugDescTitanreach: "{0}: Increases weapon size/reach by {1}%"
+	AugDescDire: "{0}: Critical strikes deal an extra +{1}% damage"
+	AugDescHeartsurge:
+		'''
+		{0}: Defeating enemies has a high chance to increase life regen for {1} seconds
+		Holding a Heartsurge weapon empowers its life regen boost
+		'''
+	AugDescArcana: "{0}: Reduces mana cost by {1}%"
+	AugDescFrenzy: "{0}: Defeating enemies has a high chance to temporarily increase attack speed by {1}%"
+	AugDescBattlelust: "{0}: Defeating enemies has a high chance to temporarily increase damage by {1}%"
+	AugDescConservation: "{0}: Grants a {1}% chance to save ammo"
+	AugDescOverflow:
+		'''
+		{0}: Killing blows recycle any excess damage into a homing rune projectile
+		This projectile deals {1}% of the recycled damage
+		'''
+	AugDescFortune: "{0}: Grants a {1}% chance for attacks to inflict Midias"
+	AugDescIgnite: "{0}: Attacks have a chance to inflict {1}"
+	AugDescTaint:
+		'''
+		{0}: Attacks have a chance to inflict 'Runic Taint'
+		Runic Taint causes damage over time, and will last for {1} seconds
+		'''
+	AugDescBallistic: "{0}: Increases velocity by {1}%"
+	AugDescFinisher: "{0}: Attacks may deal {1}% extra damage, but only when that would finish off the target in one blow"
+	AugDescUnleash:
+		'''
+		{0}: Holding an Unleash weapon without attacking gradually empowers its next hit
+		At full power, an attack may deal {1}% extra damage
+		'''
+	AugDescCombobreak:
+		'''
+		{0}: Damaging an enemy 5 times in quick succession empowers the fifth hit
+		An empowered attack will deal {1}% extra damage
+		'''
+	AugDescDeathecho: "{0}: Killing blows may additionally damage nearby enemies for {1}% of the attack's damage"
+	AugDescLightweight: "{0}: Increases unmounted movement and run speed by {1}% while a Lightweight weapon is held"
+	AugDescRevitalize: "{0}: Increases life regeneration by {1} life per second while a Revitalize weapon is held"
+	AugDescMegastrike: "{0}: Decreases attack speed by 20%, but increases damage by {1}%"
+	AugDescSturdy: "{0}: Increases defense by {1} while a Sturdy weapon is held"
+	AugDescBarrage:
+		'''
+		{0}: Every fifth attack additionally fires a medium-ranged rune projectile
+		This projectile deals {1}% of the weapons's base damage
+		'''
+	AugDescDiversion: "{0}: Attacks have a chance to inflict confusion for {1} seconds"
+	AugDescWildstrike: "{0}: Decreases damage by 20%, but increases attack speed by {1}%"
+	AugDescUplifting: "{0}: Increases flight time and jump speed by {1}% while an Uplifting weapon is held"
+	AugDescLuck:
+		'''
+		{0}: Increases luck by {1} while a Luck weapon is held
+		For reference, luck can range from -1.0 to 1.0
+		'''
+	AugDescRend: "{0}: Attacks have a chance to temporarily reduce enemy defense by {1}"
+	AugDescDeathshroud:
+		'''
+		{0}: Defeating enemies has a high chance to briefly protect you from attack
+		This effect lasts {1} seconds, and will nullify a single attack
+		'''
+	AugDescWard: "{0}: Defeating enemies has a high chance temporarily increase damage reduction by {1}%"
+	AugDescMinicrit: "{0}: Attacks that aren't critical hits have a 33% chance deal {1}% extra damage"
+	AugDescSiphon:
+		'''
+		{0}: Inflicting damage occasionally generate a mana-restoring rune
+		This rune will seek out the player with the least mana, and grants {1} mana
+		'''
+	AugDescPaincycle:
+		'''
+		{0}: Attacks may occasionally drain life from you
+		Attacks which drain your life deal {1}% extra damage
+		'''
+	AugDescRally:
+		'''
+		{0}: Attacks have a chance to apply {1} summon tag damage
+		Tagged enemies will also be focused by your summons, like with whips
+		'''
+	AugDescBlast: "{0}: Attacks have a chance to cause an explosion, dealing {1}% of the base damage inflicted"
+	AugDescSuperluck:
+		'''
+		{0}: Increases luck for you and nearby players by {1} while a Superluck weapon is held
+		For reference, luck can range from -1.0 to 1.0
+		'''
+	AugDescKingslayer: "{0}: Increases damage against most bosses by {1}%"
+	AugDescHypercrit: "{0}: 10% of critical hits deal an extra +{1}% damage"
+	AugDescUnstable: "{0}: Increases damage variation greatly, but increases critical strike chance by {1}%"
+	AugDescVigor:
+		'''
+		{0}: Increases damage based on how close you are to max life
+		Grants a maximum of {1}% extra damage at max life
+		'''
+	AugDescDetermination:
+		'''
+		{0}: Increases damage based on how close you are to death
+		Grants a maximum of {1}% extra damage at or below 20% of max life
+		'''
+	AugDescBreaker:
+		'''
+		{0}: Increases damage against unhurt enemies
+		Grants a maximum of {1}% extra damage against enemies at 90% or more life
+		'''
+	AugDescReaping: "{0}: Defeated enemies have a 1 in {1} chance to drop a bonus life heart or mana star pickup"
+	AugDescOverdrive:
+		'''
+		{0}: Increases damage by {1}%, but attacking continuously eventually causes 'Overheat', which inflicts damage over time
+		Overheat gradually wears off while not attacking with Overdrive weapons
+		'''
+	AugDescUltracutter:
+		'''
+		{0}: Increases true melee damage by {1}%
+		True melee refers to melee attacks that are non-projectile based
+		'''
+	AugDescVoidic:
+		'''
+		{0}: Attacks ignore {1}% of enemy defense and have no damage variation
+		However, critical strike chance is capped at 4%
+		'''
+	AugDescCommitted:
+		'''
+		{0}: Attacks briefly cause struck enemies to take extra damage from Committed weapons
+		This effect wears off quickly, but farther attacks prolong and empower it
+		At full strength, Committed grants an extra {1}% damage
+		'''
+	AugDescLifeleech: "{0}: Attacks have a chance to heal you for {1}% of the dealt damage"
+	AugDescRadiance:
+		'''
+		{0}: Killing blows may generate 3 healing runes
+		These runes will seek out the player with the least health and heal them for {1}% of the dealt damage
+		'''
+	AugDescRelentless:
+		'''
+		{0}: Increases damage against injured foes
+		Grants a maximum of {1}% extra damage against enemies at or below 10% life
+		'''
+	AugDescMomentum:
+		'''
+		{0}: Attacking enemies briefly increases the attack speed of Momentum weapons
+		This effect wears off quickly, but farther attacks prolong and empower it
+		Taking damage will also strip a large amount of momentum from you
+		At full strength, Momentum grants {1}% extra attack speed 
+		'''
+	AugDescCollateral:
+		'''
+		{0}: Half of attacks' damage is converted into a slash projectile
+		The slash deals {1}% of the hit's damage, and may hit up to 3 enemies
+		Attacks ignore 50% of enemy defense to make up for decreased per-hit damage
+		'''
+	AugDescSupercharge:
+		'''
+		{0}: Up to once a second, attacks may grant a stack of 'Charge' to you
+		Charge will eventually wear off if farther stacks aren't gathered
+		Taking damage will also cause you to lose multiple stacks of Charge
+		Attaining enough stacks of Charge consumes them, granting Supercharge weapons an extra {1}% damage for 10 seconds
+		'''
+	SuperchargeBuffDesc:
+		'''
+		Reaching full charge will temporarily grant Supercharge weapons a massive damage boost
+		Current charge: {0}
+		'''
+	AugDescExecution:
+		'''
+		{0}: Up to once per second, attacks will attempt to perform an Execution
+		Executions have a {1}% chance to occur, and instantly kill most enemies
+		Most bosses, and any enemy whose max life is greater than 100 times the weapon's base damage are resistant
+		Such enemies instead take damage equal to 10% of their max life whenever an Execution occurs
+		Bosses take only 5% of max life in damage and can only be Executed when at or below 10% life
+		'''
+	AugDescResurgence:
+		'''
+		{0}: Up to once every five minutes, taking lethal damage while holding a Resurgence weapon will prevent death
+		When Resurgence is triggered, you become immune to damage for 5 seconds
+		Additionally, Resurgence weapons will heal you for {1}% of dealt damage while you are invulnerable
+		'''
+	AugDescRunic:
+		'''
+		{0}: Up to once per second, attacks may generate rune pickups that any player can collect
+		These pickups will grant a buff to either damage, knockback, critical strike chance, or attack speed
+		Buffs granted by a rune will last {1} seconds
+		'''
+	AugDescPowertheft:
+		'''
+		{0}: Attacks have a chance to reduce enemy damage by 10% for {1} seconds
+		Whenever this effect occurs, Powertheft weapons will deal 20% extra damage for those {1} seconds
+		'''
+}
+
+Items: {
+	Shard: Shard of Power
+	Crystal: Crystal of Power
+	Jewel: "Augment Jewel: "
+	Stamp: Augment Stamp
+	Basic: " (Basic)"
+	Uncommon: " (Uncommon)"
+	Rare: " (Rare)"
+	Epic: " (Epic)"
+	Ultimate: " (Ultimate)"
+
+	# Etc. items
+	
+	PowerCrystalUnc: {
+		DisplayName: "{$Items.Crystal}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PowerCrystalTip}
+			This Crystal will grant an Uncommon rarity Augment Jewel
+			'''
+	}
+
+	PowerCrystalUlt: {
+		DisplayName: "{$Items.Crystal}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PowerCrystalTip}
+			This Crystal will grant an Ultimate rarity Augment Jewel
+			'''
+	}
+
+	PowerCrystalRar: {
+		DisplayName: "{$Items.Crystal}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PowerCrystalTip}
+			This Crystal will grant a Rare rarity Augment Jewel
+			'''
+	}
+
+	PowerCrystalRan: {
+		DisplayName: Enigmatic Crystal
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PowerCrystalTip}
+			This Crystal will grant an Augment Jewel of random rarity
+			'''
+	}
+
+	PowerCrystalEpi: {
+		DisplayName: "{$Items.Crystal}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PowerCrystalTip}
+			This Crystal will grant an Epic rarity Augment Jewel
+			'''
+	}
+
+	PowerCrystalBas: {
+		DisplayName: "{$Items.Crystal}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PowerCrystalTip}
+			This Crystal will grant a Basic rarity Augment Jewel
+			'''
+	}
+
+	PowerShardBas: {
+		DisplayName: "{$Items.Shard}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PowerShardTip}
+			This type of Shard is weak, but easy to find
+			'''
+	}
+
+	PowerShardEpi: {
+		DisplayName: "{$Items.Shard}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PowerShardTip}
+			This type of Shard is quite powerful, but is rather hard to find
+			'''
+	}
+
+	PowerShardRar: {
+		DisplayName: "{$Items.Shard}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PowerShardTip}
+			This type of Shard is decently strong, and not exceedingly difficult to find
+			'''
+	}
+
+	PowerShardUlt: {
+		DisplayName: "{$Items.Shard}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PowerShardTip}
+			This type of Shard is extremely powerful, but is super hard to find
+			'''
+	}
+
+	PowerShardUnc: {
+		DisplayName: "{$Items.Shard}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.PowerShardTip}
+			This type of Shard is somewhat weak, but relativley easy to find
+			'''
+	}
+
+	VoidShard: {
+		DisplayName: Void Shard
+		Tooltip:
+			'''
+			Removes any Augment(s) from a weapon
+			To use, select the desired weapon in your hotbar, and <right> on the Shard
+			On success, the Shard will be consumed
+			This process may also salvage one or more Shards of Power, based on the removed Augment(s)
+			'It seems etheral energies have inverted its unique properties'
+			'''
+	}
+
+	Might: Might
+	Arcana: Arcana
+	Armorbane: Armorbane
+	Ballistic: Ballistic
+	Battlelust: Battlelust
+	Combobreak: Combobreak
+	Conservation: Conservation
+	Dire: Dire
+	Finisher: Finisher
+	Force: Force
+	Fortune: Fortune
+	Frenzy: Frenzy
+	Heartsurge: Heartsurge
+	Ignite: Ignite
+	Overflow: Overflow
+	Precision: Precision
+	Rush: Rush
+	Taint: Taint
+	Titanreach: Titanreach
+	Unleash: Unleash
+	Deathecho: Deathecho
+	Barrage: Barrage
+	Deathshroud: Deathshroud
+	Diversion: Diversion
+	Lightweight: Lightweight
+	Luck: Luck
+	Megastrike: Megastrike
+	Minicrit: Minicrit
+	Paincycle: Paincycle
+	Rend: Rend
+	Revitalize: Revitalize
+	Siphon: Siphon
+	Sturdy: Sturdy
+	Uplifting: Uplifting
+	Ward: Ward
+	Wildstrike: Wildstrike
+	Blast: Blast
+	Breaker: Breaker
+	Determination: Determination
+	Hypercrit: Hypercrit
+	Kingslayer: Kingslayer
+	Overdrive: Overdrive
+	Rally: Rally
+	Reaping: Reaping
+	Superluck: Superluck
+	Ultracutter: Ultracutter
+	Unstable: Unstable
+	Vigor: Vigor
+	Collateral: Collateral
+	Committed: Committed
+	Lifeleech: Lifeleech
+	Momentum: Momentum
+	Radiance: Radiance
+	Relentless: Relentless
+	Supercharge: Supercharge
+	Voidic: Voidic
+	Runic: Runic
+	Resurgence: Resurgence
+	Powertheft: Powertheft
+	Execution: Execution
+
+	# Basic Aug Jewls
+	
+	MightJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Might}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescMight}
+			'''
+	}
+
+	MightJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Might}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescMight}
+			'''
+	}
+
+	MightJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Might}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescMight}
+			'''
+	}
+
+	MightJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Might}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescMight}
+			'''
+	}
+
+	MightJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Might}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescMight}
+			'''
+	}
+
+	ArcanaJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Arcana}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionMagic}
+			{$CommonItemTooltip.AugDescArcana}
+			'''
+	}
+
+	ArcanaJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Arcana}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionMagic}
+			{$CommonItemTooltip.AugDescArcana}
+			'''
+	}
+
+	ArcanaJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Arcana}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionMagic}
+			{$CommonItemTooltip.AugDescArcana}
+			'''
+	}
+
+	ArcanaJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Arcana}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionMagic}
+			{$CommonItemTooltip.AugDescArcana}
+			'''
+	}
+
+	ArcanaJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Arcana}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionMagic}
+			{$CommonItemTooltip.AugDescArcana}
+			'''
+	}
+
+	ArmorbaneJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Armorbane}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescArmorbane}
+			'''
+	}
+
+	ArmorbaneJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Armorbane}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescArmorbane}
+			'''
+	}
+
+	ArmorbaneJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Armorbane}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescArmorbane}
+			'''
+	}
+
+	ArmorbaneJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Armorbane}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescArmorbane}
+			'''
+	}
+
+	ArmorbaneJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Armorbane}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescArmorbane}
+			'''
+	}
+
+	BallisticJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Ballistic}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionRanged}
+			{$CommonItemTooltip.AugDescBallistic}
+			'''
+	}
+
+	BallisticJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Ballistic}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionRanged}
+			{$CommonItemTooltip.AugDescBallistic}
+			'''
+	}
+
+	BallisticJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Ballistic}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionRanged}
+			{$CommonItemTooltip.AugDescBallistic}
+			'''
+	}
+
+	BallisticJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Ballistic}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionRanged}
+			{$CommonItemTooltip.AugDescBallistic}
+			'''
+	}
+
+	BallisticJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Ballistic}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionRanged}
+			{$CommonItemTooltip.AugDescBallistic}
+			'''
+	}
+
+	BattlelustJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Battlelust}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBattlelust}
+			'''
+	}
+
+	BattlelustJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Battlelust}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBattlelust}
+			'''
+	}
+
+	BattlelustJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Battlelust}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBattlelust}
+			'''
+	}
+
+	BattlelustJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Battlelust}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBattlelust}
+			'''
+	}
+
+	BattlelustJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Battlelust}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBattlelust}
+			'''
+	}
+
+	CombobreakJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Combobreak}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescCombobreak}
+			'''
+	}
+
+	CombobreakJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Combobreak}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescCombobreak}
+			'''
+	}
+
+	CombobreakJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Combobreak}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescCombobreak}
+			'''
+	}
+
+	CombobreakJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Combobreak}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescCombobreak}
+			'''
+	}
+
+	CombobreakJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Combobreak}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescCombobreak}
+			'''
+	}
+
+	ConservationJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Conservation}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAmmo}
+			{$CommonItemTooltip.AugDescConservation}
+			'''
+	}
+
+	ConservationJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Conservation}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAmmo}
+			{$CommonItemTooltip.AugDescConservation}
+			'''
+	}
+
+	ConservationJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Conservation}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAmmo}
+			{$CommonItemTooltip.AugDescConservation}
+			'''
+	}
+
+	ConservationJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Conservation}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAmmo}
+			{$CommonItemTooltip.AugDescConservation}
+			'''
+	}
+
+	ConservationJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Conservation}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAmmo}
+			{$CommonItemTooltip.AugDescConservation}
+			'''
+	}
+
+	DireJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Dire}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescDire}
+			'''
+	}
+
+	DireJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Dire}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescDire}
+			'''
+	}
+
+	DireJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Dire}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescDire}
+			'''
+	}
+
+	DireJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Dire}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescDire}
+			'''
+	}
+
+	DireJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Dire}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescDire}
+			'''
+	}
+
+	FinisherJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Finisher}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescFinisher}
+			'''
+	}
+
+	FinisherJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Finisher}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescFinisher}
+			'''
+	}
+
+	FinisherJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Finisher}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescFinisher}
+			'''
+	}
+
+	FinisherJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Finisher}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescFinisher}
+			'''
+	}
+
+	FinisherJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Finisher}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescFinisher}
+			'''
+	}
+
+	ForceJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Force}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionKB}
+			{$CommonItemTooltip.AugDescForce}
+			'''
+	}
+
+	ForceJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Force}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionKB}
+			{$CommonItemTooltip.AugDescForce}
+			'''
+	}
+
+	ForceJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Force}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionKB}
+			{$CommonItemTooltip.AugDescForce}
+			'''
+	}
+
+	ForceJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Force}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionKB}
+			{$CommonItemTooltip.AugDescForce}
+			'''
+	}
+
+	ForceJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Force}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionKB}
+			{$CommonItemTooltip.AugDescForce}
+			'''
+	}
+
+	FortuneJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Fortune}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescFortune}
+			'''
+	}
+
+	FortuneJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Fortune}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescFortune}
+			'''
+	}
+
+	FortuneJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Fortune}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescFortune}
+			'''
+	}
+
+	FortuneJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Fortune}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescFortune}
+			'''
+	}
+
+	FortuneJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Fortune}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescFortune}
+			'''
+	}
+
+	FrenzyJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Frenzy}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescFrenzy}
+			'''
+	}
+
+	FrenzyJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Frenzy}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescFrenzy}
+			'''
+	}
+
+	FrenzyJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Frenzy}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescFrenzy}
+			'''
+	}
+
+	FrenzyJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Frenzy}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescFrenzy}
+			'''
+	}
+
+	FrenzyJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Frenzy}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescFrenzy}
+			'''
+	}
+
+	HeartsurgeJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Heartsurge}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescHeartsurge}
+			'''
+	}
+
+	HeartsurgeJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Heartsurge}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescHeartsurge}
+			'''
+	}
+
+	HeartsurgeJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Heartsurge}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescHeartsurge}
+			'''
+	}
+
+	HeartsurgeJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Heartsurge}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescHeartsurge}
+			'''
+	}
+
+	HeartsurgeJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Heartsurge}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescHeartsurge}
+			'''
+	}
+
+	IgniteJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Ignite}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescIgnite}
+			'''
+	}
+
+	IgniteJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Ignite}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescIgnite}
+			'''
+	}
+
+	IgniteJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Ignite}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescIgnite}
+			'''
+	}
+
+	IgniteJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Ignite}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescIgnite}
+			'''
+	}
+
+	IgniteJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Ignite}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescIgnite}
+			'''
+	}
+
+	OverflowJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Overflow}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescOverflow}
+			'''
+	}
+
+	OverflowJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Overflow}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescOverflow}
+			'''
+	}
+
+	OverflowJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Overflow}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescOverflow}
+			'''
+	}
+
+	OverflowJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Overflow}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescOverflow}
+			'''
+	}
+
+	OverflowJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Overflow}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescOverflow}
+			'''
+	}
+
+	PrecisionJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Precision}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescPrecision}
+			'''
+	}
+
+	PrecisionJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Precision}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescPrecision}
+			'''
+	}
+
+	PrecisionJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Precision}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescPrecision}
+			'''
+	}
+
+	PrecisionJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Precision}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescPrecision}
+			'''
+	}
+
+	PrecisionJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Precision}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescPrecision}
+			'''
+	}
+
+	RushJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Rush}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.AugDescRush}
+			'''
+	}
+
+	RushJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Rush}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.AugDescRush}
+			'''
+	}
+
+	RushJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Rush}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.AugDescRush}
+			'''
+	}
+
+	RushJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Rush}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.AugDescRush}
+			'''
+	}
+
+	RushJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Rush}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.AugDescRush}
+			'''
+	}
+
+	TaintJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Taint}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescTaint}
+			'''
+	}
+
+	TaintJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Taint}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescTaint}
+			'''
+	}
+
+	TaintJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Taint}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescTaint}
+			'''
+	}
+
+	TaintJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Taint}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescTaint}
+			'''
+	}
+
+	TaintJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Taint}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescTaint}
+			'''
+	}
+
+	TitanreachJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Titanreach}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionScale}
+			{$CommonItemTooltip.AugDescTitanreach}
+			'''
+	}
+
+	TitanreachJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Titanreach}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionScale}
+			{$CommonItemTooltip.AugDescTitanreach}
+			'''
+	}
+
+	TitanreachJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Titanreach}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionScale}
+			{$CommonItemTooltip.AugDescTitanreach}
+			'''
+	}
+
+	TitanreachJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Titanreach}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionScale}
+			{$CommonItemTooltip.AugDescTitanreach}
+			'''
+	}
+
+	TitanreachJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Titanreach}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionScale}
+			{$CommonItemTooltip.AugDescTitanreach}
+			'''
+	}
+
+	UnleashJewelBas: {
+		DisplayName: "{$Items.Jewel}{$Items.Unleash}{$Items.Basic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescUnleash}
+			'''
+	}
+
+	UnleashJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Unleash}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescUnleash}
+			'''
+	}
+
+	UnleashJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Unleash}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescUnleash}
+			'''
+	}
+
+	UnleashJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Unleash}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescUnleash}
+			'''
+	}
+
+	UnleashJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Unleash}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescUnleash}
+			'''
+	}
+
+	# Uncommon Aug Jewels
+	
+	DeathechoJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Deathecho}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescDeathecho}
+			'''
+	}
+
+	DeathechoJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Deathecho}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescDeathecho}
+			'''
+	}
+
+	DeathechoJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Deathecho}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescDeathecho}
+			'''
+	}
+
+	DeathechoJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Deathecho}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescDeathecho}
+			'''
+	}
+
+	BarrageJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Barrage}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBarrage}
+			'''
+	}
+
+	BarrageJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Barrage}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBarrage}
+			'''
+	}
+
+	BarrageJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Barrage}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBarrage}
+			'''
+	}
+
+	BarrageJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Barrage}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBarrage}
+			'''
+	}
+
+	DeathshroudJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Deathshroud}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescDeathshroud}
+			'''
+	}
+
+	DeathshroudJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Deathshroud}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescDeathshroud}
+			'''
+	}
+
+	DeathshroudJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Deathshroud}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescDeathshroud}
+			'''
+	}
+
+	DeathshroudJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Deathshroud}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescDeathshroud}
+			'''
+	}
+
+	DiversionJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Diversion}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescDiversion}
+			'''
+	}
+
+	DiversionJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Diversion}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescDiversion}
+			'''
+	}
+
+	DiversionJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Diversion}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescDiversion}
+			'''
+	}
+
+	DiversionJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Diversion}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescDiversion}
+			'''
+	}
+
+	LightweightJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Lightweight}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescLightweight}
+			'''
+	}
+
+	LightweightJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Lightweight}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescLightweight}
+			'''
+	}
+
+	LightweightJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Lightweight}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescLightweight}
+			'''
+	}
+
+	LightweightJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Lightweight}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescLightweight}
+			'''
+	}
+
+	LuckJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Luck}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescLuck}
+			'''
+	}
+
+	LuckJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Luck}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescLuck}
+			'''
+	}
+
+	LuckJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Luck}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescLuck}
+			'''
+	}
+
+	LuckJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Luck}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescLuck}
+			'''
+	}
+
+	MegastrikeJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Megastrike}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescMegastrike}
+			'''
+	}
+
+	MegastrikeJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Megastrike}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescMegastrike}
+			'''
+	}
+
+	MegastrikeJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Megastrike}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescMegastrike}
+			'''
+	}
+
+	MegastrikeJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Megastrike}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescMegastrike}
+			'''
+	}
+
+	MinicritJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Minicrit}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescMinicrit}
+			'''
+	}
+
+	MinicritJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Minicrit}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescMinicrit}
+			'''
+	}
+
+	MinicritJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Minicrit}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescMinicrit}
+			'''
+	}
+
+	MinicritJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Minicrit}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescMinicrit}
+			'''
+	}
+
+	PaincycleJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Paincycle}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescPaincycle}
+			'''
+	}
+
+	PaincycleJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Paincycle}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescPaincycle}
+			'''
+	}
+
+	PaincycleJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Paincycle}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescPaincycle}
+			'''
+	}
+
+	PaincycleJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Paincycle}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescPaincycle}
+			'''
+	}
+
+	RendJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Rend}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRend}
+			'''
+	}
+
+	RendJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Rend}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRend}
+			'''
+	}
+
+	RendJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Rend}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRend}
+			'''
+	}
+
+	RendJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Rend}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRend}
+			'''
+	}
+
+	RevitalizeJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Revitalize}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRevitalize}
+			'''
+	}
+
+	RevitalizeJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Revitalize}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRevitalize}
+			'''
+	}
+
+	RevitalizeJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Revitalize}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRevitalize}
+			'''
+	}
+
+	RevitalizeJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Revitalize}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRevitalize}
+			'''
+	}
+
+	SiphonJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Siphon}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionMagic}
+			{$CommonItemTooltip.AugDescSiphon}
+			'''
+	}
+
+	SiphonJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Siphon}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionMagic}
+			{$CommonItemTooltip.AugDescSiphon}
+			'''
+	}
+
+	SiphonJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Siphon}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionMagic}
+			{$CommonItemTooltip.AugDescSiphon}
+			'''
+	}
+
+	SiphonJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Siphon}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionMagic}
+			{$CommonItemTooltip.AugDescSiphon}
+			'''
+	}
+
+	SturdyJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Sturdy}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescSturdy}
+			'''
+	}
+
+	SturdyJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Sturdy}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescSturdy}
+			'''
+	}
+
+	SturdyJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Sturdy}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescSturdy}
+			'''
+	}
+
+	SturdyJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Sturdy}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescSturdy}
+			'''
+	}
+
+	UpliftingJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Uplifting}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescUplifting}
+			'''
+	}
+
+	UpliftingJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Uplifting}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescUplifting}
+			'''
+	}
+
+	UpliftingJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Uplifting}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescUplifting}
+			'''
+	}
+
+	UpliftingJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Uplifting}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescUplifting}
+			'''
+	}
+
+	WardJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Ward}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescWard}
+			'''
+	}
+
+	WardJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Ward}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescWard}
+			'''
+	}
+
+	WardJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Ward}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescWard}
+			'''
+	}
+
+	WardJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Ward}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescWard}
+			'''
+	}
+
+	WildstrikeJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Wildstrike}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescWildstrike}
+			'''
+	}
+
+	WildstrikeJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Wildstrike}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescWildstrike}
+			'''
+	}
+
+	WildstrikeJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Wildstrike}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescWildstrike}
+			'''
+	}
+
+	WildstrikeJewelUnc: {
+		DisplayName: "{$Items.Jewel}{$Items.Wildstrike}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescWildstrike}
+			'''
+	}
+
+	# Rare Aug Jewels
+	
+	BlastJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Blast}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBlast}
+			'''
+	}
+
+	BlastJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Blast}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBlast}
+			'''
+	}
+
+	BreakerJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Breaker}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBreaker}
+			'''
+	}
+
+	BreakerJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Breaker}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBreaker}
+			'''
+	}
+
+	BreakerJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Breaker}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescBreaker}
+			'''
+	}
+
+	DeterminationJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Determination}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescDetermination}
+			'''
+	}
+
+	DeterminationJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Determination}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescDetermination}
+			'''
+	}
+
+	DeterminationJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Determination}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescDetermination}
+			'''
+	}
+
+	HypercritJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Hypercrit}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescHypercrit}
+			'''
+	}
+
+	HypercritJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Hypercrit}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescHypercrit}
+			'''
+	}
+
+	HypercritJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Hypercrit}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescHypercrit}
+			'''
+	}
+
+	KingslayerJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Kingslayer}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescKingslayer}
+			'''
+	}
+
+	KingslayerJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Kingslayer}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescKingslayer}
+			'''
+	}
+
+	KingslayerJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Kingslayer}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescKingslayer}
+			'''
+	}
+
+	OverdriveJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Overdrive}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescOverdrive}
+			'''
+	}
+
+	OverdriveJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Overdrive}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescOverdrive}
+			'''
+	}
+
+	OverdriveJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Overdrive}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescOverdrive}
+			'''
+	}
+
+	RallyJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Rally}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescRally}
+			'''
+	}
+
+	RallyJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Rally}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescRally}
+			'''
+	}
+
+	RallyJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Rally}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescRally}
+			'''
+	}
+
+	ReapingJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Reaping}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescReaping}
+			'''
+	}
+
+	ReapingJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Reaping}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescReaping}
+			'''
+	}
+
+	ReapingJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Reaping}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescReaping}
+			'''
+	}
+
+	SuperluckJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Superluck}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescSuperluck}
+			'''
+	}
+
+	SuperluckJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Superluck}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescSuperluck}
+			'''
+	}
+
+	SuperluckJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Superluck}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescSuperluck}
+			'''
+	}
+
+	UltracutterJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Ultracutter}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionTrueMelee}
+			{$CommonItemTooltip.AugDescUltracutter}
+			'''
+	}
+
+	UltracutterJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Ultracutter}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionTrueMelee}
+			{$CommonItemTooltip.AugDescUltracutter}
+			'''
+	}
+
+	UltracutterJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Ultracutter}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionTrueMelee}
+			{$CommonItemTooltip.AugDescUltracutter}
+			'''
+	}
+
+	UnstableJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Unstable}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescUnstable}
+			'''
+	}
+
+	UnstableJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Unstable}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescUnstable}
+			'''
+	}
+
+	UnstableJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Unstable}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoSummon}
+			{$CommonItemTooltip.AugDescUnstable}
+			'''
+	}
+
+	VigorJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Vigor}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescVigor}
+			'''
+	}
+
+	VigorJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Vigor}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescVigor}
+			'''
+	}
+
+	VigorJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Vigor}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescVigor}
+			'''
+	}
+
+	# Epic Aug Jewels
+	
+	CollateralJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Collateral}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescCollateral}
+			'''
+	}
+
+	CollateralJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Collateral}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescCollateral}
+			'''
+	}
+
+	CommittedJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Committed}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescCommitted}
+			'''
+	}
+
+	CommittedJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Committed}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescCommitted}
+			'''
+	}
+
+	LifeleechJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Lifeleech}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescLifeleech}
+			'''
+	}
+
+	LifeleechJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Lifeleech}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescLifeleech}
+			'''
+	}
+
+	MomentumJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Momentum}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescMomentum}
+			'''
+	}
+
+	MomentumJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Momentum}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionAtkSpd}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescMomentum}
+			'''
+	}
+
+	RadianceJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Radiance}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRadiance}
+			'''
+	}
+
+	RadianceJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Radiance}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRadiance}
+			'''
+	}
+
+	RelentlessJewelRar: {
+		DisplayName: "{$Items.Jewel}{$Items.Relentless}{$Items.Rare}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRelentless}
+			'''
+	}
+
+	RelentlessJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Relentless}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRelentless}
+			'''
+	}
+
+	RelentlessJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Relentless}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRelentless}
+			'''
+	}
+
+	SuperchargeJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Supercharge}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescSupercharge}
+			'''
+	}
+
+	SuperchargeJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Supercharge}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescSupercharge}
+			'''
+	}
+
+	VoidicJewelEpi: {
+		DisplayName: "{$Items.Jewel}{$Items.Voidic}{$Items.Epic}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescVoidic}
+			'''
+	}
+
+	VoidicJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Voidic}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescVoidic}
+			'''
+	}
+
+	RunicJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Runic}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescRunic}
+			'''
+	}
+
+	ResurgenceJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Resurgence}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescResurgence}
+			'''
+	}
+
+	PowertheftJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Powertheft}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.RestrictionNoMinion}
+			{$CommonItemTooltip.AugDescPowertheft}
+			'''
+	}
+
+	ExecutionJewelUlt: {
+		DisplayName: "{$Items.Jewel}{$Items.Execution}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			{$CommonItemTooltip.AugJewelMain}
+			{$CommonItemTooltip.AugDescExecution}
+			'''
+	}
+
+	RunicRune: {
+		DisplayName: Runic Rune
+		Tooltip: ""
+	}
+
+	AugmentStampBas: {
+		DisplayName: "{$Items.Stamp}{$Items.Basic}"
+		Tooltip:
+			'''
+			Removes any Augment(s) from a weapon, but copies one of them to the Stamp
+			To use, select the desired weapon in your hotbar, and <right> on the Stamp
+			Only Augments of the Basic tier can be copied by this Stamp
+			'''
+	}
+
+	AugmentStampEpi: {
+		DisplayName: "{$Items.Stamp}{$Items.Epic}"
+		Tooltip:
+			'''
+			Removes any Augment(s) from a weapon, but copies up to four of them to the Stamp
+			To use, select the desired weapon in your hotbar, and <right> on the Stamp
+			Only Augments of the Epic tier or lower can be copied by this Stamp
+			'''
+	}
+
+	AugmentStampBasPaste: {
+		DisplayName: "{$Items.Stamp}{$Items.Basic}"
+		Tooltip: "{$CommonItemTooltip.StampPasteTip}"
+	}
+
+	AugmentStampEpiPaste: {
+		DisplayName: "{$Items.Stamp}{$Items.Epic}"
+		Tooltip: "{$CommonItemTooltip.StampPasteTip}"
+	}
+
+	AugmentStampRar: {
+		DisplayName: "{$Items.Stamp}{$Items.Rare}"
+		Tooltip:
+			'''
+			Removes any Augment(s) from a weapon, but copies up to three of them to the Stamp
+			To use, select the desired weapon in your hotbar, and <right> on the Stamp
+			Only Augments of the Rare tier or lower can be copied by this Stamp
+			'''
+	}
+
+	AugmentStampRarPaste: {
+		DisplayName: "{$Items.Stamp}{$Items.Rare}"
+		Tooltip: "{$CommonItemTooltip.StampPasteTip}"
+	}
+
+	AugmentStampUlt: {
+		DisplayName: "{$Items.Stamp}{$Items.Ultimate}"
+		Tooltip:
+			'''
+			Removes any Augment(s) from a weapon, but copies up to five of them to the Stamp
+			To use, select the desired weapon in your hotbar, and <right> on the Stamp
+			'''
+	}
+
+	AugmentStampUltPaste: {
+		DisplayName: "{$Items.Stamp}{$Items.Ultimate}"
+		Tooltip: "{$CommonItemTooltip.StampPasteTip}"
+	}
+
+	AugmentStampUnc: {
+		DisplayName: "{$Items.Stamp}{$Items.Uncommon}"
+		Tooltip:
+			'''
+			Removes any Augment(s) from a weapon, but copies up to two of them to the Stamp
+			To use, select the desired weapon in your hotbar, and <right> on the Stamp
+			Only Augments of the Uncommon tier or lower can be copied by this Stamp
+			'''
+	}
+
+	AugmentStampUncPaste: {
+		DisplayName: "{$Items.Stamp}{$Items.Uncommon}"
+		Tooltip: "{$CommonItemTooltip.StampPasteTip}"
+	}
+}
+
+Configs: {
+	ConfigServer: {
+		DisplayName: Server-side Config
+
+		AugmentLimit: {
+			Label: Augment Limit
+			Tooltip:
+				'''
+				Controls the base amount of maximum active Augments a given weapon can have
+				Once this limit is reached, no farther Augments can be added to the weapon
+				If the limit is exceeded somehow (Ex: Raising the limit, adding Augments, and lowering the limit again), excess Augments won't provide their effects
+				If using cross-mod content with Block's Weapon Leveling, this setting won't stack with leveled weapons' extra Augment slots. Instead, the higher limit is used
+				'''
+		}
+
+		CustomDeathMessages: {
+			Tooltip:
+				'''
+				Toggles if unique death messages are used when a player dies from Paincycle's damaging effects
+				Note: Overheat is also capable of killing the player, but uses fire/burn death messages
+				Defaults to true
+				'''
+			Label: Custom Death Messages
+		}
+
+		PatchTooltips: {
+			Tooltip:
+				'''
+				Normally, the display value of use speed and mana is NOT adjusted to reflect changes by Augments
+				However, while this setting is on, the mod will override the default tooltip and correct this bug
+				If you are having tooltip related problems or crashes when using this mod with other mods, you should turn this off
+				Defaults to true
+				'''
+			Label: Correct modified Use Speed and Mana tooltips
+		}
+
+		MoreShards: {
+			Label: Extra Shard of Power drops
+			Tooltip:
+				'''
+				Toggles a bonus drop roll for Shards of Power, increasing overall drop rate
+				Good for if you have many Augment slots to fill, are in multiplayer, or just don't want to go out of your way to amass shards
+				Stacks with similar config settings
+				Defaults to false
+				'''
+		}
+
+		ProgressShards: {
+			Label: Bountiful Shard of Power drops (Progression-Locked)
+			Tooltip:
+				'''
+				Toggles two extra bonus drop rolls for Shards of Power, which are Post-Plantera and Post-Moon Lord, respecitvley
+				Uniquley, the Post-Plantera roll is restricted to Uncommon or better, and the Post-Moon Lord roll Rare or better
+				Overall, this will substantially increase shard drop rates and make it easier to get higher tier Augments in late-game
+				Stacks with similar config settings
+				Defaults to true
+				'''
+		}
+
+		MasterShards: {
+			Label: Bountiful Shard of Power drops (Master Mode)
+			Tooltip:
+				'''
+				Toggles a bonus drop roll for Shard of Power, exclusivley in Master Mode
+				Uniquely, this roll is restricted to uncommon or better drops
+				Overall, this will increase the drop rate for shards and make better Augments easier and faster to obtain
+				Stacks with similar config settings and Expert Mode, which also adds an extra roll
+				Defaults to false
+				'''
+		}
+	}
+
+	ConfigClient: {
+		DisplayName: Client-side Config
+
+		AugmentDust: {
+			Label: Augment Dust
+			Tooltip:
+				'''
+				Determines if weapons with Augment(s) get extra dust FX for their attacks, similar to flasks on melee weapons
+				This is merely an astethic addition that reflects the rarity of applied Augment(s) and maybe makes your weapon look a bit cooler
+				Defaults to true
+				'''
+		}
+	}
+}
+
+Buffs: {
+	RendEpi: {
+		DisplayName: "{$Items.Rend}{$Items.Epic}"
+		Description: Enemy defense reduced
+	}
+
+	Powertheft: {
+		DisplayName: Powertheft
+		Description: Enemy attack reduced
+	}
+
+	Overheat: {
+		DisplayName: Overheat
+		Description: Holding an Overdrive weapon burns you!
+	}
+
+	Deathshroud: {
+		DisplayName: Deathshroud
+		Description: Holding a Deathshroud weapon will allow you to dodge the next attack
+	}
+
+	Charge: {
+		DisplayName: Charge
+		Description: ""
+	}
+
+	Battlelust: {
+		DisplayName: Battlelust
+		Description: Battlelust weapons have increased damage
+	}
+
+	RendRar: {
+		DisplayName: "{$Items.Rend}{$Items.Rare}"
+		Description: Enemy defense reduced
+	}
+
+	RendUlt: {
+		DisplayName: "{$Items.Rend}{$Items.Ultimate}"
+		Description: Enemy defense reduced
+	}
+
+	RendUnc: {
+		DisplayName: "{$Items.Rend}{$Items.Uncommon}"
+		Description: Enemy defense reduced
+	}
+
+	ResurgenceCooldown: {
+		DisplayName: Resurgence Cooldown
+		Description: Resurgence's effects cannot trigger
+	}
+
+	Resurgence: {
+		DisplayName: Resurgence
+		Description: You are temporarily invulnerable and will gain life from Resurgence weapons' attacks
+	}
+
+	RunicBlaze: {
+		DisplayName: Runic Blaze
+		Description: Incinerates the enemy
+	}
+
+	RunicTaint: {
+		DisplayName: Runic Taint
+		Description: Chips away at enemy health
+	}
+
+	Frenzy: {
+		DisplayName: Frenzy
+		Description: Frenzy weapons attack faster
+	}
+
+	Heartsurge: {
+		DisplayName: Heartsurge
+		Description: Increased life regeneration. Holding a Heartsurge weapon will empower this effect
+	}
+
+	Momentum: {
+		DisplayName: Momentum
+		Description: Your Momentum weapons have increased attack speed
+	}
+
+	RunicForce: {
+		DisplayName: Runic Force
+		Description: Increased knockback
+	}
+
+	RunicMight: {
+		DisplayName: Runic Might
+		Description: Increased damage
+	}
+
+	RunicPrecision: {
+		DisplayName: Runic Precision
+		Description: Increased critical strike chance
+	}
+
+	RunicRush: {
+		DisplayName: Runic Rush
+		Description: Increased attack speed
+	}
+
+	Supercharge: {
+		DisplayName: Supercharge
+		Description: Supercharge weapons deal massivley increased damage!
+	}
+
+	Unleash: {
+		DisplayName: Unleash
+		Description: Your next attack with an Unleash weapon will deal extra damage
+	}
+
+	Ward: {
+		DisplayName: Ward
+		Description: Holding a Ward weapon will decrease damage taken
+	}
+
+	PowertheftBuff: {
+		DisplayName: Powertheft
+		Description: Your Powertheft weapons have stolen power from an enemy
+	}
+
+	RallyUlt: {
+		Description: The enemy is taking more damage from summons
+		DisplayName: "{$Items.Rally}{$Items.Ultimate}"
+	}
+
+	RallyRar: {
+		Description: The enemy is taking more damage from summons
+		DisplayName: "{$Items.Rally}{$Items.Rare}"
+	}
+
+	RallyEpi: {
+		Description: The enemy is taking more damage from summons
+		DisplayName: "{$Items.Rally}{$Items.Epic}"
+	}
+}
+
+Projectiles: {
+	BarrageProj.DisplayName: Barrage Rune
+	BlastProj.DisplayName: Runic Blast
+	CollateralSlash.DisplayName: Collateral Slash
+	OverflowProj.DisplayName: Overflow Rune
+	ResourceProj.DisplayName: Resource Rune
+}
