@@ -41,7 +41,7 @@ Mods: {
 				VitalStimulator: 10 秒内回复 {0} 生命
 				LeechedLifeHeal:
 					'''
-					射出汲取敌人生命的刺钩，持续 10 秒
+					射出汲取敌人生命的刺钩，持续 5 秒
 					吸取的生命将用于治疗生命值最低的玩家
 					'''
 				ReducedAbilityCooldown: 减少 {0}% 饰品能力冷却时间
@@ -503,12 +503,17 @@ Mods: {
 
 			BorealisBarrier: {
 				DisplayName: 北极光庇护
-				Description: 增加玩家生存能力Increased survivability
+				Description: 增加玩家生存能力
 			}
 
 			Refresh: {
 				DisplayName: 回生
 				Description: 回复生命，焕发新生
+			}
+			
+			NovaSurge: {
+				DisplayName: 新星澎湃
+				Description: 溢出宇宙的能量加强了你的攻击和防御能力！
 			}
 		}
 
@@ -570,7 +575,7 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemtooltip.ForItems.SlowlyRegeneratesLife}
-					{$CommonItemtooltip.ForItems.ActivatedAbility}在5秒内，降低移动速度，但大幅增加防御和生命再生
+					{$CommonItemtooltip.ForItems.ActivatedAbility}在 10 秒内，降低移动速度，但大幅增加防御和生命再生
 					“纳米机器,小子!”
 					'''
 			}
@@ -580,7 +585,7 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemtooltip.ForItems.ActivatedAbility}召唤悬浮于玩家上方的水晶棱镜，向附近的敌人发射一系列光束
-					最多发射12束光束，每束光束将随机造成近战、远程、魔法或召唤伤害
+					最多发射 14 束光束，每束光束将随机造成近战、远程、魔法或召唤伤害
 					“一个强力神话棱镜失落的祖先…”
 					'''
 			}
@@ -618,8 +623,8 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemtooltip.ForItems.ActivatedAbility}创建一个恒星标记，记录你的位置、生命值和魔力值
-					再次使用能力会将玩家恢复到恒星标记时的位置和状态
-					效果触发后将造成药水病和魔力病减益，并移除恒星标记
+					再次使用能力会将玩家恢复到标记时的位置和状态，并移除恒星标记
+					如果恒星标记已创建，同时星作妙笔未在冷却中，当玩家受到致命伤害时，恢复效果将自动激活
 					“银河将记住你的名字”
 					'''
 			}
@@ -737,7 +742,7 @@ Mods: {
 				DisplayName: 雪耻之证
 				Tooltip:
 					'''
-					{$CommonItemtooltip.ForItems.ActivatedAbility}15秒内增加伤害和暴击率
+					{$CommonItemtooltip.ForItems.ActivatedAbility} 20 秒内增加伤害和暴击率
 					使用能力前受到伤害，将在下次使用时的获得更多属性提升
 					“用燃烧的复仇之火毁灭你的敌人！”
 					'''
@@ -788,7 +793,8 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemtooltip.ForItems.NoKnockback}
-					{$CommonItemtooltip.ForItems.ActivatedAbility}使用后 1 秒内格挡敌人的攻击，格挡对敌人造成伤害并增强你的下一次近战攻击
+					{$CommonItemtooltip.ForItems.ActivatedAbility}使用后你可以短暂格挡敌人的攻击
+					格挡使你不受伤害，并对敌人造成伤害，增强你的下一次近战攻击
 					“尽管历经岁月的玷污和腐朽，但它仍然保持着旧日的荣光”
 					'''
 			}
@@ -1050,8 +1056,8 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemtooltip.ForItems.ActivatedAbility}召唤一对能在你周围旋转 15 秒的镰刀
-					当镰刀激活时，你受到的伤害减少 10%
-					当镰刀造成伤害时，伤害减免会稍微增加，最多减少 25% 的伤害
+					当镰刀激活时，你受到的伤害减少 15%
+					当镰刀造成伤害时，伤害减免会稍微增加，最多减少 45% 的伤害
 					[placeholder]
 					'''
 			}
@@ -1080,7 +1086,7 @@ Mods: {
 					'''
 					能力冷却时增加 4% 伤害和暴击率
 					{$CommonItemtooltip.ForItems.ActivatedAbility}使用后需要 10 秒为星光束充能
-					充能时减少10% 受到的伤害
+					充能时减少 20% 受到的伤害
 					充能完成后，星光束将寻找最强的敌人，并引发毁灭性的局部超新星爆炸
 					“向星星许愿，它们会回应”
 					'''
@@ -1090,8 +1096,9 @@ Mods: {
 				DisplayName: 月华之噬
 				Tooltip:
 					'''
-					{$CommonItemtooltip.ForItems.ActivatedAbility}释放吸血鬼刀的洪流，在击中敌人时偷取生命值
-					如果你的生命值已满，吸血鬼刀会治疗生命值最低的玩家
+					{$CommonItemtooltip.ForItems.ActivatedAbility}释放大量吸血鬼刀，在击中敌人时偷取生命值
+					当你受到此武器的治疗时，附近的友军同样会受到部分治疗效果
+					非常好吸血，使我的朋友享受
 					“献给 Jason 'Lienfors' Parker”
 					"万骨枯；身后名"
 					'''
@@ -1113,7 +1120,7 @@ Mods: {
 				Tooltip:
 					'''
 					{$CommonItemtooltip.ForItems.ActivatedAbility}召唤轨道打击，从上方发射巨大激光
-					激光将持续 15 秒，并缓慢跟随光标
+					激光将持续 20 秒，并缓慢跟随光标
 					“月亮来了，嘟嘟嘟…”
 					'''
 			}
@@ -1140,10 +1147,9 @@ Mods: {
 				DisplayName: 暗月契约
 				Tooltip:
 					'''
-					减少 20% 最大生命值，增加 10% 受到的伤害
+					减少 20% 最大生命值
 					同时获得以下效果：
-					{$CommonItemTooltip.PercentIncreasedDamage}
-					{$CommonItemTooltip.PercentIncreasedCritChance@1}
+					增加 12% 伤害和暴击率
 					增加 2 点生命再生
 					“天赐之力，命定之殇…”
 					'''
@@ -1748,8 +1754,8 @@ Mods: {
 				DisplayName: 飞镖袋
 				Tooltip:
 					'''
-					增加 5% 飞镖速度
-					10% 几率不消耗飞镖
+					增加 10% 飞镖速度
+					17% 几率不消耗飞镖
 					'''
 			}
 
@@ -1891,7 +1897,7 @@ Mods: {
 					'''
 					受到伤害后增加防御和生命再生
 					受到伤害可随机释放报复冰块，攻击附近的敌人
-					免疫冷冻和冰冻
+					免疫冷冻、冰冻和霜火
 					'''
 			}
 
@@ -1903,7 +1909,7 @@ Mods: {
 					当生命值低于50%时，产生一颗旋转的尖刺冰球，伤害敌人并减少 25% 受到的伤害
 					当冰球受到伤害时，会撞向敌人并爆炸
 					随时间推移产生新的冰球
-					免疫冷冻和冰冻
+					免疫冷冻、冰冻和霜火
 					“蓝冰球！？”
 					'''
 			}
