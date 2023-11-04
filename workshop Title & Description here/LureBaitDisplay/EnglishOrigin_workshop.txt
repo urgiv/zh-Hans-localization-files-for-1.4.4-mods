@@ -1,0 +1,31 @@
+Title:
+Lures Display Bait
+
+Description:
+Adds a small visual aid to fishing lures, showing the bait you're currently using attached to the end of the hook.
+Use of the mod's config is highly recommended!
+
+The mod currently includes:
+-Base functionality
+-Configuration options
+-Compatability with texture packs and mods
+
+!! If you experience any bugs or have any suggestions to improve the mod, please feel free to leave a comment !!
+
+Mod compatability notes:
+> Internal name is "LureBaitDisplay"
+> If you use any calls, make sure to add a weak reference to at least the version number when the call was added
+> Use Mod.Call("HideBaitType", int itemType) in your mod's PostSetupContent() to hide specific bait items from being drawn on the hook
+> Use Mod.Call("IgnoreLureType", int projectileType) in your mod's PostSetupContent() to ignore specific lures (All mod functionality will be skipped for the set types, even hiding lures)
+
+
+-=Releases=-
+
+v0.1.8 -> Added the "IgnoreLureType" call, allowing mods to set certain lures to be entirely ignored, changed description to be more concise
+v0.1.7 -> Added the "HideBaitType" call, allowing mods to set bait types to be automatically hidden
+v0.1.6 -> Added a config option for hiding the fishing hook
+v0.1.5 -> Localization changes, icon updated, config menu colors changed
+v0.1.4 -> Fixed incorrect version numbers, updated mod icon
+v0.1.3 -> Localization changes, config visually redone, option added to draw bait infront of the hook
+v0.1.2 -> Mod side changed from "both" to "client"
+v0.1 -> Beta release

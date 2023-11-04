@@ -1,0 +1,91 @@
+Configs: {
+	ClientConfig: {
+		DisplayName: 更好的鱼饵显示设置
+
+		Headers: {
+			DrawStyle: 显示设置
+			Offset: 位移设置
+			Movement: 动画设置
+		}
+
+		EnableDraw: {
+			Label: 鱼饵显示
+			Tooltip:
+				'''
+				你所使用的鱼饵会在鱼钩上显示
+				(这是本模组的核心功能)
+				'''
+		}
+
+		UseCustomDrawScale: {
+			Label: 自定义鱼饵显示大小
+			Tooltip:
+				'''
+				重新调整鱼饵贴图以符合“鱼饵显示比例”选项中设定的缩放尺寸
+				这个选项可能看起来会很奇怪，但它可以解决鱼饵贴图异常大/小的问题
+				'''
+		}
+
+		CustomDrawScale: {
+			Label: 鱼饵显示比例
+			Tooltip: 启用“自定义鱼饵显示大小”选项后，用来调整鱼饵贴图的大小
+		}
+
+		DrawOffsetX: {
+			Label: 水平位移
+			Tooltip: 调整鱼饵显示的水平位置，越大越靠右
+		}
+
+		DrawOffsetY: {
+			Label: 垂直位移
+			Tooltip: 调整鱼饵显示的垂直位置，越大越靠下
+		}
+
+		OffsetYReverse: {
+			Label: 垂直位移反转
+			Tooltip: 调整鱼饵显示的水平位置，使其越大越靠上
+		}
+
+		OffsetXReverse: {
+			Label: 水平位移反转
+			Tooltip: 调整鱼饵显示的垂直位置，使其越大越靠左
+		}
+
+		RotationWithVelocity: {
+			Label: 鱼饵入水动画
+			Tooltip:
+				'''
+				调整抛竿入水时，鱼饵在空中旋转的幅度
+				设为 0 可以禁止旋转
+				'''
+		}
+
+		FlipWithDirection: {
+			Label: 鱼饵位置动态显示
+			Tooltip:
+				'''
+				根据鱼钩移动的方向翻转鱼饵贴图
+				此选项同样适用于水平方向的贴图翻转
+				'''
+		}
+
+		ReelInDraw: {
+			Label: 收杆显示鱼饵
+			Tooltip: 开启后，收杆时在鱼钩上显示鱼饵
+		}
+
+		DrawOver: {
+			Label: 鱼饵优先显示
+			Tooltip: 鱼饵将显示在鱼钩图层的前面，而不是后面
+		}
+
+		HookDraw: {
+			Label: 鱼钩显示
+			Tooltip:
+				'''
+				切换是否显示鱼钩
+				此选项不影响鱼饵显示
+				'''
+		}
+	}
+}

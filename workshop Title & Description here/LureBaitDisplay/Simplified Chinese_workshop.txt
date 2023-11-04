@@ -1,0 +1,21 @@
+Title:
+更好的鱼饵显示
+
+Description:
+本模组添加了一个小功能，能在钓鱼时在鱼钩的末端显示你当前使用的鱼饵。
+强烈推荐使用本模组的设置选项！
+
+本模组目前包括：
+- 基本功能
+- 设置选项
+- 跨模组/材质包兼容
+
+！！如果你在模组运行中遇到任何问题或者有任何改进建议，请在评论区留言！！
+
+模组兼容提示:
+> 本模组的内部名是 "LureBaitDisplay"
+> 如果你使用任何本模组提供的 Mod.Call，记得添加对本模组版本号的弱引用
+> 在你模组的 PostSetupContent() 中使用 Mod.Call("HideBaitType", int itemType) 来隐藏特定鱼饵，使其不会在鱼钩上显示
+> 在你模组的 PostSetupContent() 中使用 Mod.Call("IgnoreLureType", int projectileType) 来忽略特定鱼饵（本模组的所有功能都将被忽略，包括隐藏特定的鱼饵）
+
+# Btw, modders could use the changelog.txt in mod's source file to show the details of each version
