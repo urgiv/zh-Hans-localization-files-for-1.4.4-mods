@@ -10,7 +10,11 @@ Configs: {
 
 		EnableDraw: {
 			Label: 鱼饵显示
-			Tooltip: 你所使用的鱼饵会在鱼钩上显示
+			Tooltip:
+				'''
+				切换你当前使用的鱼饵是否会在鱼钩上显示
+				此选项为本模组的基础功能
+				'''
 		}
 
 		UseCustomDrawScale: {
