@@ -4,17 +4,13 @@ Configs: {
 
 		Headers: {
 			DrawStyle: 显示设置
-			Offset: 位移设置
+			Offset: 偏移设置
 			Movement: 动画设置
 		}
 
 		EnableDraw: {
 			Label: 鱼饵显示
-			Tooltip:
-				'''
-				你所使用的鱼饵会在鱼钩上显示
-				(这是本模组的核心功能)
-				'''
+			Tooltip: 你所使用的鱼饵会在鱼钩上显示
 		}
 
 		UseCustomDrawScale: {
@@ -27,28 +23,26 @@ Configs: {
 		}
 
 		CustomDrawScale: {
-			Label: 鱼饵显示比例
+			Label: 鱼饵显示缩放比例
 			Tooltip: 启用“自定义鱼饵显示大小”选项后，用来调整鱼饵贴图的大小
 		}
 
 		DrawOffsetX: {
 			Label: 水平位移
-			Tooltip: 调整鱼饵显示的水平位置，越大越靠右
+			Tooltip:
+				'''
+				调整鱼饵显示的水平位置
+				数值越大越靠右，越小越靠左
+				''' 
 		}
 
 		DrawOffsetY: {
 			Label: 垂直位移
-			Tooltip: 调整鱼饵显示的垂直位置，越大越靠下
-		}
-
-		OffsetYReverse: {
-			Label: 垂直位移反转
-			Tooltip: 调整鱼饵显示的水平位置，使其越大越靠上
-		}
-
-		OffsetXReverse: {
-			Label: 水平位移反转
-			Tooltip: 调整鱼饵显示的垂直位置，使其越大越靠左
+			Tooltip:
+				'''
+				调整鱼饵显示的垂直位置
+				数值越大越靠下，越小越靠上
+				''' 
 		}
 
 		RotationWithVelocity: {
@@ -61,7 +55,7 @@ Configs: {
 		}
 
 		FlipWithDirection: {
-			Label: 鱼饵位置动态显示
+			Label: 鱼饵贴图动态翻转
 			Tooltip:
 				'''
 				根据鱼钩移动的方向翻转鱼饵贴图
@@ -85,6 +79,37 @@ Configs: {
 				'''
 				切换是否显示鱼钩
 				此选项不影响鱼饵显示
+				'''
+		}
+		
+		OriginOffsetX: {
+			Label: 水平参考点
+			Tooltip:
+				'''
+				调整鱼饵贴图“垂直位移”选项的参考点位置（从左到右）
+				(0 = 左边缘, 0.5 = 中间, 1 = 右边缘)
+				参考点同时影响旋转和缩放的中心点
+				这将全面影响鱼饵显示的位置
+				'''
+		}
+
+		OriginOffsetY: {
+			Label: 垂直参考点
+			Tooltip:
+				'''
+				调整鱼饵贴图“垂直位移”选项的参考点位置（从上到下）
+				(0 = 上边缘, 0.5 = 中间, 1 = 下边缘)
+				参考点同时影响旋转和缩放的中心点
+				这将全面影响鱼饵显示的位置
+				'''
+		}
+
+		FlipDirection: {
+			Label: 鱼饵贴图静态翻转
+			Tooltip:
+				'''
+				无论鱼钩方向如何，总是翻转鱼饵贴图
+				此选项不适用于水平方向的贴图翻转
 				'''
 		}
 	}
