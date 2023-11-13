@@ -1,0 +1,56 @@
+Title:
+ARSENAL - Weapons expansion mod
+
+Description:
+[h1]ARSENAL: Weapons Expansion Mod[/h1]
+
+Arsenal is a mod made to compliment the vanilla weapons selection by expanding many of the weapon subcategories throughout the different stages of the game.
+This mod currently boasts nearly 300 new items, which is almost entirely weapons. Does this cause potential for content bloat? Sure, but it also gives you tons of options (Almost ~75% more!) to choose from across all stages of vanilla progression and makes it more than likely you can stick to a certain subclass of weapon (e.g. shortswords) the entire time!
+
+[b]NOTICE: This mod is in an open beta state! About 75% of planned content currently exsists, though a sizeable amount is subject to refurbishing as various weapons no longer meet my standards of quality (visually and/or mechanically), which is intended to reflect those set by vanilla 1.4.4+ gen content. Also beware that there are multiple known issues within the current build, including some multiplayer-exclusive issues (Though multiplayer is still playable). Most, if not all known issues are listed in the FAQ thread on this workshop.[/b]
+
+[h2]ARSENAL: Weapons Expansion Mod introduces:[/h2]
+[list]
+    [*]Nearly 300 new items, the vast majority of which are weapons
+    [*]Vanilla friendly content that seeks to give you a 'vanilla+' experience
+    [*]Flamethrowers and Launchers in pre-hardmode!
+    [*]Shortswords in hardmode! Also now with raipers!
+    [*]Lunar Pillars now have 8 gear choices a piece, and there are a bunch of extra Moon Lord drops
+    [*]Terra Bow, Staff, and Whip!
+    [*]Zenith counterparts!
+    [*]Terraprisma counterparts!
+    [*]Waffle's Iron counterparts. These four also have Legendary, Post-Moon Lord upgrades
+    [*]Master Mode Weapons; bosses may drop a special weapon in Master Mode
+    [*]WoF and ML are excluded from the above and instead drop a crafting token that makes your choice of loot
+[/list]
+
+[h2]Weapon Count:[/h2]
+Here is a list of how many weapons and items are introduced, organized by type/subclass
+[list]
+    [*]12 Boomerangs
+    [*]17 Bows/Repeaters
+    [*]12 Dart weapons (Also 6 new darts)
+    [*]16 Flails
+    [*]13 Flamethrowers (With pre-hardmode content)
+    [*]15 Guns
+    [*]11 Launchers (With pre-hardmode content)
+    [*]12 Magic Guns
+    [*]6 Minions
+    [*]17 Sentries
+    [*]25 Shortswords (With hardmode content)
+    [*]9 Spears
+    [*]25 Staves
+    [*]11 Swords
+    [*]15 Tomes
+    [*]20 Whips
+    [*]10 Yo-yos
+    [*]7 Misc. Melee weapons
+    [*]10 Misc. Magic weapons
+    [*]4 Misc. Ranged weapon
+    [*]11 Accessories
+    [*]18 Other Misc. items
+[/list]
+
+Arsenal introduces content across all stages of the game, so you can try something new each time. Explore the Terraria weapons selection like never before in your next playthrough with the Arsenal mod!
+
+[b]Please first read the pinned discussion 'FAQ Thread: Compatibility, Known Issues/Bug Reports, Roadmap & More' if you have any questions![/b]

@@ -1,0 +1,3060 @@
+Mods: {
+	Arsenal_Mod: {
+		Buffs: {
+			AccursedTridentStick: {
+				DisplayName: 诅咒三叉戟
+				Description: 敌人被钉上诅咒三叉戟并受到持续伤害
+			}
+
+			AuraKBCooldown: {
+				DisplayName: 魔法庇佑光环冷却
+				Description: 敌人不会在魔法庇佑光环攻击中受到击退
+			}
+
+			BeetleBladeDef: {
+				DisplayName: 甲虫耐力
+				Description: 减少 15% 受到的伤害
+			}
+
+			BeetleBladeOff: {
+				DisplayName: 甲虫力量
+				Description: 增加 10% 近战伤害和攻速
+			}
+
+			BorealisShield: {
+				DisplayName: 北极屏障
+				Description: 提高防御
+			}
+
+			EvilEyeTargeting: {
+				DisplayName: 邪恶大眼
+				Description: 这个目标将被恶魔眼攻击
+			}
+
+			BallaBuff: {
+				DisplayName: 巴拉雪人
+				Description: 雪人...巴拉？！
+			}
+
+			JungleCreeperBuff: {
+				DisplayName: 丛林蜘蛛
+				Description: 丛林蜘蛛将为你战今生！
+			}
+
+			ShadowflameBuff: {
+				DisplayName: 暗影焰幻鬼
+				Description: 暗影焰幻鬼将为你战今生！
+			}
+
+			SkullBuff: {
+				DisplayName: 守卫头骨
+				Description: 骷髅王将为你战今生！
+			}
+
+			SpiritBuff: {
+				DisplayName: 幽灵
+				Description: 地牢幽魂将为你战今生！
+			}
+
+			TerraultimaBuff: {
+				DisplayName: 天界棱镜
+				Description: 天界之刃将为你战今生！
+			}
+
+			RicochetCooldown: {
+				DisplayName: 电离旋刃反弹冷却
+				Description: 此目标不会被冷却中的反弹旋攻击
+			}
+
+			CreeperBuff: {
+				DisplayName: 飞眼怪
+				Description: 飞眼怪将为你战今生！
+			}
+
+			DestroyerUplinkTargeting: {
+				DisplayName: 毁灭者遥控标记
+				Description: 此目标被毁灭者无人机探针锁定了
+			}
+
+			Starstruck: {
+				DisplayName: 星尘手套
+				Description: 减少防御
+			}
+
+			StarstruckPlayer: {
+				DisplayName: 星尘手套
+				Description: 减少防御
+			}
+
+			SphereSongRegen: {
+				DisplayName: 宇宙能量
+				Description: 增加生命再生
+			}
+
+			ViciousMockery: {
+				DisplayName: 堕落竖琴
+				Description: 此目标的接触伤害降低
+			}
+
+			AncientChainsBuff: {
+				DisplayName: 石巨人的凝视
+				Description: 一颗石巨人的头会短暂向你的敌人发射激光
+			}
+
+			AuroraBuff: {
+				DisplayName: 极光
+				Description: 提高防御、生命再生和鞭子攻击速度
+			}
+
+			BlocksWhipBuff: {
+				DisplayName: BlockCrusader之鞭
+				Description: 开发者BlockCrusader的力量提高你的鞭子攻击速度！
+			}
+
+			LostRaiderBuff: {
+				DisplayName: 奇兵之鞭
+				Description: 提高鞭子攻击速度
+			}
+
+			SummitBuff: {
+				DisplayName: 天顶鞭棱镜
+				Description: 天顶鞭的力量让棱镜暂时为你而战！
+			}
+
+			TerraWhipBuff: {
+				DisplayName: 泰拉之鞭
+				Description: 提高鞭子攻击速度
+			}
+
+			AncientChainsTag: {
+				DisplayName: 远古锁链标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			AuroraTag: {
+				DisplayName: 极光标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			BlocksWhipTag: {
+				DisplayName: BlockCrusader之鞭标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			ConstellationTag: {
+				DisplayName: 星座标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			CorruptionsScourgeTag: {
+				DisplayName: 腐化之鞭标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			DusksBiteTag: {
+				DisplayName: 永夜之鞭标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			EmberingScourgeTag: {
+				DisplayName: 地狱之挞标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			LaceratorTag: {
+				DisplayName: 血肉之鞭标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			LostRaiderTag: {
+				DisplayName: 奇兵之鞭标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			MoonBiteTag: {
+				DisplayName: 月噬之鞭标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			PlasmaScourgeTag: {
+				DisplayName: 等离子天灾鞭标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			RopeWhipTag: {
+				DisplayName: 绳鞭标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			ScrapHookTag: {
+				DisplayName: 废料钩鞭标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			SeaScourgeTag: {
+				DisplayName: 海洋之挞标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			ShadowflameWhipTag: {
+				DisplayName: 暗影焰鞭标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			TerraWhipTag: {
+				DisplayName: 泰拉之鞭标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			TrueDurendalTag: {
+				DisplayName: 真·迪朗达尔标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			TrueDusksBiteBlastTag: {
+				DisplayName: 真·永夜之鞭爆炸标记
+				Description: 召唤物击中敌人引发爆炸
+			}
+
+			TrueDusksBiteTag: {
+				DisplayName: 真·永夜之鞭标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			WeaverWhipTag: {
+				DisplayName: 纺星之鞭标记
+				Description: 召唤攻击将对这个敌人更有效
+			}
+
+			GetFixedPlayer: {
+				DisplayName: 奥库瑞姆
+				Description: 看着它，你的精神受到了震撼...
+			}
+
+			GetFixed: {
+				Description: 敌人变得更脆并受到持续伤害
+				DisplayName: 奥库瑞姆的诅咒
+			}
+		}
+
+		Items: {
+			CommanderBadge: {
+				DisplayName: 星际指挥官徽章
+				Tooltip:
+					'''
+					增加 15% 召唤伤害
+					增加 20% 召唤击退
+					增加 2 个哨兵数量上限
+					'你是说你想向星际指挥部投诉吗？'
+					'''
+			}
+
+			DemomanPack: {
+				DisplayName: 爆破手背包
+				Tooltip:
+					'''
+					发射器 25% 的几率不消耗弹药
+					'优秀的爆破手是怎样练成的？'
+					'''
+			}
+
+			DirePoint: {
+				DisplayName: 极点寒芒
+				Tooltip:
+					'''
+					增加 18% 长矛/短剑暴击率
+					增加 6% 长矛/短剑击退
+					'太尖了，你只要看一眼就能戳到自己'
+					'''
+			}
+
+			FlameTank: {
+				DisplayName: 烈火罐
+				Tooltip:
+					'''
+					喷火器有 25% 几率不消耗弹药
+					增加 10% 喷火器伤害
+					'''
+			}
+
+			FuelTank: {
+				DisplayName: 燃料瓶
+				Tooltip: 喷火器有 25% 几率不消耗弹药
+			}
+
+			HeavyWarhead: {
+				DisplayName: 重型弹头
+				Tooltip: 增加 10% 火箭伤害和击退
+			}
+
+			NuclearPack: {
+				DisplayName: 原子背包
+				Tooltip:
+					'''
+					发射器有 25% 几率不消耗弹药
+					增加 10% 火箭伤害和击退
+					'几近天堂...'
+					'''
+			}
+
+			ShiningPoint: {
+				DisplayName: 闪亮锋芒
+				Tooltip:
+					'''
+					增加 6% 长矛/短剑暴击率和击退
+					'哦，闪亮！'
+					'''
+			}
+
+			SolarEmblem: {
+				DisplayName: 日耀徽章
+				Tooltip:
+					'''
+					增加 16% 近战伤害
+					增加 5% 近战攻速
+					'''
+			}
+
+			StarGauntlet: {
+				DisplayName: 星尘手套
+				Tooltip:
+					'''
+					增加 12% 召唤伤害
+					增加 12% 近战/鞭子攻速
+					增加鞭子击退
+					增加 20% 鞭子范围
+					鞭子标记减少敌人防御
+					为鞭子和近战武器启用自动挥舞
+					'给你的敌人一点星尘震撼！'
+					'''
+			}
+
+			AncientKylie: {
+				DisplayName: 远古回旋镖
+				Tooltip:
+					'''
+					有几率投出强力的禁戒回旋镖
+					投出禁戒回旋镖的几率随暴击率增加而增加
+					'啊，哦，嗷！诶呦，诶呦，诶呦！'
+					'''
+			}
+
+			Antlerang: {
+				DisplayName: 鹿角棒
+				Tooltip:
+					'''
+					扔出鹿角制成的回旋镖，鹿角穿透敌人而不是击中后返回
+					前三次命中造成的伤害最大
+					最多可同时扔出 2 个鹿角
+					'鹿鹿那么可爱...'
+					'''
+			}
+
+			BlazingDisc: {
+				DisplayName: 炽热唱片
+				Tooltip:
+					'''
+					穿透 1 个敌人
+					'这些唱片可真够火辣的！'
+					'''
+			}
+
+			ChlorothornChakram: {
+				DisplayName: 叶绿旋刃
+				Tooltip: 命中时放出额外的旋刃
+			}
+
+			Cosmicutter: {
+				DisplayName: 寰宇飞刃
+				Tooltip:
+					'''
+					最多可同时扔出 5 个飞刃
+					飞刃穿透敌人和墙壁
+					飞刃在返回之前会原地旋转，在此过程中会逐渐增加伤害和大小
+					重复命中敌人时可能忽略其高额防御
+					'将你的敌人...还有实体的规则全部斩断！'
+					'''
+			}
+
+			CreeperDisc: {
+				DisplayName: 飞眼唱片
+				Tooltip: "'恶心，但迷人'"
+			}
+
+			Divinity: {
+				DisplayName: 神性唱片
+				Tooltip:
+					'''
+					扔出无限数量的神性唱片
+					神性唱片定期造成神圣风暴攻击而不是返回
+					泰拉棱镜存在时，伤害降低
+					'''
+			}
+
+			GlaiveGauntlet: {
+				DisplayName: 电离旋刃
+				Tooltip: 扔出在附近敌人之间反弹的旋刃
+			}
+
+			GlaiveGauntletMK2: {
+				DisplayName: 电离旋刃MK2
+				Tooltip:
+					'''
+					扔出在附近敌人之间反弹的旋刃
+					'由多项火星目标弹射科技加持！'
+					'''
+			}
+
+			Monsoon: {
+				DisplayName: 季风旋刃
+				Tooltip: 季风旋刃在返回之前会原地旋转
+			}
+
+			ScaleShredder: {
+				DisplayName: 暗鳞粉碎机
+				Tooltip:
+					'''
+					忽略敌人少量防御，穿透敌人而不是击中后返回
+					'灵活变通且致命...'
+					'''
+			}
+
+			TwinFlares: {
+				DisplayName: 日耀双旋
+				Tooltip:
+					'''
+					每次扔出两个日耀旋刃
+					'看着它们飞来飞去很有趣...只要是你扔的够准就行'
+					'''
+			}
+
+			BFR8000: {
+				DisplayName: B.F.R. 8000
+				Tooltip:
+					'''
+					每次发射三轮箭
+					只有第一轮消耗弹药
+					'保证 100% 能撕裂任何敌人'
+					'''
+			}
+
+			CandyCaneBow: {
+				DisplayName: 糖棒弓
+				Tooltip:
+					'''
+					将木箭转化为烈焰箭
+					有 33% 几率不消耗弹药
+					'望而生畏，却又甘之如饴...'
+					'''
+			}
+
+			CoralCrossbow: {
+				DisplayName: 珊瑚弩
+				Tooltip: ""
+			}
+
+			CthulhusGaze: {
+				DisplayName: 克苏鲁凝望
+				Tooltip:
+					'''
+					将木箭转化为诡异之箭，其向光标或敌人方向略微弯曲，命中时召唤小幻影眼
+					使用时额外射出幻影箭攻击最近敌人
+					有 50% 几率不消耗弹药
+					'''
+			}
+
+			EnergyRepeater: {
+				DisplayName: 能量中继器
+				Tooltip:
+					'''
+					将木箭转化为充能射线
+					每次发射五轮箭
+					只有第一轮消耗弹药
+					'木箭，时代变了！'
+					'''
+			}
+
+			Junglefury: {
+				DisplayName: 丛林之怒
+				Tooltip:
+					'''
+					每次发射三轮箭
+					33% 几率不消耗弹药
+					'释放丛林群系的怒火！'
+					'''
+			}
+
+			MechanizedBow: {
+				DisplayName: 机械弓
+				Tooltip:
+					'''
+					随使用时间增加，射速逐渐加快
+					有几率射出微弱电火花
+					'''
+			}
+
+			Mooncrescent: {
+				DisplayName: 新月弓
+				Tooltip: 将木箭转化为残夜箭
+			}
+
+			Omega: {
+				DisplayName: 天顶弓
+				Tooltip: 有 75% 几率不消耗弹药
+			}
+
+			OvergrownCrossbow: {
+				DisplayName: 箭毒木弩
+				Tooltip: 有几率将木箭转化为毒箭
+			}
+
+			PillagingCrossbow: {
+				DisplayName: 海盗弩
+				Tooltip:
+					'''
+					点燃木箭
+					有几率射出掠夺箭
+					'''
+			}
+
+			Plasmcaster: {
+				DisplayName: 星璇弩
+				Tooltip:
+					'''
+					将弹药转化为星璇箭
+					有 33% 几率不消耗弹药
+					'''
+			}
+
+			Sandblast: {
+				DisplayName: 沙爆弓
+				Tooltip:
+					'''
+					将弹药转化为强力沙导弹
+					'所以你看到伊万了...'
+					'''
+			}
+
+			SkullBow: {
+				DisplayName: 亡骨弓
+				Tooltip:
+					'''
+					有几率射出骨箭
+					'死而复生'
+					'''
+			}
+
+			TerraBow: {
+				DisplayName: 泰拉弓
+				Tooltip:
+					'''
+					将木箭转化为泰拉箭
+					额外射出 2 枝泰拉箭
+					有 33% 几率不消耗弹药
+					'''
+			}
+
+			TrueHallowedRepeater: {
+				DisplayName: 真·神圣连弩
+				Tooltip:
+					'''
+					有几率射出神圣箭
+					有 20% 几率不消耗弹药
+					'''
+			}
+
+			TrueMooncrescent: {
+				DisplayName: 真·永夜弓
+				Tooltip:
+					'''
+					不消耗弹药射出残夜箭
+					有几率射出永夜箭
+					射出永夜箭的几率随暴击率增加而增加
+					'''
+			}
+
+			AssassinsBlowgun: {
+				DisplayName: 刺客吹箭筒
+				Tooltip: "'安静且致命'"
+			}
+
+			Bloodletter: {
+				DisplayName: 放血者
+				Tooltip:
+					'''
+					每次发射两轮飞镖
+					只有第一轮消耗弹药
+					'''
+			}
+
+			BottomlessDartMagazine: {
+				DisplayName: 无尽飞镖袋
+				Tooltip: "'...还有一个巨型无限飞镖背包，让你可以完成任何挑战！'"
+			}
+
+			CorruptBuster: {
+				DisplayName: 堕腐者
+				Tooltip: 射出一束飞镖雨
+			}
+
+			DarkmoonGauntlet: {
+				DisplayName: 暗月投掷手套
+				Tooltip:
+					'''
+					75% 几率不消耗弹药
+					'充满了来自月球黑暗面的幻影能量'
+					'''
+			}
+
+			DartlingGun: {
+				DisplayName: 镖特林机枪
+				Tooltip:
+					'''
+					有 50% 几率不消耗弹药
+					'哒哒哒哒哒...'
+					'''
+			}
+
+			DartMitt: {
+				DisplayName: 飞镖投掷手套
+				Tooltip:
+					'''
+					有 20% 几率不消耗弹药
+					'适合用来玩飞镖扎气球'
+					'''
+			}
+
+			Fireblaster: {
+				DisplayName: 狱火飞镖枪
+				Tooltip: 将弹药转化为狱炎镖
+			}
+
+			GildedDart: {
+				DisplayName: 金镖
+				Tooltip:
+					'''
+					杀死的敌人会掉落更多的钱
+					'叮叮铃，叮铃，叮叮铃！'
+					'''
+			}
+
+			IncendiaryDart: {
+				DisplayName: 狱炎镖
+				Tooltip: 点燃敌人，并在击中后制造小型爆炸
+			}
+
+			LuminiteDart: {
+				DisplayName: 夜明镖
+				Tooltip:
+					'''
+					穿透墙壁，自动高速追踪射程内的敌人
+					'你都死了多少次了？我真的很失望'
+					'''
+			}
+
+			NanoDart: {
+				DisplayName: 纳米镖
+				Tooltip:
+					'''
+					对目标造成混乱，并忽略敌人大量防御
+					'纳米机器，小子！'
+					'''
+			}
+
+			NovaCarbine: {
+				DisplayName: 星璇飞镖枪
+				Tooltip:
+					'''
+					每次发射三轮飞镖
+					只有第一轮消耗弹药
+					有几率额外射出夜明镖
+					'给他们一点小小的赛博突击队震撼'
+					'''
+			}
+
+			Predator: {
+				DisplayName: 捕食者
+				Tooltip:
+					'''
+					发射的飞镖在命中时产生额外的捕食者飞镖
+					'你去哪儿了？'
+					'''
+			}
+
+			SuperTrapGun: {
+				DisplayName: 超级陷阱枪
+				Tooltip:
+					'''
+					不消耗毒镖/毒液镖
+					没有弹药时发射毒镖
+					将种子转化为毒镖
+					'''
+			}
+
+			TrapCannon: {
+				DisplayName: 陷阱枪
+				Tooltip: 有 40% 几率不消耗毒镖
+			}
+
+			TribalGlove: {
+				DisplayName: 部落投掷手套
+				Tooltip:
+					'''
+					扔出一束飞镖雨
+					'拒绝飞镖火枪，回归原始'
+					'''
+			}
+
+			VenomDart: {
+				DisplayName: 毒液镖
+				Tooltip: 对目标造成酸性毒液
+			}
+
+			Avalanche: {
+				DisplayName: 雪崩
+				Tooltip:
+					'''
+					挥舞时变得更大更强
+					'这个链锤是在滚雪球！'
+					'''
+			}
+
+			BeetlesBoulder: {
+				DisplayName: 甲虫圆石
+				Tooltip:
+					'''
+					有几率射出强力巨石
+					'还有什么比巨石更好的呢？哦，当然是一块用甲虫外壳加固并系在链子上的巨石！'
+					'''
+			}
+
+			ChainKunai: {
+				DisplayName: 鍬刀锁链
+				Tooltip: "'敲！！！'"
+			}
+
+			Deathspin: {
+				DisplayName: 死亡回转
+				Tooltip:
+					'''
+					旋转的机械骷髅王手臂造成额外伤害
+					'旋转获胜'
+					'''
+			}
+
+			DungeonsRavager: {
+				DisplayName: 地牢破坏者
+				Tooltip: 具有更强的旋转攻击能力，射程更远，能够穿透墙壁
+			}
+
+			FungiFlail: {
+				DisplayName: 真菌链锤
+				Tooltip: ""
+			}
+
+			Judgement: {
+				DisplayName: 审判
+				Tooltip: "'正义之锤重重地落下'"
+			}
+
+			LittleSnatcher: {
+				DisplayName: 食人草
+				Tooltip:
+					'''
+					返回前可以击中2个敌人
+					'它没有那么*小*...'
+					'''
+			}
+
+			MoonFist: {
+				DisplayName: 月神之拳
+				Tooltip:
+					'''
+					在命中时大大降低敌人的击退抗性
+					'不管怎样，月亮领主的拳头到底有多大？'
+					'''
+			}
+
+			RockRope: {
+				DisplayName: 系绳石
+				Tooltip: ""
+			}
+
+			ShellSmasher: {
+				DisplayName: 龟壳粉碎机
+				Tooltip: 忽略敌人少量防御
+			}
+
+			Skelefist: {
+				DisplayName: 骷髅王之拳
+				Tooltip: "'非常适合从房间对面打人'"
+			}
+
+			SkelevicePrime: {
+				DisplayName: 机械铁拳
+				Tooltip:
+					'''
+					忽略敌人少量防御
+					'旧王已死！'
+					'''
+			}
+
+			SunsRage: {
+				DisplayName: 曜日之冕
+				Tooltip: "'凝聚恒星的力量蒸发那些挡住你去路的人'"
+			}
+
+			TameTrapper: {
+				DisplayName: 乖巧捕手
+				Tooltip:
+					'''
+					中途命中敌人不会让捕手返回
+					'这是一种很好的食肉植物，是的，就是这样！'
+					'''
+			}
+
+			Thornball: {
+				DisplayName: 荆棘刺球
+				Tooltip:
+					'''
+					有几率对目标造成中毒
+					'别把它看成向日葵了...'
+					'''
+			}
+
+			Bloodboil: {
+				DisplayName: 热血沸腾
+				Tooltip:
+					'''
+					使用凝胶作为弹药
+					忽略敌人 30 点防御
+					火焰可以穿过液体
+					'''
+			}
+
+			BoneSinger: {
+				DisplayName: 骨歌者
+				Tooltip:
+					'''
+					使用凝胶作为弹药
+					忽略敌人 15 点防御
+					火焰可以穿过液体
+					'''
+			}
+
+			BottomlessGelTank: {
+				DisplayName: 无尽凝胶罐
+				Tooltip:
+					'''
+					为喷火器提供无限的凝胶燃料
+					'燃烧的乐趣，而不是吃！'
+					'''
+			}
+
+			CursedFlamer: {
+				DisplayName: 咒火喷吐者
+				Tooltip:
+					'''
+					使用凝胶作为弹药
+					忽略敌人 15 点防御
+					诅咒焰可以穿过液体
+					'''
+			}
+
+			DistortionAfterburner: {
+				DisplayName: 畸变过燃机
+				Tooltip:
+					'''
+					使用凝胶作为弹药
+					忽略敌人 40 点防御
+					火焰可以穿过液体
+					有几率射出希腊火
+					有 25% 几率不消耗弹药
+					'''
+			}
+
+			Frostbite: {
+				DisplayName: 寒霜之噬
+				Tooltip:
+					'''
+					使用凝胶作为弹药
+					忽略敌人 15 点防御
+					火焰可以穿过液体
+					'骨灵冷火！'
+					'''
+			}
+
+			GelFlamer: {
+				DisplayName: 凝胶发射器
+				Tooltip:
+					'''
+					使用凝胶作为弹药
+					忽略敌人 10 点防御
+					'''
+			}
+
+			Hellfire: {
+				DisplayName: 狱火发射器
+				Tooltip:
+					'''
+					使用凝胶作为弹药
+					忽略敌人 10 点防御
+					火焰可以穿过液体
+					'开火！'
+					'''
+			}
+
+			IchorSpray: {
+				DisplayName: 灵焰喷雾
+				Tooltip:
+					'''
+					使用凝胶作为弹药
+					忽略敌人 5 点防御
+					灵焰减少敌人的防御
+					灵焰可以穿过液体和墙壁
+					'十分恶心，但百分有效'
+					'''
+			}
+
+			JunglesBane: {
+				DisplayName: 丛林之祸
+				Tooltip:
+					'''
+					使用凝胶作为弹药
+					忽略敌人 15 点防御
+					'''
+			}
+
+			LihzahrdFlameGun: {
+				DisplayName: 蜥蜴火焰枪
+				Tooltip:
+					'''
+					使用凝胶作为弹药
+					忽略敌人 15 点防御
+					有 33% 几率不消耗弹药
+					'''
+			}
+
+			Moonrazer: {
+				DisplayName: 太阴尘烬
+				Tooltip:
+					'''
+					使用凝胶作为弹药
+					忽略敌人 25 点防御
+					火焰可以穿过液体和墙壁
+					有 50% 几率不消耗弹药
+					'你不能在月球表面生火'
+					'''
+			}
+
+			Waterflame: {
+				DisplayName: 水焱发射器
+				Tooltip:
+					'''
+					使用凝胶作为弹药
+					忽略敌人 15 点防御
+					火焰可以穿过液体
+					'非常适合处理不必要的关注'
+					'''
+			}
+
+			Wildfire: {
+				DisplayName: 野性之炎
+				Tooltip:
+					'''
+					使用凝胶作为弹药
+					忽略敌人 10 点防御
+					'由惊人的阻燃木材制成'
+					'''
+			}
+
+			Antimatter: {
+				DisplayName: 反物质狙击枪
+				Tooltip:
+					'''
+					将火枪子弹转化为夜明弹
+					有几率发射毁灭性的反物质子弹
+					有 20% 几率不消耗弹药
+					<right>缩放视野
+					'杀手的三要素：优雅、耐心和计划'
+					'''
+			}
+
+			Captain: {
+				DisplayName: 船长随身枪
+				Tooltip:
+					'''
+					有 25% 几率不消耗弹药
+					'小船儿轻轻飘荡在水中，迎面吹来了...'
+					'''
+			}
+
+			CryoclockCarbine: {
+				DisplayName: 低温卡宾枪
+				Tooltip:
+					'''
+					每次发射三轮子弹
+					随使用时间增加，射速逐渐变慢，伤害逐渐提高
+					在最低射速时，会发射寒霜火花
+					'''
+			}
+
+			Deadeye: {
+				DisplayName: 神射手枪
+				Tooltip: 有几率将火枪子弹转化为金子弹
+			}
+
+			EdgeBlaster: {
+				DisplayName: 近地狙击炮
+				Tooltip: "'迎头痛击！'"
+			}
+
+			QuickDraw: {
+				DisplayName: 快枪手
+				Tooltip:
+					'''
+					每次发射六轮子弹
+					只有第一轮消耗弹药
+					'午时已到！'
+					'''
+			}
+
+			ShroomiteGrenadier: {
+				DisplayName: 蘑菇榴弹发射器
+				Tooltip:
+					'''
+					<right>发射榴弹，使用火箭作为弹药
+					25% 几率不消耗弹药
+					'呼！'
+					'''
+			}
+
+			Stormdiver: {
+				DisplayName: 风暴苏醒者
+				Tooltip:
+					'''
+					有几率将弹药转化为夜明弹
+					更容易转化火枪子弹
+					有 25% 几率不消耗弹药
+					'''
+			}
+
+			SuperShotgun: {
+				DisplayName: 超级霰弹枪
+				Tooltip:
+					'''
+					射出大量子弹
+					'撕裂一切！'
+					'''
+			}
+
+			TommyGun: {
+				DisplayName: 汤米冲锋枪
+				Tooltip: "'你忠实的伙伴'"
+			}
+
+			TwinPulsar: {
+				DisplayName: 双脉冲星
+				Tooltip:
+					'''
+					将弹药转化为穿透敌人的激光弹
+					<right>使用喷火器模式攻击
+					'半条命'
+					'''
+			}
+
+			BeggarsBazooka: {
+				DisplayName: 街友火箭炮
+				Tooltip:
+					'''
+					每次发射三轮子弹
+					准头极差
+					'很不幸，你不能用它来火箭跳'
+					'''
+			}
+
+			BlackholeBlaster: {
+				DisplayName: 黑洞冲击炮
+				Tooltip:
+					'''
+					每次发射四轮火箭
+					只有第一轮消耗弹药
+					'只是一大堆爆炸'
+					'''
+			}
+
+			BoneBlasta: {
+				DisplayName: 骨爆冲击
+				Tooltip: ""
+			}
+
+			Bunzooka: {
+				DisplayName: 巴祖卡兔兔筒
+				Tooltip:
+					'''
+					有几率发射爆炸兔
+					发射爆炸兔的几率随暴击率增加而增加
+					'杀死兔兔太残忍了'
+					'''
+			}
+
+			Firestorm: {
+				DisplayName: 狱火冲击波
+				Tooltip:
+					'''
+					有 25% 几率不消耗弹药
+					'速射火箭'
+					'''
+			}
+
+			HandCannon: {
+				DisplayName: 手炮
+				Tooltip:
+					'''
+					将弹药转化为炮弹
+					'海盗来了！'
+					'''
+			}
+
+			PrimeCannon: {
+				DisplayName: 机械加农炮
+				Tooltip:
+					'''
+					将弹药转化为机械炸弹
+					'别炸到自己了'
+					'''
+			}
+
+			Radiance: {
+				DisplayName: 彩虹光辉
+				Tooltip:
+					'''
+					发射光辉火箭引发持久爆炸
+					持久爆炸的爆炸半径受弹药影响
+					泰拉棱镜存在时，伤害降低
+					'''
+			}
+
+			Riptide: {
+				DisplayName: 洪流
+				Tooltip: 发射高速火箭，可以在爆炸前穿透敌人
+			}
+
+			SporeBomber: {
+				DisplayName: 孢子发射器
+				Tooltip: ""
+			}
+
+			Tsar: {
+				DisplayName: 沙皇
+				Tooltip:
+					'''
+					引发毁灭性爆炸
+					使用迷你核弹时，武器会更强大
+					'成为死神，世界的毁灭者'
+					'''
+			}
+
+			CrystalCarbine: {
+				DisplayName: 水晶卡宾枪
+				Tooltip:
+					'''
+					发射一道从墙壁反弹的光束
+					'优雅，你可以用它射史莱姆'
+					'''
+			}
+
+			DeathLaser: {
+				DisplayName: 死亡激光
+				Tooltip: ""
+			}
+
+			Deathray: {
+				DisplayName: 死亡射线
+				Tooltip:
+					'''
+					充能发射一道巨大的毁灭激光
+					'Yo'
+					'''
+			}
+
+			FireBeamer: {
+				DisplayName: 狱火射线
+				Tooltip: 发射一道引发爆炸的激光
+			}
+
+			Partycandle: {
+				DisplayName: 派对香薰
+				Tooltip: "'烟花！'"
+			}
+
+			PhaserLaser: {
+				DisplayName: 相位激光
+				Tooltip: "'打不过？就加入'"
+			}
+
+			Shockgun: {
+				DisplayName: 电击枪
+				Tooltip: "'一项相当雷人的发明'"
+			}
+
+			SolarBeam: {
+				DisplayName: 生机射线
+				Tooltip: 充能发射一道毁灭激光
+			}
+
+			SparkTaser: {
+				DisplayName: 泰瑟枪
+				Tooltip: 快速发射近距离电火花
+			}
+
+			Wiinator: {
+				DisplayName: 天界冲击枪
+				Tooltip: "'他们正在诉诸暴力'"
+			}
+
+			EvilEye: {
+				DisplayName: 邪恶大眼
+				Tooltip:
+					'''
+					发射一束短距离光束，召唤恶魔眼造成额外伤害
+					'嘘，嘘，看着我们！'
+					'''
+			}
+
+			FungiFlask: {
+				DisplayName: 真菌烧瓶
+				Tooltip: 在撞击时传播蘑菇孢子
+			}
+
+			GleamingBall: {
+				DisplayName: 魔法庇佑
+				Tooltip: 生成伤害敌人和保护友军的光环
+			}
+
+			GrandCrystal: {
+				DisplayName: 宏伟水晶
+				Tooltip:
+					'''
+					生成一个持续发射挥发凝胶的水晶，水晶最后可分解成晶体碎片
+					'赞美水晶！'
+					'''
+			}
+
+			Honeyhive: {
+				DisplayName: 蜂箱
+				Tooltip:
+					'''
+					发射跳动的蜂蜜球
+					对敌人造成伤害将治疗队伍内生命值最低的玩家，并短暂增加他们的生命再生
+					'含有银河系最甜的蜂蜜'
+					'''
+			}
+
+			IcicleFan: {
+				DisplayName: 寒冰扇
+				Tooltip: 发射一排冰柱，刺在敌人身上
+			}
+
+			PossessedDagger: {
+				DisplayName: 幽灵投刀
+				Tooltip: 一把寻找敌人的幽灵投刀
+			}
+
+			PossessedTorch: {
+				DisplayName: 奇异火把
+				Tooltip: 召唤火把神的力量攻击附近的敌人
+			}
+
+			SphereSong: {
+				DisplayName: 星云竖琴
+				Tooltip: "'用一首鼓舞人心的旋律，痛击你的敌人！'"
+			}
+
+			ViciousHarp: {
+				DisplayName: 堕落竖琴
+				Tooltip:
+					'''
+					攻击短暂降低敌人的接触伤害
+					'神秘的预兆，好像一直在嘲弄你...'
+					'''
+			}
+
+			VileBreach: {
+				DisplayName: 卑鄙裂口
+				Tooltip:
+					'''
+					挥舞可伸缩的弧形链锤头
+					'用愤怒的深渊蠕虫攻击'
+					'''
+			}
+
+			BallaStaff: {
+				DisplayName: 巴拉雪人法杖
+				Tooltip:
+					'''
+					召唤巴拉雪人来为你战斗
+					'打雪仗！'
+					'''
+			}
+
+			GuardiansGrasp: {
+				DisplayName: 守卫之握
+				Tooltip:
+					'''
+					召唤地牢守卫的头骨旋转攻击你的敌人
+					'我是骷髅王！'
+					'''
+			}
+
+			JungleCreeperStaff: {
+				DisplayName: 丛林蜘蛛法杖
+				Tooltip: 召唤丛林蜘蛛来为你战斗
+			}
+
+			ShadowflameStaff: {
+				DisplayName: 暗影焰幻鬼法杖
+				Tooltip: 召唤暗影焰幻鬼来为你战斗
+			}
+
+			SpiritStaff: {
+				DisplayName: 地牢幽魂法杖
+				Tooltip: 召唤地牢幽魂来为你战斗
+			}
+
+			Terraultima: {
+				DisplayName: 天界棱镜
+				Tooltip:
+					'''
+					召唤天界棱镜来为你战斗
+					可以像剑一样挥动来伤害和标记敌人
+					'通过天界之力的加持，这些棱镜变得更加强大'
+					'''
+			}
+
+			AccursedTrident: {
+				DisplayName: 诅咒三叉戟
+				Tooltip:
+					'''
+					三叉戟会穿透敌人，造成额外伤害
+					三叉戟可能会在命中时引发闪电
+					'尽管被沼泽、肮脏的深处玷污了，但这把三叉戟一如既往地强大'
+					'''
+			}
+
+			AncientSpiritCatalyst: {
+				DisplayName: 古老的光暗之魂
+				Tooltip:
+					'''
+					用于制作大多数血肉之墙掉落的武器或徽章
+					'充满古老而强大的能量'
+					'''
+			}
+
+			BlocksHat: {
+				DisplayName: BlockCrusader的土块面具
+				Tooltip:
+					'''
+					'非常适合冒充模组开发者！'
+					'你见过的最昂贵、最时尚的土块'
+					'''
+			}
+
+			BlocksPants: {
+				DisplayName: BlockCrusader的裤子
+				Tooltip:
+					'''
+					'非常适合冒充模组开发者！'
+					'愿这些时髦的新星裤子将你从敌人手中拯救出来...'
+					'''
+			}
+
+			BlocksShirt: {
+				DisplayName: BlockCrusader的外套
+				Tooltip:
+					'''
+					'非常适合冒充模组开发者！'
+					'现在有了最新的新星时尚品牌！不过，防御力仍然不如木材...'
+					'''
+			}
+
+			BlocksWings: {
+				DisplayName: BlockCrusader之翼
+				Tooltip:
+					'''
+					'非常适合冒充模组开发者！'
+					可飞行和缓慢坠落
+					'配备了全息滑翔机技术，来自巧匠的最新时尚！'
+					'''
+			}
+
+			ChargedGranite: {
+				DisplayName: 赋能花岗岩
+				Tooltip: "'它充满神奇的能量'"
+			}
+
+			ForgottenHeroShards: {
+				DisplayName: 被遗忘英雄的碎片
+				Tooltip:
+					'''
+					用于制作泰拉武器
+					'蕴含古代英雄的强大力量'
+					'''
+			}
+
+			GrandGrenadier: {
+				DisplayName: 天界步枪兵
+				Tooltip:
+					'''
+					可以用刺刀伤害敌人
+					有 33% 几率不消耗弹药
+					'西摩，你的火枪为什么冒出烟来？'
+					'''
+			}
+
+			HolyHandGrenade: {
+				DisplayName: 神圣手雷
+				Tooltip:
+					'''
+					制造大范围、毁灭性的神圣爆炸...不只会伤害敌人
+					'把你的敌人炸成碎片'
+					'''
+			}
+
+			LostWhip: {
+				DisplayName: 失落之鞭
+				Tooltip:
+					'''
+					用合适的材料可以修复成强力的武器
+					'在丛林中丢失的破旧的鞭子残迹'
+					'''
+			}
+
+			PhantasmalJewel: {
+				DisplayName: 幻影宝石
+				Tooltip:
+					'''
+					用于制作大多数月亮领主掉落的武器
+					'月亮领主力量的残存结晶，给伟大英雄的奖赏'
+					'''
+			}
+
+			PrismaticEssence: {
+				DisplayName: 棱镜精华
+				Tooltip:
+					'''
+					用于制造强大的棱镜武器
+					'蕴含泰拉棱镜的强大力量'
+					'''
+			}
+
+			SanguineDagger: {
+				DisplayName: 血红投刀
+				Tooltip: "'它渴望鲜血'"
+			}
+
+			SecondAmendment: {
+				DisplayName: 第二修正案
+				Tooltip:
+					'''
+					可以用刺刀伤害敌人
+					有 20% 几率不消耗弹药
+					'正如开国元勋们所希望的那样...'
+					'''
+			}
+
+			ShroomiteHood: {
+				DisplayName: 退役的蘑菇头巾
+				Tooltip: "'曾经被一支精锐部队使用...'"
+			}
+
+			ShroomiteVisage: {
+				DisplayName: 蘑菇风帽
+				Tooltip:
+					'''
+					增加 10% 远程伤害
+					增加 5% 远程暴击率
+					'''
+			}
+
+			ShroomiteVisor: {
+				DisplayName: 退役的蘑菇面甲
+				Tooltip: "'曾经被一支精锐部队使用...'"
+			}
+
+			SSSU: {
+				DisplayName: 至尊星星炮
+				Tooltip:
+					'''
+					每次发射三轮坠落之星
+					只有第一轮消耗弹药
+					可以发射强力之星，召唤星痕攻击命中的敌人
+					40% 几率不消耗弹药
+					'它只有这么大，300颗还不够？'
+					'''
+			}
+
+			Terrasama: {
+				DisplayName: 泰拉真空刃
+				Tooltip:
+					'''
+					忽略敌人大量防御
+					'又名大红剑克利福德'
+					'''
+			}
+
+			Slimenobi: {
+				DisplayName: 史里剑
+				Tooltip:
+					'''
+					扔出无限的弹力手里剑
+					'被黏液泡了这么长时间，不知何故，这种手里剑比以前更强大了...'
+					'''
+			}
+
+			CasterStaff: {
+				DisplayName: 暗黑权杖
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一个暗黑法师向你的敌人发射水球
+					'诡异恐怖的骷髅！'
+					'''
+			}
+
+			CerebralScepter: {
+				DisplayName: 大脑权杖
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一只克苏鲁之脑指挥为你而战的飞眼怪
+					'现在是大脑时代'
+					'''
+			}
+
+			CursedStaff: {
+				DisplayName: 咒焰权杖
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一只迷你爬藤怪向附近敌人射出诅咒焰球
+					'''
+			}
+
+			DestroyerUplink: {
+				DisplayName: 毁灭者遥控器
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤毁灭者无人机发射探测器摧毁标记的敌人
+					'是时候发挥火力了！'
+					'''
+			}
+
+			EruptionStaff: {
+				DisplayName: 火山权杖
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一个小火山向附近敌人喷出火球
+					'喀拉喀托！'
+					'''
+			}
+
+			ForbiddenStaff: {
+				DisplayName: 禁戒权杖
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一个禁戒之眼抵御和攻击敌人
+					'''
+			}
+
+			IchorStaff: {
+				DisplayName: 灵液权杖
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一只灵液黏黏怪向附近敌人射出灵液
+					'''
+			}
+
+			InvaderStaff: {
+				DisplayName: 星尘乌贼权杖
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一只星尘乌贼指挥为你而战的流体入侵怪
+					'''
+			}
+
+			JungleStaff: {
+				DisplayName: 丛林权杖
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一朵大王花向附近敌人射出孢子炸弹
+					'Ni!'
+					'''
+			}
+
+			SoulStaff: {
+				DisplayName: 王魂权杖
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一个王魂旋风向附近敌人射出魂之射线
+					'''
+			}
+
+			TeslaWrench: {
+				DisplayName: 特斯拉扳手
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一个特斯拉炮塔向附近敌人射出电火花
+					'这么多...特斯拉炮塔！'
+					'''
+			}
+
+			TotemStaff: {
+				DisplayName: 图腾权杖
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一个提基图腾支援玩家，并用符阵伤害敌人
+					'''
+			}
+
+			TwinkleStaff: {
+				DisplayName: 闪耀炮手权杖
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一个闪耀炮手指挥为你而战的闪耀怪
+					'''
+			}
+
+			VengefulTorch: {
+				DisplayName: 复仇火把
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一个复仇火把神向附近敌人发射火球
+					'''
+			}
+
+			VindictiveTorch: {
+				DisplayName: 惩戒火把
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一个惩戒火把神向附近敌人发射火球
+					'''
+			}
+
+			AdamantiteRapier: {
+				DisplayName: 精金刺剑
+				Tooltip: ""
+			}
+
+			BoneRattler: {
+				DisplayName: 骨短剑
+				Tooltip:
+					'''
+					命中时发射十字骨
+					'敲我的骨头！'
+					'''
+			}
+
+			Bramblethorn: {
+				DisplayName: 荆棘短刃
+				Tooltip: 发射短程毒刺，对目标造成中毒
+			}
+
+			Carnage: {
+				DisplayName: 血腥短剑
+				Tooltip: ""
+			}
+
+			Carnwennan: {
+				DisplayName: 神圣短剑
+				Tooltip: 攻击时发射短剑的残像
+			}
+
+			ChlorophyteRapier: {
+				DisplayName: 叶绿刺剑
+				Tooltip: 命中时发射孢子云
+			}
+
+			CobaltRapier: {
+				DisplayName: 钴刺剑
+				Tooltip: ""
+			}
+
+			EnchantedShortsword: {
+				DisplayName: 附魔短剑
+				Tooltip: 射出附魔短剑束
+			}
+
+			FancyFoil: {
+				DisplayName: 花剑
+				Tooltip:
+					'''
+					杀死的敌人会掉落更多的钱
+					'你好！我喜欢钱！'
+					'''
+			}
+
+			Firebrand: {
+				DisplayName: 千度刀
+				Tooltip:
+					'''
+					点燃敌人，有几率对目标造成狱火
+					'史莱姆 vs 千度刀'
+					'''
+			}
+
+			GraniteGauntlet: {
+				DisplayName: 花岗岩拳套
+				Tooltip: 将敌人推向死亡
+			}
+
+			LilPokey: {
+				DisplayName: 戳刺小刀
+				Tooltip:
+					'''
+					对目标造成霜冻，有几率造成冻伤
+					'He's Mr.Icicle, he's Mr.Ten Below'
+					'''
+			}
+
+			MythrilRapier: {
+				DisplayName: 秘银刺剑
+				Tooltip: ""
+			}
+
+			NecroticDagger: {
+				DisplayName: 亡灵匕首
+				Tooltip:
+					'''
+					向前发出真空波
+					造成伤害可能会导致额外的匕首出现
+					'''
+			}
+
+			OrichalcumRapier: {
+				DisplayName: 山铜刺剑
+				Tooltip: ""
+			}
+
+			PalladiumRapier: {
+				DisplayName: 钯金刺剑
+				Tooltip: ""
+			}
+
+			PointyStick: {
+				DisplayName: 尖棒
+				Tooltip: "'又棕又尖'"
+			}
+
+			PowerBindings: {
+				DisplayName: 火星拳套
+				Tooltip: "'站好了！'"
+			}
+
+			RG24: {
+				DisplayName: 枪剑原型-RG24
+				Tooltip:
+					'''
+					能像枪一样射出子弹
+					'最新的枪剑技术'
+					'''
+			}
+
+			ShadowsStabber: {
+				DisplayName: 暗影短剑
+				Tooltip: ""
+			}
+
+			SpookyStick: {
+				DisplayName: 阴森短枝
+				Tooltip:
+					'''
+					有几率射出希腊火
+					'黑暗而诡异'
+					'''
+			}
+
+			Starblazer: {
+				DisplayName: 流星粉碎者
+				Tooltip: "'燃烧出一条光路，把你的敌人夷为平地！'"
+			}
+
+			TerraShortsword: {
+				DisplayName: 泰拉短剑
+				Tooltip: "'泰拉剑的另一个优秀替代品'"
+			}
+
+			TitaniumRapier: {
+				DisplayName: 钛金刺剑
+				Tooltip: ""
+			}
+
+			ZenithShortsword: {
+				DisplayName: 天顶短剑
+				Tooltip: "'真想知道是谁把天顶的力量注入了一把短剑'"
+			}
+
+			Drakanian: {
+				DisplayName: 日耀龙骑枪
+				Tooltip: "'用龙骑士的力量击败你的敌人！'"
+			}
+
+			FemurBreaker: {
+				DisplayName: 防爆骨叉
+				Tooltip:
+					'''
+					命中时发射十字骨
+					'献给配得上的人...'
+					'''
+			}
+
+			Gigazapper: {
+				DisplayName: 火星之矛
+				Tooltip:
+					'''
+					一种强大的能量矛，可以雾化任何东西
+					'也被称为电矛'
+					'''
+			}
+
+			GraniteGlaive: {
+				DisplayName: 花岗岩阔剑
+				Tooltip: ""
+			}
+
+			HeavensHalberd: {
+				DisplayName: 天堂之戟
+				Tooltip:
+					'''
+					发射幻影矛尖追击敌人
+					'终极之戟'
+					'''
+			}
+
+			LihzahrdSpear: {
+				DisplayName: 蜥蜴矛
+				Tooltip: "'从长矛机关上卸下来的'"
+			}
+
+			ShadowSpear: {
+				DisplayName: 暗影矛
+				Tooltip: ""
+			}
+
+			Spearmint: {
+				DisplayName: 糖棒矛
+				Tooltip: "'唇齿留香！'"
+			}
+
+			StingOperator: {
+				DisplayName: 蜇刺毒矛
+				Tooltip: 对目标造成中毒，发射短程毒刺
+			}
+
+			AdamantiteStaff: {
+				DisplayName: 精金魔杖
+				Tooltip: ""
+			}
+
+			AlloyStaff: {
+				DisplayName: 合金魔杖
+				Tooltip: 释放神奇魔力
+			}
+
+			BorealisStaff: {
+				DisplayName: 北极法杖
+				Tooltip:
+					'''
+					发射北极光束，在命中敌人时产生调高防御的屏障
+					'你要知道这不是第一次，也不是最后一次，北极光被武器化'
+					'''
+			}
+
+			CobaltStaff: {
+				DisplayName: 钴魔杖
+				Tooltip: ""
+			}
+
+			ConduitRod: {
+				DisplayName: 电荷法杖
+				Tooltip: 发射电火花，有几率产生电圈
+			}
+
+			CoralScepter: {
+				DisplayName: 珊瑚法杖
+				Tooltip: ""
+			}
+
+			CosmicWand: {
+				DisplayName: 宇宙魔杖
+				Tooltip: "'不要低估这根魔杖蕴含的宇宙伟力'"
+			}
+
+			FinalFractalStaff: {
+				DisplayName: 终末分形
+				Tooltip: ""
+			}
+
+			HallowedScepter: {
+				DisplayName: 神圣魔杖
+				Tooltip: ""
+			}
+
+			Lunacy: {
+				DisplayName: 天界之门
+				Tooltip: "'不可预测地接引月亮领主的无限力量'"
+			}
+
+			LunacyNew: {
+				DisplayName: 拜月法杖
+				Tooltip:
+					'''
+					随机施放拜月邪教徒的咒语
+					'它会射火、冰还是其它奇怪的东西？'
+					'''
+			}
+
+			Midnight: {
+				DisplayName: 永夜魔杖
+				Tooltip: ""
+			}
+
+			MythrilStaff: {
+				DisplayName: 秘银魔杖
+				Tooltip: ""
+			}
+
+			NebulousScepter: {
+				DisplayName: 星云法杖
+				Tooltip: ""
+			}
+
+			OrichalcumStaff: {
+				DisplayName: 山铜魔杖
+				Tooltip: ""
+			}
+
+			PalladiumStaff: {
+				DisplayName: 钯金魔杖
+				Tooltip: ""
+			}
+
+			PrismaticStaff: {
+				DisplayName: 七彩法杖
+				Tooltip:
+					'''
+					燃烧宝石的魔力
+					'我们的力量聚合在一起'
+					'''
+			}
+
+			Snowsplosion: {
+				DisplayName: 雪花飞溅
+				Tooltip:
+					'''
+					召唤一个剧烈弹跳的爆炸性雪人
+					爆炸对敌人造成两次伤害
+					'记住，不要在家里尝试！'
+					'''
+			}
+
+			SporeScepter: {
+				DisplayName: 孢子法杖
+				Tooltip: 发射丛林孢子
+			}
+
+			TerraStaff: {
+				DisplayName: 泰拉魔杖
+				Tooltip: ""
+			}
+
+			TitaniumStaff: {
+				DisplayName: 钛金魔杖
+				Tooltip: ""
+			}
+
+			TrueHallowedScepter: {
+				DisplayName: 真·神圣魔杖
+				Tooltip: ""
+			}
+
+			TrueMidnight: {
+				DisplayName: 真·永夜魔杖
+				Tooltip: ""
+			}
+
+			BeetleBlade: {
+				DisplayName: 甲虫之剑
+				Tooltip:
+					'''
+					造成伤害有几率获得甲虫耐力或甲虫力量增益
+					忽略敌人大量防御
+					有几率对目标造成混乱，并剥夺其击退抗性
+					玩家获得甲虫增益后，甲虫之剑获得加强并造成额外伤害
+					'''
+			}
+
+			CoralCutter: {
+				DisplayName: 珊瑚爪
+				Tooltip: ""
+			}
+
+			Corsaerial: {
+				DisplayName: 劫匪刺刀
+				Tooltip:
+					'''
+					当你在半空或移动足够快时，提高伤害
+					'有抱负的空中劫匪的绝佳武器'
+					'''
+			}
+
+			PrismaticPhaseblade: {
+				DisplayName: 七彩陨石光剑
+				Tooltip: "'最好在高空使用'"
+			}
+
+			PrismaticPhasesaber: {
+				DisplayName: 棱晶光刃
+				Tooltip: "'事半功倍'"
+			}
+
+			Sabrewing: {
+				DisplayName: 星际海盗刺刀
+				Tooltip:
+					'''
+					当你在半空或移动足够快时，提高伤害
+					提高移动速度会进一步增加伤害
+					手持时提高移动速度
+					'制霸天空和星星的掠夺者！'
+					'''
+			}
+
+			SandstormScimitar: {
+				DisplayName: 沙尘弯刀
+				Tooltip:
+					'''
+					有几率射出沙尘团
+					'沙子... 它又粗糙又迷人...它无处不在'
+					'''
+			}
+
+			Soladius: {
+				DisplayName: 索拉迪乌斯
+				Tooltip: "'没有人能抵挡你的光辉！'"
+			}
+
+			SoulBreaker: {
+				DisplayName: 灵魂破碎刃
+				Tooltip:
+					'''
+					对于满血的敌人造成更多哦伤害
+					忽略敌人少量防御
+					'比它的表弟更残忍'
+					'''
+			}
+
+			Techblade: {
+				DisplayName: 科技剑
+				Tooltip: 挥舞时发出电火花
+			}
+
+			BeetleBuzz: {
+				DisplayName: 甲虫契约
+				Tooltip: 召唤甲虫攻击你的敌人
+			}
+
+			Boulderpult: {
+				DisplayName: 巨石之约
+				Tooltip: 召唤巨石风暴
+			}
+
+			BurningSphere: {
+				DisplayName: 狱火之球
+				Tooltip: 发射无视地形的狱火之球，命中后引发爆炸
+			}
+
+			Catapult: {
+				DisplayName: 碎石之触
+				Tooltip: 发射小石子
+			}
+
+			ChaosBall: {
+				DisplayName: 混沌之球
+				Tooltip: 发射无视地形的混沌之球
+			}
+
+			DustDevil: {
+				DisplayName: 尘暴
+				Tooltip: 释放凶猛的沙子冲击波
+			}
+
+			LacewingsDance: {
+				DisplayName: 草岭之舞
+				Tooltip:
+					'''
+					召唤七彩草岭撞击敌人
+					泰拉棱镜存在时，伤害降低
+					'''
+			}
+
+			LostTome: {
+				DisplayName: 失落法书
+				Tooltip: 释放绿金色的魔法粒子
+			}
+
+			PredictorPiercers: {
+				DisplayName: 预星启言
+				Tooltip: 制造一段时间后追踪敌人的星云针弹射弹
+			}
+
+			RazorLeaf: {
+				DisplayName: 飞叶快刀
+				Tooltip: 射出一连串锋利的魔法树叶
+			}
+
+			Redemption: {
+				DisplayName: 救赎
+				Tooltip: 对敌人造成伤害将治疗队伍内生命值最低的玩家
+			}
+
+			SoulBurst: {
+				DisplayName: 爆裂械魂
+				Tooltip:
+					'''
+					释放扩散的械魂
+					每种机械之魂有不同的颜色E
+					'''
+			}
+
+			SpectralBurst: {
+				DisplayName: 爆裂幽魂
+				Tooltip: 向各个方向释放一股飘忽不定的幽魂
+			}
+
+			AncientChains: {
+				DisplayName: 远古锁链
+				Tooltip:
+					'''
+					20 召唤标记伤害
+					你的召唤物将集中攻击被标记的敌人
+					攻击敌人以召唤石巨人之头
+					'荒谬...？'
+					'''
+			}
+
+			Aurora: {
+				DisplayName: 极光
+				Tooltip:
+					'''
+					15 召唤标记伤害
+					15% 召唤标记暴击率
+					普通召唤标记击退力
+					你的召唤物将集中攻击被标记的敌人
+					攻击敌人以增加防御、生命再生和鞭子攻击速度
+					'额...北极光？在这个鞭子里？... '
+					'''
+			}
+
+			BlocksWhip: {
+				DisplayName: BlockCrusader之鞭
+				Tooltip:
+					'''
+					15% 召唤标记暴击率
+					你的召唤物将集中攻击被标记的敌人
+					攻击敌人以增加鞭子攻击速度
+					'非常适合冒充模组开发者！'
+					'你为什么惹了召唤师？'
+					'''
+			}
+
+			Constellation: {
+				DisplayName: 星座
+				Tooltip:
+					'''
+					普通召唤标记击退力
+					你的召唤物将集中攻击被标记的敌人
+					攻击敌人以生成星尘爆炸造成额外伤害
+					'愿星光指引你走向胜利'
+					'''
+			}
+
+			CorruptionsScourge: {
+				DisplayName: 腐化之鞭
+				Tooltip:
+					'''
+					5 召唤标记伤害
+					极弱召唤标记击退力
+					你的召唤物将集中攻击被标记的敌人
+					挥舞双鞭
+					'不要与腐化者之戟混淆'
+					'''
+			}
+
+			DusksBite: {
+				DisplayName: 永夜之鞭
+				Tooltip:
+					'''
+					8 召唤标记伤害
+					3% 召唤标记暴击率
+					你的召唤物将集中攻击被标记的敌人
+					'''
+			}
+
+			EmberingScourge: {
+				DisplayName: 地狱之挞
+				Tooltip:
+					'''
+					7 召唤标记伤害
+					你的召唤物将集中攻击被标记的敌人
+					召唤攻击可能对被标记的敌人造成狱火
+					'''
+			}
+
+			Lacerator: {
+				DisplayName: 血肉之鞭
+				Tooltip:
+					'''
+					4 召唤标记伤害
+					2% 召唤标记暴击率
+					你的召唤物将集中攻击被标记的敌人
+					'''
+			}
+
+			LostRaider: {
+				DisplayName: 奇兵之鞭
+				Tooltip:
+					'''
+					12 召唤标记伤害
+					你的召唤物将集中攻击被标记的敌人
+					召唤攻击可能对被标记的敌人造成酸性毒液
+					攻击敌人以增加鞭子攻击速度
+					'印第安纳·琼斯...？'
+					'''
+			}
+
+			MoonBite: {
+				DisplayName: 月噬之鞭
+				Tooltip:
+					'''
+					30 召唤标记伤害
+					极强召唤标记击退力
+					你的召唤物将集中攻击被标记的敌人
+					攻击敌人以偷取生命
+					'Don't get licked'
+					'''
+			}
+
+			PlasmaScourge: {
+				DisplayName: 等离子天灾鞭
+				Tooltip:
+					'''
+					30 召唤标记伤害
+					普通召唤标记击退力
+					你的召唤物将集中攻击被标记的敌人
+					挥舞三鞭
+					'如此尖端的技术，如此残酷...'
+					'''
+			}
+
+			RopeWhip: {
+				DisplayName: 绳鞭
+				Tooltip:
+					'''
+					3 召唤标记伤害
+					你的召唤物将集中攻击被标记的敌人
+					'''
+			}
+
+			ScrapHook: {
+				DisplayName: 废料钩鞭
+				Tooltip:
+					'''
+					5 召唤标记伤害
+					你的召唤物将集中攻击被标记的敌人
+					攻击敌人以发出电火花
+					'''
+			}
+
+			SeaScourge: {
+				DisplayName: 海洋之挞
+				Tooltip:
+					'''
+					10 召唤标记伤害
+					普通召唤标记击退力
+					你的召唤物将集中攻击被标记的敌人
+					挥舞双鞭
+					'''
+			}
+
+			ShadowflameWhip: {
+				DisplayName: 暗影焰鞭
+				Tooltip:
+					'''
+					极弱召唤标记击退力
+					你的召唤物将集中攻击被标记的敌人
+					召唤攻击可能对被标记的敌人造成暗影焰
+					'''
+			}
+
+			Summit: {
+				DisplayName: 天顶鞭
+				Tooltip: 你的召唤物将集中攻击被标记的敌人
+			}
+
+			TerraWhip: {
+				DisplayName: 泰拉之鞭
+				Tooltip:
+					'''
+					10 召唤标记伤害
+					5% 召唤标记暴击率
+					较弱召唤标记击退力
+					你的召唤物将集中攻击被标记的敌人
+					攻击敌人以增加鞭子攻击速度
+					鞭子释放能量冲击波，造成额外伤害
+					'''
+			}
+
+			TrueDurendal: {
+				DisplayName: 真·迪朗达尔
+				Tooltip:
+					'''
+					11 召唤标记伤害
+					你的召唤物将集中攻击被标记的敌人
+					攻击敌人以增加鞭子攻击速度，并造成能量切割
+					'''
+			}
+
+			TrueDusksBite: {
+				DisplayName: 真·永夜之鞭
+				Tooltip:
+					'''
+					10% 召唤标记暴击率
+					你的召唤物将集中攻击被标记的敌人
+					使用永夜能量打击敌人
+					永夜能量在敌人被召唤物击中时爆炸
+					鞭子释放粉碎能量刃，造成额外伤害
+					'''
+			}
+
+			WeaverWhip: {
+				DisplayName: 纺星之鞭
+				Tooltip:
+					'''
+					10 召唤标记伤害
+					25% 召唤标记暴击率
+					你的召唤物将集中攻击被标记的敌人
+					'编织你自己的命运！'
+					'''
+			}
+
+			Angel: {
+				DisplayName: 圣天使球
+				Tooltip: 可以穿透墙壁
+			}
+
+			Darksoul: {
+				DisplayName: 黯魂球
+				Tooltip: ""
+			}
+
+			Empress: {
+				DisplayName: 光皇球
+				Tooltip:
+					'''
+					产生光刃以伤害附近的敌人
+					'行使神圣权柄'
+					'''
+			}
+
+			Fireball: {
+				DisplayName: 焱烬球
+				Tooltip: 有几率对目标造成狱火
+			}
+
+			RoyalRoll: {
+				DisplayName: 皇家球
+				Tooltip: ""
+			}
+
+			ShiningSpin: {
+				DisplayName: 闪亮球
+				Tooltip: ""
+			}
+
+			SpinninSkull: {
+				DisplayName: 转骨球
+				Tooltip:
+					'''
+					有几率产生燃烧头骨
+					'多少骨头？！'
+					'''
+			}
+
+			SunSroller: {
+				DisplayName: 灼日球
+				Tooltip: "'让太阳的怒火落在你的敌人身上'"
+			}
+
+			ThoraxThrow: {
+				DisplayName: 甲虫球
+				Tooltip: 有几率对目标造成混乱，并忽略敌人少量防御
+			}
+
+			AscendedKnives: {
+				DisplayName: 飞升圣刀
+				Tooltip:
+					'''
+					快速扔出匕首，命中后额外分裂成偷取生命的匕首
+					'献给 Jason 'Lienfors' Parker'
+					'飞升天际，即使坟墓也无法阻挡你'
+					'''
+			}
+
+			LegendJewel: {
+				DisplayName: 传奇宝珠
+				Tooltip:
+					'''
+					用于制作难以想象的强大武器
+					'击败最强大的黑暗月亮领主后，留下的潜力无限的遗物...'
+					'只有最可敬的英雄才能获得终极奖励'
+					传奇
+					'''
+			}
+
+			LegendaryPan: {
+				DisplayName: 传奇华夫铁
+				Tooltip:
+					'''
+					'你喜欢华夫饼吗？'
+					传奇
+					'''
+			}
+
+			Revengance: {
+				DisplayName: 奥库瑞姆的复仇
+				Tooltip:
+					'''
+					'这代表奥库瑞姆卷土重来的怒气！'
+					传奇
+					'''
+			}
+
+			OcramsRevenge: {
+				DisplayName: 奥库瑞姆的封印书
+				Tooltip: "'奥库瑞姆的不甘在这禁咒上延续'"
+			}
+
+			RedRifle: {
+				Tooltip: "'死从天降'"
+				DisplayName: 赭红步枪
+			}
+
+			RedigitRifle: {
+				Tooltip:
+					'''
+					'他被开发者...暗杀了！'
+					传奇
+					'''
+				DisplayName: 瑞德的步枪
+			}
+
+			FixedStaff: {
+				DisplayName: 美杜莎权杖
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一块邪恶的机械美杜莎石碑
+					'查询开发者精神状态'
+					'''
+			}
+
+			TrueFixedStaff: {
+				DisplayName: 奥库瑞姆权杖
+				Tooltip:
+					'''
+					召唤哨兵
+					召唤一个被天界能量加持的机械美杜莎，将敌人送往奥克拉姆之家
+					'我希望你喜欢巨石'
+					传奇
+					'''
+			}
+
+			PartycandleMK2: {
+				DisplayName: 派对香薰Mk2
+				Tooltip: "'给你的敌人一个大结局！'"
+			}
+
+			CommanderBroach: {
+				DisplayName: 带有凹槽的指挥官徽章
+				Tooltip:
+					'''
+					增加 15% 召唤伤害
+					增加 15% 召唤击退
+					增加 1 个哨兵数量上限
+					'''
+			}
+
+			FearmongerGauntlet: {
+				DisplayName: 幽惧手套
+				Tooltip:
+					'''
+					增加 12% 鞭子伤害
+					增加 12% 近战/鞭子攻速
+					增加鞭子击退
+					增加 20% 鞭子范围
+					鞭子标记减少敌人防御
+					为鞭子和近战武器启用自动挥舞
+					'''
+			}
+
+			BeeVeil: {
+				DisplayName: 蜜蜂面罩
+				Tooltip:
+					'''
+					增加 5% 召唤伤害
+					增加哨兵数量上限
+					'''
+			}
+
+			SpiderVisor: {
+				DisplayName: 蜘蛛风帽
+				Tooltip:
+					'''
+					增加 7% 召唤伤害
+					增加哨兵数量上限
+					'''
+			}
+
+			TikiHeadress: {
+				DisplayName: 提基头饰
+				Tooltip:
+					'''
+					增加 12% 召唤伤害
+					增加哨兵数量上限
+					'''
+			}
+
+			FlareCannon: {
+				DisplayName: 信号手炮
+				Tooltip: ""
+			}
+
+			GolfCannon: {
+				DisplayName: 高尔夫手炮
+				Tooltip:
+					'''
+					发射造成伤害的高尔夫球
+					'小心球！！！'
+					'''
+			}
+
+			Vertex: {
+				DisplayName: 极点球
+				Tooltip: 释放粉碎涡流
+			}
+
+			Battlestaff: {
+				DisplayName: 战棍
+				Tooltip: ""
+			}
+
+			Inferno: {
+				DisplayName: 狱火棍
+				Tooltip:
+					'''
+					产生燃烧的光环，点燃附近的敌人	
+					'一团燃烧的火！'
+					'''
+			}
+
+			FingerGun: {
+				DisplayName: 手指枪
+				Tooltip: "'砰砰砰'"
+			}
+
+			BeamScepter: {
+				DisplayName: 光束三节棍
+				Tooltip:
+					'''
+					以光能击打敌人
+					'光束攻击！'
+					'''
+			}
+
+			AstralHarmony: {
+				DisplayName: 调谐星体
+				Tooltip:
+					'''
+					召唤围绕你旋转的星光，一段时间射出强大的恒星射线
+					'释放出一颗上天保佑的新星！'
+					'''
+			}
+		}
+
+		Projectiles: {
+			AncientKylieProjectile.DisplayName: 远古回旋镖
+			AntlerangProjectile.DisplayName: 鹿角棒
+			BlazingDiscProjectile.DisplayName: 炽热唱片
+			ChlorothornChakramProjectile.DisplayName: 叶绿旋刃
+			CosmicutterProjectile.DisplayName: 寰宇飞刃
+			CreeperDiscProjectile.DisplayName: 飞眼唱片
+			DivinityProjectile.DisplayName: 神性唱片
+			DivinitySpecial.DisplayName: 神性唱片神圣风暴
+			DivinitySplitshot.DisplayName: 神性唱片神圣风暴核心
+			ForbiddenKylieProjectile.DisplayName: 禁戒回旋镖
+			GlaiveGauntletMK2Projectile.DisplayName: 电离旋刃MK2
+			GlaiveGauntletProjectile.DisplayName: 电离旋刃
+			MonsoonProjectile.DisplayName: 季风
+			ScaleShredderProjectile.DisplayName: 暗鳞粉碎机
+			SplitshotPellet.DisplayName: 神圣风暴
+			TwinFlaresExplosion.DisplayName: 双旋爆炸
+			TwinFlaresProjectile.DisplayName: 日耀双旋
+			EldritchArrow.DisplayName: 诡异之箭
+			EldritchEye.DisplayName: 幻影眼
+			EnergyRepeaterProjectile.DisplayName: 充能射线
+			HallowedBolt.DisplayName: 神圣箭
+			JunglefuryPoisonSeed.DisplayName: 丛林之怒有毒种子
+			JunglefurySeed.DisplayName: 丛林之怒种子
+			MechanizedBowSpark.DisplayName: 机械弓电火花
+			MidnightArrow.DisplayName: 永夜箭
+			NightArrow.DisplayName: 残夜箭
+			OmegaArrow.DisplayName: 天顶弓箭
+			OmegaArrowSecondary.DisplayName: 天顶弓箭
+			PillagerArrow.DisplayName: 掠夺箭
+			PlasmcasterProjectile.DisplayName: 星璇箭
+			PlasmcasterVortex.DisplayName: 星璇弩
+			PoisonArrowProjectile.DisplayName: 毒箭
+			SandMissile.DisplayName: 沙导弹
+			TerraArrow.DisplayName: 泰拉箭
+			TerraArrowSecondary.DisplayName: 泰拉箭
+			VortexVisual.DisplayName: 星璇弩
+			BasicDartProjectile.DisplayName: 飞镖
+			DarkmoonGauntletProjectile.DisplayName: 残夜箭
+			GildedDartProjectile.DisplayName: 金镖
+			IncendiaryDartProjectile.DisplayName: 狱炎镖
+			LuminiteDartProjectile.DisplayName: 夜明镖
+			NanoDartProjectile.DisplayName: 纳米镖
+			PredatorDart.DisplayName: 捕食者飞镖
+			VenomDartProjectile.DisplayName: 毒液镖
+			AvalancheProjectile.DisplayName: 雪崩
+			BeetlesBoulderProjectile.DisplayName: 甲虫圆石
+			ChainKunaiProjectile.DisplayName: 鍬刀锁链
+			DeathspinProjectile.DisplayName: 死亡回转
+			DeathspinSecondary.DisplayName: 死亡回转手臂
+			DungeonsRavagerProjectile.DisplayName: 地牢破坏者
+			FungiFlailProjectile.DisplayName: 真菌链锤
+			JudgementProjectile.DisplayName: 审判
+			LittleSnatcherProjectile.DisplayName: 食人草
+			MoonFistEye.DisplayName: 幻影眼
+			MoonFistProjectile.DisplayName: 月神之拳
+			RockRopeProjectile.DisplayName: 系绳石
+			ShellSmasherProjectile.DisplayName: 龟壳粉碎机
+			SkelefistProjectile.DisplayName: 骷髅王之拳
+			SkelevicePrimeProjectile.DisplayName: 机械铁拳
+			SunsRageProjectile.DisplayName: 曜日之冕
+			TameTrapperProjectile.DisplayName: 乖巧捕手
+			ThornballProjectile.DisplayName: 荆棘刺球
+			BloodboilProjectile.DisplayName: 热血沸腾
+			BoneSingerProjectile.DisplayName: 骨歌者
+			CursedFlamerProjectile.DisplayName: 咒火喷吐者
+			DistortionAfterburnerProjectile.DisplayName: 畸变过燃机
+			FrostbiteProjectile.DisplayName: 寒霜之噬
+			GelFlamerProjectile.DisplayName: 凝胶发射器
+			GreekAfterburnProjectile.DisplayName: 希腊火
+			GreekAfterburnProjectile2.DisplayName: 希腊火
+			GreekAfterburnProjectile3.DisplayName: 希腊火
+			HellfireProjectile.DisplayName: 狱火发射器
+			IchorSprayProjectile.DisplayName: 灵焰喷雾
+			JunglesBaneProjectile.DisplayName: 丛林之祸
+			LihzahrdFlameGunProjectile.DisplayName: 蜥蜴火焰枪
+			MoonrazerProjectile.DisplayName: 太阴尘烬
+			WaterflameProjectile.DisplayName: 水焱发射器
+			WildfireProjectile.DisplayName: 野性之炎
+			AntimatterBullet.DisplayName: 反物质子弹
+			EdgeBlast.DisplayName: 近地狙击炮
+			EdgeProjectile.DisplayName: 近地狙击炮
+			PulsarBullet.DisplayName: 激光弹
+			PulsarFlames.DisplayName: 双脉冲星火焰
+			BeggarsBazookaProjectile.DisplayName: 街友火箭炮
+			BoneBlastaProjectile.DisplayName: 骨爆冲击
+			BunnyMissile.DisplayName: 兔兔巴祖卡火箭弹
+			DestructiveBeggarsBazookaProjectile.DisplayName: 街友火箭炮
+			DestructiveBomba.DisplayName: 迷你核弹
+			DestructiveBoneBlastaProjectile.DisplayName: 骨爆冲击
+			DestructiveIncindiearyMissile.DisplayName: 导弹
+			DestructivePrimeCannonProjectile.DisplayName: 机械炸弹
+			DestructiveRiptideProjectile.DisplayName: 洪流火箭
+			HandCannonProjectile.DisplayName: 炮弹
+			IncindiearyMissile.DisplayName: 导弹
+			MiniBomba.DisplayName: 迷你核弹
+			OwnerSelfDamageHitbox.DisplayName: 爆炸
+			PrimeCannonProjectile.DisplayName: 机械炸弹
+			RadianceRocketI.DisplayName: 光辉火箭 I
+			RadianceRocketII.DisplayName: 光辉火箭 II
+			RadianceRocketIII.DisplayName: 光辉火箭 III
+			RadianceRocket.DisplayName: 光辉火箭
+			RadianceSecondary.DisplayName: 彩虹光辉
+			RiptideProjectile.DisplayName: 洪流
+			SporeBomberProjectile.DisplayName: 孢子发射器
+			CrystalCarbineProjectile.DisplayName: 水晶卡宾枪
+			DeathLaserProjectile.DisplayName: 死亡激光
+			DeathrayProjectile.DisplayName: 死亡射线
+			FireBeamerProjectile.DisplayName: 狱火射线
+			Partycandle2nd.DisplayName: 派对烟花
+			Partycandle3rd.DisplayName: 派对烟花
+			PartycandleMain.DisplayName: 派对烟花
+			PhaserLaserMultihit.DisplayName: 相位激光
+			PhaserLaserProjectile.DisplayName: 相位激光
+			ShockgunProjectile.DisplayName: 电击枪
+			SolarBeamProjectile.DisplayName: 生机射线
+			SparkTaserProjectile.DisplayName: 电火花
+			EvilEyeBeam.DisplayName: 邪恶大眼
+			EvilEyeProjectile.DisplayName: 邪恶大眼
+			EvilEyeServant.DisplayName: 恶魔眼仆从
+			FlaskFungi.DisplayName: 真菌孢子
+			FungiFlaskProjectile.DisplayName: 真菌烧瓶
+			GleamingBallAura.DisplayName: 魔法庇佑
+			GrandCrystalProjectile.DisplayName: 宏伟水晶
+			GrandCrystalShard.DisplayName: 晶体碎片
+			HoneyhiveHeal.DisplayName: 治疗蜂箱
+			HoneyhiveProjectile.DisplayName: 蜂蜜球
+			IcicleFanMultihit.DisplayName: 寒冰扇
+			IcicleFanProjectile.DisplayName: 寒冰扇
+			MockeryNote1.DisplayName: 堕落音符
+			MockeryNote2.DisplayName: 堕落音符
+			MockeryNote3.DisplayName: 堕落音符
+			PossessedDaggerProjectile.DisplayName: 幽灵投刀
+			PossessedTorchTorch.DisplayName: 奇异火把
+			SphereSongProjectile.DisplayName: 星云竖琴
+			SporeCloud1.DisplayName: 孢子云
+			TorchFireball.DisplayName: 火把神火球
+			VileBreachProjectile.DisplayName: 卑鄙裂口
+			BallaMinion.DisplayName: 巴拉雪人
+			BallaProjectile.DisplayName: 雪球
+			JungleCreeperMinion.DisplayName: 丛林蜘蛛
+			ShadowflameMinion.DisplayName: 暗影焰幻鬼
+			SkullMinion.DisplayName: 守卫头骨
+			SpiritMinion.DisplayName: 地牢幽魂
+			TerraultimaMinion.DisplayName: 天界棱镜
+			AccursedTridentProjectile.DisplayName: 诅咒三叉戟
+			Bayonett.DisplayName: Bayonett
+			ElectrosphereVisual.DisplayName: 电圈
+			HolyHandGrenadeProjectile.DisplayName: 神圣手雷
+			MeleeStinger.DisplayName: Stinger
+			SanguineDaggerProjectile.DisplayName: 血红投刀
+			SSSUProjectile.DisplayName: 至尊星星炮星痕
+			TerrasamaProjectile.DisplayName: 泰拉真空刃
+			SlimenobiProjectile.DisplayName: 史里剑
+			CasterProjectile.DisplayName: 水球
+			CasterSentry.DisplayName: 迷你暗黑法师
+			CerebralSentry.DisplayName: 飞眼怪之脑
+			ClingerProjectile.DisplayName: 诅咒焰球
+			ClingerSentry.DisplayName: 迷你爬藤怪
+			CreeperMinion.DisplayName: 飞眼怪
+			ForbiddenSentry.DisplayName: 禁戒之眼
+			ForbiddenSentryProjectile.DisplayName: 禁戒之眼
+			IchorProjectile.DisplayName: 灵液
+			IchorSentry.DisplayName: 灵液黏黏怪
+			InvaderProjectile.DisplayName: 流体入侵怪
+			InvaderSentry.DisplayName: 星尘乌贼
+			JungleSentryProjectile.DisplayName: 孢子炸弹
+			JungleStaffSentry.DisplayName: 大王花
+			SoulSentry.DisplayName: 王魂旋风
+			SoulSentryBeam.DisplayName: 魂之射线
+			TeslaBolt.DisplayName: 特斯拉电火花
+			TeslaSentry.DisplayName: 特斯拉炮塔
+			TorchProjectile.DisplayName: 火球
+			TorchSentry.DisplayName: 复仇惩戒火把
+			TotemDamage.DisplayName: 提基符阵
+			TotemSentry.DisplayName: 提基图腾
+			TwinkleProjectile.DisplayName: 闪耀怪
+			TwinkleSentry.DisplayName: 闪耀炮手
+			UplinkLaser.DisplayName: 毁灭者遥控激光
+			UplinkMarker.DisplayName: 毁灭者遥控激光
+			UplinkProbe.DisplayName: 毁灭者遥控探针
+			UplinkSentry.DisplayName: 毁灭者遥控无人机
+			VolcanoProjectile.DisplayName: 火球
+			VolcanoSentry.DisplayName: 火山
+			AdamantiteRapierProjectile.DisplayName: 精金刺剑
+			BoneRattlerProjectile.DisplayName: 骨短剑
+			BramblethornProjectile.DisplayName: 荆棘短刃
+			CarnageProjectile.DisplayName: 血腥短剑
+			CarnwennanProjectile.DisplayName: 神圣短剑
+			CarnwennanProjectile2.DisplayName: 神圣短剑残像
+			ChlorophyteRapierProjectile.DisplayName: 叶绿刺剑
+			CobaltRapierProjectile.DisplayName: 钴刺剑
+			EnchantedShortswordProjectile.DisplayName: 附魔短剑
+			FancyFoilProjectile.DisplayName: 花剑
+			FirebrandProjectile.DisplayName: 千度刀
+			GraniteGauntletHitbox.DisplayName: 花岗岩拳套
+			GreekFireProjectile.DisplayName: 希腊火
+			GreekFireProjectile2.DisplayName: 希腊火
+			GreekFireProjectile3.DisplayName: 希腊火
+			LilPokeyProjectile.DisplayName: 戳刺小刀
+			MythrilRapierProjectile.DisplayName: 秘银刺剑
+			NecroticDaggerProjectile.DisplayName: 亡灵匕首
+			NecroticDaggerSecondary.DisplayName: 亡灵匕首
+			NecroticDaggerShockwave.DisplayName: 亡灵匕首
+			OrichalcumRapierProjectile.DisplayName: 山铜刺剑
+			PalladiumRapierProjectile.DisplayName: 钯金刺剑
+			PointyStickProjectile.DisplayName: 尖棒
+			PowerBindingsHitbox.DisplayName: 火星拳套
+			RG24Projectile.DisplayName: 枪剑原型-RG24
+			ShadowsStabberProjectile.DisplayName: 暗影短剑
+			SpookyStickProjectile.DisplayName: 阴森短枝
+			StarblazerFireball.DisplayName: 流星粉碎者
+			StarblazerProjectile.DisplayName: 流星粉碎者
+			TerraShortswordProjectile.DisplayName: 泰拉短剑
+			TitaniumRapierProjectile.DisplayName: 钛金刺剑
+			ZenithShockwave.DisplayName: 天顶短剑
+			ZenithShortswordProjectile.DisplayName: 天顶短剑
+			DrakanianProjectile.DisplayName: Drakanian
+			FemurBreakerProjectile.DisplayName: 防爆骨叉
+			Gigazap.DisplayName: 火星之矛
+			GigazapperProjectile.DisplayName: 火星之矛
+			GraniteGlaiveProjectile.DisplayName: 花岗岩阔剑
+			HeavensHalberdProjectile.DisplayName: 天堂之戟
+			HHSecondaryProjectile.DisplayName: 天堂之戟
+			LihzahrdSpearProjectile.DisplayName: 蜥蜴矛
+			ShadowSpearProjectile.DisplayName: 暗影矛
+			SpearmintProjectile.DisplayName: 糖棒矛
+			StingOperatorProjectile.DisplayName: 蜇刺毒矛
+			AdamantiteStaffProjectile.DisplayName: 精金魔杖
+			BorealisStaffProjectile.DisplayName: 北极法杖
+			BorealisStaffSecondary.DisplayName: 北极法杖
+			CobaltStaffProjectile.DisplayName: 钴魔杖
+			ConduitElectrosphere.DisplayName: 电圈
+			ConduitRodProjectile.DisplayName: 电荷法杖
+			CoralScepterProjectile.DisplayName: 珊瑚法杖
+			CosmicWandProjectile.DisplayName: 宇宙魔杖
+			FinalFractalBeam.DisplayName: 终末分形
+			LunacyBolt.DisplayName: 天界之门箭矢
+			LunacyEye.DisplayName: 天界之门幻影眼
+			LunacySphere.DisplayName: 幻影球
+			LunacyFireball.DisplayName: 拜月火球
+			LunacyIce.DisplayName: 拜月冰锥
+			LunacyLight.DisplayName: 拜月远古光明妖
+			LunacyLightning.DisplayName: 拜月闪电
+			LunacyShard.DisplayName: 拜月冰碎片
+			MythrilStaffProjectile.DisplayName: 秘银魔杖
+			NebulousScepterProjectile.DisplayName: 星云法杖
+			NebulousVisual.DisplayName: Nebulous 星云法杖
+			OrichalcumStaffProjectile.DisplayName: 山铜魔杖
+			PalladiumStaffProjectile.DisplayName: 钯金魔杖
+			PrismaticStaffProjectile.DisplayName: 七彩法杖
+			SecondarySpore.DisplayName: 孢子法杖
+			SnowsplosionProjectile.DisplayName: 雪花飞溅
+			SporeScepterProjectile.DisplayName: 孢子法杖
+			HallowedScepterProjectile.DisplayName: 神圣魔杖
+			HallowedScepterSecondary.DisplayName: 神圣魔杖
+			MidnightProjectile.DisplayName: 永夜魔杖
+			MidnightSecondary.DisplayName: 永夜魔杖
+			TerraStaffBeamA.DisplayName: 泰拉魔杖
+			TerraStaffBeamB.DisplayName: 泰拉魔杖
+			TerraStaffSecondaryA.DisplayName: 泰拉魔杖
+			TerraStaffSecondaryB.DisplayName: 泰拉魔杖
+			TrueHallowedScepterProjectile.DisplayName: 真·神圣魔杖
+			TrueHallowedScepterSecondary.DisplayName: 真·神圣魔杖
+			TrueMidnightProjectile.DisplayName: 真·永夜魔杖
+			TrueMidnightSecondary.DisplayName: 真·永夜魔杖
+			TitaniumStaffProjectile.DisplayName: 钛金魔杖
+			PrismaticShockwave.DisplayName: Forcewave
+			ScimitarSand1.DisplayName: 沙尘弯刀
+			ScimitarSand2.DisplayName: 沙尘弯刀
+			ScimitarSand3.DisplayName: 沙尘弯刀
+			ScimitarSand4.DisplayName: 沙尘弯刀
+			SoladiusProjectile.DisplayName: 索拉迪乌斯
+			TechbladeSpark.DisplayName: 电火花
+			BeetleBuzzProjectile.DisplayName: 甲虫
+			BurningSphereProjectile.DisplayName: 狱火之球
+			CatapultRock.DisplayName: 碎石之触
+			ChaosBallProjectile.DisplayName: 混沌之球
+			DustDevilProjectile.DisplayName: 尘暴
+			LacewingsDanceProjectile.DisplayName: 草岭之舞
+			LTGreenProjectile.DisplayName: 失落法书
+			LTYellowProjectile.DisplayName: 失落法书
+			PiercersProjectile.DisplayName: 预星启言
+			RazorLeafProjectile.DisplayName: 飞叶快刀
+			RedemptionHeal.DisplayName: 救赎治疗
+			RedemptionProjectile.DisplayName: 救赎
+			SoulBurstProjectile.DisplayName: 爆裂王魂
+			SpectralBurstProjectile.DisplayName: 爆裂幽魂
+			AncientChainsProjectile.DisplayName: 远古锁链
+			AuroraProjectile.DisplayName: 极光
+			BlocksWhipProjectile.DisplayName: BlockCrusader之鞭
+			ChainsBeam.DisplayName: 远古锁链
+			ChainsGolem.DisplayName: 远古锁链
+			ConstellationBurst.DisplayName: 星尘爆炸
+			ConstellationProjectile.DisplayName: 星座
+			CorruptionsScourgeProjectile.DisplayName: 腐化之鞭
+			DusksBiteBlast.DisplayName: 永夜之鞭
+			DusksBiteProjectile.DisplayName: 永夜之鞭
+			EmberingScourgeProjectile.DisplayName: 地狱之挞
+			LaceratorProjectile.DisplayName: 血肉之鞭
+			LostRaiderProjectile.DisplayName: 奇兵之鞭
+			MoonBiteLifesteal.DisplayName: 月噬之鞭生命窃取
+			MoonBiteProjectile.DisplayName: 月噬之鞭
+			PlasmaScourgeProjectile.DisplayName: 等离子天灾鞭
+			RopeWhipProjectile.DisplayName: 绳鞭
+			ScrapHookProjectile.DisplayName: 废料钩鞭
+			ScrapHookSpark.DisplayName: 废料钩鞭
+			SeaScourge2ndProj.DisplayName: 海洋之挞
+			SeaScourgeBubble.DisplayName: 海洋之挞
+			SeaScourgeMainProj.DisplayName: 海洋之挞
+			ShadowflameWhipProjectile.DisplayName: 暗影焰鞭
+			SummitPrisma.DisplayName: 天顶鞭
+			SummitWhip.DisplayName: 天顶鞭
+			TerraWhipProjectile.DisplayName: 泰拉之鞭
+			TerraWhipShockwave.DisplayName: 泰拉之鞭
+			TrueDurendalAfterimage.DisplayName: 真·迪朗达尔
+			TrueDurendalProjectile.DisplayName: 真·迪朗达尔
+			TrueDusksBiteProjectile.DisplayName: 真·永夜之鞭
+			WeaverWhipProjectile.DisplayName: 纺星之鞭
+			AngelProjectile.DisplayName: 圣天使球
+			DarksoulProjectile.DisplayName: 黯魂球
+			EmpressProjectile.DisplayName: 光皇球
+			EmpressSunDance.DisplayName: 光皇球
+			FireballProjectile.DisplayName: 焱烬球
+			RoyalRollProjectile.DisplayName: 皇家球
+			ShiningSpinProjectile.DisplayName: 闪亮球
+			SpinninSkullProjectile.DisplayName: 转骨球
+			SunSrollerFireball.DisplayName: 灼日球
+			SunSrollerProjectile.DisplayName: 灼日球
+			ThoraxThrowProjectile.DisplayName: 甲虫球
+			AscendedKnife.DisplayName: 飞升圣刀
+			LienKnife.DisplayName: 飞升圣刀
+			LienLifesteal.DisplayName: 飞升圣刀
+			SabrewingSlash.DisplayName: 星际海盗刺刀
+			SoladiusSlash.DisplayName: 索拉迪乌斯
+			SoladiusSlash2.DisplayName: 索拉迪乌斯
+			PrismaticSlash.DisplayName: 棱晶光刃
+			PanSlash.DisplayName: 传奇华夫铁
+			PanSlash2.DisplayName: 传奇华夫铁
+			PanPancake.DisplayName: 传奇华夫铁
+			PanToast.DisplayName: 传奇华夫铁
+			PanWaffle.DisplayName: 传奇华夫铁
+			OcramBeam1.DisplayName: 死亡激光
+			OcramBeam2.DisplayName: 死亡激光
+			OcramServant.DisplayName: 死亡激光
+			RedBullet.DisplayName: 赭红步枪子弹
+			RedBeam1.DisplayName: 瑞德的步枪子弹
+			RedBeam2.DisplayName: 瑞德的步枪子弹
+			MechMonolithSentry.DisplayName: 机械美杜莎
+			MechdusaSentry.DisplayName: 奥库瑞姆
+			MechdusaBoulder.DisplayName: 奥库瑞姆
+			MechdusaLimb.DisplayName: 奥库瑞姆
+			MechdusaRet.DisplayName: 奥库瑞姆
+			MechdusaSpaz.DisplayName: 奥库瑞姆
+			Partycandle2ndMK2.DisplayName: 派对烟花
+			Partycandle3rdMK2.DisplayName: 派对烟花
+			PartycandleMainMK2.DisplayName: 派对烟花
+			TrueDurendal2nd.DisplayName: 真·迪朗达尔
+			TrueDuskSlash.DisplayName: 真·永夜之鞭爆炸
+			DrakanianBlast.DisplayName: 日耀龙骑枪爆炸
+			DrakanianChainBlast.DisplayName: 日耀龙骑枪
+			MonsoonShred.DisplayName: 季风
+			MooncrescentBacklash.DisplayName: 新月弓
+			TerraBacklash.DisplayName: 泰拉弓
+			TrueBacklash.DisplayName: 真·永夜弓
+			MidnightFX.DisplayName: 永夜魔杖
+			MidnightSec2.DisplayName: 永夜魔杖
+			TerraFlash.DisplayName: 泰拉魔杖
+			TerraFlashFX.DisplayName: 泰拉魔杖
+			TrueMidnightFX.DisplayName: 真·永夜魔杖
+			TrueMidnightSec2.DisplayName: 真·永夜魔杖
+			VertexProjectile.DisplayName: 极点球
+			VertexSlash.DisplayName: 极点球涡流
+			BattlestaffProjectile.DisplayName: 战棍
+			InfernoProjectile.DisplayName: 狱火棍
+			FingerGunProjectile.DisplayName: 手指枪
+			BeamScepterProjectile.DisplayName: 光束三节棍
+			AstralHarmonyProjectile.DisplayName: 调谐星体
+			SummitTerraultima.DisplayName: 天顶鞭棱镜
+		}
+
+		Configs: {
+			Config: {
+				DisplayName: 阿森纳武器拓展设置
+				Headers.HeaderIdentifier: 主要设置
+
+				dropMasterWeps: {
+					Label: 大师武器掉落
+					Tooltip:
+						'''
+						本模组引入了一系列强力的武器，作为大师模式的额外奖励。此选项让玩家决定是否启用这些武器的掉落
+						请注意，不同于圣物和宠物/坐骑的直接掉落，这些物品是从宝藏袋中开出来的
+						默认开启
+						'''
+				}
+
+				expertWeps: {
+					Label: 专家模式掉落大师武器
+					Tooltip:
+						'''
+						虽然大师武器是为大师模式平衡的，但启用此选项后，你也可以让它们在专家模式下掉落
+						请注意，如果“大师武器掉落”选项被关闭，此选项将不起作用
+						默认关闭
+						'''
+				}
+
+				masterDropRate: {
+					Label: 大师武器掉率（大师模式）
+					Tooltip:
+						'''
+						调整大师武器从对应Boss掉落的概率
+						选项的数值表示掉率的分母，如 5 表示 1/5（20%）的掉率
+						默认为 3（即 33% ）
+						每次调整后需要重新加载模组以生效
+						'''
+				}
+
+				expertDropRate: {
+					Label: 大师武器掉率（专家模式）
+					Tooltip:
+						'''
+						调整大师武器在专家模式的单独掉率
+						选项的数值表示掉率的分母，如 5 表示 1/5（20%）的掉率
+						默认为 10（即 10% ）
+						每次调整后需要重新加载模组以生效
+						'''
+				}
+
+				dropCultistBag: {
+					Label: 掉落宝藏袋（拜月邪教徒）
+					Tooltip:
+						'''
+						让你决定当“大师武器掉落”启用时，拜月邪教徒是否掉落宝藏袋
+						启用“大师武器掉落”后，拜月邪教徒将他的宝藏袋，这通常是不可获得的
+						启用本选项，则拜月邪教徒会掉落宝藏袋；关闭本选项，则宝藏袋不会掉落；但拜月邪教徒的大师武器，仍能在启用“大师武器掉落”后再开袋子获得
+						如果你使用的其它模组也让拜月邪教徒掉落宝藏袋，请关闭此选项，以避免同时掉落多个袋子
+						'''
+				}
+
+				adjustRockets: {
+					Label: 基础火箭弹药平衡
+					Tooltip:
+						'''
+						为使游戏早期的火箭武器可以补充弹药，削弱了“初级火箭”和“二级火箭”的伤害，使其可以“困难模式前”制作
+						“初级火箭”和“二级火箭”的伤害削弱到 20
+						初级火箭可以通过雷管和铁/铅锭制作
+						二级火箭可以通过初级火箭、炸药和狱石锭制作
+						强烈建议启用此选项，否则你将无法为此模组中所有“困难模式前”的火箭武器补充弹药
+						未来会删除“基础火箭弹药平衡”所做的改动，因为作者计划添加自定义弹药
+						'''
+				}
+			}
+		}
+	}
+}
