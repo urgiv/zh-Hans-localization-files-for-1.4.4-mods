@@ -1,0 +1,17 @@
+Title:
+Ghost Respawn
+
+Description:
+Causes you to become a ghost when you die, allowing you to move around while waiting to respawn.
+Additionally in multiplayer, if you are within a certain distance of the closest living player (60 blocks or 120ft by default) you will respawn at the same position rather than at your spawn point.
+
+There is also a config to change:
+-if you can respawn during boss fights,
+-if the closest player must be on your team,
+-if you always respawn at your spawnpoint,
+-the distance required to the closest player,
+-the respawn timer when bosses are not alive (set to -1 to disable override),
+-the respawn timer when bosses are alive (set to -1 to disable override).
+
+For more control over the respawn timer use JavidPack's 'Shorter Respawn Time' mod:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2562997415

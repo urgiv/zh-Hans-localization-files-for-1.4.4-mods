@@ -1,0 +1,61 @@
+Configs: {
+	GhostRespawnConfig: {
+		RequiredRangeToPlayersInBlocks: {
+			Label: Required Range To Players In Blocks
+			Tooltip: How close to other players ghosts have to be in order to respawn at the same position rather than their spawn.
+		}
+
+		RequireSameTeamToRespawn: {
+			Tooltip: ""
+			Label: Require Same Team To Respawn
+		}
+
+		RespawnDuringBossFight: {
+			Tooltip: ""
+			Label: Respawn During Boss Fight
+		}
+
+		WeaponWithGrowingDamageToggle: {
+			Tooltip: ""
+			Label: Weapon With Growing Damage Toggle
+		}
+
+		ExampleWingsToggle: {
+			Tooltip: ""
+			Label: Example Wings Toggle
+		}
+
+		Headers.Items: Items Header
+		DisplayName: Ghost Respawn Config
+
+		NoRespawnDuringBossFight: {
+			Label: No Respawn During Boss Fight
+			Tooltip: ""
+		}
+
+		RespawnOnlyNearTeamates: {
+			Label: Respawn Only Near Teamates
+			Tooltip: ""
+		}
+
+		AlwaysRespawnAtSpawnPoint: {
+			Label: Always Respawn At Spawn Point
+			Tooltip: ""
+		}
+
+		RespawnRangeInBlocks: {
+			Label: Respawn Range In Blocks
+			Tooltip: ""
+		}
+
+		BossRespawnTimerOverrideInSeconds: {
+			Tooltip: ""
+			Label: Boss Respawn Timer Override In Seconds
+		}
+
+		NormalRespawnTimerOverrideInSeconds: {
+			Tooltip: ""
+			Label: Normal Respawn Timer Override In Seconds
+		}
+	}
+}

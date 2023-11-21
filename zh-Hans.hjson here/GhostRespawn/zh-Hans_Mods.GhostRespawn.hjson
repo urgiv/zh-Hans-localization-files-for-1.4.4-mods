@@ -1,0 +1,61 @@
+Configs: {
+	GhostRespawnConfig: {
+		RequiredRangeToPlayersInBlocks: {
+			Label: Required Range To Players In Blocks
+			Tooltip: How close to other players ghosts have to be in order to respawn at the same position rather than their spawn.
+		}
+
+		RequireSameTeamToRespawn: {
+			Tooltip: ""
+			Label: Require Same Team To Respawn
+		}
+
+		RespawnDuringBossFight: {
+			Tooltip: ""
+			Label: Respawn During Boss Fight
+		}
+
+		WeaponWithGrowingDamageToggle: {
+			Tooltip: ""
+			Label: Weapon With Growing Damage Toggle
+		}
+
+		ExampleWingsToggle: {
+			Tooltip: ""
+			Label: Example Wings Toggle
+		}
+
+		Headers.Items: Items Header
+		DisplayName: 幽魂复生设置
+
+		NoRespawnDuringBossFight: {
+			Label: Boss战期间，禁止原地复活
+			Tooltip: ""
+		}
+
+		RespawnOnlyNearTeamates: {
+			Label: 只有靠近队友时，才能原地复活
+			Tooltip: ""
+		}
+
+		AlwaysRespawnAtSpawnPoint: {
+			Label: 总是复活在地图重生点
+			Tooltip: ""
+		}
+
+		RespawnRangeInBlocks: {
+			Label: 多人模式下，原地复活需要最近玩家的距离（格）
+			Tooltip: ""
+		}
+
+		BossRespawnTimerOverrideInSeconds: {
+			Tooltip: ""
+			Label: Boss存在时的复活时间（秒）
+		}
+
+		NormalRespawnTimerOverrideInSeconds: {
+			Tooltip: ""
+			Label: 正常的复活时间（秒）
+		}
+	}
+}
