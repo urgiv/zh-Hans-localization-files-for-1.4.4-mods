@@ -1222,11 +1222,6 @@ Mods: {
 					'''
 			}
 
-			FungiFlask: {
-				DisplayName: 真菌烧瓶
-				Tooltip: 在撞击时传播蘑菇孢子
-			}
-
 			GleamingBall: {
 				DisplayName: 魔法庇佑
 				Tooltip: 生成伤害敌人和保护友军的光环
@@ -2601,6 +2596,16 @@ Mods: {
 					'释放出一颗上天保佑的新星！'
 					'''
 			}
+
+			CombustionFlask: {
+				DisplayName: 狱火烧瓶
+				Tooltip: 在撞击时产生火墙
+			}
+
+			FungiFlask: {
+				DisplayName: 真菌烧瓶
+				Tooltip: 在撞击时传播蘑菇孢子
+			}
 		}
 
 		Projectiles: {
@@ -2723,8 +2728,6 @@ Mods: {
 			EvilEyeBeam.DisplayName: 邪恶大眼
 			EvilEyeProjectile.DisplayName: 邪恶大眼
 			EvilEyeServant.DisplayName: 恶魔眼仆从
-			FlaskFungi.DisplayName: 真菌孢子
-			FungiFlaskProjectile.DisplayName: 真菌烧瓶
 			GleamingBallAura.DisplayName: 魔法庇佑
 			GrandCrystalProjectile.DisplayName: 宏伟水晶
 			GrandCrystalShard.DisplayName: 晶体碎片
@@ -2982,6 +2985,10 @@ Mods: {
 			BeamScepterProjectile.DisplayName: 光束三节棍
 			AstralHarmonyProjectile.DisplayName: 调谐星体
 			SummitTerraultima.DisplayName: 天顶鞭棱镜
+			CombustionFlaskProjectile.DisplayName: 狱火烧瓶
+			CombustionFlaskFire.DisplayName: 狱火烧瓶
+			FlaskFungi.DisplayName: 真菌孢子
+			FungiFlaskProjectile.DisplayName: 真菌烧瓶
 		}
 
 		Configs: {
