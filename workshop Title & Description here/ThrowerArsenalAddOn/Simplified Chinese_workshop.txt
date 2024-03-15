@@ -3,7 +3,7 @@ Block's Thrower: Arsenal Expansion（阿森纳-投手拓展）
 
 Description:
 [h1]巧匠饰品-跨模组拓展[/h1]
-本模组是[url=]阿森纳武器拓展（ARSENAL - Weapons expansion mod ）[/url]和[url=]Block的投手拓展（Block's Thrower Mod）[/url]的官方附加模组。因此，为了使其正常工作，您必须先启用前置模组！
+本模组是[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3047462801]阿森纳武器拓展（ARSENAL - Weapons expansion mod ）[/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3137913977]Block的投手拓展（Block's Thrower Mod）[/url]的官方附加模组。因此，为了使其正常工作，您必须先启用前置模组！
 本模组包括新的投掷武器，以及将一些阿森纳武器转化为投掷武器。
 
 [h2]新武器[/h2]
