@@ -1,0 +1,402 @@
+CommonTooltips: {
+	SetBonus: {
+		Ataraxia:
+			'''
+			Allows the ability to dash
+			10% increased critical strike chance
+			Enemies are much less likely to target you
+			Alternates between granting Light Aspect and Dark Aspect every 10 seconds
+			Light Aspect increases damage dealt, but also increases damage taken some
+			Dark Aspect reduces damage taken, but also reduces damage dealt some
+			'''
+		Nihilshade:
+			'''
+			Grants a high chance to dodge attacks
+			This dodge has a 10 second cooldown when triggered
+			However, while on cooldown, enemies are slightly less likely to target you, and you gain slightly increased life regeneration
+			Furthermore, triggering the dodge creates a Nihilshade Illusion which will attack nearby foes and lasts for 5 seconds
+			'''
+		Ascended:
+			'''
+			33% chance to not consume thrown items
+			If you take fatal damage, a surge of energy is unleashed and you are healed for up to 500 health
+			This revival effect has a 5 minute cooldown
+			Triggering the revive increases your damage and critical strike chance by 25% for 30 seconds
+			When the revive is readied, you gain increased life regeneration, otherwise, you gain a low chance to dodge attacks
+			Dying leaves behind an Ascended Spirit, which attacks nearby enemies and explodes for high damage
+			'''
+	}
+}
+
+Items: {
+	AtaraxiaShard: {
+		DisplayName: Ataraxia Shard
+		Tooltip: "'Harmonious matter that is perfectly balanced, as all things should be'"
+	}
+
+	AtaraxiaVisage: {
+		DisplayName: Ataraxia Visage
+		Tooltip:
+			'''
+			14% increased throwing damage
+			4% increased throwing critical strike chance
+			12% increased throwing velocity
+			Enemies are slightly less likely to target you
+			'''
+	}
+
+	AtaraxiaRobes: {
+		DisplayName: Ataraxia Robes
+		Tooltip:
+			'''
+			9% increased throwing damage
+			5% increased throwing critical strike chance
+			20% chance to not consume thrown items
+			Increased life regeneration
+			Enemies are slightly less likely to target you
+			'''
+	}
+
+	AtaraxiaLeggings: {
+		DisplayName: Ataraxia Leggings
+		Tooltip:
+			'''
+			11% increased throwing damage
+			3% increased throwing critical strike chance
+			9% increased throwing speed
+			18% increased movement speed
+			Enemies are slightly less likely to target you
+			'''
+	}
+
+	BalanceBand: {
+		DisplayName: Band of Balance
+		Tooltip:
+			'''
+			12% increased throwing critical strike chance
+			5% increased throwing damage
+			5% increased throwing velocity
+			Increased life regeneration
+			Enemies are much less likely to target you
+			'Its Ataraxia Shard radiates a calming aura that sharpens your mind'
+			'''
+	}
+
+	Duality: {
+		DisplayName: Duality
+		Tooltip:
+			'''
+			Throws twin javelins which fly parallel to eachother
+			The white javelin gains damage as it flies, and loses damage upon striking targets
+			The black javelin loses damage as it flies, and gains damage upon striking targets
+			'''
+	}
+
+	ThousandfoldStinger: {
+		DisplayName: Thousandfold Stinger
+		Tooltip:
+			'''
+			Ignores all enemy defense
+			Strikes may cause a sawrm of additional attacks
+			'''
+	}
+
+	MeditatorWard: {
+		DisplayName: Meditator's Ward
+		Tooltip:
+			'''
+			Tosses an enchanted, floating candle
+			The candle will create an aura that severely damages foes and increases player life regen
+			When one of your candles damages a foe, you will be healed if you are in its aura
+			Up to 8 candles may be active at once
+			'Inner peace...'
+			'''
+	}
+
+	TaijituThrow: {
+		DisplayName: Taijitu Throw
+		Tooltip:
+			'''
+			Left click to throw Yin, which ignores half of enemy defense
+			Right click to throw Yang, which deals extra damage on critical hits
+			If a Yin and Yang collide, they merge and cause a powerful blast
+			'Opposites attract'
+			'''
+	}
+
+	NihilshadeFragment: {
+		DisplayName: Nihilshade Fragment
+		Tooltip: "'Paradoxically the pure essence of nothingness'"
+	}
+
+	NihilshadeMask: {
+		DisplayName: Nihilshade Mask
+		Tooltip:
+			'''
+			13% increased throwing damage
+			11% increased throwing velocity and critical strike chance
+			7% increased throwing speed
+			Enemies are less likely to target you
+			'Become your foes' best nightmare'
+			'''
+	}
+
+	NihilshadePlate: {
+		DisplayName: Nihilshade Plate
+		Tooltip:
+			'''
+			18% increased throwing damage
+			7% increased throwing critical strike chance
+			25% chance to not consume thrown items
+			Enemies are less likely to target you
+			'So dark, it is imposible to distinguish any detail in its form'
+			'''
+	}
+
+	NihilshadeGreaves: {
+		DisplayName: Nihilshade Greaves
+		Tooltip:
+			'''
+			11% increased throwing damage
+			9% increased throwing velocity and speed
+			15% increased movement speed
+			Enemies are much less likely to target you
+			'They won't hear - or see - you before it's too late'
+			'''
+	}
+
+	GrandmasterShinobiGear: {
+		DisplayName: Grandmaster Shinobi Gear
+		Tooltip:
+			'''
+			20% chance to not consume thrown items
+			20% increased throwing knockback
+			10% increased throwing velocity
+			Allows the ability to climb walls and dash
+			Gives a chance to dodge attacks
+			'''
+	}
+
+	Harbinger: {
+		DisplayName: Harbinger
+		Tooltip:
+			'''
+			Throw a Harbinger Dagger and a spread of Seeker Daggers
+			Seeker Daggers are initally unable to damage enemies
+			When a Harbinger Dagger strikes a foe, nearby Seeker Daggers gain homing and can inflict damage
+			'Inevitible'
+			'''
+	}
+
+	Nightshade: {
+		DisplayName: Nightshade
+		Tooltip:
+			'''
+			Throws a powerful shuriken surrounded by a vortex which pulls in enemies
+			Unleashes a spiral of smaller stars on hit
+			Gains damage as it flies
+			'Succ'
+			'''
+	}
+
+	TerminusCharge: {
+		DisplayName: Terminus Charge
+		Tooltip:
+			'''
+			Can stick to enemies, dealing extra damage to them
+			Deals extra damage to all targets if it explodes mid-air
+			'In the end, nothing remains'
+			'''
+	}
+
+	AbyssGaze: {
+		DisplayName: Abyss's Gaze
+		Tooltip:
+			'''
+			Throws high velocity javelins which impale struck foes for a long time
+			Impaled targets may temporarily spread their suffering amongst nearby enemies
+			'I can tell you why people go insane...'
+			'''
+	}
+
+	AscendentSpark: {
+		DisplayName: Ascendent Spark
+		Tooltip: "'Mythical energy of a godly caliber, said to enlighten both the mind and body'"
+	}
+
+	AscendedJingasa: {
+		DisplayName: Ascended Jingasa
+		Tooltip:
+			'''
+			6% increased throwing damage
+			20% increased throwing critical strike chance
+			15% increased throwing velocity
+			Enemies are much less likely to target you
+			'Don the visage of a warrior from beyond the mortal realm'
+			'''
+	}
+
+	AscendedGarbs: {
+		DisplayName: Ascended Garbs
+		Tooltip:
+			'''
+			20% increased throwing damage
+			6% increased throwing critical strike chance
+			Reduces damage taken by 10%
+			Increased life regeneration
+			Enemies are less likely to target you
+			'Its gauntlets are adorned with crystals that hold unfathomable power'
+			'''
+	}
+
+	AscendedGeta: {
+		DisplayName: Ascended Geta
+		Tooltip:
+			'''
+			8% increased throwing damage and critical strike chance
+			9% increased throwing speed
+			25% increased movement speed
+			Enemies are much less likely to target you
+			'Though simple in appearance, it pulsates with godly energy'
+			'''
+	}
+
+	AscensionScroll: {
+		DisplayName: Ascension Scroll
+		Tooltip:
+			'''
+			7% increased throwing damage and critical strike chance
+			7% increased throwing velocity and speed
+			7% increased throwing knockback
+			Throwing attacks afflict enemies with a powerful flame
+			Throwing critical strikes deal extra damage and may spread flames in an area
+			Enemies are slightly less likely to target you
+			'Holds divine secrets of the universe and life itself, yet its contents only read '42'...'
+			'''
+	}
+
+	Skadoosh: {
+		DisplayName: Skadoosh
+		Tooltip:
+			'''
+			Creates a homing energy spark that sticks to targets
+			Right click to detonate all attached sparks for a devastating blast
+			'So you know this hold?'
+			'''
+	}
+
+	AscendedShuriken: {
+		DisplayName: Ascended Shuriken
+		Tooltip:
+			'''
+			Throw a torrent of massive shurikens which aggresivley home in on foes
+			'A must-have in any complete assassin package; no threat stands a chance against it'
+			'''
+	}
+
+	SkyShard: {
+		DisplayName: Shards of the Skies
+		Tooltip:
+			'''
+			Throw floating caltrops which split into smaller fragments on death
+			On hit, skyborne blades shatter spacial reality around the target for massive damage
+			Victims will take additional damage over time from this attack
+			'The sky is falling! On your enemies, that is'
+			'''
+	}
+
+	AuraOrbs: {
+		DisplayName: Aura Orbs
+		Tooltip:
+			'''
+			Channel a sphere of aura energy
+			The energy sphere will quickly scale in size and power as it is channeled
+			Additionally, being hurt causes your aura to grow stronger, further empowering your attacks
+			'May the Aura be with you'
+			'''
+	}
+}
+
+Buffs: {
+	AtaraxiaLight: {
+		Description: Damage dealt and taken is amplified
+		DisplayName: Light Aspect
+	}
+
+	AtaraxiaDark: {
+		Description: Damage dealt and taken is reduced
+		DisplayName: Dark Aspect
+	}
+
+	ShadeShift: {
+		DisplayName: Shade Shift
+		Description: Increased life regen and decreased aggro
+	}
+
+	AscendentSparks: {
+		DisplayName: Ascendent Sparks
+		Description: The enemy is severely burned by a heavenly glare
+	}
+
+	AscendentRevive: {
+		DisplayName: Ascension
+		Description: Greatly increased damage and critical strike chance
+	}
+
+	AscendentCool: {
+		DisplayName: Spiritaul Recouperation
+		Description: Your ability to ascend beyond imminent death is recharging
+	}
+
+	WardBurn: {
+		DisplayName: Ward Burn
+		Description: The enemy is smited by a nearby candle's wards
+	}
+
+	WardBuff: {
+		DisplayName: Meditation Aura
+		Description: A nearby candle is increasing your life regen
+	}
+
+	AbyssGazeImpale: {
+		Description: Dark javelins drain this enemy's lifeforce
+		DisplayName: Abyssal Impale
+	}
+
+	AbyssGazeAura: {
+		Description: Primordial darkness drains this enemy's lifeforce
+		DisplayName: Abyssal Gaze
+	}
+
+	SkyCut: {
+		DisplayName: Shattered Sky
+		Description: The fabric of reality itself rends this enemy apart!
+	}
+}
+
+Projectiles: {
+	NihilRazor.DisplayName: Nihilshade Razor
+	NihilClone.DisplayName: Nihilshade Illusion
+	AscendedSpirit.DisplayName: Ascended Spirit
+	SpiritBolt.DisplayName: Spirit Bolt
+	DualityProjW.DisplayName: Light Javelin
+	DualityProjB.DisplayName: Dark Javelin
+	SmolStinger.DisplayName: Thousandfold Stinger
+	StingerProj.DisplayName: Thousandfold Stinger
+	WardCandle.DisplayName: Ward Candle
+	TaijituBomb.DisplayName: Taijitu Bomb
+	YangProj.DisplayName: Yang
+	YinProj.DisplayName: Yin
+	NihilDaggerSmall.DisplayName: Seeker Dagger
+	NihilDagger.DisplayName: Harbinger Dagger
+	NightshadeProj.DisplayName: Nightshade
+	NightshadeSmol.DisplayName: Night Shredder
+	TerminusChargeProj.DisplayName: Terminus Charge
+	AbyssGazeProj.DisplayName: Abyss's Gaze
+	SkadooshProj.DisplayName: Skadoosh
+	AscendedShurikenProj.DisplayName: Ascended Shuriken
+	SkyFractal.DisplayName: Falling Sky's Wrath
+	SkyShardFrag.DisplayName: Fragment of the Skies
+	SkyShardProj.DisplayName: Shard of the Skies
+	AuraSphere.DisplayName: Aura Sphere
+}
