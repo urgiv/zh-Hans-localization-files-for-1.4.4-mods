@@ -52,6 +52,7 @@ https://discord.gg/UGE6Mstrgz
 
 其它不会冲突的模组：
 ⬆️ Auto Reforge（自动重铸）
+⬆️ Summoners' Association（召唤物管理）
 ⬆️ Boss Checklist（Boss列表）
 ⬆️ 大部分只做了视觉和音效方面修改的模组
 
