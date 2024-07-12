@@ -57,6 +57,15 @@ Configs: {
 			Tooltip: Displays boss defense
 		}
 
+		showBossDamageResist: {
+			Label: Boss Damage Resistance
+			Tooltip:
+				'''
+				Displays boss damage resistance
+				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				'''
+		}
+
 		defenseStatRed: {
 			Label: Defense Text Color [c/FF0000:(Red)]
 			Tooltip: Color of the defense stat text
@@ -104,7 +113,11 @@ Configs: {
 
 		KBResistX: {
 			Label: Resilience Text Offset (X)
-			Tooltip: Position of the displayed text (in pixels)
+			Tooltip:
+				'''
+				Position of the displayed text (in pixels)
+				[c/FF0000:(The internal offset will change if Calamity Mod is enabled. This value itself won't change automatically however)]
+				'''
 		}
 
 		KBResistY: {
@@ -185,6 +198,51 @@ Configs: {
 		barY: {
 			Label: Boss Bar Offset (Y)
 			Tooltip: Boss bar offset (in pixels). Affects positioning of font text, defense text, attack text, knockback text, and target text
+		}
+
+		damageResistStatRed: {
+			Label: Damage Reduction Stat Color [c/FF0000:(Red)]
+			Tooltip:
+				'''
+				Color of the damage reduction stat text
+				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				'''
+		}
+
+		damageResistStatGreen: {
+			Label: Damage Reduction Stat Color [c/00FF00:(Green)]
+			Tooltip:
+				'''
+				Color of the damage reduction stat text
+				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				'''
+		}
+
+		damageResistStatBlue: {
+			Label: Damage Reduction Stat Color [c/0000FF:(Blue)]
+			Tooltip:
+				'''
+				Color of the damage reduction stat text
+				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				'''
+		}
+
+		damageResistStatX: {
+			Label: Damage Reduction Stat Offset (X)
+			Tooltip:
+				'''
+				Position of the displayed text (in pixels)
+				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				'''
+		}
+
+		damageResistStatY: {
+			Label: Damage Reduction Stat Offset (Y)
+			Tooltip:
+				'''
+				Position of the displayed text (in pixels)
+				[c/FF0000:(Calamity Mod must be enabled for this to work)]
+				'''
 		}
 	}
 }

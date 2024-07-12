@@ -1,6 +1,6 @@
 Configs: {
 	Config: {
-		DisplayName: 更好的Boss血条 设置
+		DisplayName: 更好的Boss血条
 
 		bossName: {
 			Label: Boss名称
@@ -18,7 +18,7 @@ Configs: {
 		}
 
 		bossInvincibleWarning: {
-			Label: Boss免疫状态显示
+			Label: 显示Boss免疫状态
 			Tooltip: 开启后，当Boss免疫伤害时出现提示，对于分体节或同时独立存在的Boss可能无法正常显示
 		}
 
@@ -53,8 +53,17 @@ Configs: {
 		}
 
 		showBossDefense: {
-			Label: Boss防御值显示
+			Label: 显示Boss防御值
 			Tooltip: 开启后，显示Boss防御值
+		}
+
+		showBossDamageResist: {
+			Label: 显示Boss伤害减免
+			Tooltip:
+				'''
+				开启后，显示Boss伤害减免
+				[c/FF0000:(需启用灾厄模组以显示)]
+				'''
 		}
 
 		defenseStatRed: {
@@ -83,7 +92,7 @@ Configs: {
 		}
 
 		showBossKBResist: {
-			Label: Boss击退抗性显示
+			Label: 显示Boss击退抗性
 			Tooltip: 开启后，显示Boss击退抗性
 		}
 
@@ -104,7 +113,11 @@ Configs: {
 
 		KBResistX: {
 			Label: 击退抗性显示横向偏移量 (X)
-			Tooltip: 设置血条下方Boss击退抗性显示位置的横向偏移量（单位为像素）
+			Tooltip:
+				'''
+				设置血条下方Boss击退抗性显示位置的横向偏移量（单位为像素）
+				[c/FF0000:(启用灾厄模组后偏移量发生变化。但此值本身不会自动更改。)]
+				'''
 		}
 
 		KBResistY: {
@@ -113,7 +126,7 @@ Configs: {
 		}
 
 		showBossAtkDmg: {
-			Label: Boss接触伤害显示
+			Label: 显示Boss接触伤害
 			Tooltip: 开启后，显示Boss接触伤害
 		}
 
@@ -143,7 +156,7 @@ Configs: {
 		}
 
 		showBossTarget: {
-			Label: Boss攻击目标显示
+			Label: 显示Boss攻击目标
 			Tooltip: 开启后，显示Boss当前的攻击目标
 		}
 
@@ -185,6 +198,51 @@ Configs: {
 		barY: {
 			Label: Boss血条显示纵向偏移量 (Y)
 			Tooltip: 调整Boss整体的纵向显示位置（单位为像素），影响名称、生命值、防御值、接触伤害等所有信息的显示位置
+		}
+
+		damageResistStatRed: {
+			Label: Boss伤害减免显示颜色设置 [c/FF0000:(红)]
+			Tooltip:
+				'''
+				设置血条左上角Boss伤害减免文本的颜色（RGB模式）
+				[c/FF0000:(需启用灾厄模组以显示)]
+				'''
+		}
+
+		damageResistStatGreen: {
+			Label: Boss伤害减免显示颜色设置 [c/00FF00:(绿)]
+			Tooltip:
+				'''
+				设置血条左上角Boss伤害减免文本的颜色（RGB模式）
+				[c/FF0000:(需启用灾厄模组以显示)]
+				'''
+		}
+
+		damageResistStatBlue: {
+			Label: Boss伤害减免显示颜色设置 [c/0000FF:(蓝)]
+			Tooltip:
+				'''
+				设置血条左上角Boss伤害减免文本的颜色（RGB模式）
+				[c/FF0000:(需启用灾厄模组以显示)]
+				'''
+		}
+
+		damageResistStatX: {
+			Label: Boss伤害减免显示横向偏移量 (X)
+			Tooltip:
+				'''
+				调整Boss整体的横向显示位置（单位为像素）
+				[c/FF0000:(需启用灾厄模组以显示)]
+				'''
+		}
+
+		damageResistStatY: {
+			Label: Boss伤害减免显示纵向偏移量 (Y)
+			Tooltip:
+				'''
+				调整Boss整体的纵向显示位置（单位为像素）
+				[c/FF0000:(需启用灾厄模组以显示)]
+				'''
 		}
 	}
 }
