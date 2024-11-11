@@ -1,0 +1,50 @@
+Title:
+AFK's PETS and more(Alpha)
+
+Description:
+AFK PETS and More!
+
+IMPORTANT: Currently mod is in early alpha state for 1.4 migration so please tell any bug you observe
+
+IMPORTANT: Bosses are not MP supported so activate "Disable Bosses" from mod config if you plan to use in MP
+
+AFK Pets and More is a content mod which brings the following:
+
+500+ Pets
+
+400+ weapons
+
+New subclasses such as transformations, bats, and active summons
+
+6 bosses and 13 mini-bosses
+
+15+ npcs including townspeople, traveling and minigame npcs
+
+Farming and Fishing expansions
+
+Misc such as furniture, paintings and placables
+
+Many mechanics such as tiny structures for your industry needs, decrafter
+
+New tool type: Harvesters which allow increased crop + plant + pot loot
+
+Special prefixes that add additional abilities to weapons
+
+Arcade machine to play minesweepers, sokoban and thin ice (More are planned)
+
+Calamity rogue support + weaponsout fist support
+
+Unique mechanics involving changing the name of your NPCs, Opening the wiki ingame, making any entity your pet, and more
+
+
+
+
+A lot of the mod is focused on references to media titles such as games, shows, webseries, etc such as: Touhou, Mario, Yume nikki, Pokemon and many more.
+
+We do not aim to bring pre-generated biomes/structures or enemies outside of bosses or our own events, so this mod should be fine to install during any stage of the game
+
+If you have any questions, come join the AFK Pets Discord Server!
+https://discord.gg/Wr44Hsy
+
+If you want to have a general information about some of mechanics + major stuff mod adds please check doc below (It will soon get outdated but still it have nice amount of information)
+https://docs.google.com/document/d/1ZBZgSLghLB-CrIJl_XQ8sd9sXgVY3iD-TOqkZ-NRGcs/edit
